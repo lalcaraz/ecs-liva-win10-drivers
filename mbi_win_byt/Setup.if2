@@ -1,0 +1,14 @@
+﻿;
+; *** the generic installer has a bug which requires a cr/lf AFTER delete_if_not_empty=YES ***
+;
+
+
+[File]
+operation=deleteonuninstall
+destination=%systemCurOS%\drivers\MBI.sys
+usequence=5000
+
+
+;
+; *** the generic installer has a bug which requires a cr/lf AFTER delete_if_not_empty=YES ***
+;

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MUPDefinition xmlns="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd mupdefinition.xsd">
+  <packageinformation>
+    <mupspecificationversion>2.4.3</mupspecificationversion>
+    <name>Intel(R) Sideband Fabric Device Driver</name>
+    <version>604.10125.2655.573</version>
+    <installertype>installshield installscript</installertype>
+    <packagegrouping>single_package</packagegrouping>
+    <packagingtype>zip</packagingtype>
+    <releasetype>DRVR</releasetype>
+    <supportedoperatingsystems>
+      <osidentifier name="Windows10" architecture="x64" />
+    </supportedoperatingsystems>
+    <content>
+      <Device componentID="103533">
+        <PnPInfo>
+          <PNPID>INT</PNPID>
+          <PnPProductID>33BD</PnPProductID>
+        </PnPInfo>
+        <Image type="DRVR" version="604.10125.2655.573">
+          <file>mbi.cat</file>
+          <file>MBI.inf</file>
+          <file>MBI.sys</file>
+          <supportedoperatingsystems>
+            <osidentifier name="Windows10" architecture="x64" />
+          </supportedoperatingsystems>
+        </Image>
+      </Device>
+    </content>
+  </packageinformation>
+  <executable>
+    <executablename>Setup.exe</executablename>
+  </executable>
+  <behaviors>
+    <behavior name="attended" />
+    <behavior name="freshinstall" />
+    <behavior name="help">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">?</optionvalue>
+      </vendoroption>
+    </behavior>
+    <behavior name="unattended">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">s</optionvalue>
+      </vendoroption>
+    </behavior>
+  </behaviors>
+  <parameters>
+    <parametermapping name="logfile">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="true" valuedelimiter=" " enclose="&quot;">report</optionvalue>
+      </vendoroption>
+    </parametermapping>
+  </parameters>
+  <returncodes>
+    <returncodemapping name="REBOOTING_SYSTEM">
+      <vendorreturncode>15</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="PASSWORD_REQUIRED">
+      <vendorreturncode>2</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="NO_DOWNGRADE">
+      <!--Always able to DownGrade, Installer Doesn't need to support-->
+      <vendorreturncode>9999</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="REBOOT_UPDATE_PENDING">
+      <!--Installer only Reboots Once, Installer Doesn't need to support-->
+      <vendorreturncode>9999</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="DEP_SOFT_ERROR">
+      <vendorreturncode>7</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="DEP_HARD_ERROR">
+      <vendorreturncode>5</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="SUCCESS">
+      <vendorreturncode>0</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>10</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="REBOOT_REQUIRED">
+      <vendorreturncode>14</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR_INSTALL_PLATFORM_UNSUPPORTED">
+      <vendorreturncode>3</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="UNKNOWN_OPTION">
+      <vendorreturncode>1</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>9</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>6</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>4</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>8</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>11</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>12</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>13</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>16</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>17</vendorreturncode>
+    </returncodemapping>
+  </returncodes>
+  <driverarchive>
+    <alldriversroot>.\drivers</alldriversroot>
+  </driverarchive>
+  <inventorymetadata>
+    <extractdriversidentifier>
+      <pnpids>
+        <pnpdevice display="Intel(R) Sideband Fabric Device Driver" componentID="103533">
+          <driverversion>604.10125.2655.573</driverversion>
+          <pnpidstring>
+            <PNPID>INT</PNPID>
+            <PnPProductID>33BD</PnPProductID>
+          </pnpidstring>
+        </pnpdevice>
+      </pnpids>
+    </extractdriversidentifier>
+    <fullpackageidentifier>
+      <msis>
+        <msi componentID="103533">
+          <identifyingnumber>{44BD6D92-F3FC-4EE5-8D1E-DCD8F2BE0542}</identifyingnumber>
+          <version>604.10125.2655.573</version>
+          <upgradecode>{44BD6D92-F3FC-4EE5-8D1E-DCD8F2BE0542}</upgradecode>
+        </msi>
+      </msis>
+    </fullpackageidentifier>
+  </inventorymetadata>
+</MUPDefinition>

@@ -1,0 +1,2706 @@
+;
+; INF file for installing Realtek High Definition Audio Driver
+; THX On-line Activation
+
+[Version]
+CatalogFile=HDARt.cat
+Signature = "$chicago$"
+Class=MEDIA
+ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
+Provider=%OrganizationName%
+DriverPackageType=PlugAndPlay
+DriverPackageDisplayName=%PackageDisplayName%
+DriverVer=07/21/2015, 6.0.1.7564
+
+[SourceDisksNames]
+222="Realtek HD Audio Installation Disk",,,
+
+[SourceDisksFiles]
+RTKVHDA.sys=222
+RtlCPAPI.dll=222
+RTCOMDLL.dll=222
+RtkCfg.dll=222
+RtlUpd.exe=222
+RTSndMgr.CPL=222
+RtHDVCpl.exe=222
+RltkAPO.dll=222
+RtkPgExt.dll=222
+RtkCoLDR.dll=222
+RtkCoInstII.dll=222
+SRSTSXT.dll=222
+SRSWOW.dll=222
+SRSTSHD.dll=222
+SRSHP360.dll=222
+RtkApoApi.dll=222
+AERTSrv.exe=222
+AERTARen.dll=222
+AERTACap.dll=222
+MaxxAudioAPO.dll=222
+FMAPO.dll=222
+WavesLib.dll=222
+MaxxAudioEQ.dll=222
+MaxxAudioAPO20.dll=222
+MBTHX32.dll=222
+MBWrp32.dll=222
+RP3DAA32.dll=222
+RP3DHT32.dll=222
+RtHDVBg.exe=222
+RTEEL32A.dll=222
+RTEEG32A.dll=222
+RTEED32A.dll=222
+RTEEP32A.dll=222
+FMAPP.exe=222
+CONEQMSAPOGUILibrary.dll=222
+RtDataProc.dll=222
+
+[DestinationDirs]
+DefaultDestDir=10; dirid = \system32\drivers
+IntcAzAudModelCopyFiles = 10,"system32\drivers"
+RTLCPAPI.CopyList  = 11,"RTCOM"
+RTCOMDLL.CopyList  = 11,"RTCOM"
+RTCOMDLL.DelList   = 11,"RTCOM"
+RTLCPAPI.DelList   = 11,"RTCOM"
+RTUninstall.CopyList = 16422, "Realtek\Audio\HDA"
+RTUI.CopyList      = 16422, "Realtek\Audio\HDA"
+RTCPL.CopyList     = 11
+SfxFx.CopyList     = 11     ; %windir%\system32
+RtkCoInst.CopyList = 11
+Andrea.CopyList	   = 11
+PCEE3.CopyList	   = 11
+
+[SignatureAttributes]
+RTKVHDA.sys=SignatureAttributes.DRM
+RltkAPO.dll=SignatureAttributes.PETrust
+SRSTSXT.dll=SignatureAttributes.PETrust
+SRSWOW.dll=SignatureAttributes.PETrust
+SRSTSHD.dll=SignatureAttributes.PETrust
+SRSHP360.dll=SignatureAttributes.PETrust
+RtlCPAPI.dll=SignatureAttributes.PETrust
+RTCOMDLL.dll=SignatureAttributes.PETrust
+RtkCfg.dll=SignatureAttributes.PETrust
+AERTARen.dll=SignatureAttributes.PETrust
+AERTACap.dll=SignatureAttributes.PETrust
+RtkApoApi.dll=SignatureAttributes.PETrust
+MaxxAudioAPO.dll=SignatureAttributes.PETrust
+FMAPO.dll=SignatureAttributes.PETrust
+MaxxAudioAPO20.dll=SignatureAttributes.PETrust
+RP3DAA32.dll=SignatureAttributes.PETrust
+RP3DHT32.dll=SignatureAttributes.PETrust
+RTEEL32A.dll=SignatureAttributes.PETrust
+RTEEG32A.dll=SignatureAttributes.PETrust
+RTEED32A.dll=SignatureAttributes.PETrust
+RTEEP32A.dll=SignatureAttributes.PETrust
+RtDataProc.dll=SignatureAttributes.PETrust
+
+[SignatureAttributes.DRM]
+DRMLevel=1300
+
+[SignatureAttributes.PETrust]
+PETrust=true
+
+[Manufacturer]
+%MfgName% = AzaliaManufacturerID, NTX86.6.0
+
+[AzaliaManufacturerID.NTX86.6.0]
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0888&SUBSYS_1462AE31
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0888&SUBSYS_1462AC31
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0888&SUBSYS_1462AC32
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_18493892
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_18492892
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0888&SUBSYS_1462AE3D
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0885&SUBSYS_18496890
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0885&SUBSYS_18497890
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_15585102
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_15587100
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15585140
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15587140
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0662&SUBSYS_1462AC22
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1462AC71
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_1462AE32
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1462AC73
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15581500
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15582500
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15582550
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15581700
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_14629186
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1462AC75
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1462AC82
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_19DAA198
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_19DAA166
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_15588000
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_19DAA171
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_19DAA182
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_19DAA183
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_1462AE33
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_19DAA199
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_15585105
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_15587102
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1462AC77
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1462AC78
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15583700
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1462AC7B
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1462AC7C
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1462AC91
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1462AC92
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1462AF11
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1462AF12
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1462AF15
+
+[RtkHD.DelReg]
+HKLM,Software\RealTek\InitAP
+HKCU,Software\RealTek
+HKLM,Software\Avance
+HKR,Settings
+
+[IntcAzAudModelCopyFiles]
+RTKVHDA.sys
+
+[RtkCoInst.CopyList]
+RtkCoLDR.dll
+RtkCoInstII.dll
+
+[RtkCoInstInfo]
+OriginalInfSourcePath = %1%
+
+
+[RTUninstall.CopyList]
+RtlUpd.exe
+
+[RTLCPAPI.CopyList]
+RTLCPAPI.dll
+
+[RTCOMDLL.CopyList]
+RTCOMDLL.dll
+RtkCfg.dll
+RtDataProc.dll
+
+[RTLCPAPI.DelList]
+RTLCPAPI.dll
+
+[RTCOMDLL.DelList]
+RTCOMDLL.dll
+RtkCfg.dll
+RtDataProc.dll
+
+[RTUI.CopyList]
+RtHDVCpl.exe
+AERTSrv.exe
+RtHDVBg.exe
+FMAPP.exe
+
+[RTCPL.CopyList]
+RTSndMgr.cpl
+
+;; Copy custom SYSFX
+[SfxFx.CopyList]
+RltkAPO.dll
+RtkPgExt.dll
+SRSTSXT.dll
+SRSWOW.dll
+SRSTSHD.dll
+SRSHP360.dll
+RtkApoApi.dll
+MaxxAudioAPO.dll
+FMAPO.dll
+WavesLib.dll
+MaxxAudioEQ.dll
+MaxxAudioAPO20.dll
+MBTHX32.dll
+MBWrp32.dll
+RP3DAA32.dll
+RP3DHT32.dll
+CONEQMSAPOGUILibrary.dll
+
+;; Copy Andrea related modules
+[Andrea.CopyList]
+AERTARen.dll
+AERTACap.dll
+
+;; Copy PCEE3 related modules
+[PCEE3.CopyList]
+RTEEL32A.dll
+RTEEG32A.dll
+RTEED32A.dll
+RTEEP32A.dll
+
+[IntcAzAudModel.NTX86]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, Andrea.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, rtcom.RegisterDlls, Andrea.RegisterDlls, PCEE3.RegisterDlls
+
+[IntcAzAudModel.NTX86.HW]
+AddReg=HdAudSecurity.AddReg
+
+[IntcAzAudModel.NTX86.Services]
+AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall
+
+[IntcAzAudModel.NTX86.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+
+[GUIInformation.AddReg]
+HKLM,SOFTWARE\Realtek\Audio\GUI_INFORMATION
+
+[GUIInformation.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[IntcAzAudServiceInstall]
+DisplayName   = "Service for Realtek HD Audio (WDM)"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\RTKVHDA.sys
+
+
+[IntcAzAudModel.NTX86.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPRearCaptureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_HPRearCaptureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_HPRearCaptureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPRearCaptureTopo%, IntcAzAudModel.HPRearCaptureTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_HPRearCaptureTopo%, IntcAzAudModel.HPRearCaptureTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPCPCCaptureWave%, IntcAzAudModel.HPCPCCaptureWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_HPCPCCaptureWave%, IntcAzAudModel.HPCPCCaptureWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_HPCPCCaptureWave%, IntcAzAudModel.HPCPCCaptureWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPCPCCaptureTopo%, IntcAzAudModel.HPCPCCaptureTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_HPCPCCaptureTopo%, IntcAzAudModel.HPCPCCaptureTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontPanelHeadphoneWave%, IntcAzAudModel.FrontPanelHeadphoneWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_FrontPanelHeadphoneWave%, IntcAzAudModel.FrontPanelHeadphoneWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontPanelHeadphoneWave%, IntcAzAudModel.FrontPanelHeadphoneWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontPanelHeadphoneTopo%, IntcAzAudModel.FrontPanelHeadphoneTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontPanelHeadphoneTopo%, IntcAzAudModel.FrontPanelHeadphoneTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DigitalInputWave%, IntcAzAudModel.DigitalInputWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_DigitalInputWave%, IntcAzAudModel.DigitalInputWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_DigitalInputWave%, IntcAzAudModel.DigitalInputWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DigitalInputTopo%, IntcAzAudModel.DigitalInputTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DigitalInputTopo%, IntcAzAudModel.DigitalInputTopo
+;=============================================================================================
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInBlackWave%, IntcAzAudModel.RearLineInBlackWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInBlackWave%, IntcAzAudModel.RearLineInBlackWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInBlackWave%, IntcAzAudModel.RearLineInBlackWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInBlackTopo%, IntcAzAudModel.RearLineInBlackTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInBlackTopo%, IntcAzAudModel.RearLineInBlackTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGreyWave%, IntcAzAudModel.RearLineInGreyWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInGreyWave%, IntcAzAudModel.RearLineInGreyWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInGreyWave%, IntcAzAudModel.RearLineInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGreyTopo%, IntcAzAudModel.RearLineInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInGreyTopo%, IntcAzAudModel.RearLineInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInBlueWave%, IntcAzAudModel.RearLineInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInBlueWave%, IntcAzAudModel.RearLineInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInBlueWave%, IntcAzAudModel.RearLineInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInBlueTopo%, IntcAzAudModel.RearLineInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInBlueTopo%, IntcAzAudModel.RearLineInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGreenWave%, IntcAzAudModel.RearLineInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInGreenWave%, IntcAzAudModel.RearLineInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInGreenWave%, IntcAzAudModel.RearLineInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGreenTopo%, IntcAzAudModel.RearLineInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInGreenTopo%, IntcAzAudModel.RearLineInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInRedWave%, IntcAzAudModel.RearLineInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInRedWave%, IntcAzAudModel.RearLineInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInRedWave%, IntcAzAudModel.RearLineInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInRedTopo%, IntcAzAudModel.RearLineInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInRedTopo%, IntcAzAudModel.RearLineInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInOrangeWave%, IntcAzAudModel.RearLineInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInOrangeWave%, IntcAzAudModel.RearLineInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInOrangeWave%, IntcAzAudModel.RearLineInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInOrangeTopo%, IntcAzAudModel.RearLineInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInOrangeTopo%, IntcAzAudModel.RearLineInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInYellowWave%, IntcAzAudModel.RearLineInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInYellowWave%, IntcAzAudModel.RearLineInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInYellowWave%, IntcAzAudModel.RearLineInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInYellowTopo%, IntcAzAudModel.RearLineInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInYellowTopo%, IntcAzAudModel.RearLineInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPurpleWave%, IntcAzAudModel.RearLineInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInPurpleWave%, IntcAzAudModel.RearLineInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInPurpleWave%, IntcAzAudModel.RearLineInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPurpleTopo%, IntcAzAudModel.RearLineInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInPurpleTopo%, IntcAzAudModel.RearLineInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPinkWave%, IntcAzAudModel.RearLineInPinkWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInPinkWave%, IntcAzAudModel.RearLineInPinkWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInPinkWave%, IntcAzAudModel.RearLineInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPinkTopo%, IntcAzAudModel.RearLineInPinkTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInPinkTopo%, IntcAzAudModel.RearLineInPinkTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGoldenWave%, IntcAzAudModel.RearLineInGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInGoldenWave%, IntcAzAudModel.RearLineInGoldenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInGoldenWave%, IntcAzAudModel.RearLineInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGoldenTopo%, IntcAzAudModel.RearLineInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInGoldenTopo%, IntcAzAudModel.RearLineInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInSilverWave%, IntcAzAudModel.RearLineInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInSilverWave%, IntcAzAudModel.RearLineInSilverWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInSilverWave%, IntcAzAudModel.RearLineInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInSilverTopo%, IntcAzAudModel.RearLineInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInSilverTopo%, IntcAzAudModel.RearLineInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInWhiteWave%, IntcAzAudModel.RearLineInWhiteWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInWhiteWave%, IntcAzAudModel.RearLineInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInWhiteWave%, IntcAzAudModel.RearLineInWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInWhiteTopo%, IntcAzAudModel.RearLineInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInWhiteTopo%, IntcAzAudModel.RearLineInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlackWave%, IntcAzAudModel.RearMicInBlackWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInBlackWave%, IntcAzAudModel.RearMicInBlackWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInBlackWave%, IntcAzAudModel.RearMicInBlackWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlackTopo%, IntcAzAudModel.RearMicInBlackTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInBlackTopo%, IntcAzAudModel.RearMicInBlackTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreyWave%, IntcAzAudModel.RearMicInGreyWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGreyWave%, IntcAzAudModel.RearMicInGreyWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGreyWave%, IntcAzAudModel.RearMicInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreyTopo%, IntcAzAudModel.RearMicInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGreyTopo%, IntcAzAudModel.RearMicInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlueWave%, IntcAzAudModel.RearMicInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInBlueWave%, IntcAzAudModel.RearMicInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInBlueWave%, IntcAzAudModel.RearMicInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlueTopo%, IntcAzAudModel.RearMicInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInBlueTopo%, IntcAzAudModel.RearMicInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreenWave%, IntcAzAudModel.RearMicInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGreenWave%, IntcAzAudModel.RearMicInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGreenWave%, IntcAzAudModel.RearMicInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreenTopo%, IntcAzAudModel.RearMicInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGreenTopo%, IntcAzAudModel.RearMicInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInRedWave%, IntcAzAudModel.RearMicInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInRedWave%, IntcAzAudModel.RearMicInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInRedWave%, IntcAzAudModel.RearMicInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInRedTopo%, IntcAzAudModel.RearMicInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInRedTopo%, IntcAzAudModel.RearMicInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleTopo%, IntcAzAudModel.FrontLineInPurpleTopo
+AddInterface-%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineINPurplePopoe, IntcAjAudModel.F2oftLineInPurpleTopo
+
+AddInterface=%KSCATEGORY_UDIO%(¥KSNAME_FrontLineInPinkWave%, IntcAzAudModel.FrntLineInPinkWave
+AddInterface=%KSCAtEGORY_CAPTURA%,%KSNAME_FrontLineINPinkWave%, IntcAzAutModel.FrontLineInPinkWave
+AddInterface=%KSCATEGORY_REALTKME%-%KSNAME_FrontLineInPinkWave%, IntcA~Au@Model.VrontLineYnPiNkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLinåInPinkTopo%. IntcAzAudModelNrontLineInPinkToPo
+AddIntgrface=%KSCATEGORY_TOPOLOGI%,%kSNAME_FzontLineInPinkTopo%, IntcAzAtdMoDel.FRontLineInPinkTopo
+
+AddIîtesface=%KSCATEGORY_AQDIÏ%,%KSNAMEOFrontLineInGoldenWave%, IntcAzAudModel.FrontLineIîGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSFAME_FrontLineInGoldenWave%$"IntcAzAudModel.FrontLineInGoldenWave
+ÁddInterface=%KSCATEGORY_REALTIME%,%KSNQME_FronpLineInGoldenWave%, IntcAzAudModel.FrontLineInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGoldenTopo%, IntcAzAudMoDel.FrontLinEInGnLdenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%ËSNAME_FrontLineInGoldenTopo%, IntcAzAudMïdeh.FrontLineAngoldenTopo
+
+AddInterface=%KSCATEGORY_AWDIO%,%KSNAME_FrontLineInSilverWave%, IntcA{AudModel.FrontLineInSilverWave
+AddInterface=%KSCATEGORY_CAPUURE%,%KSNAME_Fro~tLineInSilverWave%, IntcAzAudModel.FrontLineInSilverWave	
+A`dInterface½%KSCATEGORY_REALTI]E%,%KSNAME_FrontLineInSilverWave%, IntcAzAuäModel.Fro~t\ineInSilverWave
+AddIntdrface=%KSCATDGORY_AUDIO%,%KSNAME_FrontLineInSilverTopo%, IntcAzAutModel.FrontLineInSilverTopo
+AddInterface=%KSCATEGOVY_TOPÌOGY%,%KSNAME_DrontLineInSilverTopo%, IntcAzAudMïdel.FrontlineInSilverTop
+
+AddInterface=$KSCaTEGORY_AWDIO%,%KSNAME_FrontineInWhiteWave%, InucAzAudModel.FrontDineInWhiteWave
+AdlIntgrface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInWhiteWave%, INtczAudModel.FrontLinlInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInWhiteWave%, IntcAzAudModel.FrontLinmIîWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInwhiteTopo%, Intc
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGreenWave%, IntcAzAudModel.RearLineInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInGreenWave%, IntcAzAudModel.RearLineInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInGreenWave%, IntcAzAudModel.RearLineInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGreenTopo%, IntcAzAudModel.RearLineInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInGreenTopo%, IntcAzAudModel.RearLineInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInRedWave%, IntcAzAudModel.RearLineInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInRedWave%, IntcAzAudModel.RearLineInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInRedWave%, IntcAzAudModel.RearLineInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInRedTopo%, IntcAzAudModel.RearLineInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInRedTopo%, IntcAzAudModel.RearLineInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInOrangeWave%, IntcAzAudModel.RearLineInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInOrangeWave%, IntcAzAudModel.RearLineInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInOrangeWave%, IntcAzAudModel.RearLineInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInOrangeTopo%, IntcAzAudModel.RearLineInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInOrangeTopo%, IntcAzAudModel.RearLineInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInYellowWave%, IntcAzAudModel.RearLineInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInYellowWave%, IntcAzAudModel.RearLineInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInYellowWave%, IntcAzAudModel.RearLineInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInYellowTopo%, IntcAzAudModel.RearLineInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInYellowTopo%, IntcAzAudModel.RearLineInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPurpleWave%, IntcAzAudModel.RearLineInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInPurpleWave%, IntcAzAudModel.RearLineInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInPurpleWave%, IntcAzAudModel.RearLineInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPurpleTopo%, IntcAzAudModel.RearLineInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInPurpleTopo%, IntcAzAudModel.RearLineInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPinkWave%, IntcAzAudModel.RearLineInPinkWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInPinkWave%, IntcAzAudModel.RearLineInPinkWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInPinkWave%, IntcAzAudModel.RearLineInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPinkTopo%, IntcAzAudModel.RearLineInPinkTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInPinkTopo%, IntcAzAudModel.RearLineInPinkTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGoldenWave%, IntcAzAudModel.RearLineInGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInGoldenWave%, IntcAzAudModel.RearLineInGoldenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInGoldenWave%, IntcAzAudModel.RearLineInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGoldenTopo%, IntcAzAudModel.RearLineInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInGoldenTopo%, IntcAzAudModel.RearLineInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInSilverWave%, IntcAzAudModel.RearLineInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInSilverWave%, IntcAzAudModel.RearLineInSilverWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInSilverWave%, IntcAzAudModel.RearLineInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInSilverTopo%, IntcAzAudModel.RearLineInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInSilverTopo%, IntcAzAudModel.RearLineInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInWhiteWave%, IntcAzAudModel.RearLineInWhiteWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInWhiteWave%, IntcAzAudModel.RearLineInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInWhiteWave%, IntcAzAudModel.RearLineInWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInWhiteTopo%, IntcAzAudModel.RearLineInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInWhiteTopo%, IntcAzAudModel.RearLineInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlackWave%, IntcAzAudModel.RearMicInBlackWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInBlackWave%, IntcAzAudModel.RearMicInBlackWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInBlackWave%, IntcAzAudModel.RearMicInBlackWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlackTopo%, IntcAzAudModel.RearMicInBlackTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInBlackTopo%, IntcAzAudModel.RearMicInBlackTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreyWave%, IntcAzAudModel.RearMicInGreyWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGreyWave%, IntcAzAudModel.RearMicInGreyWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGreyWave%, IntcAzAudModel.RearMicInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreyTopo%, IntcAzAudModel.RearMicInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGreyTopo%, IntcAzAudModel.RearMicInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlueWave%, IntcAzAudModel.RearMicInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInBlueWave%, IntcAzAudModel.RearMicInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInBlueWave%, IntcAzAudModel.RearMicInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlueTopo%, IntcAzAudModel.RearMicInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInBlueTopo%, IntcAzAudModel.RearMicInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreenWave%, IntcAzAudModel.RearMicInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGreenWave%, IntcAzAudModel.RearMicInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGreenWave%, IntcAzAudModel.RearMicInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreenTopo%, IntcAzAudModel.RearMicInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGreenTopo%, IntcAzAudModel.RearMicInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInRedWave%, IntcAzAudModel.RearMicInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInRedWave%, IntcAzAudModel.RearMicInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInRedWave%, IntcAzAudModel.RearMicInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInRedTopo%, IntcAzAudModel.RearMicInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInRedTopo%, IntcAzAudModel.RearMicInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleTopo%, IntcAzAudModel.FrontLineITEGOR_REQLTIME-,%KSNEME[RtHDII48AWave%,`RtHDA.RtHDMIWiveM
+AddIntarface=%KSCATUGORY_CUDIO%,%KSNAME_BtHDMI48CTopo%, RtHDA.RtHDMIATopo
+AtdInterface=%KSCATEGORX_TOPOLOGY%,%KSNaME_RtHDMI48ATopo%, RtHDA.RtHDMIATopo	
+AdfInterface?%KSCATEGORY_AUDIG%,%KSNAME_RtHDII4824AWawe$, RtHÄA.RtHDMIWave
+AddInterface=%OSCADEGORY_RENDER%,%ËSNAME_VtHDMI4824AWate%, RtHDA>RtHDMIWave
+AddInterface=%KSCATEGÏRY_REALTIME%,%KSNAME_RdHDII4824AWave%, RtIDA.RtHDMIWave
+AddAnterface=%KSCATEGORY_AUDIO-,%KSNAMA_RtHDMI4824ATo0o%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPGLÏGY%,%KSNAME_BtHDMI4824ITopo%, RtHDA.R|HDMIATopo
+AddAnterface=%KSÃATEGORY_AUDIO%,%KSNAME_RtHDK96IWave%, RtHDA.RtHDMIWaVe
+Addinterfa#e=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96AWave%, RtHDA.RtHDMIWave
+AddInterfacå=%KSCAVEGORY_REELTIME%,%KSLAMU]RtHDMI96AWave%- RvHDA.RtHDMIWave
+AdtInterfacm=%K[CATEGORY]AUDIO%,%KSNAME_StHDM	96ATopo%, RtHDA.RtHDMIATopo
+AddInterface=5KCCATEGORY_MPOLOGY%,eKSNAME_RtHDMI96ATopo%, RtHDA.rtHDMIATopo
+A$tInterfage=%KCKATEGORY_AUDIO%,%KSNAME_ZtHDMI9624AWave%. RôHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624AWave%, RtHDA.Rt@DMIWave
+CddKnterface=%KSÃATEGORY_REALTIMD%,%KSNAME_RtHLMI9624AWave%, RtHDA.RtHDMIWave
+AddIntepface=%KSCATEGORY_AUDIO%,eKSNAME_RtHDMI9624ATopo%¬ RtHDA.R|HDMIATopo
+AddInterface=%KSC@TEGORY_TOPOLOGY%,%KSNAME_RtHDMI96r4ATopo%, RtHDA.RtHDMHATkpo
+AddInterface=%KSCATEGORY_AWDIO%,%KSNAMÅ_RtHDMI193AWave%, RtHDA.RtHDMIW!ve
+AtdInterface=%KSCCTGGOSY_RENDER%,5KSNAME_RtHDMI192AWave%, RtHDA.RtHDMIWate
+AddInterfa#e=%KSCATEGORY_REALTIMÅ%,%K^AME_RdHDMI192AWave%- RtHDA.RtHDMIWave
+AddInterface=eKSÃATEGORY_AUDIO%,%KSNAME_RtHDMI192ATopo%, RtHDA.RtHDMIATopo
+AfdInter&ace=%KSCATEGORY[TOPoLOGy%,%KSNAME_RtHDMI192ATopo%, RtHDA.RtHD]IATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SdHDMi19224AGave%, RvHDA.RtHDMIWave
+AddInterface}%KSCATEGORYRENFEB%,%KQNAME_RtHDMI19224AWave%, RtHDA.RtHDMIWave-
+AddInderface=%KSCATEORY_REALTI]E%,%KSNAME_VtÊDMI19224AWave%, RtHDA.RtHDMIWave
+AddÉnterface=%KSCATEGORY_AUDIo%,%KSNAME_RtHD
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGreenWave%, IntcAzAudModel.RearLineInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInGreenWave%, IntcAzAudModel.RearLineInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInGreenWave%, IntcAzAudModel.RearLineInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGreenTopo%, IntcAzAudModel.RearLineInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInGreenTopo%, IntcAzAudModel.RearLineInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInRedWave%, IntcAzAudModel.RearLineInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInRedWave%, IntcAzAudModel.RearLineInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInRedWave%, IntcAzAudModel.RearLineInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInRedTopo%, IntcAzAudModel.RearLineInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInRedTopo%, IntcAzAudModel.RearLineInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInOrangeWave%, IntcAzAudModel.RearLineInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInOrangeWave%, IntcAzAudModel.RearLineInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInOrangeWave%, IntcAzAudModel.RearLineInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInOrangeTopo%, IntcAzAudModel.RearLineInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInOrangeTopo%, IntcAzAudModel.RearLineInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInYellowWave%, IntcAzAudModel.RearLineInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInYellowWave%, IntcAzAudModel.RearLineInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInYellowWave%, IntcAzAudModel.RearLineInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInYellowTopo%, IntcAzAudModel.RearLineInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInYellowTopo%, IntcAzAudModel.RearLineInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPurpleWave%, IntcAzAudModel.RearLineInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInPurpleWave%, IntcAzAudModel.RearLineInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInPurpleWave%, IntcAzAudModel.RearLineInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPurpleTopo%, IntcAzAudModel.RearLineInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInPurpleTopo%, IntcAzAudModel.RearLineInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPinkWave%, IntcAzAudModel.RearLineInPinkWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInPinkWave%, IntcAzAudModel.RearLineInPinkWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInPinkWave%, IntcAzAudModel.RearLineInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPinkTopo%, IntcAzAudModel.RearLineInPinkTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInPinkTopo%, IntcAzAudModel.RearLineInPinkTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGoldenWave%, IntcAzAudModel.RearLineInGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInGoldenWave%, IntcAzAudModel.RearLineInGoldenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInGoldenWave%, IntcAzAudModel.RearLineInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGoldenTopo%, IntcAzAudModel.RearLineInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInGoldenTopo%, IntcAzAudModel.RearLineInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInSilverWave%, IntcAzAudModel.RearLineInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInSilverWave%, IntcAzAudModel.RearLineInSilverWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInSilverWave%, IntcAzAudModel.RearLineInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInSilverTopo%, IntcAzAudModel.RearLineInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInSilverTopo%, IntcAzAudModel.RearLineInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInWhiteWave%, IntcAzAudModel.RearLineInWhiteWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInWhiteWave%, IntcAzAudModel.RearLineInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInWhiteWave%, IntcAzAudModel.RearLineInWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInWhiteTopo%, IntcAzAudModel.RearLineInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInWhiteTopo%, IntcAzAudModel.RearLineInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlackWave%, IntcAzAudModel.RearMicInBlackWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInBlackWave%, IntcAzAudModel.RearMicInBlackWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInBlackWave%, IntcAzAudModel.RearMicInBlackWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlackTopo%, IntcAzAudModel.RearMicInBlackTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInBlackTopo%, IntcAzAudModel.RearMicInBlackTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreyWave%, IntcAzAudModel.RearMicInGreyWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGreyWave%, IntcAzAudModel.RearMicInGreyWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGreyWave%, IntcAzAudModel.RearMicInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreyTopo%, IntcAzAudModel.RearMicInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGreyTopo%, IntcAzAudModel.RearMicInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlueWave%, IntcAzAudModel.RearMicInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInBlueWave%, IntcAzAudModel.RearMicInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInBlueWave%, IntcAzAudModel.RearMicInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlueTopo%, IntcAzAudModel.RearMicInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInBlueTopo%, IntcAzAudModel.RearMicInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreenWave%, IntcAzAudModel.RearMicInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGreenWave%, IntcAzAudModel.RearMicInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGreenWave%, IntcAzAudModel.RearMicInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreenTopo%, IntcAzAudModel.RearMicInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGreenTopo%, IntcAzAudModel.RearMicInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInRedWave%, IntcAzAudModel.RearMicInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInRedWave%, IntcAzAudModel.RearMicInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInRedWave%, IntcAzAudModel.RearMicInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInRedTopo%, IntcAzAudModel.RearMicInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInRedTopo%, IntcAzAudModel.RearMicInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleTopo%, IntcAzAudModel.FrontLineIRSWOW.dll,1
+11,,SRSTSHD.dll,1
+11,,SRSHP360.dll,1
+11,,RtkApoApi.dll,1
+11,,MaxxAudioAPO.dll,1
+11,,FMAPO.dll,1
+11,,MaxxAudioAPO20.dll,1
+11,,MBTHX32.dll,1
+11,,MBWrp32.dll,1
+11,,RP3DAA32.dll,1
+11,,RP3DHT32.dll,1
+
+[rtcom.RegisterDlls]
+11,RTCOM,RtlCPAPI.dll,1
+11,RTCOM,RTCOMDLL.dll,1
+11,RTCOM,RtkCfg.dll,1
+
+[Andrea.RegisterDlls]
+11,,AERTACap.dll,1
+11,,AERTARen.dll,1
+
+[PCEE3.RegisterDlls]
+11,,RTEED32A.dll,1
+11,,RTEEL32A.dll,1
+11,,RTEEG32A.dll,1
+11,,RTEEP32A.dll,1
+
+[OEMCustomBranding.AddProperty]
+DeviceBrandingIcon,,,,"%11%\RtkPgExt.dll,-200"
+DeviceVendorWebSite,,,,"http://www.realtek.com.tw/" ; Place your URL here
+
+;; All FX\\0 entries in the same grouping
+[SysFx.AddReg]
+HKR,"FX\\0",%PKEY_DisplayName%,,%SYSFX_FriendlyName%
+HKR,"FX\\0",%PKEY_SYSFX_PreMixClsid%,,%CT_SYSFX_PREMIX_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_PostMixClsid%,,%CT_SYSFX_POSTMIX_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_UiClsid%,,%GUID_RT_APO_UI%
+HKR,"FX\\0",%PKEY_GFX_APO1%,,%GUID_CT_APO_GFX%
+HKR,"FX\\0",%PKEY_LFX_APO1%,,%GUID_CT_APO_LFX%
+HKR,"FX\\0",%PKEY_GFX_APO2%,,%GUID_RT_APO_GFX%
+HKR,"FX\\0",%PKEY_LFX_APO2%,,%GUID_RT_APO_LFX%
+HKR,"FX\\0",%PKEY_APO_NUM%,0x10001,%NUM_APO_SET%
+HKR,"FX\\0",%PKEY_CT_APO_CUSTOM_KEY%,,%CT_APO_CUSTOM_VALUE%
+;HKR,"EP\\0",%PKEY_MBTHXAPO_RENDER_EFFECTID%,,%GUID_MBTHXAPO_RENDER_EFFECTID%
+HKR,"FX\\0",%PKEY_SYSFX_Association%,,%KSNODETYPE_ANY%  ; GUID NULL means install on all endpoints
+                                                        ; supply a specific GUID to install on a particular bridge pin node type
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4701",0x00010001,0x0    ;; PKEY_PCEE_IntSpkr_20_AE_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4702",0x00010001,0x0    ;; PKEY_PCEE_IntSpkr_20_Surr_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4705",0x00010001,0x0    ;; PKEY_PCEE_IntSpkr_51_AE_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4706",0x00010001,0x0    ;; PKEY_PCEE_IntSpkr_51_Surr_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4716",0x00010001,0x0    ;; PKEY_PCEE_HP_AE_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4717",0x00010001,0x0    ;; PKEY_PCEE_HP_Surr_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4723",0x00010001,0x0    ;; PKEY_PCEE_ExtSpkr_20_AE_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4724",0x00010001,0x0    ;; PKEY_PCEE_ExtSpkr_20_Surr_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4735",0x00010001,0x0    ;; PKEY_PCEE_ExtSpkr_51_Surr_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4737",0x00010001,0x0    ;; PKEY_PCEE_ExtSpkr_71_Surr_Chkbox=0
+
+[SysRecFx.AddReg]
+HKR,"FX\\0",%PKEY_DisplayName%,,%SYSFX_FriendlyName%
+HKR,"FX\\0",%PKEY_SYSFX_PreMixClsid%,,%SYSRECFX_PREMIX_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_UiClsid%,,%SYSFX_UI_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_Association%,,%KSNODETYPE_ANY%  ; GUID NULL means install on all endpoints
+                                                        ; supply a specific GUID to install on a particular bridge pin node type
+HKR,"FX\\0",%PKEY_SYSFX_Andrea_License%,0x00010001,15	; For Andrea license key
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+;;
+;; All EP\\0 entries in the same grouping
+;;
+;; Set default format to 48kHz, 16-bit, Stereo
+;; Add endpoint extension property page
+;;
+[OEMSettingsOverride.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+;48k16bit HKR,"EP\\0", %PKEY_AudioEngine_OEMFormat%, %REG_BINARY%, 41,00,C8,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+HKR,"EP\\0", %PKEY_AudioEngine_OEMFormat%, %REG_BINARY%, 41,00,C8,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,DC,05,00,08,00,20,00,16,00,18,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+HKR,"EP\\0", %PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+HKR,"EP\\0",%PKEY_MBTHXAPO_RENDER_EFFECTID%,,%GUID_MBTHXAPO_RENDER_EFFECTID%
+
+[OEMSPDIFSettingsOverride.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_AudioEngine_OEMFormat%, %REG_BINARY%, 41,00,C8,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%, 41,00,75,00,0c,00,00,00,10,00,00,00,02,00,00,00,00,00,00,00
+HKR,"EP\\0", %PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+HKR,"EP\\0",%PKEY_MBTHXAPO_RENDER_EFFECTID%,,%GUID_MBTHXAPO_RENDER_EFFECTID%
+
+HKR,"EP\\1", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\1", %PKEY_AudioEngine_OEMFormat%, %REG_BINARY%, 41,00,C8,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+HKR,"EP\\1", %PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+HKR,"EP\\1",%PKEY_MBTHXAPO_RENDER_EFFECTID%,,%GUID_MBTHXAPO_RENDER_EFFECTID%
+
+[RTHDAProperties.AddReg]
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+
+[RTUninstall.AddReg]
+HKLM,%RT_UNINSTALL%,DisplayName,,"Realtek High Definition Audio Driver"
+HKLM,%RT_UNINSTALL%,UninstallString,,%16422%"\Realtek\Audio\HDA\RtlUpd.exe -r -m -nrg2709"
+HKLM,%RT_UNINSTALL%,DisplayIcon,,%16422%"\Realtek\Audio\HDA\Rtlupd.exe"
+HKLM,%RT_UNINSTALL%,Publisher,,%OrganizationName%
+HKLM,%RT_UNINSTALL%,DisplayVersion,,"6.0.1.7564"
+HKLM,%RT_UNINSTALL%,InstallLocation,,%16422%"\Realtek\Audio\HDA"
+
+[RTUI.AddReg]
+HKLM,%AUTORUN%,RtHDVCpl,,%16422%"\Realtek\Audio\HDA\RtHDVCpl.exe -s"
+
+[CPL_Class.AddReg]
+HKLM,%CPL_CLASS_S%,%NEWCPL_CLASS_KS%,0x00010001 ,0x00000004
+
+[AECBF.AddReg]
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo,AcousticSourceTracking,0x00010001,1
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo,AcousticEchoCancellation,0x00010001,1
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo,Beamforming,0x00010001,1
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\AdvGCC,gamma_noise_weighting,0,"0.500000"
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\AdvGCC,Tsm_csp,0,"1.000000"
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\AdvGCC,Tsm_output,0,"0.100000"
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\AdvGCC,cut_off_frequency,0x00010001,0x1770
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\AdvGCC,resampling_points,0x00010001,0x101
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\AdvGCC,deviation_threshold,0,"0.020000"
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\AdvGCC,min_diff_src,0x00010001,0x5
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\AdvGCC,max_verif_range,0x00010001,0xa
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\AdvGCC,clustering_thr,0,"0.150000"
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\AdvGCC,activeness_thr,0,"0.050000"
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\GSCBeamformer,regularize_dynamically,0x00010001,0x1
+HKLM,SOFTWARE\Realtek\AECBF\ic2cAudioProcessingDemo\GSCBeamformer,regularization_threshold_static,0,"0.000100 
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\GÓCBeamformer,rggularization_threshold_dynamic,0,"0.000010"
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\GSCBeamformer,regularization_energythreshold_dynamic,0,"0.000010"
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\GSCBeamformeb,abm_stepsize,0,"0.500000"
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcesringDemo\GSCReamformer,abm_number_filter_taps,0x00010001,0x40
+HKLM,SOFTWARE\Realtmk\AECBF\icrcAudioProcessingDemo\GSCBeamformer,abm_fft_overlap,0x00010001,0x2
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\GSCBeamformer,abm_forgeTting_factor_rucur3ive_power_esuimetion,0,"0.990000"
+HCLM,SOFTWARE\Realtek\AECBF\icrcAud)oProcdss{ngDemo\GSCBeamformer,abm_time_constant_freezing,0,"100.000000"
+HKLM,SOFTWARE\Råiltek\ÍECBF\écrsAueioProcessinGDeuo\GSCBeAmfozmer.aic^steqsyze,0,"0&300000"
+HKLM.SOFT×ABA\Sçal|ek\AECBF\icrcAudioPzocessinggmoTESCBeamformer,aic_number_filter_taps<0x00010001,0x40
+HKM,RgFTWÁRE\Realtek\AEKBÆ\icrcAu`ioProcessiïg@emo\GSCBeemformer-aic_fftovesl!p,0x00 100´1,0x4HKLM-WOFTWARE\Realtgc\AECBF\icrcAudioProcessingDemo\GSCBeamformer,aic_forgetting_factor_recursive_power_estimatioî,0,"0.985000"
+HKDM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\GSCBeamformer,aic_max_filter_nïrm0,"0.001000"
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\GSCBeamformer,aic_tim4e_constant_freezing,0,"100.010000"
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcesqingDemo\GSCBeamvormer,ac_Snr_averaging_lower_frequency,0x00010001,0x12C
+HKLM$SOFTWARE\Realtek\AECBFXicrcAudioProcessiogDemo\GSCBeamformer,ac_snr_averaging_higher_frequency,0x00010001,0x258
+HKLM,SOFTWARE\Realtek\AECBF\icrcAudioProcessiogDemo\GSCBeamformer,ab_snr_averaging_cutoff_frequency,0x00010001,0x12C
+HK\M,SOFTWARE\Realtek\AECBF\icrcAudioProcessingDemo\GSCBeamformer,ac_correction_factor_abm_thresholds,0,"0.800000"
+HKLM,SOFTARE\Recltek\AECBF\icrcAudioNAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleTopo%, IntcAzAudModel.FrontLineIes%\%GUID.Front%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Surround%,Name,,%Node.Surround%
+HKLM,%MediaCategories%\%GUID.Surround%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.BackSurround%,Name,,%Node.BackSurround%
+HKLM,%MediaCategories%\%GUID.BackSurround%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Center%,Name,,%Node.Center%
+HKLM,%MediaCategories%\%GUID.Center%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.LFE%,Name,,%Node.LFE%
+HKLM,%MediaCategories%\%GUID.LFE%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Side%,Name,,%Node.Side%
+HKLM,%MediaCategories%\%GUID.Side%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.SideSurround%,Name,,%Node.SideSurround%
+HKLM,%MediaCategories%\%GUID.SideSurround%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.DigitalOut%,Name,,%Node.DigitalOut%
+HKLM,%MediaCategories%\%GUID.DigitalOut%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.DigitalIn%,Name,,%Node.DigitalIn%
+HKLM,%MediaCategories%\%GUID.DigitalIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.LineInHP%,Name,,%Node.LineInHP%
+HKLM,%MediaCategories%\%GUID.LineInHP%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Mic2%,Name,,%Node.Mic2%
+HKLM,%MediaCategories%\%GUID.Mic2%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontPinkInOld%,Name,,%Node.FrontPinkIn%
+HKLM,%MediaCategories%\%GUID.FrontPinkInOld%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGreenInOld%,Name,,%Node.FrontGreenIn%
+HKLM,%MediaCategories%\%GUID.FrontGreenInOld%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.AudioIn%,Name,,%Node.AudioIn%
+HKLM,%MediaCategories%\%GUID.AudioIn%,Display,1,00,00,00,00
+;;New Framework
+HKLM,%MediaCategories%\%GUID.FrontBlackIn%,Name,,%Node.FrontBlackIn%
+HKLM,%MediaCategories%\%GUID.FrontBlackIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGreyIn%,Name,,%Node.FrontGreyIn%
+HKLM,%MediaCategories%\%GUID.FrontGreyIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontBlueIn%,Name,,%Node.FrontBlueIn%
+HKLM,%MediaCategories%\%GUID.FrontBlueIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGreenIn%,Name,,%Node.FrontGreenIn%
+HKLM,%MediaCategories%\%GUID.FrontGreenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontRedIn%,Name,,%Node.FrontRedIn%
+HKLM,%MediaCategories%\%GUID.FrontRedIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontOrangeIn%,Name,,%Node.FrontOrangeIn%
+HKLM,%MediaCategories%\%GUID.FrontOrangeIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontYellowIn%,Name,,%Node.FrontYellowIn%
+HKLM,%MediaCategories%\%GUID.FrontYellowIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontPurpleIn%,Name,,%Node.FrontPurpleIn%
+HKLM,%MediaCategories%\%GUID.FrontPurpleIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontPinkIn%,Name,,%Node.FrontPinkIn%
+HKLM,%MediaCategories%\%GUID.FrontPinkIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGoldenIn%,Name,,%Node.FrontGoldenIn%
+HKLM,%MediaCategories%\%GUID.FrontGoldenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontSilverIn%,Name,,%Node.FrontSilverIn%
+HKLM,%MediaCategories%\%GUID.FrontSilverIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontWhiteIn%,Name,,%Node.FrontWhiteIn%
+HKLM,%MediaCategories%\%GUID.FrontWhiteIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearBlackIn%,Name,,%Node.RearBlackIn%
+HKLM,%MediaCategories%\%GUID.RearBlackIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearGreyIn%,Name,,%Node.RearGreyIn%
+HKLM,%MediaCategories%\%GUID.RearGreyIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearBlueIn%,Name,,%Node.RearBlueIn%
+HKLM,%MediaCategories%\%GUID.RearBlueIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearGreenIn%,Name,,%Node.RearGreenIn%
+HKLM,%MediaCategories%\%GUID.RearGreenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearRedIn%,Name,,%Node.RearRedIn%
+HKLM,%MediaCategories%\%GUID.RearRedIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearOrangeIn%,Name,,%Node.RearOrangeIn%
+HKLM,%MediaCategories%\%GUID.RearOrangeIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearYellowIn%,Name,,%Node.RearYellowIn%
+HKLM,%MediaCategories%\%GUID.RearYellowIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearPurpleIn%,Name,,%Node.RearPurpleIn%
+HKLM,%MediaCategories%\%GUID.RearPurpleIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearPinkIn%,Name,,%Node.RearPinkIn%
+HKLM,%MediaCategories%\%GUID.RearPinkIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearGoldenIn%,Name,,%Node.RearGoldenIn%
+HKLM,%MediaCategories%\%GUID.RearGoldenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearSilverIn%,Name,,%Node.RearSilverIn%
+HKLM,%MediaCategories%\%GUID.RearSilverIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearWhiteIn%,Name,,%Node.RearWhiteIn%
+HKLM,%MediaCategories%\%GUID.RearWhiteIn%,Display,1,00,00,00,00
+;;-----------------------------------------------------------------------
+HKLM,%MediaCategories%\%GUID.BlackIn%,Name,,%Node.BlackIn%
+HKLM,%MediaCategories%\%GUID.BlackIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.GreyIn%,Name,,%Node.GreyIn%
+HKLM,%MediaCategories%\%GUID.GreyIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.BlueIn%,Name,,%Node.BlueIn%
+HKLM,%MediaCategories%\%GUID.BlueIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.GreenIn%,Name,,%Node.GreenIn%
+HKLM,%MediaCategories%\%GUID.GreenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RedIn%,Name,,%Node.RedIn%
+HKLM,%MediaCategories%\%GUID.RedIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.OrangeIn%,Name,,%Node.OrangeIn%
+HKLM,%MediaCategories%\%GUID.OrangeIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.YellowIn%,Name,,%Node.YellowIn%
+HKLM,%MediaCategories%\%GUID.YellowIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.PurpleIn%,Name,,%Node.PurpleIn%
+HKLM,%MediaCategories%\%GUID.PurpleIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.PinkIn%,Name,,%Node.PinkIn%
+HKLM,%MediaCategories%\%GUID.PinkIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.GoldenIn%,Name,,%Node.GoldenIn%
+HKLM,%MediaCategories%\%GUID.GoldenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.SilverIn%,Name,,%Node.SilverIn%
+HKLM,%MediaCategories%\%GUID.SilverIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.WhiteIn%,Name,,%Node.WhiteIn%
+HKLM,%MediaCategories%\%GUID.WhiteIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.AudioInput%,Name,,%Node.AudioInput%
+HKLM,%MediaCategories%\%GUID.AudioInput%,Display,1,00,00,00,00
+
+;;;
+HKLM,%MediaCategories%\%GUID.LineOutVolume%,Name,,%Node.LineOutVolume%
+HKLM,%MediaCategories%\%GUID.LineOutVolume%,Display,1,00,00,00,00
+
+HKLM,%MediaCategories%\%GUID.Surr%,Name,,%Node.Surr%
+HKLM,%MediaCategories%\%GUID.Surr%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Surrback%,Name,,%Node.Surrback%
+HKLM,%MediaCategories%\%GUID.Surrback%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.MonoMic%,Name,,%Node.MonoMic%
+HKLM,%MediaCategories%\%GUID.MonoMic%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.StereoMic%,Name,,%Node.StereoMic%
+HKLM,%MediaCategories%\%GUID.StereoMic%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.PCBeep%,Name,,%Node.PCBeep%
+HKLM,%MediaCategories%\%GUID.PCBeep%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.PcBeepVolume%,Name,,%Node.PcBeepVolume%
+HKLM,%MediaCategories%\%GUID.PcBeepVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.[ideHP%,Name,,%Node.SideHP$
+HKLM,%MediaCate'ories%\%GUID.SideHP%,Disxlay,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.MicLineInVolume%,Name,,%Node.MicLineInVolume%
+HKLM,%MediaCategories%\5GUID.MicLineInVolume%,Display,1,00,00,10,00
+HKLM,%MediaCategories%\%GUID.Li.eIn1%,Name,,%Node.LineInq%
+HKLM,%MediaCategories%\%GUID.LineIn1%,Display,1,00,00,00,00
+KLM,%MediaCategories%\%GUID.LineIn2%,Name,,%Node.LineIn2%
+HKLM,%MediaCategories%\%GUID.LineIn2%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.TÖIn%,Name,,%Node.TVIn%
+HKLM,%MediaCategorims%\%GUID.TVIn%,Display(1,00,00,00, 0
+HKLJ,%MelyaÃatugories%\%GQID.FrontAVIn%,N`me,,-Node.Fsn}AIn%
+HKLM,%MediaCategories%\%GUID.FrontAVIn%¬Displa{,1,00,00,00,00
+HKLM,%MediaCátefories%\%GUID.DisablenalogCD!,Name,$%Nole.Dasa`lmAnaìogCD%
+HKLM,%MedicCapdoories%\%GUID.DisibleAnqlogSD%,Displcy,±<00,10,0p,00
+HKLL,%MediaÃategories%\'GE	D.LimitedOwtput%,Name,,%Node.LimitedOutput%
+HKLM,%MediaCategories%\%GUID.LimitedOutput%,Display,1,00,00,00,00
+
+HKLM,%MediaCategories%\¥GUID.RTSPDIFOut%,Name,,%Node.RTSPDIFOõt%
+HKLM,%MediaCategories%\%GUID.RTSPDIFOut%,Dispday,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RTHDMIOut%,Name,,%Node.RTHDMIOut%
+HILM,%MediaCategories%\%GUID.RTHDMIOut%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RTSPDIFOutrCA%,Name,,¥Node.RTSPDIFOutRCA%
+HKLM,%MediaCategories%\%GUID.RTSPDIFOutRCA%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RTSPDIFOutOpt%,Name,,%Node.PTSPDIFOutOpt%
+HKLM,%MediaCategories%\%GUID.RTSPDIFOutOpt%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RTSPDIFIn%,Name,,%Node.RTSPDIFIn%
+HKLM,%MediaCategories%\%GUID.RTSPDIFIn%,Display,1,00,00,00,00
+HKNM,%MediaCategories%\%GUID.RTHDMIOutAC3%,Name,,%NAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleTopo%, IntcAzAudModel.FrontLineI,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicIoOrançeWave%,Na}e,,%FrontMicInOrangeWaveDevicEName%
+HKLI,%MediaCategories%\%GUID.FrontMicInOrangeWave%,Display,1,00,00l00,00
+HKLM,$MediaCategories!\%GUID.FrontMicInYellowWave%,Name,,%FrontMicInYellowWaveDeviceName%
+HKLM,%MediaCategorieq%\%GUID.FrontMicInYellowWave%,Display,1,00,00,00-00
+HKLM<%MediaCategories%\$GUID.FrontMikInPurpleWave-,Name,,%FrontMicInPurpleWaveDevicgName%
+HKLM,%MediaCátegorier%\%GUID.FronvMicInurpleWave%,Display,1,00,0°,00,00
+HKLM,%MediaCategorie{%\%GUID.FvontMicInPiniWave%,Name,,%FrontMicInPinkWaveeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInPinkWaöe%,Display,1,00,00,00,00
+XKLM,%MediaCavegories%\%GUID.FrontMicInGoldenWave%,Name,,%FrontMicInGoldenWaveDeviceName%
+HKLM,%MediaCategopies%T%GUID.FrontMicInGoldenWave%,Displa{,1,00,0000(00
+HJLM,%MediaCategories%\%GUID.FronuMicInSi,verWave%,Name,,%FrontMicInSilverWaveFeviceNamg%
+HKLM%MediaCategorids%\%GUID.FrontMicInSilverWave%,Display,1,80,00,00,p0
+HKLM,%MediaCategories%\%GUID.FrontMicInWhiteWqve%,Name,,%FronTMicInWhiteWaveEeviceName%
+HJLM,%MudiaCategories%\%GUID.FrgntMicInWhiteWave%,Display,1,00,00,00,00
+
+HKLM,%MediaCategoryes%\%GUID.FjIntrMICWave%,Name,,%FjIntrMICWaveDeviceName%
+HKLM,5MediaCategories%\%GUID.FjIntrMICWave%,Display,1,00,00,00,00
+@KLM,%MediaCategories%\%GUID.FjMic1Wave%,Name,,%FjMic1aveDeviceNamee
+HKLM,%MediaCategories%\%GUID.FjMic1Wave%,Display,1,00,00,00,00
+HKLM,%MediaBapegories%\%GUID.FjLineIn1Wave%,Name,,%FjLineIn1WaveTeviceName%
+HKLM,%MediaCategories'\%GUID.FjLineIn1Wave%,Display,1,00.00,00,00
+
+HKLM,%MediaCategoriec%\%GUID.DigitalMic%,Name,,%Node.DagitalMic%
+HKLM,%MediaCategories%\%GUID.DigitalMic%,Displax,5,00,00,00,00
+
+HKLM,%MediaCategories%\%GUID.FMRadio%,Name,,%Node.FMRadio%
+HKLM,%MediaCategories%\%GUID.FMRadio%,Display,1,00,00,00,00
+
+HKLM,MediaCategories%\%GID.IntrSubWoofer%,Name,,%IntrSubWooferDeviceName%
+HKLM,%MediaCategories%\%GUID.IntrSubWooner%,Display,1,00,00,00,00
+
+
+
+[IntcAzAudMode|.RearLineOutTo`o]
+AfdRdiaCategories%\%GUID.FrontBlueIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGreenIn%,Name,,%Node.FrontGreenIn%
+HKLM,%MediaCategories%\%GUID.FrontGreenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontRedIn%,Name,,%Node.FrontRedIn%
+HKLM,%MediaCategories%\%GUID.FrontRedIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontOrangeIn%,Name,,%Node.FrontOrangeIn%
+HKLM,%MediaCategories%\%GUID.FrontOrangeIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontYellowIn%,Name,,%Node.FrontYellowIn%
+HKLM,%MediaCategories%\%GUID.FrontYellowIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontPurpleIn%,Name,,%Node.FrontPurpleIn%
+HKLM,%MediaCategories%\%GUID.FrontPurpleIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontPinkIn%,Name,,%Node.FrontPinkIn%
+HKLM,%MediaCategories%\%GUID.FrontPinkIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGoldenIn%,Name,,%Node.FrontGoldenIn%
+HKLM,%MediaCategories%\%GUID.FrontGoldenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontSilverIn%,Name,,%Node.FrontSilverIn%
+HKLM,%MediaCategories%\%GUID.FrontSilverIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontWhiteIn%,Name,,%Node.FrontWhiteIn%
+HKLM,%MediaCategories%\%GUID.FrontWhiteIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearBlackIn%,Name,,%Node.RearBlackIn%
+HKLM,%MediaCategories%\%GUID.RearBlackIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearGreyIn%,Name,,%Node.RearGreyIn%
+HKLM,%MediaCategories%\%GUID.RearGreyIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearBlueIn%,Name,,%Node.RearBlueIn%
+HKLM,%MediaCategories%\%GUID.RearBlueIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearGreenIn%,Name,,%Node.RearGreenIn%
+HKLM,%MediaCategories%\%GUID.RearGreenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearRedIn%,Name,,%Node.RearRedIn%
+HKLM,%MediaCategories%\%GUID.RearRedIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearOrangeIn%,Name,,%Node.RearOrangeIn%
+HKLM,%MediaCategories%\%GUID.RearOrangeIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearYellowIn%,Name,,%Node.RearYellowIn%
+HKLM,%MediaCategories%\%GUID.RearYellowIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearPurpleIn%,Name,,%Node.RearPurpleIn%
+HKLM,%MediaCategories%\%GUID.RearPurpleIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearPinkIn%,Name,,%Node.RearPinkIn%
+HKLM,%MediaCategories%\%GUID.RearPinkIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearGoldenIn%,Name,,%Node.RearGoldenIn%
+HKLM,%MediaCategories%\%GUID.RearGoldenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearSilverIn%,Name,,%Node.RearSilverIn%
+HKLM,%MediaCategories%\%GUID.RearSilverIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearWhiteIn%,Name,,%Node.RearWhiteIn%
+HKLM,%MediaCategories%\%GUID.RearWhiteIn%,Display,1,00,00,00,00
+;;-----------------------------------------------------------------------
+HKLM,%MediaCategories%\%GUID.BlackIn%,Name,,%Node.BlackIn%
+HKLM,%MediaCategories%\%GUID.BlackIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.GreyIn%,Name,,%Node.GreyIn%
+HKLM,%MediaCategories%\%GUID.GreyIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.BlueIn%,Name,,%Node.BlueIn%
+HKLM,%MediaCategories%\%GUID.BlueIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.GreenIn%,Name,,%Node.GreenIn%
+HKLM,%MediaCategories%\%GUID.GreenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RedIn%,Name,,%Node.RedIn%
+HKLM,%MediaCategories%\%GUID.RedIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.OrangeIn%,Name,,%Node.OrangeIn%
+HKLM,%MediaCategories%\%GUID.OrangeIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.YellowIn%,Name,,%Node.YellowIn%
+HKLM,%MediaCategories%\%GUID.YellowIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.PurpleIn%,Name,,%Node.PurpleIn%
+HKLM,%MediaCategories%\%GUID.PurpleIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.PinkIn%,Name,,%Node.PinkIn%
+HKLM,%MediaCategories%\%GUID.PinkIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.GoldenIn%,Name,,%Node.GoldenIn%
+HKLM,%MediaCategories%\%GUID.GoldenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.SilverIn%,Name,,%Node.SilverIn%
+HKLM,%MediaCategories%\%GUID.SilverIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.WhiteIn%,Name,,%Node.WhiteIn%
+HKLM,%MediaCategories%\%GUID.WhiteIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.AudioInput%,Name,,%Node.AudioInput%
+HKLM,%MediaCategories%\%GUID.AudioInput%,Display,1,00,00,00,00
+
+;;;
+HKLM,%MediaCategories%\%GUID.LineOutVolume%,Name,,%Node.LineOutVolume%
+HKLM,%MediaCategories%\%GUID.LineOutVolume%,Display,1,00,00,00,00
+
+HKLM,%MediaCategories%\%GUID.Surr%,Name,,%Node.Surr%
+HKLM,%MediaCategories%\%GUID.Surr%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Surrback%,Name,,%Node.Surrback%
+HKLM,%MediaCategories%\%GUID.Surrback%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.MonoMic%,Name,,%Node.MonoMic%
+HKLM,%MediaCategories%\%GUID.MonoMic%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.StereoMic%,Name,,%Node.StereoMic%
+HKLM,%MediaCategories%\%GUID.StereoMic%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.PCBeep%,Name,,%Node.PCBeep%
+HKLM,%MediaCategories%\%GUID.PCBeep%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.PcBeepVolume%,Name,,%Node.PcBeepVolume%
+HKLM,%MediaCategories%\%GUID.PcBeepVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.[ideHP%,Name,,%Node.SideHP$
+HKLM,%MediaCate'ories%\%GUID.SideHP%,Disxlay,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.MicLineInVolume%,Name,,%Node.MicLineInVolume%
+HKLM,%MediaCategories%\5GUID.MicLineInVolume%,Display,1,00,00,10,00
+HKLM,%MediaCategories%\%GUID.Li.eIn1%,Name,,%Node.LineInq%
+HKLM,%MediaCategories%\%GUID.LineIn1%,Display,1,00,00,00,00
+KLM,%MediaCategories%\%GUID.LineIn2%,Name,,%Node.LineIn2%
+HKLM,%MediaCategories%\%GUID.LineIn2%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.TÖIn%,Name,,%Node.TVIn%
+HKLM,%MediaCategorims%\%GUID.TVIn%,Display(1,00,00,00, 0
+HKLJ,%MelyaÃatugories%\%GQID.FrontAVIn%,N`me,,-Node.Fsn}AIn%
+HKLM,%MediaCategories%\%GUID.FrontAVIn%¬Displa{,1,00,00,00,00
+HKLM,%MediaCátefories%\%GUID.DisablenalogCD!,Name,$%Nole.Dasa`lmAnaìogCD%
+HKLM,%MedicCapdoories%\%GUID.DisibleAnqlogSD%,Displcy,±<00,10,0p,00
+HKLL,%MediaÃategories%\'GE	D.LimitedOwtput%,Name,,%Node.LimitedOutput%
+HKLM,%MediaCategories%\%GUID.LimitedOutput%,Display,1,00,00,00,00
+
+HKLM,%MediaCategories%\¥GUID.RTSPDIFOut%,Name,,%Node.RTSPDIFOõt%
+HKLM,%MediaCategories%\%GUID.RTSPDIFOut%,Dispday,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RTHDMIOut%,Name,,%Node.RTHDMIOut%
+HILM,%MediaCategories%\%GUID.RTHDMIOut%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RTSPDIFOutrCA%,Name,,¥Node.RTSPDIFOutRCA%
+HKLM,%MediaCategories%\%GUID.RTSPDIFOutRCA%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RTSPDIFOutOpt%,Name,,%Node.PTSPDIFOutOpt%
+HKLM,%MediaCategories%\%GUID.RTSPDIFOutOpt%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RTSPDIFIn%,Name,,%Node.RTSPDIFIn%
+HKLM,%MediaCategories%\%GUID.RTSPDIFIn%,Display,1,00,00,00,00
+HKNM,%MediaCategories%\%GUID.RTHDMIOutAC3%,Name,,%NAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleTopo%, IntcAzAudModel.FrontLineItLineInGreyWave.AddReg
+
+[IntcAzAudModel.FrontLineInGreyWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInGreyWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInGreyTopo]
+AddReg = IntcAzAudModel.FrontLineInGreyTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInGreyTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInGreyTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInBlueWave]
+AddReg = IntcAzAudModel.FrontLineInBlueWave.AddReg
+
+[IntcAzAudModel.FrontLineInBlueWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInBlueWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInBlueTopo]
+AddReg = IntcAzAudModel.FrontLineInBlueTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInBlueTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInBlueTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInGreenWave]
+AddReg = IntcAzAudModel.FrontLineInGreenWave.AddReg
+
+[IntcAzAudModel.FrontLineInGreenWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInGreenWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInGreenTopo]
+AddReg = IntcAzAudModel.FrontLineInGreenTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInGreenTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInGreenTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInRedWave]
+AddReg = IntcAzAudModel.FrontLineInRedWave.AddReg
+
+[IntcAzAudModel.FrontLineInRedWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInRedWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInRedTopo]
+AddReg = IntcAzAudModel.FrontLineInRedTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInRedTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInRedTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInOrangeWave]
+AddReg = IntcAzAudModel.FrontLineInOrangeWave.AddReg
+
+[IntcAzAudModel.FrontLineInOrangeWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInOrangeWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInOrangeTopo]
+AddReg = IntcAzAudModel.FrontLineInOrangeTopo.AddReg, SùsRecFz.A`dReg
+
+[MntcAzAudModeL.ÆrontLine	nOrangeToponAddReg]
+HJR,,FRiendlyName,,%FrofôLineInObangeTopoDeviceName%
+HKR,.CLSID,,%Troxy.CLSID%
+
+[IntcAzAudModel.FrontLineInYellowWaveM
+AddReg = I.tcAzAueMkdel.FrontLineInYellowWave.AddReg
+
+[IntcAzAudMofel.FrOntLineInYellowWave.AddReg]
+@KR,,Friend,yName,,%FrontLineInYellowWaveDeviceName%
+HKR,,CLSYD,,%Proxy.CLSID%
+
+[IntczAudModel.FrontÌineInYellowTopo]
+AddReg = IntcAzAudModgl.FrntLineInYellowTkpo.AddReg, SysRecFx.AddReg
+
+[IntcazAudModel.FronuLineInYEllowTopo.AddReg]
+HKR,,FviendlyNa-e,,%FrontLineInYellowTopoDevicmName%
+HK,,CLSID,,%Proxy.CLSID%
+
+[IntCAzAudModel.FrontLinEInPurpleWaöe]
+AddREg = IntcAzAudModel.FrontLineInPurpleWave.AddReg
+
+KIntcAzAudModel.FrontLineInPurpleWave.AddReg]
+HKR,,FriendlyName,,%FsontLineInPurpLeWeveDeviceNamg%
+HKR(,CLsID,,%Proxy.GLSID%
+
+[InvcAzAwdModel.Fron|LineINPurpleTopo]
+AddReg = intcAzAudModelFrontLineInPurpleTopo.AädReg, SysRecÆx.AddReg
+
+[Int#AzAudModel.FrontLineInPurpleTopo.AddReg]
+HKR,,FriendlyName,,%FvontLineInPurpleTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.DrontLineInPinkWave\
+AddRec = IntcAzAudMolel.FrontLineInPinkWave.AddReg
+
+[IntcAzAudModel.FrontLineInPinkWave.AddReg]
+HKR,,Friendl9Name,,%DrontLineInPinkWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrkntLineInPinkTopo]
+AddReg = IntcAzAudModelrontLineInPilkTopo.AddReg, SysReaFx.AddRug
+[IntcAzAudModel.FrontLk~eInpinkTopo.AddReg]
+HKB,,Frien`lyName(,%FrontLineInPinkTopoDeviceName%HKR,,CLSID(,%Proxy.CLSID%
+
+[IntcAzAudModel/FrontDineInGoldenWave]
+AddReg = InucAzAudModel.FrontLineInGoldenWave.AddR%g
+
+[IntcAzAudOodel.FògntLineInGoldenWave.AddReg]
+HKR,,FriendlyNamd,,%FrontLineInGoldenWaveDUviceName%
+HkR,,CLSID,,%Proøy.CLSID%
+
+[IntcAzAudModen.FrontLineInGoldenTopo]
+AddReg0= IntcAzAudModel.vontLineInGoldenTOpo.AfdReg, SY{RecDx.AddReg
+
+[IntcAzAudModel.Froot\ineInGoldentopo.ddReg]
+HKR,,FriendlyNaee,,%FrontLineInGgldenTopoDeviceNamm%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntceIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearYellowIn%,Name,,%Node.RearYellowIn%
+HKLM,%MediaCategories%\%GUID.RearYellowIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearPurpleIn%,Name,,%Node.RearPurpleIn%
+HKLM,%MediaCategories%\%GUID.RearPurpleIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearPinkIn%,Name,,%Node.RearPinkIn%
+HKLM,%MediaCategories%\%GUID.RearPinkIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearGoldenIn%,Name,,%Node.RearGoldenIn%
+HKLM,%MediaCategories%\%GUID.RearGoldenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearSilverIn%,Name,,%Node.RearSilverIn%
+HKLM,%MediaCategories%\%GUID.RearSilverIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearWhiteIn%,Name,,%Node.RearWhiteIn%
+HKLM,%MediaCategories%\%GUID.RearWhiteIn%,Display,1,00,00,00,00
+;;-----------------------------------------------------------------------
+HKLM,%MediaCategories%\%GUID.BlackIn%,Name,,%Node.BlackIn%
+HKLM,%MediaCategories%\%GUID.BlackIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.GreyIn%,Name,,%Node.GreyIn%
+HKLM,%MediaCategories%\%GUID.GreyIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.BlueIn%,Name,,%Node.BlueIn%
+HKLM,%MediaCategories%\%GUID.BlueIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.GreenIn%,Name,,%Node.GreenIn%
+HKLM,%MediaCategories%\%GUID.GreenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RedIn%,Name,,%Node.RedIn%
+HKLM,%MediaCategories%\%GUID.RedIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.OrangeIn%,Name,,%Node.OrangeIn%
+HKLM,%MediaCategories%\%GUID.OrangeIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.YellowIn%,Name,,%Node.YellowIn%
+HKLM,%MediaCategories%\%GUID.YellowIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.PurpleIn%,Name,,%Node.PurpleIn%
+HKLM,%MediaCategories%\%GUID.PurpleIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.PinkIn%,Name,,%Node.PinkIn%
+HKLM,%MediaCategories%\%GUID.PinkIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.GoldenIn%,Name,,%Node.GoldenIn%
+HKLM,%MediaCategories%\%GUID.GoldenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.SilverIn%,Name,,%Node.SilverIn%
+HKLM,%MediaCategories%\%GUID.SilverIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.WhiteIn%,Name,,%Node.WhiteIn%
+HKLM,%MediaCategories%\%GUID.WhiteIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.AudioInput%,Name,,%Node.AudioInput%
+HKLM,%MediaCategories%\%GUID.AudioInput%,Display,1,00,00,00,00
+
+;;;
+HKLM,%MediaCategories%\%GUID.LineOutVolume%,Name,,%Node.LineOutVolume%
+HKLM,%MediaCategories%\%GUID.LineOutVolume%,Display,1,00,00,00,00
+
+HKLM,%MediaCategories%\%GUID.Surr%,Name,,%Node.Surr%
+HKLM,%MediaCategories%\%GUID.Surr%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Surrback%,Name,,%Node.Surrback%
+HKLM,%MediaCategories%\%GUID.Surrback%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.MonoMic%,Name,,%Node.MonoMic%
+HKLM,%MediaCategories%\%GUID.MonoMic%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.StereoMic%,Name,,%Node.StereoMic%
+HKLM,%MediaCategories%\%GUID.StereoMic%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.PCBeep%,Name,,%Node.PCBeep%
+HKLM,%MediaCategories%\%GUID.PCBeep%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.PcBeepVolume%,Name,,%Node.PcBeepVolume%
+HKLM,%MediaCategories%\%GUID.PcBeepVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.[ideHP%,Name,,%Node.SideHP$
+HKLM,%MediaCate'ories%\%GUID.SideHP%,Disxlay,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.MicLineInVolume%,Name,,%Node.MicLineInVolume%
+HKLM,%MediaCategories%\5GUID.MicLineInVolume%,Display,1,00,00,10,00
+HKLM,%MediaCategories%\%GUID.Li.eIn1%,Name,,%Node.LineInq%
+HKLM,%MediaCategories%\%GUID.LineIn1%,Display,1,00,00,00,00
+KLM,%MediaCategories%\%GUID.LineIn2%,Name,,%Node.LineIn2%
+HKLM,%MediaCategories%\%GUID.LineIn2%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.TÖIn%,Name,,%Node.TVIn%
+HKLM,%MediaCategorims%\%GUID.TVIn%,Display(1,00,00,00, 0
+HKLJ,%MelyaÃatugories%\%GQID.FrontAVIn%,N`me,,-Node.Fsn}AIn%
+HKLM,%MediaCategories%\%GUID.FrontAVIn%¬Displa{,1,00,00,00,00
+HKLM,%MediaCátefories%\%GUID.DisablenalogCD!,Name,$%Nole.Dasa`lmAnaìogCD%
+HKLM,%MedicCapdoories%\%GUID.DisibleAnqlogSD%,Displcy,±<00,10,0p,00
+HKLL,%MediaÃategories%\'GE	D.LimitedOwtput%,Name,,%Node.LimitedOutput%
+HKLM,%MediaCategories%\%GUID.LimitedOutput%,Display,1,00,00,00,00
+
+HKLM,%MediaCategories%\¥GUID.RTSPDIFOut%,Name,,%Node.RTSPDIFOõt%
+HKLM,%MediaCategories%\%GUID.RTSPDIFOut%,Dispday,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RTHDMIOut%,Name,,%Node.RTHDMIOut%
+HILM,%MediaCategories%\%GUID.RTHDMIOut%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RTSPDIFOutrCA%,Name,,¥Node.RTSPDIFOutRCA%
+HKLM,%MediaCategories%\%GUID.RTSPDIFOutRCA%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RTSPDIFOutOpt%,Name,,%Node.PTSPDIFOutOpt%
+HKLM,%MediaCategories%\%GUID.RTSPDIFOutOpt%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RTSPDIFIn%,Name,,%Node.RTSPDIFIn%
+HKLM,%MediaCategories%\%GUID.RTSPDIFIn%,Display,1,00,00,00,00
+HKNM,%MediaCategories%\%GUID.RTHDMIOutAC3%,Name,,%NAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleTopo%, IntcAzAudModel.FrontLineI38,9B,71
+HKR,"EP\\0", %PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+HKR,"EP\\0",%PKEY_MBTHXAPO_RENDER_EFFECTID%,,%GUID_MBTHXAPO_RENDER_EFFECTID%
+
+[RtHDA.GenRtHDMITopo.AddReg]
+HKR,,FriendlyName,,%RtSpdifHDMITopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[RtHDA.RtHDMITopo]
+AddReg = RtHDA.RtHDMITopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMITopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,75,00,0C,00,00,00,50,01,00,00,02,00,00,00,00,00,00,00
+
+[RtHDA.RtHDMIATopo]
+AddReg = RtHDA.RtHDMIATopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIATopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,63,00,1C,00,00,00,50,01,00,00,02,00,00,00,01,00,00,00,92,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIDTopo]
+AddReg = RtHDA.RtHDMIDTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIDTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,63,00,1C,00,00,00,50,01,00,00,02,00,00,00,01,00,00,00,08,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIWTopo]
+AddReg = RtHDA.RtHDMIWTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIWTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,63,00,1C,00,00,00,50,01,00,00,02,00,00,00,01,00,00,00,64,01,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIADTopo]
+AddReg = RtHDA.RtHDMIADTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIADTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,A3,74,2C,00,00,00,50,01,00,00,02,00,00,00,02,00,00,00,08,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,92,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIAWTopo]
+AddReg = RtHDA.RtHDMIAWTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIAWTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,A3,74,2C,00,00,00,50,01,00,00,02,00,00,00,02,00,00,00,92,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,64,01,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIDWTopo]
+AddReg = RtHDA.RtHDMIDWTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIDWTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,A3,74,2C,00,00,00,50,01,00,00,02,00,00,00,02,00,00,00,08,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,64,01,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIADWTopo]
+AddReg = RtHDA.RtHDMIADWTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIADWTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,34,12,3C,00,00,00,50,01,00,00,02,00,00,00,03,00,00,00,08,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,92,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,64,01,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+;;-----------------------------------------------------------------------------------------------------
+
+[Strings]
+MfgName="Realtek"
+; not sure if this is localizable
+MediaCategories="SYSTEM\CurrentControlSet\Control\MediaCategories"
+; localizable
+OrganizationName="Realtek Semiconductor Corp."
+PackageDisplayName="HD Audio Driver"
+
+;;
+;; PropertyKey GUIDS
+;;
+PKEY_SYSFX_Association          = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},0"
+PKEY_SYSFX_PreMixClsid          = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},1"
+PKEY_SYSFX_PostMixClsid         = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},2"
+PKEY_SYSFX_UiClsid              = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},3"
+PKEY_DisplayName                = "{B725F130-47EF-101A-A5F1-02608C9EEBAC},10"
+;;PKEY_DisplayName                = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},4"
+PKEY_AudioEndpoint_Ext_UiClsid  = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},1"
+PKEY_AudioEndpoint_Association  = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},2"
+PKEY_AudioEndpoint_Supports_EventDriven_Mode = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},7"
+PKEY_SYSFX_Andrea_License	= "{b7eae14c-6c01-446f-b83f-3181e129b6dd},6"
+
+PKEY_AudioEndpoint_ControlPanelPageProvider = "{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E}"
+
+;;
+;; PKEY_AudioEngine_OEMFormat:  Specifies the default format that is used for rendering/capturing.
+;; vartype = VT_BLOB
+;;
+PKEY_AudioEngine_OEMFormat = "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04},3"
+PKEY_SupportFormat_OEMFormat = "{B3F8FA53-0004-438E-9003-51A46E139BFC},5"
+
+;;CONTROLLER_EXT_UI_CLSID    = "{EE661557-A649-4cb5-B868-86FCC6251414}"
+CONTROLLER_EXT_UI_CLSID    = "{30A4AD88-9965-4569-85A1-8453A8DE8DA7}"
+
+;;AUDIOENDPOINT_EXT_UI_CLSID = "{6C57B2A2-91F5-4b90-93D5-FAB82485ECA6}"
+AUDIOENDPOINT_EXT_UI_CLSID = "{31A53A7B-E0D8-4f99-B950-F6C8F25E6731}"
+
+;;SYSFX_UI_CLSID      = "{19166F23-5F08-47F9-BB57-9F57A977D88E}"
+SYSFX_UI_CLSID        = "{6861CFDC-0461-49d5-A8DF-BE5ACD02692F}"
+;;SYSFX_PREMIX_CLSID  = "{B48DEA3F-D962-425a-8D9A-9A5BB37A9904}"
+SYSFX_PREMIX_CLSID    = "{DC253AB8-10DC-483c-AB5F-D6A4E189FD70}"
+;;SYSFX_POSTMIX_CLSID = "{06687E71-F043-403A-BF49-CB591BA6E103}"
+SYSFX_POSTMIX_CLSID   = "{A27368B3-D810-42ce-B114-83900258B8EC}"
+SYSFX_FriendlyName    = "Realtek System Effect"
+SYSRECFX_PREMIX_CLSID = "{A51A19D6-80F1-4abf-AB95-AF5215E8B052}"
+
+;Chaining Property Keys
+PKEY_APO_NUM                   = "{d46c4dfd-28b8-4ab8-a45d-70399958ef26},0"
+PKEY_GFX_APO1                  = "{e1032fc5-ddab-4c4b-9940-8a6be78a4db6},0"
+PKEY_LFX_APO1                  = "{3a418faa-93d7-4bd8-a0d3-c784ad25476a},0"
+PKEY_UI_APO1                   = "{9a708e6f-a639-4f1c-9206-62b7018853a4},0"
+PKEY_GFX_APO2                  = "{e1032fc5-ddab-4c4b-9940-8a6be78a4db6},1"
+PKEY_LFX_APO2                  = "{3a418faa-93d7-4bd8-a0d3-c784ad25476a},1"
+PKEY_UI_APO2                   = "{9a708e6f-a639-4f1c-9206-62b7018853a4},1"
+
+;====================================================================
+;; Creative GUIDS (old)
+;CT_SYSFX_UI_CLSID      = "{7003f37d-a7ee-485e-a937-804982a00d80}"
+;CT_SYSFX_PREMIX_CLSID  = "{AACCA26C-51F8-4849-9F44-A4B9E933BD3D}"
+;CT_SYSFX_POSTMIX_CLSID = "{E1EF52F2-66BA-4cea-A72A-7BE62138FFC7}"
+;
+;; Creative GUIDS for chaining
+;GUID_CT_APO_GFX         = "{F8A192FC-A0A8-4AE5-B7A8-6543D2EEC143}"
+;GUID_CT_APO_LFX         = "{68D109F6-5FA5-4322-9A06-26A3CF7E3800}"
+;GUID_CT_APO_UI          = "{3144C0BA-8563-445e-8A87-27ED9FE65954}"
+;====================================================================
+
+; Creative APO Custom Key (New)
+PKEY_CT_APO_CUSTOM_KEY   = "{35DF8779-6D98%4476-B3D3-F0FAC0E4F5BD},0"
+CT_APO_CUSTOM_VALUE = "{2D46BA67-0778-48ef-82AF-BF1DB3E45FFE}"
+
+PKEY_MBTHXAPO_RENDER_EFFECTID = "{F1056047-B091-4d85,A5C0-B13D4D8BAC57},0"
+GUID_MBTHXAPO_RENDER_EFFCTID = "{19d68d4e-5e29-41d4-bde0-aaafeb930b20}"
+
+; Creative GUIDS (New)
+CT_SYSFX_PREMIX_CLSID  = "{D8813D24-E801-4a75-9985-30E7CC9DBD13}"
+CT_SYSFX_POSTMIX_CLSID = "{53641EC4-45664896919A-2FBB21FD2FCF}"
+
+; Creative OÕIDS for chaining (New©
+GUID_KT_APO_GFX         = "{fe512d41-3f30-4442,b5df-7889cb2aad7a}"
+GUID_CT_APO_LFX         = "{6147b7f5-1bb4-4117-b0d9-ada799329479}"
+
+; Realtek GUIDS for chaining
+GUID_RT_APO_GFX         = "{A27368B3-D810-42ce-B114-83900258B8EC}"
+GUID_RT_APO_LFX         = "{DC253AB8-10DC-483c-AB5F-D6A4E189FD70}"
+GUID_RT_APO_UI          = "{6861CFDC-0461-49d5-A8DF-BE5ACD02692F}"
+
+NUM_APOOSET		= 0x
+KS~ODETYPE_ANY      = "{08000000-2000-000-0000-0000404000}"
+KSNODMTYPE_SPEAKER0 = "{DBF21CE1-N70N-11F0­B917/00I0C9223197}"
+KSNODETQPE_SDÉF_INPeR^ACA "= "{TFF31BE5mF60F-11D0-B917-00A0C9223196}"KSNOÄMTYPEOHDMi_INTERFacE = "{D1F=CC2A­F599-4q7F-91G¹-45FA6µ481001}"
+RDG_BYNARY          = 0x00010001
+
+Audio3D_CLSID="{D8F1EEE0-F634-11CF-8700-00A0245D918B}"
+AUTORUN="Software\Microsoft\Windows\CurrentVursion\Run"
+RT_UNINSTALL="Software\Microsoft\Windows\CurrentVersion\Uninstall\{F132AF7F-7BCA-4EDE-8A7C-958108FE7DBC}"
+CPL_CLASS_S="SOFTWARE\Microsoft\Windows\CurrentVersion\Control Panel\Extended XroPerties\{305CA226-D286-468e-B848-2B2E8E697B74} 2"
+NEWCPL_CLASS_KS="%SystemRoot%\system32\RTSndMgr.CRL"
+
+RearLhneOutWaveDeviceName="Realtek HD Audio rear output"
+RearLineOutTopoDeviceName="Realtek HD rear output mixer"
+ÒearLineoutDacName="HD Line Out DAC(s) for rear panel"
+
+SecondaryLineInWaveDeviceName="Realtek HD Audio 2nd input"
+SecondaryLineInTopoDEviceName="Realtek HD rear 2nd mixer"
+
+PrimaryLineInWaveDeviceName="Realtek HDA Primary input"
+PrimaryLineInTopoDeviceName="Realtek HD rear Primary NAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInPinkTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGoldenWave%, IntcAzAudModel.RearMicInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInWhiteTopo%, IntcAzAudModel.RearMicInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlackWave%, IntcAzAudModel.FrontLineInBlackWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlackTopo%, IntcAzAudModel.FrontLineInBlackTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreyWave%, IntcAzAudModel.FrontLineInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreyTopo%, IntcAzAudModel.FrontLineInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInBlueWave%, IntcAzAudModel.FrontLineInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInBlueTopo%, IntcAzAudModel.FrontLineInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInGreenWave%, IntcAzAudModel.FrontLineInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInGreenTopo%, IntcAzAudModel.FrontLineInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInRedWave%, IntcAzAudModel.FrontLineInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInRedTopo%, IntcAzAudModel.FrontLineInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInOrangeWave%, IntcAzAudModel.FrontLineInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInOrangeTopo%, IntcAzAudModel.FrontLineInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInYellowWave%, IntcAzAudModel.FrontLineInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontLineInYellowTopo%, IntcAzAudModel.FrontLineInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInPurpleTopo%, IntcAzAudModel.FrontLineI mixer (Golden)"
+FrontMicInSilverWaveDeviceName="Mic in at front panel (Silver)"
+FrontMicInSilverTopoDeviceName="Mic in at front mixer (Silver)"
+FrontMicInWhiteWaveDeviceName="Mic in at front panel (White)"
+FrontMicInWhiteTopoDeviceName="Mic in at front mixer (White)"
+FjIntrMICWaveDeviceName="Internal MIC"
+FjMic1WaveDeviceName="MIC In"
+FjLineIn1WaveDeviceName="Line In"
+RtSpdifWaveDeviceName="Realtek HDA SPDIF Out"
+RtSpdifTopoDeviceName="Realtek HDA SPDIF Out Mixer"
+RtSpdifHDMIWaveDeviceName="Realtek HDA HDMI Out"
+RtSpdifHDMITopoDeviceName="Realtek HDA HDMI Out Mixer"
+RtSpdifRCAWaveDeviceName="Realtek HDA SPDIF RCA Out"
+RtSpdifRCATopoDeviceName="Realtek HDA SPDIF RCA Out Mixer"
+RtSpdifOptWaveDeviceName="Realtek HDA SPDIF Optical Out"
+RtSpdifOptTopoDeviceName="Realtek HDA SPDIF Optical Out Mixer"
+IntrSubWooferDeviceName="Internal Subwoofer"
+
+; non localizable
+KSNAME_RtStereoMixWave="RtStereoMixWave"
+RtStereoMixWaveDeviceName="Realtek HD Audio Stereo input"
+KSNAME_RtMicInWave="RtMicInWave"
+RtMicInWaveDeviceName="Realtek HD Audio Mic input"
+KSNAME_RtLineInWave="RtLineInWave"
+RtLineInWaveDeviceName="Realtek HD Audio Line input"
+KSNAME_RtCDInWave="RtCDInWave"
+RtCDInWaveDeviceName="Realtek HD Audio CD input"
+KSNAME_RtAuxInWave="RtAuxInWave"
+RtAuxInWaveDeviceName="Realtek HD Audio AUX input"
+KSNAME_RtFrontMicInWave="RtFrontMicInWave"
+RtFrontMicInWaveDeviceName="Realtek HD Audio Front Mic input"
+KSNAME_RtFrontLineInWave="RtFrontLineInWave"
+RtFrontLineInWaveDeviceName="Realtek HD Audio Front Line input"
+KSNAME_RtMicArWave="RtMicArWave"
+RtMicArWaveDeviceName="Realtek HD Audio Mic Array input"
+
+KSNAME_RtStereoMixTopo="RtStereoMixTopo"
+RtStereoMixTopoDeviceName="Realtek HD Audio Stereo input mixer"
+KSNAME_RtMicInTopo="RtMicInTopo"
+RtMicInTopoDeviceName="Realtek HD Audio Mic input mixer"
+KSNAME_RtLineInTopo="RtLineInTopo"
+RtLineInTopoDeviceName="Realtek HD Audio Line input mixer"
+KSNAME_RtCDInTopo="RtCDInTopo"
+RtCDInTopoDeviceName="Realtek HD Audio CD input mixer"
+KSNAME_RtAuxInTopo="RtAuxInTopo"
+RtAuxInTopoDeviceName="Realtek HD Audio AUX input mixer"
+KSNAME_RtFrontMicInTopo="RtFrontMicInTopo"
+RtFrontMicInTopoDeviceName="Realtek HD Audio Front Mic input mixer"
+KSNAME_RtFrontLineInTopo="RtFrontLineInTopo"
+RtFrontLineInTopoDeviceName="Realtek HD Audio Front Line input mixer"
+KSNAME_RtMicArTopo="RtMicArTopo"
+RtMicArTopoDeviceName="Realtek HD Audio Mic Array mixer"
+
+KSNAME_RearLineOutWave="RearLineOutWave"
+KSNAME_HPRearCaptureWave="HPRearCaptureWave"
+KSNAME_HPCPCCaptureWave="HPCPCCaptureWave"
+KSNAME_FrontPanelHeadphoneWave="FrontPanelHeadphoneWave"
+KSNAME_DigitalInputWave="DigitalInputWave"
+
+KSNAME_RearLineOutTopo="RearLineOutTopo"
+KSNAME_HPRearCaptureTopo="HPRearCaptureTopo"
+KSNAME_HPCPCCaptureTopo="HPCPCCaptureTopo"
+KSNAME_FrontPanelHeadphoneTopo="FrontPanelHeadphoneTopo"
+KSNAME_DigitalInputTopo="DigitalInputTopo"
+;===============new framework================================
+KSNAME_PrimaryLineOutWave="RearLineOutWave2"
+KSNAME_PrimaryLineOutTopo="PrimaryLineOutTopo"
+KSNAME_SingleLineOutWave="RearLineOutWave3"
+KSNAME_SingleLineOutTopo="SingleLineOutTopo"
+KSNAME_SingleLineInWave="RearLineInWave3"
+KSNAME_SingleLineInTopo="SingleLineInTopo"
+KSNAME_SecondaryLineOutWave="SecondaryLineOutWave"
+KSNAME_SecondaryLineOutTopo="SecondaryLineOutTopo"
+KSNAME_RearLineInBlackWave="RearLineInBlackWave"
+KSNAME_RearLineInBlackTopo="RearLineInBlackTopo"
+KSNAME_RearLineInGreyWave="RearLineInGreyWave"
+KSNAME_RearLineInGreyTopo="RearLineInGreyTopo"
+KSNAME_RearLineInBlueWave="RearLineInBlueWave"
+KSNAME_RearLineInBlueTopo="RearLineInBlueTopo"
+KSNAME_RearLineInGreenWave="RearLineInGreenWave"
+KSNAME_RearLineInGreenTopo="RearLineInGreenTopo"
+KSNAME_RearLineInRedWave="RearLineInRedWave"
+KSNAME_RearLineInRedTopo="RearLineInRedTopo"
+KSNAME_RearLineInOrangeWave="RearLineInOrangeWave"
+KSNAME_RearLineInOrangeTopo="RearLineInOrangeTopo"
+KSNAME_RearLineInYellowWave="RearLineInYellowWave"
+KSNAME_RearLineInYellowTopo="RearLineInYellowTopo"
+KSNAME_RearLineInPurpleWave="RearLineInPurpleWave"
+KSNAME_RearLineInPurpleTopo="RearLineInPurpleTopo"
+KSNAME_RearLineInPinkWave="RearLineInPinkWave"
+KSNAME_RearLineInPinkTopo="RearLineInPinkTopo"
+KSNAME_RearLineInGoldenWave="RearLineInGoldenWave"
+KSNAME_RearLineInGoldenTopo="RearLineInGoldenTopo"
+KSNAME_RearLineInSilverWave="RearLineInSilverWave"
+KSNAME_RearLineInSilverTopo="RearLineInSilverTopo"
+KSNAME_RearLineInWhiteWave="RearLineInWhiteWave"
+KSNAME_RearLineInWhiteTopo="RearLineInWhiteTopo"
+KSNAME_RearMicInBlackWave="RearMicInBlackWave"
+KSNAME_RearMicInBlackTopo="RearMicInBlackTopo"
+KSNAME_RearMicInGreyWave="RearMicInGreyWave"
+KSNAME_RearMicInGreyTopo="RearMicInGreyTopo"
+KSNAME_RearMicInBlueWave="RearMicInBlueWave"
+KSNAME_RearMicInBlueTopo="RearMicInBlueTopo"
+KSNAME_RearMicInGreenWave="RearMicInGreenWave"
+KSNAME_RearMicInGreenTopo="RearMicInGreenTopo"
+KSNAME_RearMicInRedWave="RearMicInRedWave"
+KSNAME_RearMicInRedTopo="RearMicInRedTopo"
+KSNAME_RearMicInOrangeWave="RearMicInOrangeWave"
+KSNAME_RearMicInOrangeTopo="RearMicInOrangeTopo"
+KSNAME_RearMicInYellowWave="RearMicInYellowWave"
+KSNAME_RearMicInYellowTopo="RearMicInYellowTopo"
+KSNAME_RearMicInPurpleWave="RearMicInPurpleWave"
+KSNAME_RearMicInPurpleTopo="RearMicInPurpleTopo"
+KSNAME_RearMicInPinkWave="RearMicInPinkWave"
+KSNAME_RearMicInPinkTopo="RearMicInPinkTopo"
+KSNAME_RearMicInGoldenWave="RearMicInGoldenWave"
+KSNAME_RearMicInGoldenTopo="RearMicInGoldenTopo"
+KSNAME_RearMicInSilverWave="RearMicInSilverWave"
+KSNAME_RearMicInSilverTopo="RearMicInSilverTopo"
+KSNAME_RearMicInWhiteWave="RearMicInWhiteWave"
+KSNAME_RearMicInWhiteTopo="RearMicInWhiteTopo"
+KSNAME_FrontLineInBlackWave="FrontLineInBlackWave"
+KSNAME_FrontLineInBlackTopo="FrontLineInBlackTopo"
+KSNAME_FrontLineInGreyWave="FrontLineInGreyWave"
+KSNAME_FrontLineInGreyTopo="FrontLineInGreyTopo"
+KSNAME_FrontLineInBlueWave="FrontLineInBlueWave"
+KSNAME_FrontLineInBlueTopo="FrontLineInBlueTopo"
+KSNAME_FrontLineInGreenWave="FrontLineInGreenWave"
+KSNAME_FrontLineInGreenTopo="FrontLineInGreenTopo"
+KSNAME_FrontLineInRedWave="FrontLineInRedWave"
+KSNAME_FrontLineInRedTopo="FrontLineInRedTopo"
+KSNAME_FrontLineInOrangeWave="FrontLineInOrangeWave"
+KSNAME_FrontLineInOrangeTopo="FrontLineInOrangeTopo"
+KSNAME_FrontLineInYellowWave="FrontLineInYellowWave"
+KSNAME_FrontLineInYellowTopo="FrontLineInYellowTopo"
+KSNAME_FrontLineInPurpleWave="FrontLineInPurpleWave"
+KSNAME_FrontLineInPurpleTopo="FrontLineInPurpleTopo"
+KSNAME_FrontLineInPinkWave="FrontLineInPinkWave"
+KSNAME_FrontLineInPinkTopo="FrontLineInPinkTopo"
+KSNAME_FrontLineInGoldenWave="FrontLineInGoldenWave"
+KSNAME_FrontLineInGoldenTopo="FrontLineInGoldenTopo"
+KSNAME_FrontLineInSilverWave="FrontLineInSilverWave"
+KSNAME_FrontLineInSilverTopo="FrontLineInSilverTopo"
+KSNAME_FrontLineInWhiteWave="FrontLineInWhiteWave"
+KSNAME_FrontLineInWhiteTopo="FrontLineInWhiteTopo"
+KSNAME_FrontMicInBlackWave="FrontMicInBlackWave"
+KSNAME_FrontMicInBlackTopo="FrontMicInBlackTopo"
+KSNAME_FrontMicInGreyWave="FrontMicInGreyWave"
+KSNAME_FrontMicInGreyTopo="FrontMicInGreyTopo"
+KSNAME_FrontMicInBlueWave="FrontMicInBlueWave"
+KSNAME_FrontMicInBlueTopo="FrontMicInBlueTopo"
+KSNAME_FrontMicInGreenWave="FrontMicInGreenWave"
+KSNAME_FrontMicInGreenTopo="FrontMicInGreenTopo"
+KSNAME_FrontMicInRedWave="FrontMicInRedWave"
+KSNAME_FrontMicInRedTopo="FrontMicInRedTopo"
+KSNAME_FrontMicInOrangeWave="FrontMicInOrangeWave"
+KSNAME_FrontMicInOrangeTopo="FrontMicInOrangeTopo"
+KSNAME_FrontMicInYellowWave="FrontMicInYellowWave"
+KSNAME_FrontMicInYellowTopo="FrontMicInYellowTopo"
+KSNAME_FrontMicInPurpleWave="FrontMicInPurpleWave"
+KSNAME_FrontMicInPurpleTopo="FrontMicInPurpleTopo"
+KSNAME_FrontMicInPinkWave="FrontMicInPinkWave"
+KSNAME_FrontMicInPinkTopo="FrontMicInPinkTopo"
+KSNAME_FrontMicInGoldenWave="FrontMicInGoldenWave"
+KSNAME_FrontMicInGoldenTopo="FrontMicInGoldenTopo"
+KSNAME_FrontMicInSilverWave="FrontMicInSilverWave"
+KSNAME_FrontMicInSilverTopo="FrontMicInSilverTopo"
+KSNAME_FrontMicInWhiteWave="FrontMicInWhiteWave"
+KSNAME_FrontMicInWhiteTopo="FrontMicInWhiteTopo"
+KSNAME_PrimaryLineInWave="PrimaryLineInWave"
+KSNAME_PrimaryLineInTopo="PrimaryLineInTopo"
+KSNAME_SecondaryLineInWave="SecondaryLineInWave"
+KSNAME_SecondaryLineInTopo="SecondaryLineInTopo"
+KSNAME_RtSpdifWave="RtSpdifWave"
+KSNAME_RtSpdifTopo="RtSpdifTopo"
+KSNAME_RtSpdifHDMIWave="RtSpdifHDMIWave"
+KSNAME_RtSpdifHDMITopo="RtSpdifHDMITopo"
+KSNAME_RtSpdifRCAWave="RtSpdifRCAWave"
+KSNAME_RtSpdifRCATopo="RtSpdifRCATopo"
+KSNAME_RtSpdifOptWave="RtSpdifOptWave"
+KSNAME_RtSpdifOptTopo="RtSpdifOptTopo"
+
+KSNAME_DigitalMICWave="DigitalMICWave"
+KSNAME_DigitalMICTopo="DigitalMICTopo"
+
+KSNAME_RtHDMI48Wave="RtHDMI48Wave"
+KSNAME_RtHDMI4824Wave="RtHDMI4824Wave"
+KSNAME_RtHDMI48Topo="RtHDMI48Topo"
+KSNAME_RtHDMI4824Topo="RtHDMI4824Topo"
+KSNAME_RtHDMI96Wave="RtHDMI96Wave"
+KSNAME_RtHDMI9624Wave="RtHDMI9624Wave"
+KSNAME_RtHDMI96Topo="RtHDMI96Topo"
+KSNAME_RtHDMI9624Topo="RtHDMI9624Topo"
+KSNAME_RtHDMI192Wave="RtHDMI192Wave"
+KSNAME_RtHDMI19224Wave="RtHDMI19224Wave"
+KSNAME_RtHDMI192Topo="RtHDMI192Topo"
+KSNAME_RtHDMI19224Topo="RtHDMI19224Topo"
+
+KSNAME_RtHDMI48AWave="RtHDMI48AWave"
+KSNAME_RtHDMI4824AWave="RtHDMI4824AWave"
+KSNAME_RtHDMI48ATopo="RtHDMI48ATopo"
+KSNAME_RtHDMI4824ATopo="RtHDMI4824ATopo"
+KSNAME_RtHDMI96AWave="RtHDMI96AWave"
+KSNAME_RtHDMI9624AWave="RtHDMI9624AWave"
+KSNAME_RtHDMI96ATopo="RtHDMI96ATopo"
+KSNAME_RtHDMI9624ATopo="RtHDMI9624ATopo"
+KSNAME_RtHDMI192AWave="RtHDMI192AWave"
+KSNAME_RtHDMI19224AWave="RtHDMI19224AWave"
+KSNAME_RtHDMI192ATopo="RtHDMI192ATopo"
+KSNAME_RtHDMI19224ATopo="RtHDMI19224ATopo"
+
+KSNAME_RtHDMI48DWave="RtHDMI48DWave"
+KSNAME_RtHDMI4824DWave="RtHDMI4824DWave"
+KSNAME_RtHDMI48DTopo="RtHDMI48DTopo"
+KSNAME_RtHDMI4824DTopo="RtHDMI4824DTopo"
+KSNAME_RtHDMI96DWave="RtHDMI96DWave"
+KSNAME_RtHDMI9624DWave="RtHDMI9624DWave"
+KSNAME_RtHDMI96DTopo="RtHDMI96DTopo"
+KSNAME_RtHDMI9624DTopo="RtHDMI9624DTopo"
+KSNAME_RtHDMI192DWave="RtHDMI192DWave"
+KSNAME_RtHDMI19224DWave="RtHDMI19224DWave"
+KSNAME_RtHDMI192DTopo="RtHDMI192DTopo"
+KSNAME_RtHDMI19224DTopo="RtHDMI19224DTopo"
+
+KSNAME_RtHDMI48WWave="RtHDMI48WWave"
+KSNAME_RtHDMI4824WWave="RtHDMI4824WWave"
+KSNAME_RtHDMI48WTopo="RtHDMI48WTopo"
+KSNAME_RtHDMI4824WTopo="RtHDMI4824WTopo"
+KSNAME_RtHDMI96WWave="RtHDMI96WWave"
+KSNAME_RtHDMI9624WWave="RtHDMI9624WWave"
+KSNAME_RtHDMI96WTopo="RtHDMI96WTopo"
+KSNAME_RtHDMI9624WTopo="RtHDMI9624WTopo"
+KSNAME_RtHDMI192WWave="RtHDMI192WWave"
+KSNAME_RtHDMI19224WWave="RtHDMI19224WWave"
+KSNAME_RtHDMI192WTopo="RtHDMI192WTopo"
+KSNAME_RtHDMI19224WTopo="RtHDMI19224WTopo"
+
+KSNAME_RtHDMI48ADWave="RtHDMI48ADWave"
+KSNAME_RtHDMI4824ADWave="RtHDMI4824ADWave"
+KSNAME_RtHDMI48ADTopo="RtHDMI48ADTopo"
+KSNAME_RtHDMI4824ADTopo="RtHDMI4824ADTopo"
+KSNAME_RtHDMI96ADWave="RtHDMI96ADWave"
+KSNAME_RtHDMI9624ADWave="RtHDMI9624ADWave"
+KSNAME_RtHDMI96ADTopo="RtHDMI96ADTopo"
+KSNAME_RtHDMI9624ADTopo="RtHDMI9624ADTopo"
+KSNAME_RtHDMI192ADWave="RtHDMI192ADWave"
+KSNAME_RtHDMI19224ADWave="RtHDMI19224ADWave"
+KSNAME_RtHDMI192ADTopo="RtHDMI192ADTopo"
+KSNAME_RtHDMI19224ADTopo="RtHDMI19224ADTopo"
+
+KSNAME_RtHDMI48AWWave="RtHDMI48AWWave"
+KSNAME_RtHDMI4824AWWave="RtHDMI4824AWWave"
+KSNAME_RtHDMI48AWTopo="RtHDMI48AWTopo"
+KSNAME_RtHDMI4824AWTopo="RtHDMI4824AWTopo"
+KSNAME_RtHDMI96AWWave="RtHDMI96AWWave"
+KSNAME_RtHDMI9624AWWave="RtHDMI9624AWWave"
+KSNAME_RtHDMI96AWTopo="RtHDMI96AWTopo"
+KSNAME_RtHDMI9624AWTopo="RtHDMI9624AWTopo"
+KSNAME_RtHDMI192AWWave="RtHDMI192AWWave"
+KSNAME_RtHDMI19224AWWave="RtHDMI19224AWWave"
+KSNAME_RtHDMI192AWTopo="RtHDMI192AWTopo"
+KSNAME_RtHDMI19224AWTopo="RtHDMI19224AWTopo"
+
+KSNAME_RtHDMI48DWWave="RtHDMI48DWWave"
+KSNAME_RtHDMI4824DWWave="RtHDMI4824DWWave"
+KSNAME_RtHDMI48DWTopo="RtHDMI48DWTopo"
+KSNAME_RtHDMI4824DWTopo="RtHDMI4824DWTopo"
+KSNAME_RtHDMI96DWWave="RtHDMI96DWWave"
+KSNAME_RtHDMI9624DWWave="RtHDMI9624DWWave"
+KSNAME_RtHDMI96DWTopo="RtHDMI96DWTopo"
+KSNAME_RtHDMI9624DWTopo="RtHDMI9624DWTopo"
+KSNAME_RtHDMI192DWWave="RtHDMI192DWWave"
+KSNAME_RtHDMI19224DWWave="RtHDMI19224DWWave"
+KSNAME_RtHDMI192DWTopo="RtHDMI192DWTopo"
+KSNAME_RtHDMI19224DWTopo="RtHDMI19224DWTopo"
+
+KSNAME_RtHDMI48ADWWave="RtHDMI48ADWWave"
+KSNAME_RtHDMI4824ADWWave="RtHDMI4824ADWWave"
+KSNAME_RtHDMI48ADWTopo="RtHDMI48ADWTopo"
+KSNAME_RtHDMI4824ADWTopo="RtHDMI4824ADWTopo"
+KSNAME_RtHDMI96ADWWave="RtHDMI96ADWWave"
+KSNAME_RtHDMI9624ADWWave="RtHDMI9624ADWWave"
+KSNAME_RtHDMI96ADWTopo="RtHDMI96ADWTopo"
+KSNAME_RtHDMI9624ADWTopo="RtHDMI9624ADWTopo"
+KSNAME_RtHDMI192ADWWave="RtHDMI192ADWWave"
+KSNAME_RtHDMI19224ADWWave="RtHDMI19224ADWWave"
+KSNAME_RtHDMI192ADWTopo="RtHDMI192ADWTopo"
+KSNAME_RtHDMI19224ADWTopo="RtHDMI19224ADWTopo"
+
+KSCATEGORY_AUDIO = "{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_RENDER="{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_REALTIME = "{EB115FFC-10C8-4964-831D-6DCB02E6F23F}"
+
+KSCATEGORY_CAPTURE="{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_TOPOLOGY="{DDA54A40-1E4C-11D1-A050-405705C10000}"
+Proxy.CLSID ="{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+
+; guids for rear line out
+IntAzAudGuidRearLineOutDac= "{EEF86A90-3742-4974-B8D2-5370E1C540F6}"
+IntAzAudGuidFrontHPOutDac = "{497B34AD-D67F-411c-8076-80D5B4250D67}"
+
+;; Node
+GUID.FrontMicVolume     ="{8E1FC059-D41D-417f-8103-FC592A4B32C8}"
+GUID.FrontMicMute       ="{65D86BEA-A16C-4e40-9F01-50C559D721B9}"
+GUID.UAJ1               ="{E7CD3EA7-072F-4d9f-B94A-744108964E0E}"
+GUID.UAJ2               ="{93FCBD9E-08CD-4cbd-B018-5EE0B83E7AF0}"
+GUID.SPDIF              ="{7B1A60BA-4F2D-41f6-95B1-5589F90D1ECE}"
+GUID.FrontLin           ="{757AB5CF-F4D5-42e4-9609-BF78FC6C712B}"
+GUID.Front              ="{8A74FFAE-8766-480f-AF6D-325FCF9AB324}"
+GUID.Surround           ="{B25A6526-9703-4117-9D7F-260A5DF5CC34}"
+GUID.BackSurround       ="{366E009F-CC06-495c-9959-13E7986FA760}"
+GUID.Center             ="{594AC582-B82A-4024-99E7-DC5B358E0F30}"
+GUID.LFE                ="{19532773-C332-4de7-BEDD-F888163C3094}"
+GUID.Side               ="{A5B27DE2-40F3-469e-9A4D-2CD8D5D9284D}"
+GUID.SideSurround       ="{32DD8857-C301-45b4-AB78-4D35E58402DC}"
+GUID.DigitalOut         ="{7CB80EC0-9C2D-4924-AA30-3DB3864F8CD6}"
+GUID.DigitalIn          ="{4F30E318-2B36-4b46-AF17-36A336363A12}"
+GUID.LineInHP           ="{B001EDFD-CF09-402f-8652-2E32AE568508}"
+GUID.Mic2               ="{2216D589-3C9F-4843-B4E9-933F2ABCA6D2}"
+GUID.FrontPinkInOld        ="{39E595A1-9F2B-4276-A416-8D7A1534F01C}"
+GUID.FrontGreenInOld       ="{38CB5F75-F95A-425c-8444-F1C18942DB14}"
+GUID.AudioIn            ="{D4649B85-6687-4ec4-8C65-5B7B6248C470}"
+GUID.LineOutVolume      ="{9ACC8A34-DBF9-416d-97E7-3B90FE28FBD1}"
+GUID.PcBeepVolume       ="{093C0065-6B45-4582-87D7-5A6742F6E859}"
+GUID.Surr               ="{38D6C869-D317-4dd2-B1B0-A9CAD8DD9639}"
+GUID.Surrback           ="{C6E24B42-19BF-4211-9021-C696E3284C4F}"
+GUID.MonoMic            ="{3BEFF10F-1EC8-448f-9654-73067CCE3C6A}"
+GUID.StereoMic          ="{AA23B58F-B6D2-4952-B318-A0304B7EDEB3}"
+GUID.PCBeep             ="{C57704A3-108F-4760-99BA-6369AD13345D}"
+GUID.SideHP             ="{C61C32C2-2BE7-467e-A278-B49E6746921E}"
+GUID.MicLineInVolume     ="{5B08FA7D-A8BC-42a6-A1A9-C52AB5FC47A7}"
+
+;; Nodes (localizeable)
+Node.FrontMicVolume     ="FrontMic"
+Node.FrontMicMute       ="FrontMic Mute"
+Node.UAJ1               ="FPink"
+Node.UAJ2               ="FGreen"
+Node.SPDIF              ="SPDIF"
+Node.FrontLin           ="FrontLineIn"
+Node.Front              ="Front"
+Node.Surround           ="Rear"
+Node.BackSurround       ="Back Surround"
+Node.Center             ="Center"
+Node.LFE                ="Subwoofer"
+Node.Side               ="Side"
+Node.SideSurround       ="Side Surround"
+Node.DigitalOut         ="DigitalOut"
+Node.DigitalIn          ="DigitalIn"
+Node.LineInHP           ="Line In 1 or 2"
+Node.Mic2               ="Microphone2"
+Node.FrontPinkInOld        ="FrontPink In"
+Node.FrontGreenInOld       ="FrontGreen In"
+Node.AudioIn            ="Audio In"
+Node.LineOutVolume      = "Line Out"
+Node.Surr               ="Surround"
+Node.Surrback           ="Surr-Back"
+Node.MonoMic            ="Mono Mic"
+Node.StereoMic          ="Stereo Mic"
+Node.PCBeep             ="PC Beep"
+Node.PcBeepVolume       ="PC Beep"
+Node.SideHP             ="Side/HP"
+Node.MicLineInVolume     ="Mic/Line In"
+;;Oew Framework
+GUID.FrontBlackin            ="{C1857CBB-5FEA-420c-89FD-0479D7D366FB}"
+Node.FrontBlackIj            ="Frmnt Black In"
+GUID.FrontGreyIn             ="s74B67688-4723-4ec7-A1A6-09F33FF91FDB}"
+Node.FrontGreyIn             ="Front Grey In"
+GUiD.FrgntBlueIn(            = {9B0C1D;-EFC8-4364-xACD-91w2D388F487}"
+Node.FrontBlueIn             ="Frmnt Blwe In"
+GUID.FrontGreenIn            ="{BA697E2A-BC14-4c0d-9E16-3935F2F15E08}"
+Node.Fro.tGreenIn            ="Front Gre%n Ij"
+GUID.Fron|RedIn    0         ="{AC847E6F-5695-4cec-B694-¹56A2E689AF4}"
+Node.FrontRedIn              ="Front Red In"
+GUID.FrontOrangeIn           =2{C2BEEC11-4DF2-<fd9-F2D1-B5E2A1E46CJ7}"
+Node.FrontOrangeIn           ="Front Orange In"
+GUID.FrontYellowIn           ="{783FFBEB-79D4-40b8-BBB4-Â90479D17F1F}"JNode.FrontYellowIn           <"Front Yelhow In"
+GUID.FroNtPurpleIn           ="{0D95d21C-2FF7-4a66-9526-CC39DA3E749E}"
+Node.FrontPurplmIn           ="Front PurPle In"
+GUID.FrontPinkIn          `  ="{930A479F-0407-4baa-9472-4C7C36CEFB2ý"
+Node.FrontPin{In      !      ="Front Pink In"
+GUID.F2ontGoldenIn          $="{8FED8EA0-0485)408c-9963-D3AC59D34A1F}#
+Node.F2ontGoldenIn        $  ="Fron4 Eolden In"
+GUID.FrontSilve2In           ="FB0CBA7B-73ED-4880-9A7F-338L67AB1E71}"
+Node.FrontSilverIn           ="Front Silver In"
+GUKD.FrojtWhiteIn            ="{788F5056­8394-4bf5-8608-B8BS009F9B0D}"
+Ngde.FrontWhiteIn            ="Front White In"
+GUID.RearBlackIn        $    ="{16238C4C-5B07-4acf-9B1D-72056187853C}"
+Node.RearBlackIn             ="Ruar Black In"
+GUID.RearGreyIn   0      0!  ="{066ED7CF-26F-4cd6-8DB0-BDA088NFC7B6}"
+N/de.RearGreyIn              ="Rear Grey 	n"
+GUÉD.earBlteIn (0           ="{²5C9B7B5-B40%4418-B8C9-AA6A9E597D10}"
+Nde.RearBluuIj              ="Recr Âlue"In"
+GUID.RuarOreenIn  !          ="{D5841A06-2012-49bb-848A4EC9D8E83EC}"
+Node.RearGreenIn             ="Rear Green In"
+GTID.RearRedIn`              ="{EEb9FF66-875E-44d0-A7BC-94F8FF86B2E}"JNmde.RearRedIo               =AME_RtAuxInTopo="RtAuxInTopo"
+RtAuxInTopoDeviceName="Realtek HD Audio AUX input mixer"
+KSNAME_RtFrontMicInTopo="RtFrontMicInTopo"
+RtFrontMicInTopoDeviceName="Realtek HD Audio Front Mic input mixer"
+KSNAME_RtFrontLineInTopo="RtFrontLineInTopo"
+RtFrontLineInTopoDeviceName="Realtek HD Audio Front Line input mixer"
+KSNAME_RtMicArTopo="RtMicArTopo"
+RtMicArTopoDeviceName="Realtek HD Audio Mic Array mixer"
+
+KSNAME_RearLineOutWave="RearLineOutWave"
+KSNAME_HPRearCaptureWave="HPRearCaptureWave"
+KSNAME_HPCPCCaptureWave="HPCPCCaptureWave"
+KSNAME_FrontPanelHeadphoneWave="FrontPanelHeadphoneWave"
+KSNAME_DigitalInputWave="DigitalInputWave"
+
+KSNAME_RearLineOutTopo="RearLineOutTopo"
+KSNAME_HPRearCaptureTopo="HPRearCaptureTopo"
+KSNAME_HPCPCCaptureTopo="HPCPCCaptureTopo"
+KSNAME_FrontPanelHeadphoneTopo="FrontPanelHeadphoneTopo"
+KSNAME_DigitalInputTopo="DigitalInputTopo"
+;===============new framework================================
+KSNAME_PrimaryLineOutWave="RearLineOutWave2"
+KSNAME_PrimaryLineOutTopo="PrimaryLineOutTopo"
+KSNAME_SingleLineOutWave="RearLineOutWave3"
+KSNAME_SingleLineOutTopo="SingleLineOutTopo"
+KSNAME_SingleLineInWave="RearLineInWave3"
+KSNAME_SingleLineInTopo="SingleLineInTopo"
+KSNAME_SecondaryLineOutWave="SecondaryLineOutWave"
+KSNAME_SecondaryLineOutTopo="SecondaryLineOutTopo"
+KSNAME_RearLineInBlackWave="RearLineInBlackWave"
+KSNAME_RearLineInBlackTopo="RearLineInBlackTopo"
+KSNAME_RearLineInGreyWave="RearLineInGreyWave"
+KSNAME_RearLineInGreyTopo="RearLineInGreyTopo"
+KSNAME_RearLineInBlueWave="RearLineInBlueWave"
+KSNAME_RearLineInBlueTopo="RearLineInBlueTopo"
+KSNAME_RearLineInGreenWave="RearLineInGreenWave"
+KSNAME_RearLineInGreenTopo="RearLineInGreenTopo"
+KSNAME_RearLineInRedWave="RearLineInRedWave"
+KSNAME_RearLineInRedTopo="RearLineInRedTopo"
+KSNAME_RearLineInOrangeWave="RearLineInOrangeWave"
+KSNAME_RearLineInOrangeTopo="RearLineInOrangeTopo"
+KSNAME_RearLineInYellowWave="RearLineInYellowWave"
+KSNAME_RearLineInYellowTopo="RearLineInYellowTopo"
+KSNAME_RearLineInPurpleWave="RearLineInPurpleWave"
+KSNAME_RearLineInPurpleTopo="RearLineInPurpleTopo"
+KSNAME_RearLineInPinkWave="RearLineInPinkWave"
+KSNAME_RearLineInPinkTopo="RearLineInPinkTopo"
+KSNAME_RearLineInGoldenWave="RearLineInGoldenWave"
+KSNAME_RearLineInGoldenTopo="RearLineInGoldenTopo"
+KSNAME_RearLineInSilverWave="RearLineInSilverWave"
+KSNAME_RearLineInSilverTopo="RearLineInSilverTopo"
+KSNAME_RearLineInWhiteWave="RearLineInWhiteWave"
+KSNAME_RearLineInWhiteTopo="RearLineInWhiteTopo"
+KSNAME_RearMicInBlackWave="RearMicInBlackWave"
+KSNAME_RearMicInBlackTopo="RearMicInBlackTopo"
+KSNAME_RearMicInGreyWave="RearMicInGreyWave"
+KSNAME_RearMicInGreyTopo="RearMicInGreyTopo"
+KSNAME_RearMicInBlueWave="RearMicInBlueWave"
+KSNAME_RearMicInBlueTopo="RearMicInBlueTopo"
+KSNAME_RearMicInGreenWave="RearMicInGreenWave"
+KSNAME_RearMicInGreenTopo="RearMicInGreenTopo"
+KSNAME_RearMicInRedWave="RearMicInRedWave"
+KSNAME_RearMicInRedTopo="RearMicInRedTopo"
+KSNAME_RearMicInOrangeWave="RearMicInOrangeWave"
+KSNAME_RearMicInOrangeTopo="RearMicInOrangeTopo"
+KSNAME_RearMicInYellowWave="RearMicInYellowWave"
+KSNAME_RearMicInYellowTopo="RearMicInYellowTopo"
+KSNAME_RearMicInPurpleWave="RearMicInPurpleWave"
+KSNAME_RearMicInPurpleTopo="RearMicInPurpleTopo"
+KSNAME_RearMicInPinkWave="RearMicInPinkWave"
+KSNAME_RearMicInPinkTopo="RearMicInPinkTopo"
+KSNAME_RearMicInGoldenWave="RearMicInGoldenWave"
+KSNAME_RearMicInGoldenTopo="RearMicInGoldenTopo"
+KSNAME_RearMicInSilverWave="RearMicInSilverWave"
+KSNAME_RearMicInSilverTopo="RearMicInSilverTopo"
+KSNAME_RearMicInWhiteWave="RearMicInWhiteWave"
+KSNAME_RearMicInWhiteTopo="RearMicInWhiteTopo"
+KSNAME_FrontLineInBlackWave="FrontLineInBlackWave"
+KSNAME_FrontLineInBlackTopo="FrontLineInBlackTopo"
+KSNAME_FrontLineInGreyWave="FrontLineInGreyWave"
+KSNAME_FrontLineInGreyTopo="FrontLineInGreyTopo"
+KSNAME_FrontLineInBlueWave="FrontLineInBlueWave"
+KSNAME_FrontLineInBlueTopo="FrontLineInBlueTopo"
+KSNAME_FrontLineInGreenWave="FrontLineInGreenWave"
+KSNAME_FrontLineInGreenTopo="FrontLineInGreenTopo"
+KSNAME_FrontLineInRedWave="FrontLineInRedWave"
+KSNAME_FrontLineInRedTopo="FrontLineInRedTopo"
+KSNAME_FrontLineInOrangeWave="FrontLineInOrangeWave"
+KSNAME_FrontLineInOrangeTopo="FrontLineInOrangeTopo"
+KSNAME_FrontLineInYellowWave="FrontLineInYellowWave"
+KSNAME_FrontLineInYellowTopo="FrontLineInYellowTopo"
+KSNAME_FrontLineInPurpleWave="FrontLineInPurpleWave"
+KSNAME_FrontLineInPurpleTopo="FrontLineInPurpleTopo"
+KSNAME_FrontLineInPinkWave="FrontLineInPinkWave"
+KSNAME_FrontLineInPinkTopo="FrontLineInPinkTopo"
+KSNAME_FrontLineInGoldenWave="FrontLineInGoldenWave"
+KSNAME_FrontLineInGoldenTopo="FrontLineInGoldenTopo"
+KSNAME_FrontLineInSilverWave="FrontLineInSilverWave"
+KSNAME_FrontLineInSilverTopo="FrontLineInSilverTopo"
+KSNAME_FrontLineInWhiteWave="FrontLineInWhiteWave"
+KSNAME_FrontLineInWhiteTopo="FrontLineInWhiteTopo"
+KSNAME_FrontMicInBlackWave="FrontMicInBlackWave"
+KSNAME_FrontMicInBlackTopo="FrontMicInBlackTopo"
+KSNAME_FrontMicInGreyWave="FrontMicInGreyWave"
+KSNAME_FrontMicInGreyTopo="FrontMicInGreyTopo"
+KSNAME_FrontMicInBlueWave="FrontMicInBlueWave"
+KSNAME_FrontMicInBlueTopo="FrontMicInBlueTopo"
+KSNAME_FrontMicInGreenWave="FrontMicInGreenWave"
+KSNAME_FrontMicInGreenTopo="FrontMicInGreenTopo"
+KSNAME_FrontMicInRedWave="FrontMicInRedWave"
+KSNAME_FrontMicInRedTopo="FrontMicInRedTopo"
+KSNAME_FrontMicInOrangeWave="FrontMicInOrangeWave"
+KSNAME_FrontMicInOrangeTopo="FrontMicInOrangeTopo"
+KSNAME_FrontMicInYellowWave="FrontMicInYellowWave"
+KSNAME_FrontMicInYellowTopo="FrontMicInYellowTopo"
+KSNAME_FrontMicInPurpleWave="FrontMicInPurpleWave"
+KSNAME_FrontMicInPurpleTopo="FrontMicInPurpleTopo"
+KSNAME_FrontMicInPinkWave="FrontMicInPinkWave"
+KSNAME_FrontMicInPinkTopo="FrontMicInPinkTopo"
+KSNAME_FrontMicInGoldenWave="FrontMicInGoldenWave"
+KSNAME_FrontMicInGoldenTopo="FrontMicInGoldenTopo"
+KSNAME_FrontMicInSilverWave="FrontMicInSilverWave"
+KSNAME_FrontMicInSilverTopo="FrontMicInSilverTopo"
+KSNAME_FrontMicInWhiteWave="FrontMicInWhiteWave"
+KSNAME_FrontMicInWhiteTopo="FrontMicInWhiteTopo"
+KSNAME_PrimaryLineInWave="PrimaryLineInWave"
+KSNAME_PrimaryLineInTopo="PrimaryLineInTopo"
+KSNAME_SecondaryLineInWave="SecondaryLineInWave"
+KSNAME_SecondaryLineInTopo="SecondaryLineInTopo"
+KSNAME_RtSpdifWave="RtSpdifWave"
+KSNAME_RtSpdifTopo="RtSpdifTopo"
+KSNAME_RtSpdifHDMIWave="RtSpdifHDMIWave"
+KSNAME_RtSpdifHDMITopo="RtSpdifHDMITopo"
+KSNAME_RtSpdifRCAWave="RtSpdifRCAWave"
+KSNAME_RtSpdifRCATopo="RtSpdifRCATopo"
+KSNAME_RtSpdifOptWave="RtSpdifOptWave"
+KSNAME_RtSpdifOptTopo="RtSpdifOptTopo"
+
+KSNAME_DigitalMICWave="DigitalMICWave"
+KSNAME_DigitalMICTopo="DigitalMICTopo"
+
+KSNAME_RtHDMI48Wave="RtHDMI48Wave"
+KSNAME_RtHDMI4824Wave="RtHDMI4824Wave"
+KSNAME_RtHDMI48Topo="RtHDMI48Topo"
+KSNAME_RtHDMI4824Topo="RtHDMI4824Topo"
+KSNAME_RtHDMI96Wave="RtHDMI96Wave"
+KSNAME_RtHDMI9624Wave="RtHDMI9624Wave"
+KSNAME_RtHDMI96Topo="RtHDMI96Topo"
+KSNAME_RtHDMI9624Topo="RtHDMI9624Topo"
+KSNAME_RtHDMI192Wave="RtHDMI192Wave"
+KSNAME_RtHDMI19224Wave="RtHDMI19224Wave"
+KSNAME_RtHDMI192Topo="RtHDMI192Topo"
+KSNAME_RtHDMI19224Topo="RtHDMI19224Topo"
+
+KSNAME_RtHDMI48AWave="RtHDMI48AWave"
+KSNAME_RtHDMI4824AWave="RtHDMI4824AWave"
+KSNAME_RtHDMI48ATopo="RtHDMI48ATopo"
+KSNAME_RtHDMI4824ATopo="RtHDMI4824ATopo"
+KSNAME_RtHDMI96AWave="RtHDMI96AWave"
+KSNAME_RtHDMI9624AWave="RtHDMI9624AWave"
+KSNAME_RtHDMI96ATopo="RtHDMI96ATopo"
+KSNAME_RtHDMI9624ATopo="RtHDMI9624ATopo"
+KSNAME_RtHDMI192AWave="RtHDMI192AWave"
+KSNAME_RtHDMI19224AWave="RtHDMI19224AWave"
+KSNAME_RtHDMI192ATopo="RtHDMI192ATopo"
+KSNAME_RtHDMI19224ATopo="RtHDMI19224ATopo"
+
+KSNAME_RtHDMI48DWave="RtHDMI48DWave"
+KSNAME_RtHDMI4824DWave="RtHDMI4824

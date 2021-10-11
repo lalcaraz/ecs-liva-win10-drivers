@@ -1,0 +1,4479 @@
+;
+; INF file for installing Realtek High Definition Audio Driver
+;
+
+[Version]
+CatalogFile=HDARt.cat
+Signature = "$chicago$"
+Class=MEDIA
+ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
+Provider=%OrganizationName%
+DriverPackageType=PlugAndPlay
+DriverPackageDisplayName=%PackageDisplayName%
+DriverVer=07/21/2015, 6.0.1.7564
+
+[SourceDisksNames]
+222="Realtek HD Audio Installation Disk",,,
+
+[SourceDisksFiles]
+RTKVHDA.sys=222
+RtlCPAPI.dll=222
+RTCOMDLL.dll=222
+RtkCfg.dll=222
+RtlUpd.exe=222
+RTSndMgr.CPL=222
+RtHDVCpl.exe=222
+CreateRtkToastLnk.exe=222
+ToastDll.dll=222
+RltkAPO.dll=222
+RtkPgExt.dll=222
+RtkCoLDR.dll=222
+RtkCoInstII.dll=222
+RCoRes.dat=222
+SRSTSXT.dll=222
+SRSWOW.dll=222
+SRSTSHD.dll=222
+SRSHP360.dll=222
+RtkApoApi.dll=222
+AERTSrv.exe=222
+AERTARen.dll=222
+AERTACap.dll=222
+MaxxAudioAPOShell.dll=222
+MaxxAudioAPO.dll=222
+FMAPO.dll=222
+WavesLib.dll=222
+MaxxAudioEQ.dll=222
+MaxxAudioAPO20.dll=222
+MaxxAudioAPO30.dll=222
+MaxxVolumeSDAPO.dll=222
+MaxxVoiceAPO20.dll=222
+MaxxAudioRealtek.dll=222
+WavesGUILib.dll=222
+RtkAudioService.exe=222
+vncutil.exe=222
+RP3DAA32.dll=222
+RP3DHT32.dll=222
+SFAPO.dll=222
+SFCOM.dll=222
+SFNHK.dll=222
+RtHDVBg.exe=222
+RTEEL32A.dll=222
+RTEEG32A.dll=222
+RTEED32A.dll=222
+RTEEP32A.dll=222
+DTSGFXAPO.dll=222
+DTSGFXAPONS.dll=222
+DTSLFXAPO.dll=222
+DTSNeoPCDLL.dll=222
+DTSVoiceClarityDLL.dll=222
+DTSS2SpeakerDLL.dll=222
+DTSS2HeadphoneDLL.dll=222
+DTSBassEnhancementDLL.dll=222
+DTSBoostDLL.dll=222
+DTSLimiterDLL.dll=222
+DTSGainCompensatorDLL.dll=222
+DTSSymmetryDLL.dll=222
+DTSAudioService.exe=222
+R4EEL32A.dll=222
+R4EEG32A.dll=222
+R4EED32A.dll=222
+R4EEP32A.dll=222
+R4EEA32A.dll=222
+FMAPP.exe=222
+RtkNGUI.exe=222
+BlackSkinImages.dll=222
+WhiteJadeSkinImages.dll=222
+DarkSkinImages.dll=222
+BlackBlueSkinImages.dll=222
+KAAPORT.dll=222
+DTSU2PGFX32.dll=222
+DTSU2PLFX32.dll=222
+DTSU2PREC32.dll=222
+DTSU2PAuSrv32.exe=222
+tosade.dll=222
+tadefxapo.dll=222
+tadefxapo2.dll=222
+TepeqAPO.dll=222
+RTAIODAT.DAT=222
+SFSS_APO.dll=222
+MaxxAudioAPO40.dll=222
+MaxxAudioAPO50.dll=222
+MBAPO32.dll=222
+MBAPO232.dll=222
+MBPPCn32.dll=222
+MBppld32.dll=222
+MBTHX32.dll=222
+MBWrp32.dll=222
+SFFXComm.dll=222
+SFFXDAPO.dll=222
+SFFXHAPO.dll=222
+SFFXProc.dll=222
+SFFXSAPO.dll=222
+sl3apo32.dll=222
+slprp32.dll=222
+slcc3d32.dll=222
+slcnt32.dll=222
+slcshp32.dll=222
+slcsii32.dll=222
+slgeq32.dll=222
+slh36032.dll=222
+slhlim32.dll=222
+slInit32.dll=222
+slmaxv32.dll=222
+sltech32.dll=222
+sltshd32.dll=222
+sluapo32.dll=222
+slvipp32.dll=222
+slviq32.dll=222
+CONEQMSAPO.dll=222
+libfftw3-3.dll=222
+libfftw3f-3.dll=222
+CONEQMSAPOGUILibrary.dll=222
+rtvienna.dat=222
+RtDataProc.dll=222
+MISS_APO.dll=222
+NAHIMICAPOlfx.dll=222
+MaxxSpeechAPO.dll=222
+AcpiServiceVnA.dll=222
+audioLibVc.dll=222
+DDPA32.dll=222
+DDPD32A.dll=222
+DDPO32A.dll=222
+DDPP32A.dll=222
+tosasfapo32.dll=222
+toseaeapo32.dll=222
+tossaeapo32.dll=222
+
+[DestinationDirs]
+DefaultDestDir=10; dirid = \system32\drivers
+IntcAzAudModelCopyFiles = 10,"system32\drivers"
+RTLCPAPI.CopyList  = 11,"RTCOM"
+RTCOMDLL.CopyList  = 11,"RTCOM"
+RTCOMDLL.DelList   = 11,"RTCOM"
+RTLCPAPI.DelList   = 11,"RTCOM"
+RTUninstall.CopyList = 16422, "Realtek\Audio\HDA"
+RTUI.CopyList      = 16422, "Realtek\Audio\HDA"
+RTCPL.CopyList     = 11
+SfxFx.CopyList     = 11     ; %windir%\system32
+RtkCoInst.CopyList = 11
+Andrea.CopyList	   = 11
+PCEE3.CopyList	   = 11
+DTSAPO.CopyList	   = 11
+PCEE4.CopyList	   = 11
+Knowles.CopyList   = 11
+DTSAPO2.CopyList	 = 11
+VnAService.CopyList	 = 11
+
+[SignatureAttributes]
+RTKVHDA.sys=SignatureAttributes.DRM
+RltkAPO.dll=SignatureAttributes.PETrust
+SRSTSXT.dll=SignatureAttributes.PETrust
+SRSWOW.dll=SignatureAttributes.PETrust
+SRSTSHD.dll=SignatureAttributes.PETrust
+SRSHP360.dll=SignatureAttributes.PETrust
+RtlCPAPI.dll=SignatureAttributes.PETrust
+RTCOMDLL.dll=SignatureAttributes.PETrust
+RtkCfg.dll=SignatureAttributes.PETrust
+AERTARen.dll=SignatureAttributes.PETrust
+AERTACap.dll=SignatureAttributes.PETrust
+RtkApoApi.dll=SignatureAttributes.PETrust
+MaxxAudioAPO.dll=SignatureAttributes.PETrust
+FMAPO.dll=SignatureAttributes.PETrust
+MaxxAudioAPO20.dll=SignatureAttributes.PETrust
+MaxxAudioAPO30.dll=SignatureAttributes.PETrust
+MaxxVolumeSDAPO.dll=SignatureAttributes.PETrust
+MaxxVoiceAPO20.dll=SignatureAttributes.PETrust
+RP3DAA32.dll=SignatureAttributes.PETrust
+RP3DHT32.dll=SignatureAttributes.PETrust
+SFAPO.dll=SignatureAttributes.PETrust
+SFCOM.dll=SignatureAttributes.PETrust
+SFNHK.dll=SignatureAttributes.PETrust
+RTEEL32A.dll=SignatureAttributes.PETrust
+RTEEG32A.dll=SignatureAttributes.PETrust
+RTEED32A.dll=SignatureAttributes.PETrust
+RTEEP32A.dll=SignatureAttributes.PETrust
+DTSGFXAPO.dll=SignatureAttributes.PETrust
+DTSGFXAPONS.dll=SignatureAttributes.PETrust
+DTSLFXAPO.dll=SignatureAttributes.PETrust
+DTSNeoPCDLL.dll=SignatureAttributes.PETrust
+DTSVoiceClarityDLL.dll=SignatureAttributes.PETrust
+DTSS2SpeakerDLL.dll=SignatureAttributes.PETrust
+DTSS2HeadphoneDLL.dll=SignatureAttributes.PETrust
+DTSBassEnhancementDLL.dll=SignatureAttributes.PETrust
+DTSBoostDLL.dll=SignatureAttributes.PETrust
+DTSLimiterDLL.dll=SignatureAttributes.PETrust
+DTSGainCompensatorDLL.dll=SignatureAttributes.PETrust
+DTSSymmetryDLL.dll=SignatureAttributes.PETrust
+R4EEL32A.dll=SignatureAttributes.PETrust
+R4EEG32A.dll=SignatureAttributes.PETrust
+R4EED32A.dll=SignatureAttributes.PETrust
+R4EEA32A.dll=SignatureAttributes.PETrust
+KAAPORT.dll=SignatureAttributes.PETrust
+DTSU2PGFX32.dll=SignatureAttributes.PETrust
+DTSU2PLFX32.dll=SignatureAttributes.PETrust
+DTSU2PREC32.dll=SignatureAttributes.PETrust
+tosade.dll=SignatureAttributes.PETrust
+tadefxapo.dll=SignatureAttributes.PETrust
+tadefxapo2.dll=SignatureAttributes.PETrust
+TepeqAPO.dll=SignatureAttributes.PETrust
+SFSS_APO.dll=SignatureAttributes.PETrust
+MaxxAudioAPO40.dll=SignatureAttributes.PETrust
+MaxxAudioAPO50.dll=SignatureAttributes.PETrust
+; MaxxSpeechAPO.dll=SignatureAttributes.PETrust
+MBAPO32.dll=SignatureAttributes.PETrust
+MBAPO232.dll=SignatureAttributes.PETrust
+MBPPCn32.dll=SignatureAttributes.PETrust
+MBppld32.dll=SignatureAttributes.PETrust
+MBTHX32.dll=SignatureAttributes.PETrust
+MBWrp32.dll=SignatureAttributes.PETrust
+SFFXComm.dll=SignatureAttributes.PETrust
+SFFXDAPO.dll=SignatureAttributes.PETrust
+SFFXHAPO.dll=SignatureAttributes.PETrust
+SFFXProc.dll=SignatureAttributes.PETrust
+SFFXSAPO.dll=SignatureAttributes.PETrust
+sl3apo32.dll=SignatureAttributes.PETrust
+slcc3d32.dll=SignatureAttributes.PETrust
+slcnt32.dll=SignatureAttributes.PETrust
+slcshp32.dll=SignatureAttributes.PETrust
+slcsii32.dll=SignatureAttributes.PETrust
+slgeq32.dll=SignatureAttributes.PETrust
+slh36032.dll=SignatureAttributes.PETrust
+slhlim32.dll=SignatureAttributes.PETrust
+slInit32.dll=SignatureAttributes.PETrust
+slmaxv32.dll=SignatureAttributes.PETrust
+sltech32.dll=SignatureAttributes.PETrust
+sltshd32.dll=SignatureAttributes.PETrust
+sluapo32.dll=SignatureAttributes.PETrust
+slvipp32.dll=SignatureAttributes.PETrust
+slviq32.dll=SignatureAttributes.PETrust
+CONEQMSAPO.dll=SignatureAttributes.PETrust
+libfftw3-3.dll=SignatureAttributes.PETrust
+libfftw3f-3.dll=SignatureAttributes.PETrust
+RtDataProc.dll=SignatureAttributes.PETrust
+MISS_APO.dll=SignatureAttributes.PETrust
+NAHIMICAPOlfx.dll=SignatureAttributes.PETrust
+DDPA32.dll=SignatureAttributes.PETrust
+DDPD32A.dll=SignatureAttributes.PETrust
+DDPO32A.dll=SignatureAttributes.PETrust
+tosasfapo32.dll=SignatureAttributes.PETrust
+toseaeapo32.dll=SignatureAttributes.PETrust
+tossaeapo32.dll=SignatureAttributes.PETrust
+
+[SignatureAttributes.DRM]
+DRMLevel=1300
+
+[SignatureAttributes.PETrust]
+PETrust=true
+
+[Manufacturer]
+%MfgName% = AzaliaManufacturerID, NTX86.6.0
+
+[AzaliaManufacturerID.NTX86.6.0]
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0262&SUBSYS_117905A0
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0262&SUBSYS_11790662
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0262&SUBSYS_11790660
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FF41
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FF42
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FF43
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FF44
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FF45
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FFC6
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FFC7
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FFC8
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FFC9
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FFCA
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0272&SUBSYS_1179FF76
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0272&SUBSYS_1179FF7C
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0272&SUBSYS_1179FF7E
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FF6C
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FDC0
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FB32
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FB42
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_11790664
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FCA0
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA00
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA06
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FAB0
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FAB1
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA04
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FAB2
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FAB3
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_1179FA02
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_1179FA0A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_1179FAB6
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_1179FAB7
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA08
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FAB4
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FAB5
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA0C
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FABA
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FABB
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA0E
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FAB8
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FAB9
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA30
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA31
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA32
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA33
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_11790666
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_11790668
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_1179066A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_1179066C
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_1179066E
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_11790670
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_11790672
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_11790674
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_11790676
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_11790678
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_1179067A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_1179067C
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_1179067E
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_11790682
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_11790684
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_11790686
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F931
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F932
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F933
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F934
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F935
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F939
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F93A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F93B
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F950
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F951
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F952
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F953
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F954
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F955
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F956
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F957
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F900
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F901
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F902
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F903
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F904
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F905
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F906
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F907
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F908
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F909
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F90A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F90B
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179F990
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179F991
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179FA62
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179FA66
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179068C
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179068E
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_11790690
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_11790692
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179069C
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179069E
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_11790698
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179069A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A0
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A2
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A4
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A6
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A8
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906AA
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906AC
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F930
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F938
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA10
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA11
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA12
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA13
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_1179FA14
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_1179FA16
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA15
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA17
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA18
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA19
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA1A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA1B
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA20
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA21
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA22
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA23
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179FA60
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179FA64
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F840
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F841
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F842
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F843
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F844
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F845
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F802
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F804
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F806
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F808
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F912
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F914
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F916
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F918
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F91A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F91C
+
+[RtkHD.DelReg]
+HKLM,Software\RealTek\InitAP
+HKCU,Software\RealTek
+HKLM,Software\Avance
+HKR,Settings
+
+[IntcAzAudModelCopyFiles]
+RTKVHDA.sys
+rtvienna.dat
+RTAIODAT.DAT
+
+[RtkCoInst.CopyList]
+RtkCoLDR.dll
+RtkCoInstII.dll
+RCoRes.dat
+
+[RtkCoInstInfo]
+OriginalInfSourcePath = %1%
+
+
+[RTUninstall.CopyList]
+RtlUpd.exe
+
+[RTLCPAPI.CopyList]
+RTLCPAPI.dll
+
+[RTCOMDLL.CopyList]
+RTCOMDLL.dll
+RtkCfg.dll
+RtDataProc.dll
+
+[VnAService.CopyList]
+AcpiServiceVnA.dll
+
+[RTLCPAPI.DelList]
+RTLCPAPI.dll
+
+[RTCOMDLL.DelList]
+RTCOMDLL.dll
+RtkCfg.dll
+RtDataProc.dll
+
+[RTUI.CopyList]
+DTSAudioService.exe
+RtHDVCpl.exe
+ToastDll.dll
+CreateRtkToastLnk.exe
+AERTSrv.exe
+RtkAudioService.exe
+vncutil.exe
+RtHDVBg.exe
+FMAPP.exe
+RtkNGUI.exe
+BlackSkinImages.dll
+WhiteJadeSkinImages.dll
+DarkSkinImages.dll
+BlackBlueSkinImages.dll
+DTSU2PAuSrv32.exe
+
+[RTCPL.CopyList]
+RTSndMgr.cpl
+
+;; Copy custom SYSFX
+[SfxFx.CopyList]
+RltkAPO.dll
+RtkPgExt.dll
+SRSTSXT.dll
+SRSWOW.dll
+SRSTSHD.dll
+SRSHP360.dll
+MaxxAudioAPOShell.dll
+RtkApoApi.dll
+MaxxAudioAPO.dll
+FMAPO.dll
+WavesLib.dll
+MaxxAudioEQ.dll
+MaxxAudioAPO20.dll
+MaxxAudioAPO30.dll
+MaxxAudioAPO40.dll
+MaxxAudioAPO50.dll
+MaxxVolumeSDAPO.dll
+MaxxVoiceAPO20.dll
+MaxxAudioRealtek.dll
+WavesGUILib.dll
+RP3DAA32.dll
+RP3DHT32.dll
+SFAPO.dll
+SFCOM.dll
+SFNHK.dll
+tosade.dll
+tadefxapo.dll
+tadefxapo2.dll
+TepeqAPO.dll
+SFSS_APO.dll
+CONEQMSAPOGUILibrary.dll
+sl3apo32.dll
+slcnt32.dll
+slprp32.dll
+sltech32.dll
+MISS_APO.dll
+NAHIMICAPOlfx.dll
+MaxxSpeechAPO.dll
+audioLibVc.dll
+DDPA32.dll
+DDPD32A.dll
+DDPO32A.dll
+DDPP32A.dll
+tosasfapo32.dll
+toseaeapo32.dll
+tossaeapo32.dll
+
+;; Copy Andrea related modules
+[Andrea.CopyList]
+AERTARen.dll
+AERTACap.dll
+
+;; Copy PCEE3 related modules
+[PCEE3.CopyList]
+RTEEL32A.dll
+RTEEG32A.dll
+RTEED32A.dll
+RTEEP32A.dll
+
+;; Copy DTSAPO related modules
+[DTSAPO.CopyList]
+DTSGFXAPO.dll
+DTSGFXAPONS.dll
+DTSLFXAPO.dll
+DTSNeoPCDLL.dll
+DTSVoiceClarityDLL.dll
+DTSS2SpeakerDLL.dll
+DTSS2HeadphoneDLL.dll
+DTSBassEnhancementDLL.dll
+DTSBoostDLL.dll
+DTSLimiterDLL.dll
+DTSGainCompensatorDLL.dll
+DTSSymmetryDLL.dll
+
+;; Copy PCEE4 related modules
+[PCEE4.CopyList]
+R4EEL32A.dll
+R4EEG32A.dll
+R4EED32A.dll
+R4EEP32A.dll
+R4EEA32A.dll
+
+[Knowles.CopyList]
+KAAPORT.dll
+
+[DTSAPO2.CopyList]
+DTSU2PGFX32.dll
+DTSU2PLFX32.dll
+DTSU2PREC32.dll
+
+[IntcAzAudModel.NTX86]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, Andrea.CopyList, PCEE3.CopyList, DTSAPO.CopyList, PCEE4.CopyList, Knowles.CopyList, DTSAPO2.CopyList, VnAService.CopyList
+DelReg    = RtkHD.DelReg, SonicFocus.DelReg, DTS.DelReg, Dolby4.DelReg, RealtekEffects.DelReg, RealtekOptions.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SonicFocus.AddReg, DTS.AddReg, Knowles.AddReg, RealtekEffects.AddReg, RealtekOptions.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, rtcom.RegisterDlls, Andrea.RegisterDlls, PCEE3.RegisterDlls, DTSAPO.RegisterDlls, PCEE4.RegisterDlls, Knowles.RegisterDlls, DTSAPO2.RegisterDlls
+
+[IntcAzAudModel.NTX86.HW]
+AddReg=HdAudSecurity.AddReg
+
+[IntcAzAudModel.NTX86.Services]
+AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall
+
+[IntcAzAudModel.NTX86.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+
+[SonicFocus.AddReg]
+HKLM,Software\SonicFocus
+
+[SonicFocus.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[SonicFocus.DelReg]
+HKLM,Software\SonicFocus
+
+[DTS.AddReg]
+HKLM,Software\DTS
+
+[DTS.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[DTS.DelReg]
+HKLM,Software\DTS
+
+[Dolby4.DelReg]
+HKLM,Software\Dolby\PCEE4\DynamicKeys
+HKLM,Software\Dolby\PCEE4\StaticKeys
+
+[RealtekEffects.AddReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekEffects.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekEffects.DelReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekOptions.AddReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[RealtekOptions.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekOptions.DelReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[GUIInformation.AddReg]
+HKLM,SOFTWARE\Realtek\Audio\GUI_INFORMATION
+
+[GUIInformation.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[IntcAzAudServiceInstall]
+DisplayName   = "Service for Realtek HD Audio (WDM)"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\RTKVHDA.sys
+
+[IntcAzAudModel.NTX86.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPRearCaptureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInterface=%KSCATEGORY_CAPTURE,%KSNAME_HPRearCaptureWave%, IltcAzAudModel.HPRearCapturmWave
+AddInteRfaca=%KSCATEGORY_REALTIMM$,%ISNAME_HPRe`rCapuureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInte2face=%KRCATEGORY_AUFI%,%KSNAME_HPRearCaptureTopo%, IntcAzAudModel.HPRearCaptureTopo
+AddHnterface=%KSCATEGOrY_TOPOLOGY%,%KSNAME_HPRearCaptureTopo%,`IntcAzAudModel.HPRearCaptureTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPCPCCaptureWave%- IntcAzEudMolel.HPCPCCiptureWave
+Ad$Interface=%KSCATEGORY_GAPTURE%,%KSNAME_HPCPCCaptureWaöe%, IntcAxAudModeL.HPCPCCaptureWave
+AddInterfaca=%KSCATEGORY_REALTIME%,%KSNIME_HPCPCCaptureWcve%, IntcAzAudModel.HPCPCCaptureWave
+AddIn|erface=%KSCATEGORYßAUDIO%,%KSNAME_HPCPCCapturmTopo%, IntcAzAudEodel.HPCPCCappureTopo
+AddInterface=%kSCATEGORY_TOPOLOGY%,%KSNAME_HPCPCCaptureTopo%, IntcAzAudModel.LPCPCCap4uraTopo
+
+AddInterface=%KSCATEGÏRY_AUDIO%,%KSNAME_FrontPanelHeadphoneWave5, IntcAzAudModml.FrontPanelHeadphoneWave
+AddIndernace=%KSCATEGORY_REJDAR-,%KSNAME_FrontPanelHeadphoneWare%, YntcAzAudModel.FRontPanelHeadphoneWave
+AddInterface=%KSCATEGORY_ZEALTAME%$%KSNAMEWFrontPanelHeadphoneWave%, IntcAzAudIodel.FrontPanehHea$phoneWave
+AddInterfase=%KCATEGORY_AUDIO%,%KSNAME_FrontPanelHeadphoneTopo%, 	ntcAzAudModel.FsontPanelHeadphkneTopo
+AddInterface=%KSCATEGORY_TOPOLMgY%,%KSNAME_FrontPanelHeafphoneTopo%, IntcAzAudModel.FrontPanelHeadphoneUopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%ËSNAME_DigitalInputWavE%, IîtcAzAudModel.DigitalInpõtWave
+AddInterface=%KSCATDGORY_CAPTURE%,KSNAME_DigitalInput×ave%, InucAzAudModel.TigitalInputGave
+AddInterface=%KSCATEGORY_REALTIOE%,%KSNAME_FigitalInputWave%, IntcAzaudModel.DigitalInputWave
+AddInterface=%KSCATEGORY_AUDYO%,%KSNAMEDigipalInputTopo', IntcAzAudModel.DigitalInputTopo
+AddInterfacE=%KSCATEGORY_TOÐOLOWY%,%KSNAME_DigitalInputTopo%, IntcAzAudModel.DigitalInputTop/*;===========================9================================================================
+Addinterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInBlackWave%, IntcAzAudMgdel.RearLineInBlackwave
+AddIn179F906
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F907
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F908
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F909
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F90A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F90B
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179F990
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179F991
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179FA62
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179FA66
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179068C
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179068E
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_11790690
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_11790692
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179069C
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179069E
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_11790698
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179069A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A0
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A2
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A4
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A6
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A8
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906AA
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906AC
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F930
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F938
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA10
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA11
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA12
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA13
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_1179FA14
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_1179FA16
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA15
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA17
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA18
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA19
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA1A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA1B
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA20
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA21
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA22
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA23
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179FA60
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179FA64
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F840
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F841
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F842
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F843
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F844
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F845
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F802
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F804
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F806
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F808
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F912
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F914
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F916
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F918
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F91A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F91C
+
+[RtkHD.DelReg]
+HKLM,Software\RealTek\InitAP
+HKCU,Software\RealTek
+HKLM,Software\Avance
+HKR,Settings
+
+[IntcAzAudModelCopyFiles]
+RTKVHDA.sys
+rtvienna.dat
+RTAIODAT.DAT
+
+[RtkCoInst.CopyList]
+RtkCoLDR.dll
+RtkCoInstII.dll
+RCoRes.dat
+
+[RtkCoInstInfo]
+OriginalInfSourcePath = %1%
+
+
+[RTUninstall.CopyList]
+RtlUpd.exe
+
+[RTLCPAPI.CopyList]
+RTLCPAPI.dll
+
+[RTCOMDLL.CopyList]
+RTCOMDLL.dll
+RtkCfg.dll
+RtDataProc.dll
+
+[VnAService.CopyList]
+AcpiServiceVnA.dll
+
+[RTLCPAPI.DelList]
+RTLCPAPI.dll
+
+[RTCOMDLL.DelList]
+RTCOMDLL.dll
+RtkCfg.dll
+RtDataProc.dll
+
+[RTUI.CopyList]
+DTSAudioService.exe
+RtHDVCpl.exe
+ToastDll.dll
+CreateRtkToastLnk.exe
+AERTSrv.exe
+RtkAudioService.exe
+vncutil.exe
+RtHDVBg.exe
+FMAPP.exe
+RtkNGUI.exe
+BlackSkinImages.dll
+WhiteJadeSkinImages.dll
+DarkSkinImages.dll
+BlackBlueSkinImages.dll
+DTSU2PAuSrv32.exe
+
+[RTCPL.CopyList]
+RTSndMgr.cpl
+
+;; Copy custom SYSFX
+[SfxFx.CopyList]
+RltkAPO.dll
+RtkPgExt.dll
+SRSTSXT.dll
+SRSWOW.dll
+SRSTSHD.dll
+SRSHP360.dll
+MaxxAudioAPOShell.dll
+RtkApoApi.dll
+MaxxAudioAPO.dll
+FMAPO.dll
+WavesLib.dll
+MaxxAudioEQ.dll
+MaxxAudioAPO20.dll
+MaxxAudioAPO30.dll
+MaxxAudioAPO40.dll
+MaxxAudioAPO50.dll
+MaxxVolumeSDAPO.dll
+MaxxVoiceAPO20.dll
+MaxxAudioRealtek.dll
+WavesGUILib.dll
+RP3DAA32.dll
+RP3DHT32.dll
+SFAPO.dll
+SFCOM.dll
+SFNHK.dll
+tosade.dll
+tadefxapo.dll
+tadefxapo2.dll
+TepeqAPO.dll
+SFSS_APO.dll
+CONEQMSAPOGUILibrary.dll
+sl3apo32.dll
+slcnt32.dll
+slprp32.dll
+sltech32.dll
+MISS_APO.dll
+NAHIMICAPOlfx.dll
+MaxxSpeechAPO.dll
+audioLibVc.dll
+DDPA32.dll
+DDPD32A.dll
+DDPO32A.dll
+DDPP32A.dll
+tosasfapo32.dll
+toseaeapo32.dll
+tossaeapo32.dll
+
+;; Copy Andrea related modules
+[Andrea.CopyList]
+AERTARen.dll
+AERTACap.dll
+
+;; Copy PCEE3 related modules
+[PCEE3.CopyList]
+RTEEL32A.dll
+RTEEG32A.dll
+RTEED32A.dll
+RTEEP32A.dll
+
+;; Copy DTSAPO related modules
+[DTSAPO.CopyList]
+DTSGFXAPO.dll
+DTSGFXAPONS.dll
+DTSLFXAPO.dll
+DTSNeoPCDLL.dll
+DTSVoiceClarityDLL.dll
+DTSS2SpeakerDLL.dll
+DTSS2HeadphoneDLL.dll
+DTSBassEnhancementDLL.dll
+DTSBoostDLL.dll
+DTSLimiterDLL.dll
+DTSGainCompensatorDLL.dll
+DTSSymmetryDLL.dll
+
+;; Copy PCEE4 related modules
+[PCEE4.CopyList]
+R4EEL32A.dll
+R4EEG32A.dll
+R4EED32A.dll
+R4EEP32A.dll
+R4EEA32A.dll
+
+[Knowles.CopyList]
+KAAPORT.dll
+
+[DTSAPO2.CopyList]
+DTSU2PGFX32.dll
+DTSU2PLFX32.dll
+DTSU2PREC32.dll
+
+[IntcAzAudModel.NTX86]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, Andrea.CopyList, PCEE3.CopyList, DTSAPO.CopyList, PCEE4.CopyList, Knowles.CopyList, DTSAPO2.CopyList, VnAService.CopyList
+DelReg    = RtkHD.DelReg, SonicFocus.DelReg, DTS.DelReg, Dolby4.DelReg, RealtekEffects.DelReg, RealtekOptions.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SonicFocus.AddReg, DTS.AddReg, Knowles.AddReg, RealtekEffects.AddReg, RealtekOptions.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, rtcom.RegisterDlls, Andrea.RegisterDlls, PCEE3.RegisterDlls, DTSAPO.RegisterDlls, PCEE4.RegisterDlls, Knowles.RegisterDlls, DTSAPO2.RegisterDlls
+
+[IntcAzAudModel.NTX86.HW]
+AddReg=HdAudSecurity.AddReg
+
+[IntcAzAudModel.NTX86.Services]
+AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall
+
+[IntcAzAudModel.NTX86.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+
+[SonicFocus.AddReg]
+HKLM,Software\SonicFocus
+
+[SonicFocus.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[SonicFocus.DelReg]
+HKLM,Software\SonicFocus
+
+[DTS.AddReg]
+HKLM,Software\DTS
+
+[DTS.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[DTS.DelReg]
+HKLM,Software\DTS
+
+[Dolby4.DelReg]
+HKLM,Software\Dolby\PCEE4\DynamicKeys
+HKLM,Software\Dolby\PCEE4\StaticKeys
+
+[RealtekEffects.AddReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekEffects.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekEffects.DelReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekOptions.AddReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[RealtekOptions.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekOptions.DelReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[GUIInformation.AddReg]
+HKLM,SOFTWARE\Realtek\Audio\GUI_INFORMATION
+
+[GUIInformation.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[IntcAzAudServiceInstall]
+DisplayName   = "Service for Realtek HD Audio (WDM)"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\RTKVHDA.sys
+
+[IntcAzAudModel.NTX86.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPRearCaptureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInterface=%KSCATEGORY_CAPTUndcEzAudModel.FroîtLineInOrangeWave
+AddIltårface=%KSCATEGORY_CARTURE%,%KCNAME_FronTLineInOraîgeWave%, IntcAzAudModel.FrontLineInOr!ngeWave
+AddInterface=%KSCATEGMRY_REALTIME%,%KSNIMM_FrontLineInOrangeWave%, IntcAzAudModel.FrojtLineInOrangeWave
+AddInterface%KSCTEGORY_AUDIO%,%KRNAME_Fro~DLineInOrájgeTopn%, In4cAzAudModel.FrontLine	nOrangeT'po
+AddInterfaca?%KSCATGGORY_UOPOLOGY%,%KSNAOE_FrontLinuInOrangeTopo%, IntcAzAudModål.Front\ineInOrançeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontLineInYellowWavm%, intcAzAudMoeel.FbontLineIfYeLlowWave
+AddInterfabe=%KSCADEGORY_CARTURE%,%KSNAME_FrontLineInYellowWave%, IntcAzAUdModel.FRontLileInYenlowWave
+AddInterface=%KSAAPEGORY_BEALTIME%,%KSNALE_FsontLineInYellow×awe%, IntcAzAudModel.FrontinmInYellgwWave
+AddInterface=%KSCATEGORY_AUDIO%.$KSNAME_FrontLineInYellowTopo%,`IntcCzAudLodel.Fron4LineInYelLoTopo
+ÁddInterface5%KSCATEGORY_TOPODOGY',%KSNCME_FrontLineInYello7Topo%, IntcAzAudModel.FrontLiîeInYellowTopo
+
+AddIîterface=%KSCSTEGORY_AUDIO%,%KSNAME_FzonpLineInPurpleWave%, IntcAzAudModel.FrontLineInPurpleWave
+AdeInterface=%KSCQTEGORY_ÃAPTURE%,%KSNAME_FRontLineAnPurpleWave%, IntcAzAudModel.FrontLineInPõrpleVave
+AddINterface=%KSCATEGOB[_REALTIME%,%KSNAME_FrontLineInPurpleW`ve%, AntcAzAuDModel.FrontNineInPurpleWave
+AddIjterface=%KSCATEGOR]_AUDIO%%KSNAME_FrontÈineInXubplTopo%, InpcAzAudModel.FRontLinåInRurpleTopo
+AddInterface=%KSSAUEGORY_TOPOLOGY%,%KSNAME_FrontLéneHnPurpleTopo%, IntcAzAudModel.ronôLineInPurpleTopo
+
+AddInteRface=%KSCATEGORY_AUDIO%,%KSNAME_NronôLineInPmnkW!we%, IîtcAzA5dModel.FrontLineifPinkWave
+AddAntErfcce=%KSCATEGORY_CAPTUÒE%,%KSNAME_Fro.tLineInPinkWave%, IntcAzAudModel.FroftLin%InPinkWave
+AddInterface=%KSCATEGOrY_SEALTIME%,%KSNAM_FrontLineInPinkVáve%, IntcA{AudModel.FrontLineInPinkWave
+AddInterface=kSCAVEGORY_AUÄIO%,%KSNAME_FrontLmneInPinkTopo%, IntcAzAudModel.FrontLkneIoPmnkTopo
+AddInterface=%KSCATEGORY_TGPOLGGY%,%KSNAME_FrontLineInPijkTopo%, InvcAzAudModml.FrontLineInpinkTopo
+
+AddInterdace=%KSCATEGORY_AUDIO%,%KSNA179F906
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F907
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F908
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F909
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F90A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0233&SUBSYS_1179F90B
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179F990
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179F991
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179FA62
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179FA66
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179068C
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179068E
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_11790690
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_11790692
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179069C
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179069E
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_11790698
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179069A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A0
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A2
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A4
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A6
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906A8
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906AA
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906AC
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F930
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179F938
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA10
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA11
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA12
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA13
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_1179FA14
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_1179FA16
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA15
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA17
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA18
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA19
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA1A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA1B
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA20
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA21
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA22
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1179FA23
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179FA60
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0284&SUBSYS_1179FA64
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F840
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F841
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F842
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F843
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F844
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F845
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F802
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F804
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F806
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F808
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F912
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F914
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F916
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F918
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F91A
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1179F91C
+
+[RtkHD.DelReg]
+HKLM,Software\RealTek\InitAP
+HKCU,Software\RealTek
+HKLM,Software\Avance
+HKR,Settings
+
+[IntcAzAudModelCopyFiles]
+RTKVHDA.sys
+rtvienna.dat
+RTAIODAT.DAT
+
+[RtkCoInst.CopyList]
+RtkCoLDR.dll
+RtkCoInstII.dll
+RCoRes.dat
+
+[RtkCoInstInfo]
+OriginalInfSourcePath = %1%
+
+
+[RTUninstall.CopyList]
+RtlUpd.exe
+
+[RTLCPAPI.CopyList]
+RTLCPAPI.dll
+
+[RTCOMDLL.CopyList]
+RTCOMDLL.dll
+RtkCfg.dll
+RtDataProc.dll
+
+[VnAService.CopyList]
+AcpiServiceVnA.dll
+
+[RTLCPAPI.DelList]
+RTLCPAPI.dll
+
+[RTCOMDLL.DelList]
+RTCOMDLL.dll
+RtkCfg.dll
+RtDataProc.dll
+
+[RTUI.CopyList]
+DTSAudioService.exe
+RtHDVCpl.exe
+ToastDll.dll
+CreateRtkToastLnk.exe
+AERTSrv.exe
+RtkAudioService.exe
+vncutil.exe
+RtHDVBg.exe
+FMAPP.exe
+RtkNGUI.exe
+BlackSkinImages.dll
+WhiteJadeSkinImages.dll
+DarkSkinImages.dll
+BlackBlueSkinImages.dll
+DTSU2PAuSrv32.exe
+
+[RTCPL.CopyList]
+RTSndMgr.cpl
+
+;; Copy custom SYSFX
+[SfxFx.CopyList]
+RltkAPO.dll
+RtkPgExt.dll
+SRSTSXT.dll
+SRSWOW.dll
+SRSTSHD.dll
+SRSHP360.dll
+MaxxAudioAPOShell.dll
+RtkApoApi.dll
+MaxxAudioAPO.dll
+FMAPO.dll
+WavesLib.dll
+MaxxAudioEQ.dll
+MaxxAudioAPO20.dll
+MaxxAudioAPO30.dll
+MaxxAudioAPO40.dll
+MaxxAudioAPO50.dll
+MaxxVolumeSDAPO.dll
+MaxxVoiceAPO20.dll
+MaxxAudioRealtek.dll
+WavesGUILib.dll
+RP3DAA32.dll
+RP3DHT32.dll
+SFAPO.dll
+SFCOM.dll
+SFNHK.dll
+tosade.dll
+tadefxapo.dll
+tadefxapo2.dll
+TepeqAPO.dll
+SFSS_APO.dll
+CONEQMSAPOGUILibrary.dll
+sl3apo32.dll
+slcnt32.dll
+slprp32.dll
+sltech32.dll
+MISS_APO.dll
+NAHIMICAPOlfx.dll
+MaxxSpeechAPO.dll
+audioLibVc.dll
+DDPA32.dll
+DDPD32A.dll
+DDPO32A.dll
+DDPP32A.dll
+tosasfapo32.dll
+toseaeapo32.dll
+tossaeapo32.dll
+
+;; Copy Andrea related modules
+[Andrea.CopyList]
+AERTARen.dll
+AERTACap.dll
+
+;; Copy PCEE3 related modules
+[PCEE3.CopyList]
+RTEEL32A.dll
+RTEEG32A.dll
+RTEED32A.dll
+RTEEP32A.dll
+
+;; Copy DTSAPO related modules
+[DTSAPO.CopyList]
+DTSGFXAPO.dll
+DTSGFXAPONS.dll
+DTSLFXAPO.dll
+DTSNeoPCDLL.dll
+DTSVoiceClarityDLL.dll
+DTSS2SpeakerDLL.dll
+DTSS2HeadphoneDLL.dll
+DTSBassEnhancementDLL.dll
+DTSBoostDLL.dll
+DTSLimiterDLL.dll
+DTSGainCompensatorDLL.dll
+DTSSymmetryDLL.dll
+
+;; Copy PCEE4 related modules
+[PCEE4.CopyList]
+R4EEL32A.dll
+R4EEG32A.dll
+R4EED32A.dll
+R4EEP32A.dll
+R4EEA32A.dll
+
+[Knowles.CopyList]
+KAAPORT.dll
+
+[DTSAPO2.CopyList]
+DTSU2PGFX32.dll
+DTSU2PLFX32.dll
+DTSU2PREC32.dll
+
+[IntcAzAudModel.NTX86]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, Andrea.CopyList, PCEE3.CopyList, DTSAPO.CopyList, PCEE4.CopyList, Knowles.CopyList, DTSAPO2.CopyList, VnAService.CopyList
+DelReg    = RtkHD.DelReg, SonicFocus.DelReg, DTS.DelReg, Dolby4.DelReg, RealtekEffects.DelReg, RealtekOptions.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SonicFocus.AddReg, DTS.AddReg, Knowles.AddReg, RealtekEffects.AddReg, RealtekOptions.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, rtcom.RegisterDlls, Andrea.RegisterDlls, PCEE3.RegisterDlls, DTSAPO.RegisterDlls, PCEE4.RegisterDlls, Knowles.RegisterDlls, DTSAPO2.RegisterDlls
+
+[IntcAzAudModel.NTX86.HW]
+AddReg=HdAudSecurity.AddReg
+
+[IntcAzAudModel.NTX86.Services]
+AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall
+
+[IntcAzAudModel.NTX86.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+
+[SonicFocus.AddReg]
+HKLM,Software\SonicFocus
+
+[SonicFocus.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[SonicFocus.DelReg]
+HKLM,Software\SonicFocus
+
+[DTS.AddReg]
+HKLM,Software\DTS
+
+[DTS.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[DTS.DelReg]
+HKLM,Software\DTS
+
+[Dolby4.DelReg]
+HKLM,Software\Dolby\PCEE4\DynamicKeys
+HKLM,Software\Dolby\PCEE4\StaticKeys
+
+[RealtekEffects.AddReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekEffects.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekEffects.DelReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekOptions.AddReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[RealtekOptions.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekOptions.DelReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[GUIInformation.AddReg]
+HKLM,SOFTWARE\Realtek\Audio\GUI_INFORMATION
+
+[GUIInformation.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[IntcAzAudServiceInstall]
+DisplayName   = "Service for Realtek HD Audio (WDM)"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\RTKVHDA.sys
+
+[IntcAzAudModel.NTX86.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPRearCaptureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInterface=%KSCATEGORY_CAPTUce=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI9624Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI192Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI192Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI19224Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI19224Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI19224Topo%, RtHDA.RtHDMITopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI48AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI9624ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI192AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI192AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI19224AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI19224AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI19224ATopo%, RtHDA.RtHDMIATopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI48DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI9624DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI192DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI192DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI19224DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI19224DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI19224DTopo%, RtHDA.RtHDMIDTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI48WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824WWave%, RtˆDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96WWave%, RpHDA.RtHDMIWave
+AtdInterface=%KSCATEWORY_RENDER%,%kSNAME_RtHDMI¹6WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96WWave%, RtHDA.RtHDMIWavE
+AddInterface=%KSCATEGORY_AUDIO%¬%KSNAME_RtHDMI96WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96WTopo%, RtHDA.RtHDMIWTopk
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624WWave%, RtHDA.RtHDMIWave
+Add	nterface=%KSCATEGORY_RENDER%,%KÓNAME_RtHDMI9624WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624WWave%, RtHDA.RtHDMIWave
+AdtInterface=%KSCATEGORY_AUFIO%,%KSNAME_RtHDMY9624WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSJATEGGRX_TOPGDOGY!.%KSJAME_R5HDMI9624WTkpo%, RtHD.RtHDEIWTopo
+AddInterface=%JSCATEGGPY_AUDIK%,%KSNAME_RuHDMI192W`v%%, RvHLa.RtHDMIWavå
+ADdInterç`ãe?%KCCCTEGORY_RENDER%,%KSNAMe_RôHDMI192WWave5, RtIDA/RtHDMYWavgddéntdrfáke<%KSBQTDGORY_REALTIME-,%KSNAME_RTHMI592VWave%, RtHD@.RtÈ@MIWavE
+AdäIftErfaçe=%KSAATEUORY_AUDIO%,%KSNAMEORtHDMI192WTopo%, RtHDA.RtHDMKWTopo
+AddInterface=%ËSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGGRY_AUDIO%l%KSFAME_RtHDMI19224WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI19224WWave%, RtHDA.RuHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI19224WWave%, RtHDA.RtHDMKWa~e
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224WTopo%, RtHDA.RtHD]IWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%ISNAME_RtHDMI19224WTopo%, RtHDA.RtHDMIWTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48ADWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48ADWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%K[NAME_RtIDMI48ADWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48ADTopo%
+MaxxAudioEQ.dll
+MaxxAudioAPO20.dll
+MaxxAudioAPO30.dll
+MaxxAudioAPO40.dll
+MaxxAudioAPO50.dll
+MaxxVolumeSDAPO.dll
+MaxxVoiceAPO20.dll
+MaxxAudioRealtek.dll
+WavesGUILib.dll
+RP3DAA32.dll
+RP3DHT32.dll
+SFAPO.dll
+SFCOM.dll
+SFNHK.dll
+tosade.dll
+tadefxapo.dll
+tadefxapo2.dll
+TepeqAPO.dll
+SFSS_APO.dll
+CONEQMSAPOGUILibrary.dll
+sl3apo32.dll
+slcnt32.dll
+slprp32.dll
+sltech32.dll
+MISS_APO.dll
+NAHIMICAPOlfx.dll
+MaxxSpeechAPO.dll
+audioLibVc.dll
+DDPA32.dll
+DDPD32A.dll
+DDPO32A.dll
+DDPP32A.dll
+tosasfapo32.dll
+toseaeapo32.dll
+tossaeapo32.dll
+
+;; Copy Andrea related modules
+[Andrea.CopyList]
+AERTARen.dll
+AERTACap.dll
+
+;; Copy PCEE3 related modules
+[PCEE3.CopyList]
+RTEEL32A.dll
+RTEEG32A.dll
+RTEED32A.dll
+RTEEP32A.dll
+
+;; Copy DTSAPO related modules
+[DTSAPO.CopyList]
+DTSGFXAPO.dll
+DTSGFXAPONS.dll
+DTSLFXAPO.dll
+DTSNeoPCDLL.dll
+DTSVoiceClarityDLL.dll
+DTSS2SpeakerDLL.dll
+DTSS2HeadphoneDLL.dll
+DTSBassEnhancementDLL.dll
+DTSBoostDLL.dll
+DTSLimiterDLL.dll
+DTSGainCompensatorDLL.dll
+DTSSymmetryDLL.dll
+
+;; Copy PCEE4 related modules
+[PCEE4.CopyList]
+R4EEL32A.dll
+R4EEG32A.dll
+R4EED32A.dll
+R4EEP32A.dll
+R4EEA32A.dll
+
+[Knowles.CopyList]
+KAAPORT.dll
+
+[DTSAPO2.CopyList]
+DTSU2PGFX32.dll
+DTSU2PLFX32.dll
+DTSU2PREC32.dll
+
+[IntcAzAudModel.NTX86]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, Andrea.CopyList, PCEE3.CopyList, DTSAPO.CopyList, PCEE4.CopyList, Knowles.CopyList, DTSAPO2.CopyList, VnAService.CopyList
+DelReg    = RtkHD.DelReg, SonicFocus.DelReg, DTS.DelReg, Dolby4.DelReg, RealtekEffects.DelReg, RealtekOptions.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SonicFocus.AddReg, DTS.AddReg, Knowles.AddReg, RealtekEffects.AddReg, RealtekOptions.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, rtcom.RegisterDlls, Andrea.RegisterDlls, PCEE3.RegisterDlls, DTSAPO.RegisterDlls, PCEE4.RegisterDlls, Knowles.RegisterDlls, DTSAPO2.RegisterDlls
+
+[IntcAzAudModel.NTX86.HW]
+AddReg=HdAudSecurity.AddReg
+
+[IntcAzAudModel.NTX86.Services]
+AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall
+
+[IntcAzAudModel.NTX86.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+
+[SonicFocus.AddReg]
+HKLM,Software\SonicFocus
+
+[SonicFocus.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[SonicFocus.DelReg]
+HKLM,Software\SonicFocus
+
+[DTS.AddReg]
+HKLM,Software\DTS
+
+[DTS.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[DTS.DelReg]
+HKLM,Software\DTS
+
+[Dolby4.DelReg]
+HKLM,Software\Dolby\PCEE4\DynamicKeys
+HKLM,Software\Dolby\PCEE4\StaticKeys
+
+[RealtekEffects.AddReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekEffects.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekEffects.DelReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekOptions.AddReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[RealtekOptions.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekOptions.DelReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[GUIInformation.AddReg]
+HKLM,SOFTWARE\Realtek\Audio\GUI_INFORMATION
+
+[GUIInformation.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[IntcAzAudServiceInstall]
+DisplayName   = "Service for Realtek HD Audio (WDM)"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\RTKVHDA.sys
+
+[IntcAzAudModel.NTX86.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPRearCaptureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInterface=%KSCATEGORY_CAPTUddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824ADWTopo%, RtHDA.RtHDMIADWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824ADWTopo%, RtHDA.RtHDMIADWTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96ADWTopo%, RtHDA.RtHDMIADWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96ADWTopo%, RtHDA.RtHDMIADWTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624ADWTopo%, RtHDA.RtHDMIADWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI9624ADWTopo%, RtHDA.RtHDMIADWTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI192ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI192ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192ADWTopo%, RtHDA.RtHDMIADWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192ADWTopo%, RtHDA.RtHDMIADWTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI19224ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI19224ADWWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224ADWTopo%, RtHDA.RtHDMIADWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI19224ADWTopo%, RtHDA.RtHDMIADWTopo
+
+;; Register custom SYSFX and property page
+[SfxFx.RegisterDlls]
+11,,RltkAPO.dll,1
+11,,RtkPgExt.dll,1
+11,,SRSTSXT.dll,1
+11,,SRSWOW.dll,1
+11,,SRSTSHD.dll,1
+11,,SRSHP360.dll,1
+11,,RtkApoApi.dll,1
+11,,MaxxAudioAPO.dll,1
+11,,FMAPO.dll,1
+11,,MaxxAudioAPO20.dll,1
+11,,MaxxAudioAPO30.dll,1
+11,,MaxxAudioAPO40.dll,1
+11,,MaxxAudioAPO50.dll,1
+11,,MaxxVolumeSDAPO.dll,1
+11,,MaxxVoiceAPO20.dll,1
+11,,MaxxSpeechAPO.dll,1
+11,,RP3DAA32.dll,1
+11,,RP3DHT32.dll,1
+11,,SFAPO.dll,1
+11,,tadefxapo.dll,1
+11,,tadefxapo2.dll,1
+11,,TepeqAPO.dll,1
+11,,SFSS_APO.dll,1
+11,,sl3apo32.dll,1
+11,,slcnt32.dll,1
+11,,slprp32.dll,1
+11,,MISS_APO.dll,1
+11,,NAHIMICAPOlfx.dll,1
+11,,DDPA32.dll,1
+11,,DDPD32A.dll,1
+11,,DDPO32A.dll,1
+11,,DDPP32A.dll,1
+11,,tosasfapo32.dll,1
+11,,toseaeapo32.dll,1
+11,,tossaeapo32.dll,1
+
+[rtcom.RegisterDlls]
+11,RTCOM,RtlCPAPI.dll,1
+11,RTCOM,RTCOMDLL.dll,1
+11,RTCOM,RtkCfg.dll,1
+
+[Andrea.RegisterDlls]
+11,,AERTACap.dll,1
+11,,AERTARen.dll,1
+
+[PCEE3.RegisterDlls]
+11,,RTEED32A.dll,1
+11,,RTEEL32A.dll,1
+11,,RTEEG32A.dll,1
+11,,RTEEP32A.dll,1
+
+[DTSAPO.RegisterDlls]
+11,,DTSGFXAPO.dll,1
+11,,DTSGFXAPONS.dll,1
+11,,DTSLFXAPO.dll,1
+11,,DTSNeoPCDLL.dll,1
+11,,DTSVoiceClarityDLL.dll,1
+11,,DTSS2SpeakerDLL.dll,1
+11,,DTSS2HeadphoneDLL.dll,1
+11,,DTSBassEnhancementDLL.dll,1
+11,,DTSBoostDLL.dll,1
+11,,DTSLimiterDLL.dll,1
+11,,DTSGainCompensatorDLL.dll,1
+11,,DTSSymmetryDLL.dll,1
+
+[PCEE4.RegisterDlls]
+11,,R4EEL32A.dll,1
+11,,R4EEG32A.dll,1
+11,,R4EED32A.dll,1
+11,,R4EEP32A.dll,1
+11,,R4EEA32A.dll,1
+
+[Knowles.RegisterDlls]
+11,,KAAPORT.dll,1
+
+[DTSAPO2.RegisterDlls]
+11,,DTSU2PGFX32.dll,1
+11,,DTSU2PLFX32.dll,1
+11,,DTSU2PREC32.dll,1
+
+[OEMCustomBranding.AddProperty]
+DeviceBrandingIcon,,,,"%11%\RtkPgExt.dll,-200"
+DeviceVendorWebSite,,,,"http://www.realtek.com.tw/" ; Place your URL here
+
+[Knowles.AddReg]
+HKLM,SOFTWARE\Knowles\APO
+
+[Knowles.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+;; All FX\\0 entries in the same grouping
+[SysFx.AddReg]
+HKR,"FX\\0",%PKEY_DisplayName%,,%SYSFX_FriendlyName%
+HKR,"FX\\0",%PKEY_SYSFX_PreMixClsid%,,%SYSFX_PREMIX_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_PostMixClsid%,,%SYSFX_POSTMIX_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_SFXClsid%,,%SYSFX_SFX_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_MFXClsid%,,%SYSFX_MFX_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_EFXClsid%,,%SYSFX_EFX_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_UiClsid%,,%SYSFX_UI_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_Association%,,%KSNODETYPE_ANY%  ; GUID NULL means install on all endpoints
+                                                        ; supply a specific GUID to install on a particular bridge pin node type
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4701",0x00010001,0x0    ;; PKEY_PCEE_IntSpkr_20_AE_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4702",0x00010001,0x0    ;; PKEY_PCEE_IntSpkr_20_Surr_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4705",0x00010001,0x0    ;; PKEY_PCEE_IntSpkr_51_AE_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4706",0x00010001,0x0    ;; PKEY_PCEE_IntSpkr_51_Surr_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4716",0x00010001,0x0    ;; PKEY_PCEE_HP_AE_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4717",0x00010001,0x0    ;; PKEY_PCEE_HP_Surr_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4723",0x00010001,0x0    ;; PKEY_PCEE_ExtSpkr_20_AE_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4724",0x00010001,0x0    ;; PKEY_PCEE_ExtSpkr_20_Surr_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4735",0x00010001,0x0    ;; PKEY_PCEE_ExtSpkr_51_Surr_Chkbox=0
+HKR,"FX\\0","{01F0E753-3A7A-4b21-A904-D06826245E43},4737",0x00010001,0x0    ;; PKEY_PCEE_ExtSpkr_71_Surr_Chkbox=0
+HKR,"EP\\0","{7A8B74C8-FA66-4460-8542-D6119C59E9D4},4",0x00010001,0x100    ;; SRS APO 3 on Realtek
+
+HKR,"FX\\0",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\0",%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\0",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+
+[SysRecFx.AddReg]
+HKR,"FX\\0",%PKEY_DisplayName%,,%SYSFX_FriendlyName%
+HKR,"FX\\0",%PKEY_SYSFX_PreMixClsid%,,%SYSRECFX_PREMIX_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_MFXClsid%,,%SYSRECFX_MFX_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_EFXClsid%,,%SYSRECFX_EFX_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_UiClsid%,,%SYSFX_UI_CLSID%
+HKR,"FX\\0",%PKEY_SYSFX_Association%,,%KSNODETYPE_ANY%  ; GUID NULL means install on all endpoints
+                                                        ; supply a specific GUID to install on a particular bridge pin node type
+HKR,"FX\\0",%PKEY_SYSFX_Andrea_License%,0x00010001,15	; For Andrea license key
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+HKR,"EP\\0","{7A8B74C8-FA66-4460-8542-D6119C59E9D4},4",0x00010001,0x100    ;; SRS APO 3 on Realtek
+
+HKR,"FX\\0",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\0",%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCSSINGMODE_DEFAULT%
+HKR,"FX\\0",%PKEY_EFX_ProcessingModes_Supported_For_Sôreaming%,0x00010000,%AUDIO_SIGNQLPROCESSINGMODE_DEFAULT%
+
+;;
+;; All EP\\0 entries in the same groupIng
+;;
+;; Set default forma| to 48kHz, 16-bit, Stereo
+;; Add endpoint extension property pageM
+;;
+[OEMSettingsOverride.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+;48k16bit HKR,"EP\\0", %PKEY_AudioEngine_OEMFo2mat%, %REG_BINARY%, 41,00,C8,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00¬AA,00(38$9B,71
+HKR,"EP\\0", %PKEY_AudioEngine_OEMFormat%, %REG_BINARY%, 41,00,C,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,DC,45,00,08,00,20,00¬16,00,18<00,03,10,0p,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+HKR,"EP\\0", %PKEY_AudioEndpoint_Suptovts_EventTrivcn_MïdM%,0x000³000q,0x±
+
+_OEMCPTIFSettan'yNvdrr)äe.AtdReg]
+HKR,"E\\°", %PKEY_AudioEndpoint_Association%,,%KrNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0&, %PKEY[Audiongine_OEFîrmat- %REG_BIJABY%,(45,08,C8,70,²8,00,0000,FE(FF,2²,00,8 ,Bb,00,00,00,EE¬02,00,04,00,10,00,16,00,10,°0,p3<00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%, 41,00,75,00,0c,00,00,00,10,00,00,00,02,00,00,00,00,00,00,00
+HKR,"EP\\0", %PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+
+HKR,"EP\\1", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\1", %PKEY_AudioEngine_OEMFormat%, %REG_BINARY%, 41,00,C8,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+HKR,"EP\\1", %PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+
+[RTHDAProperties.AddReg]
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+
+[RTUninstall.AddReg]
+HKLM,%RT_UNINSTALL%,DisplayName,,"Realt
+MaxxAudioEQ.dll
+MaxxAudioAPO20.dll
+MaxxAudioAPO30.dll
+MaxxAudioAPO40.dll
+MaxxAudioAPO50.dll
+MaxxVolumeSDAPO.dll
+MaxxVoiceAPO20.dll
+MaxxAudioRealtek.dll
+WavesGUILib.dll
+RP3DAA32.dll
+RP3DHT32.dll
+SFAPO.dll
+SFCOM.dll
+SFNHK.dll
+tosade.dll
+tadefxapo.dll
+tadefxapo2.dll
+TepeqAPO.dll
+SFSS_APO.dll
+CONEQMSAPOGUILibrary.dll
+sl3apo32.dll
+slcnt32.dll
+slprp32.dll
+sltech32.dll
+MISS_APO.dll
+NAHIMICAPOlfx.dll
+MaxxSpeechAPO.dll
+audioLibVc.dll
+DDPA32.dll
+DDPD32A.dll
+DDPO32A.dll
+DDPP32A.dll
+tosasfapo32.dll
+toseaeapo32.dll
+tossaeapo32.dll
+
+;; Copy Andrea related modules
+[Andrea.CopyList]
+AERTARen.dll
+AERTACap.dll
+
+;; Copy PCEE3 related modules
+[PCEE3.CopyList]
+RTEEL32A.dll
+RTEEG32A.dll
+RTEED32A.dll
+RTEEP32A.dll
+
+;; Copy DTSAPO related modules
+[DTSAPO.CopyList]
+DTSGFXAPO.dll
+DTSGFXAPONS.dll
+DTSLFXAPO.dll
+DTSNeoPCDLL.dll
+DTSVoiceClarityDLL.dll
+DTSS2SpeakerDLL.dll
+DTSS2HeadphoneDLL.dll
+DTSBassEnhancementDLL.dll
+DTSBoostDLL.dll
+DTSLimiterDLL.dll
+DTSGainCompensatorDLL.dll
+DTSSymmetryDLL.dll
+
+;; Copy PCEE4 related modules
+[PCEE4.CopyList]
+R4EEL32A.dll
+R4EEG32A.dll
+R4EED32A.dll
+R4EEP32A.dll
+R4EEA32A.dll
+
+[Knowles.CopyList]
+KAAPORT.dll
+
+[DTSAPO2.CopyList]
+DTSU2PGFX32.dll
+DTSU2PLFX32.dll
+DTSU2PREC32.dll
+
+[IntcAzAudModel.NTX86]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, Andrea.CopyList, PCEE3.CopyList, DTSAPO.CopyList, PCEE4.CopyList, Knowles.CopyList, DTSAPO2.CopyList, VnAService.CopyList
+DelReg    = RtkHD.DelReg, SonicFocus.DelReg, DTS.DelReg, Dolby4.DelReg, RealtekEffects.DelReg, RealtekOptions.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SonicFocus.AddReg, DTS.AddReg, Knowles.AddReg, RealtekEffects.AddReg, RealtekOptions.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, rtcom.RegisterDlls, Andrea.RegisterDlls, PCEE3.RegisterDlls, DTSAPO.RegisterDlls, PCEE4.RegisterDlls, Knowles.RegisterDlls, DTSAPO2.RegisterDlls
+
+[IntcAzAudModel.NTX86.HW]
+AddReg=HdAudSecurity.AddReg
+
+[IntcAzAudModel.NTX86.Services]
+AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall
+
+[IntcAzAudModel.NTX86.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+
+[SonicFocus.AddReg]
+HKLM,Software\SonicFocus
+
+[SonicFocus.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[SonicFocus.DelReg]
+HKLM,Software\SonicFocus
+
+[DTS.AddReg]
+HKLM,Software\DTS
+
+[DTS.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[DTS.DelReg]
+HKLM,Software\DTS
+
+[Dolby4.DelReg]
+HKLM,Software\Dolby\PCEE4\DynamicKeys
+HKLM,Software\Dolby\PCEE4\StaticKeys
+
+[RealtekEffects.AddReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekEffects.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekEffects.DelReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekOptions.AddReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[RealtekOptions.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekOptions.DelReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[GUIInformation.AddReg]
+HKLM,SOFTWARE\Realtek\Audio\GUI_INFORMATION
+
+[GUIInformation.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[IntcAzAudServiceInstall]
+DisplayName   = "Service for Realtek HD Audio (WDM)"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\RTKVHDA.sys
+
+[IntcAzAudModel.NTX86.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPRearCaptureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInterface=%KSCATEGORY_CAPTUaud.drv
+HKR,Drivers\midi\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\mixer\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\aux\wdmaud.drv,Driver,,wdmaud.drv
+
+HKR,Drivers\wave\wdmaud.drv,Description,,%IntcAzAudioDeviceDescription%
+HKR,Drivers\midi\wdmaud.drv,Description,,%IntcAzAudioDeviceDescription%
+HKR,Drivers\mixer\wdmaud.drv,Description,,%IntcAzAudioDeviceDescription%
+HKR,Drivers\aux\wdmaud.drv,Description,,%IntcAzAudioDeviceDescription%
+
+HKR,,SetupPreferredAudioDevices,3,01,00,00,00
+
+; Rear line out 
+[IntcAzAudModel.RearLineOutWave]
+AddReg = IntcAzAudModel.RearLineOutWave.AddReg
+
+[IntcAzAudModel.RearLineOutWave.AddReg]
+HKR,,FriendlyName,,%RearLineOutWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.PrimaryLineOutWave]
+AddReg = IntcAzAudModel.PrimaryLineOutWave.AddReg
+
+[IntcAzAudModel.PrimaryLineOutWave.AddReg]
+HKR,,FriendlyName,,%PrimaryLineOutWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.PrimaryLineOutTopo]
+AddReg = IntcAzAudModel.PrimaryLineOutTopo.AddReg, SysFx.AddReg, OEMSettingsOverride.AddReg
+
+[IntcAzAudModel.PrimaryLineOutTopo.AddReg]
+HKR,,FriendlyName,,%PrimaryLineOutTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.SingleLineOutWave]
+AddReg = IntcAzAudModel.SingleLineOutWave.AddReg
+
+[IntcAzAudModel.SingleLineOutWave.AddReg]
+HKR,,FriendlyName,,%SingleLineOutWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.SingleLineOutTopo]
+AddReg = IntcAzAudModel.SingleLineOutTopo.AddReg, SysFx.AddReg, OEMSettingsOverride.AddReg
+
+[IntcAzAudModel.SingleLineOutTopo.AddReg]
+HKR,,FriendlyName,,%SingleLineOutTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.SingleLineInWave]
+AddReg = IntcAzAudModel.SingleLineInWave.AddReg
+
+[IntcAzAudModel.SingleLineInWave.AddReg]
+HKR,,FriendlyName,,%SingleLineInWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.SingleLineInTopo]
+AddReg = IntcAzAudModel.SingleLineInTopo.AddReg, RTHDAProperties.AddReg
+
+[IntcAzAudModel.SingleLineInTopo.AddReg]
+HKR,,FriendlyName,,%SingleLineInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.SecondaryLineOutWave]
+AddReg = IntcAzAudModel.SecondaryLineOutWave.AddReg
+
+[IntcAzAudModel.SecondaryLineOutWave.AddReg]
+HKR,,FriendlyName,,%SecondaryLineOutWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.SecondaryLineOutTopo]
+AddReg = IntcAzAudModel.SecondaryLineOutTopo.AddReg, SysFx.AddReg, OEMSettingsOverride.AddReg
+
+[IntcAzAudModel.SecondaryLineOutTopo.AddReg]
+HKR,,FriendlyName,,%SecondaryLineOutTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+;HKR,,FriendlyName,,%RearLineOutDacName%
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;IntAzAudGuid.RearLineOutDac 
+HKLM,%MediaCategories%\%IntAzAudGuidRearLineOutDac%,Name,,%RearLineOutDacName%
+HKLM,%MediaCategories%\%IntAzAudGuidRearLineOutDac%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%IntAzAudGuidFrontHPOutDac%,Name,,%FrontHPOutDacName%
+HKLM,%MediaCategories%\%IntAzAudGuidFrontHPOutDac%,Display,1,00,00,00,00
+
+;; Node
+HKLM,%MediaCategories%\%GUID.FrontMicVolume%,Name,,%Node.FrontMicVolume%
+HKLM,%MediaCategories%\%GUID.FrontMicVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicMute%,Name,,%Node.FrontMicMute%
+HKLM,%MediaCategories%\%GUID.FrontMicMute%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.UAJ1%,Name,,%Node.UAJ1%
+HKLM,%MediaCategories%\%GUID.UAJ1%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.UAJ2%,Name,,%Node.UAJ2%
+HKLM,%MediaCategories%\%GUID.UAJ2%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.SPDIF%,Name,,%Node.SPDIF%
+HKLM,%MediaCategories%\%GUID.SPDIF%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontLin%,Name,,%Node.FrontLin%
+HKLM,%MediaCategories%\%GUID.FrontLin%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Front%,Name,,%Node.Front%
+HKLM,%MediaCategories%\%GUID.Front%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Surround%,Name,,%Node.Surround%
+HKLM,%MediaCategories%\%GUID.Surround%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.BackSurround%,Name,,%Node.BackSurround%
+HKLM,%MediaCategories%\%GUID.BackSurround%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Center%,Name,,%Node.Center%
+HKLM,%MediaCategories%\%GUID.Center%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.LFE%,Name,,%Node.LFE%
+HKLM,%MediaCategories%\%GUID.LFE%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Side%,Name,,%Node.Side%
+HKLM,%MediaCategories%\%GUID.Side%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.SideSurround%,Name,,%Node.SideSurround%
+HKLM,%MediaCategories%\%GUID.SideSurround%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.DigitalOut%,Name,,%Node.DigitalOut%
+HKLM,%MediaCategories%\%GUID.DigitalOut%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.DigitalIn%,Name,,%Node.DigitalIn%
+HKLM,%MediaCategories%\%GUID.DigitalIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.LineInHP%,Name,,%Node.LineInHP%
+HKLM,%MediaCategories%\%GUID.LineInHP%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Mic2%,Name,,%Node.Mic2%
+HKLM,%MediaCategories%\%GUID.Mic2%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontPinkInOld%,Name,,%Node.FrontPinkIn%
+HKLM,%MediaCategories%\%GUID.FrontPinkInOld%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGreenInOld%,Name,,%Node.FrontGreenIn%
+HKLM,%MediaCategories%\%GUID.FrontGreenInOld%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.AudioIn%,Name,,%Node.AudioIn%
+HKLM,%MediaCategories%\%GUID.AudioIn%,Display,1,00,00,00,00
+;;New Framework
+HKLM,%MediaCategories%\%GUID.FrontBlackIn%,Name,,%Node.FrontBlackIn%
+HKLM,%MediaCategories%\%GUID.FrontBlackIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGreyIn%,Name,,%Node.FrontGreyIn%
+HKLM,%MediaCategories%\%GUID.FrontGreyIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontBlueIn%,Name,,%Node.FrontBlueIn%
+HKLM,%MediaCategories%\%GUID.FrontBlueIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGreenIn%,Name,,%Node.FrontGreenIn%
+HKLM,%MediaCategories%\%GUID.FrontGreenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontRedIn%,Name,,%Node.FrontRedIn%
+HKLM,%MediaCategories%\%GUID.FrontRedIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontOrangeIn%,Name,,%Node.FrontOrangeIn%
+HKLM,%MediaCategories%\%GUID.FrontOrangeIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontYellowIn%,Name,,%Node.FrontYellowIn%
+HKLM,%MediaCategories%\%GUID.FrontYellowIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontPurpleIn%,Name,,%Node.FrontPurpleIn%
+HKLM,%MediaCategories%\%GUID.FrontPurpleIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontPinkIn%,Name,,%Node.FrontPinkIn%
+HKLM,%MediaCategories%\%GUID.FrontPinkIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGoldenIn%,Name,,%Node.FrontGoldenIn%
+HKLM,%MediaCategories%\%GUID.FrontGoldenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontSilverIn%,Name,,%Node.FrontSilverIn%
+HKLM,%MediaCategories%\%GUID.FrontSilverIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontWhiteIn%,Name,,%Node.FrontWhiteIn%
+HKLM,%MediaCategories%\%GUID.FrontWhiteIn%,Display,1,00,00,00,00
+HKLM,%Me`iaCategories%\%GUID.RearBlackIn%,Name,,%Node.RecrBlackIn%
+HKLM,%MediaCategories%\%GUIF.RearBlqckIn%,Display,1,00,00,00,00
+HKLM,%MediaCategorieS%\%GUID.RearGreyIn%,Name,,%Nodg.ReabGreyIn%
+HKLM,%MediaCqtegories%\%GUID.RearGreyIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearBlueIn%,Name,,%Node.RearBlueIn%
+HKLM,%MediaCategories%\%GUID.RearBlueIn%,Display,1,00,0,00,00
+HKLM,%MeDiaCategorieó%\%GUID.RearGreenIn%,Name,,%Node.RearGreenIn%
+HKLM,%ÍediaCategories%\%GUID.RearGreenIn%,Display,1,00,00,00<00
+HKLM,%MediaCategories$\%GUID.RearRedIn,Name,,%Node.RearRedIn%
+HKLM,%MediaCategories%\%GID.RearRedHn%,Display,1,00,00,00,00
+HÛLM,%MediaCategories%\%GUID.RearOrangeIn%,Name,,%Node.RearNrangeIn%
+HKLM,%MediaGategozi%s%\%GUID.ReárOrangeIn%,Display,1,00,00,00,p0
+HKLM,%MediaCategories%X%GUID.PEarYellowIn%,Name,,%Node.RearYellowIn%
+HKLM,%MediaCategories%\%GUID.RearYallowIj%,@ispLay,1,0p,04,00,0 
+XKLO,%MediACategïrius%\$GUID.RearPtrpleIne,Name,¬%Nïde.RearPerpnåIn!
+HKLM,%MdliaCqtEgoraus%\%GUIDReapPõbtleIn%,Distlaq,1,00(00<p0,00HOLM,%MediàCauegories%\%GUID.ReirPiokIn%,Namm,L%Nda.earÐ{nkio%
+[LM,%]ediacapegorigs'\%SUIE.BearPinkIn%,Disp,aq,1,0lp0,08,0°
+H\E,%MediaSateçopées%\%GUID.RearGoldenIn%,Name,,%Node.RearGoldenIn%
+HKLM,%IediaCatugories%\%GUID.RearGoldenIî%,Diqplay1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearSilverIn%,Name,,%Node.RearSilverIn%
+HKLM,%IediaC!tågories%\%GUID.RearSilverIn%,Display,1,00,00,00,00
+HKLM,%MediaGategories%\%GUID.RearWhiteIn%,Name,,%Node.RearWhiteIn%
+HKLM,%MediaCategories%\%GUID.RearWh)teIn%,Disrlay.1,00,0p,00,00
+;;----------------------------------------------------------------------
+HKLM,%MediaCategories%\%GUID.ClackIn%,Name,,%Node.BnqckIn%LKLM,%Mediacitegorieó%\%GUID.BlackIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.GreyIn%,Name,,%Node.GreyIn%
+HKLM,%MediaCategovi%s%\%GUID.CreyIn%,isplay,1,00,00,00,00
+HKM,%MediaCategories%\%GUID.BlueIn%,Name,,%Node.BlweIn%
+HKLM,%MediaCategories%\%GUID.BlueIn%,Display,1,00,00,80,00
+MaxxAudioEQ.dll
+MaxxAudioAPO20.dll
+MaxxAudioAPO30.dll
+MaxxAudioAPO40.dll
+MaxxAudioAPO50.dll
+MaxxVolumeSDAPO.dll
+MaxxVoiceAPO20.dll
+MaxxAudioRealtek.dll
+WavesGUILib.dll
+RP3DAA32.dll
+RP3DHT32.dll
+SFAPO.dll
+SFCOM.dll
+SFNHK.dll
+tosade.dll
+tadefxapo.dll
+tadefxapo2.dll
+TepeqAPO.dll
+SFSS_APO.dll
+CONEQMSAPOGUILibrary.dll
+sl3apo32.dll
+slcnt32.dll
+slprp32.dll
+sltech32.dll
+MISS_APO.dll
+NAHIMICAPOlfx.dll
+MaxxSpeechAPO.dll
+audioLibVc.dll
+DDPA32.dll
+DDPD32A.dll
+DDPO32A.dll
+DDPP32A.dll
+tosasfapo32.dll
+toseaeapo32.dll
+tossaeapo32.dll
+
+;; Copy Andrea related modules
+[Andrea.CopyList]
+AERTARen.dll
+AERTACap.dll
+
+;; Copy PCEE3 related modules
+[PCEE3.CopyList]
+RTEEL32A.dll
+RTEEG32A.dll
+RTEED32A.dll
+RTEEP32A.dll
+
+;; Copy DTSAPO related modules
+[DTSAPO.CopyList]
+DTSGFXAPO.dll
+DTSGFXAPONS.dll
+DTSLFXAPO.dll
+DTSNeoPCDLL.dll
+DTSVoiceClarityDLL.dll
+DTSS2SpeakerDLL.dll
+DTSS2HeadphoneDLL.dll
+DTSBassEnhancementDLL.dll
+DTSBoostDLL.dll
+DTSLimiterDLL.dll
+DTSGainCompensatorDLL.dll
+DTSSymmetryDLL.dll
+
+;; Copy PCEE4 related modules
+[PCEE4.CopyList]
+R4EEL32A.dll
+R4EEG32A.dll
+R4EED32A.dll
+R4EEP32A.dll
+R4EEA32A.dll
+
+[Knowles.CopyList]
+KAAPORT.dll
+
+[DTSAPO2.CopyList]
+DTSU2PGFX32.dll
+DTSU2PLFX32.dll
+DTSU2PREC32.dll
+
+[IntcAzAudModel.NTX86]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, Andrea.CopyList, PCEE3.CopyList, DTSAPO.CopyList, PCEE4.CopyList, Knowles.CopyList, DTSAPO2.CopyList, VnAService.CopyList
+DelReg    = RtkHD.DelReg, SonicFocus.DelReg, DTS.DelReg, Dolby4.DelReg, RealtekEffects.DelReg, RealtekOptions.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SonicFocus.AddReg, DTS.AddReg, Knowles.AddReg, RealtekEffects.AddReg, RealtekOptions.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, rtcom.RegisterDlls, Andrea.RegisterDlls, PCEE3.RegisterDlls, DTSAPO.RegisterDlls, PCEE4.RegisterDlls, Knowles.RegisterDlls, DTSAPO2.RegisterDlls
+
+[IntcAzAudModel.NTX86.HW]
+AddReg=HdAudSecurity.AddReg
+
+[IntcAzAudModel.NTX86.Services]
+AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall
+
+[IntcAzAudModel.NTX86.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+
+[SonicFocus.AddReg]
+HKLM,Software\SonicFocus
+
+[SonicFocus.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[SonicFocus.DelReg]
+HKLM,Software\SonicFocus
+
+[DTS.AddReg]
+HKLM,Software\DTS
+
+[DTS.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[DTS.DelReg]
+HKLM,Software\DTS
+
+[Dolby4.DelReg]
+HKLM,Software\Dolby\PCEE4\DynamicKeys
+HKLM,Software\Dolby\PCEE4\StaticKeys
+
+[RealtekEffects.AddReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekEffects.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekEffects.DelReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekOptions.AddReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[RealtekOptions.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekOptions.DelReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[GUIInformation.AddReg]
+HKLM,SOFTWARE\Realtek\Audio\GUI_INFORMATION
+
+[GUIInformation.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[IntcAzAudServiceInstall]
+DisplayName   = "Service for Realtek HD Audio (WDM)"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\RTKVHDA.sys
+
+[IntcAzAudModel.NTX86.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPRearCaptureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInterface=%KSCATEGORY_CAPTUInOrangeWavå%,Name,,%RearMicInOrangeWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.RearMicInOrangmWave%,DiSplay,1,00,00,00,00
+HKLM,%MediaCátegories%\%GUID.RearMicInYellowWavd%,Nam%,,%RearMicInyellowWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.RuarMicInYellowWavee,Disrlay,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearMicInPurpleWave%,Name,,%RearMicInPurpleWaveDeviceName%
+HKLM,%MediaCategories%\%GUI.RearMicInQurpleWave%,Display,1,00,00,00,00*HKLM,%MediaCateGorkes%\%GUID.RearMicI~PinjWare%,Name,,%RearMicInPinkWaveDeviceFime%
+HKLM,%MediaCategories%\%GUID.RearMicInPin{Wave%,Diwplay,1,00,00,00,00
+HKLM,%MediaGatEgmries%\%GUID.RearMicInGoldenWave%,Name,¬%BearMicInGoldenWaveDevicgName%
+HKLM,%MediaC!tegories%\%GUID.RearMicInGoldenWave%,Display,1,00,00,00,00
+HKLM,%MediaCategorius%Ü%gUID.Rear]icInSilverWave%,Naoe,,%BearMicInSilverWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.RearM)cInSilvErWave%,Diwplay,1,00,00,00,00
+HKLM,%Med)aCa4egories%\%GUID.RearMicInWhiteWAve%,ame,,%RearMicInWhiteWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.RearMicInWhiteWave%,Display,1,00, 0,00,00
+
+HKLM,%MediaCategories%\%GUID.FrontLijeInBlackWave%,Name,,%FòontLineInBlackWaveDevaceName%HKL%MediaCavegories%\%GUID.FrontLineInBlackWave%,Dirplay,1,00,00,00,00
+HKLM,%MediaGatågories%\%GUId.FrontLineIfGreyWcve%,Name,,%FrontLineInGreyWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontLineInGreYWave%,Display,1,00,00,00,00
+HKLM,%MediaCategozies%\%GUID.FrontLineInBlueWave%,Name,,%FrontLineInBlueWaveDeviceNaíe%
+HLM,%MediqCategories%\%GUID.FrontLineInBìugWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%WUID.FrontLineInGreenWave%,Name,,%Fr/ntLineInGreenWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.Fr/ntLineInGreenWave%,Display,1,p0,00,01,00
+HKLM,%MediaCategories%\%GUID.FrontLineInRedAve%,^ame,,%FrontLineInRedWaveDeviceName%
+HKLM,%MediaCategorids%\%GTID.FrontLineI~RedWave5,Display,1,00,00,00,00
+HKLM,%MediaCategorie%\%GUID.FrontLineInÏrangeWave%,Name,,$Fron4ÌineInOraogåWaveDeviseName%
+HKLM,%MedyaCategories%\%GUID.FrontLleLineInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.SecondaryLineOutWave]
+AddReg = IntcAzAudModel.SecondaryLineOutWave.AddReg
+
+[IntcAzAudModel.SecondaryLineOutWave.AddReg]
+HKR,,FriendlyName,,%SecondaryLineOutWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.SecondaryLineOutTopo]
+AddReg = IntcAzAudModel.SecondaryLineOutTopo.AddReg, SysFx.AddReg, OEMSettingsOverride.AddReg
+
+[IntcAzAudModel.SecondaryLineOutTopo.AddReg]
+HKR,,FriendlyName,,%SecondaryLineOutTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+;HKR,,FriendlyName,,%RearLineOutDacName%
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;IntAzAudGuid.RearLineOutDac 
+HKLM,%MediaCategories%\%IntAzAudGuidRearLineOutDac%,Name,,%RearLineOutDacName%
+HKLM,%MediaCategories%\%IntAzAudGuidRearLineOutDac%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%IntAzAudGuidFrontHPOutDac%,Name,,%FrontHPOutDacName%
+HKLM,%MediaCategories%\%IntAzAudGuidFrontHPOutDac%,Display,1,00,00,00,00
+
+;; Node
+HKLM,%MediaCategories%\%GUID.FrontMicVolume%,Name,,%Node.FrontMicVolume%
+HKLM,%MediaCategories%\%GUID.FrontMicVolume%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicMute%,Name,,%Node.FrontMicMute%
+HKLM,%MediaCategories%\%GUID.FrontMicMute%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.UAJ1%,Name,,%Node.UAJ1%
+HKLM,%MediaCategories%\%GUID.UAJ1%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.UAJ2%,Name,,%Node.UAJ2%
+HKLM,%MediaCategories%\%GUID.UAJ2%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.SPDIF%,Name,,%Node.SPDIF%
+HKLM,%MediaCategories%\%GUID.SPDIF%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontLin%,Name,,%Node.FrontLin%
+HKLM,%MediaCategories%\%GUID.FrontLin%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Front%,Name,,%Node.Front%
+HKLM,%MediaCategories%\%GUID.Front%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Surround%,Name,,%Node.Surround%
+HKLM,%MediaCategories%\%GUID.Surround%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.BackSurround%,Name,,%Node.BackSurround%
+HKLM,%MediaCategories%\%GUID.BackSurround%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Center%,Name,,%Node.Center%
+HKLM,%MediaCategories%\%GUID.Center%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.LFE%,Name,,%Node.LFE%
+HKLM,%MediaCategories%\%GUID.LFE%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Side%,Name,,%Node.Side%
+HKLM,%MediaCategories%\%GUID.Side%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.SideSurround%,Name,,%Node.SideSurround%
+HKLM,%MediaCategories%\%GUID.SideSurround%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.DigitalOut%,Name,,%Node.DigitalOut%
+HKLM,%MediaCategories%\%GUID.DigitalOut%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.DigitalIn%,Name,,%Node.DigitalIn%
+HKLM,%MediaCategories%\%GUID.DigitalIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.LineInHP%,Name,,%Node.LineInHP%
+HKLM,%MediaCategories%\%GUID.LineInHP%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.Mic2%,Name,,%Node.Mic2%
+HKLM,%MediaCategories%\%GUID.Mic2%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontPinkInOld%,Name,,%Node.FrontPinkIn%
+HKLM,%MediaCategories%\%GUID.FrontPinkInOld%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGreenInOld%,Name,,%Node.FrontGreenIn%
+HKLM,%MediaCategories%\%GUID.FrontGreenInOld%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.AudioIn%,Name,,%Node.AudioIn%
+HKLM,%MediaCategories%\%GUID.AudioIn%,Display,1,00,00,00,00
+;;New Framework
+HKLM,%MediaCategories%\%GUID.FrontBlackIn%,Name,,%Node.FrontBlackIn%
+HKLM,%MediaCategories%\%GUID.FrontBlackIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGreyIn%,Name,,%Node.FrontGreyIn%
+HKLM,%MediaCategories%\%GUID.FrontGreyIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontBlueIn%,Name,,%Node.FrontBlueIn%
+HKLM,%MediaCategories%\%GUID.FrontBlueIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGreenIn%,Name,,%Node.FrontGreenIn%
+HKLM,%MediaCategories%\%GUID.FrontGreenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontRedIn%,Name,,%Node.FrontRedIn%
+HKLM,%MediaCategories%\%GUID.FrontRedIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontOrangeIn%,Name,,%Node.FrontOrangeIn%
+HKLM,%MediaCategories%\%GUID.FrontOrangeIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontYellowIn%,Name,,%Node.FrontYellowIn%
+HKLM,%MediaCategories%\%GUID.FrontYellowIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontPurpleIn%,Name,,%Node.FrontPurpleIn%
+HKLM,%MediaCategories%\%GUID.FrontPurpleIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontPinkIn%,Name,,%Node.FrontPinkIn%
+HKLM,%MediaCategories%\%GUID.FrontPinkIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontGoldenIn%,Name,,%Node.FrontGoldenIn%
+HKLM,%MediaCategories%\%GUID.FrontGoldenIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontSilverIn%,Name,,%Node.FrontSilverIn%
+HKLM,%MediaCategories%\%GUID.FrontSilverIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontWhiteIn%,Name,,%Node.FrontWhiteIn%
+HKLM,%MediaCategories%\%GUID.FrontWhiteIn%,Display,1,00,00,00,00
+HKLM,%Me`iaCategories%\%GUID.RearBlackIn%,Name,,%Node.RecrBlackIn%
+HKLM,%MediaCategories%\%GUIF.RearBlqckIn%,Display,1,00,00,00,00
+HKLM,%MediaCategorieS%\%GUID.RearGreyIn%,Name,,%Nodg.ReabGreyIn%
+HKLM,%MediaCqtegories%\%GUID.RearGreyIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearBlueIn%,Name,,%Node.RearBlueIn%
+HKLM,%MediaCategories%\%GUID.RearBlueIn%,Display,1,00,0,00,00
+HKLM,%MeDiaCategorieó%\%GUID.RearGreenIn%,Name,,%Node.RearGreenIn%
+HKLM,%ÍediaCategories%\%GUID.RearGreenIn%,Display,1,00,00,00<00
+HKLM,%MediaCategories$\%GUID.RearRedIn,Name,,%Node.RearRedIn%
+HKLM,%MediaCategories%\%GID.RearRedHn%,Display,1,00,00,00,00
+HÛLM,%MediaCategories%\%GUID.RearOrangeIn%,Name,,%Node.RearNrangeIn%
+HKLM,%MediaGategozi%s%\%GUID.ReárOrangeIn%,Display,1,00,00,00,p0
+HKLM,%MediaCategories%X%GUID.PEarYellowIn%,Name,,%Node.RearYellowIn%
+HKLM,%MediaCategories%\%GUID.RearYallowIj%,@ispLay,1,0p,04,00,0 
+XKLO,%MediACategïrius%\$GUID.RearPtrpleIne,Name,¬%Nïde.RearPerpnåIn!
+HKLM,%MdliaCqtEgoraus%\%GUIDReapPõbtleIn%,Distlaq,1,00(00<p0,00HOLM,%MediàCauegories%\%GUID.ReirPiokIn%,Namm,L%Nda.earÐ{nkio%
+[LM,%]ediacapegorigs'\%SUIE.BearPinkIn%,Disp,aq,1,0lp0,08,0°
+H\E,%MediaSateçopées%\%GUID.RearGoldenIn%,Name,,%Node.RearGoldenIn%
+HKLM,%IediaCatugories%\%GUID.RearGoldenIî%,Diqplay1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.RearSilverIn%,Name,,%Node.RearSilverIn%
+HKLM,%IediaC!tågories%\%GUID.RearSilverIn%,Display,1,00,00,00,00
+HKLM,%MediaGategories%\%GUID.RearWhiteIn%,Name,,%Node.RearWhiteIn%
+HKLM,%MediaCategories%\%GUID.RearWh)teIn%,Disrlay.1,00,0p,00,00
+;;----------------------------------------------------------------------
+HKLM,%MediaCategories%\%GUID.ClackIn%,Name,,%Node.BnqckIn%LKLM,%Mediacitegorieó%\%GUID.BlackIn%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.GreyIn%,Name,,%Node.GreyIn%
+HKLM,%MediaCategovi%s%\%GUID.CreyIn%,isplay,1,00,00,00,00
+HKM,%MediaCategories%\%GUID.BlueIn%,Name,,%Node.BlweIn%
+HKLM,%MediaCategories%\%GUID.BlueIn%,Display,1,00,00,80,00
+MaxxAudioEQ.dll
+MaxxAudioAPO20.dll
+MaxxAudioAPO30.dll
+MaxxAudioAPO40.dll
+MaxxAudioAPO50.dll
+MaxxVolumeSDAPO.dll
+MaxxVoiceAPO20.dll
+MaxxAudioRealtek.dll
+WavesGUILib.dll
+RP3DAA32.dll
+RP3DHT32.dll
+SFAPO.dll
+SFCOM.dll
+SFNHK.dll
+tosade.dll
+tadefxapo.dll
+tadefxapo2.dll
+TepeqAPO.dll
+SFSS_APO.dll
+CONEQMSAPOGUILibrary.dll
+sl3apo32.dll
+slcnt32.dll
+slprp32.dll
+sltech32.dll
+MISS_APO.dll
+NAHIMICAPOlfx.dll
+MaxxSpeechAPO.dll
+audioLibVc.dll
+DDPA32.dll
+DDPD32A.dll
+DDPO32A.dll
+DDPP32A.dll
+tosasfapo32.dll
+toseaeapo32.dll
+tossaeapo32.dll
+
+;; Copy Andrea related modules
+[Andrea.CopyList]
+AERTARen.dll
+AERTACap.dll
+
+;; Copy PCEE3 related modules
+[PCEE3.CopyList]
+RTEEL32A.dll
+RTEEG32A.dll
+RTEED32A.dll
+RTEEP32A.dll
+
+;; Copy DTSAPO related modules
+[DTSAPO.CopyList]
+DTSGFXAPO.dll
+DTSGFXAPONS.dll
+DTSLFXAPO.dll
+DTSNeoPCDLL.dll
+DTSVoiceClarityDLL.dll
+DTSS2SpeakerDLL.dll
+DTSS2HeadphoneDLL.dll
+DTSBassEnhancementDLL.dll
+DTSBoostDLL.dll
+DTSLimiterDLL.dll
+DTSGainCompensatorDLL.dll
+DTSSymmetryDLL.dll
+
+;; Copy PCEE4 related modules
+[PCEE4.CopyList]
+R4EEL32A.dll
+R4EEG32A.dll
+R4EED32A.dll
+R4EEP32A.dll
+R4EEA32A.dll
+
+[Knowles.CopyList]
+KAAPORT.dll
+
+[DTSAPO2.CopyList]
+DTSU2PGFX32.dll
+DTSU2PLFX32.dll
+DTSU2PREC32.dll
+
+[IntcAzAudModel.NTX86]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, Andrea.CopyList, PCEE3.CopyList, DTSAPO.CopyList, PCEE4.CopyList, Knowles.CopyList, DTSAPO2.CopyList, VnAService.CopyList
+DelReg    = RtkHD.DelReg, SonicFocus.DelReg, DTS.DelReg, Dolby4.DelReg, RealtekEffects.DelReg, RealtekOptions.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SonicFocus.AddReg, DTS.AddReg, Knowles.AddReg, RealtekEffects.AddReg, RealtekOptions.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, rtcom.RegisterDlls, Andrea.RegisterDlls, PCEE3.RegisterDlls, DTSAPO.RegisterDlls, PCEE4.RegisterDlls, Knowles.RegisterDlls, DTSAPO2.RegisterDlls
+
+[IntcAzAudModel.NTX86.HW]
+AddReg=HdAudSecurity.AddReg
+
+[IntcAzAudModel.NTX86.Services]
+AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall
+
+[IntcAzAudModel.NTX86.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+
+[SonicFocus.AddReg]
+HKLM,Software\SonicFocus
+
+[SonicFocus.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[SonicFocus.DelReg]
+HKLM,Software\SonicFocus
+
+[DTS.AddReg]
+HKLM,Software\DTS
+
+[DTS.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[DTS.DelReg]
+HKLM,Software\DTS
+
+[Dolby4.DelReg]
+HKLM,Software\Dolby\PCEE4\DynamicKeys
+HKLM,Software\Dolby\PCEE4\StaticKeys
+
+[RealtekEffects.AddReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekEffects.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekEffects.DelReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekOptions.AddReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[RealtekOptions.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekOptions.DelReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[GUIInformation.AddReg]
+HKLM,SOFTWARE\Realtek\Audio\GUI_INFORMATION
+
+[GUIInformation.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[IntcAzAudServiceInstall]
+DisplayName   = "Service for Realtek HD Audio (WDM)"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\RTKVHDA.sys
+
+[IntcAzAudModel.NTX86.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPRearCaptureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInterface=%KSCATEGORY_CAPTU.RearMicInGreenTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInGreenTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInRedWave]
+AddReg = IntcAzAudModel.RearMicInRedWave.AddReg
+
+[IntcAzAudModel.RearMicInRedWave.AddReg]
+HKR,,FriendlyName,,%RearMicInRedWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInRedTopo]
+AddReg = IntcAzAudModel.RearMicInRedTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInRedTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInRedTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInOrangeWave]
+AddReg = IntcAzAudModel.RearMicInOrangeWave.AddReg
+
+[IntcAzAudModel.RearMicInOrangeWave.AddReg]
+HKR,,FriendlyName,,%RearMicInOrangeWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInOrangeTopo]
+AddReg = IntcAzAudModel.RearMicInOrangeTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInOrangeTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInOrangeTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInYellowWave]
+AddReg = IntcAzAudModel.RearMicInYellowWave.AddReg
+
+[IntcAzAudModel.RearMicInYellowWave.AddReg]
+HKR,,FriendlyName,,%RearMicInYellowWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInYellowTopo]
+AddReg = IntcAzAudModel.RearMicInYellowTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInYellowTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInYellowTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInPurpleWave]
+AddReg = IntcAzAudModel.RearMicInPurpleWave.AddReg
+
+[IntcAzAudModel.RearMicInPurpleWave.AddReg]
+HKR,,FriendlyName,,%RearMicInPurpleWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInPurpleTopo]
+AddReg = IntcAzAudModel.RearMicInPurpleTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInPurpleTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInPurpleTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInPinkWave]
+AddReg = IntcAzAudModel.RearMicInPinkWave.AddReg
+
+[IntcAzAudModel.RearMicInPinkWave.AddReg]
+HKR,,FriendlyName,,%RearMicInPinkWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInPinkTopo]
+AddReg = IntcAzAudModel.RearMicInPinkTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInPinkTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInPinkTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGoldenWave]
+AddReg = IntcAzAudModel.RearMicInGoldenWave.AddReg
+
+[IntcAzAudModel.RearMicInGoldenWave.AddReg]
+HKR,,FriendlyName,,%RearMicInGoldenWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGoldenTopo]
+AddReg = IntcAzAudModel.RearMicInGoldenTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInGoldenTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInGoldenTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInSilverWave]
+AddReg = IntcAzAudModel.RearMicInSilverWave.AddReg
+
+[IntcAzAudModel.RearMicInSilverWave.AddReg]
+HKR,,FriendlyName,,%RearMicInSilverWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInSilverTopo]
+AddReg = IntcAzAudModel.RearMicInSilverTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInSilverTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInSilverTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInWhiteWave]
+AddReg = IntcAzAudModel.RearMicInWhiteWave.AddReg
+
+[IntcAzAudModel.RearMicInWhiteWave.AddReg]
+HKR,,FriendlyName,,%RearMicInWhiteWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInWhiteTopo]
+AddReg = IntcAzAudModel.RearMicInWhiteTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInWhiteTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInWhiteTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInBlackWave]
+AddReg = IntcAzAudModel.FrontLineInBlackWave.AddReg
+
+[IntcAzAudModel.FrontLineInBlackWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInBlackWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInBlackTopo]
+AddReg = IntcAzAudModel.FrontLineInBlackTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInBlackTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInBlackTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInGreyWave]
+AddReg = IntcAzAudModel.FrontLineInGreyWave.AddReg
+
+[IntcAzAudModel.FrontLineInGreyWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInGreyWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInGreyTopo]
+AddReg = IntcAzAudModel.FrontLineInGreyTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInGreyTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInGreyTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInBlueWave]
+AddReg = IntcAzAudModel.FrontLineInBlueWave.AddReg
+
+[IntcAzAudModel.FrontLineInBlueWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInBlueWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInBlueTopo]
+AddReg = IntcAzAudModel.FrontLineInBlueTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInBlueTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInBlueTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInGreenWave]
+AddReg = IntcAzAudModel.FrontLineInGreenWave.AddReg
+
+[IntcAzAudModel.FrontLineInGreenWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInGreenWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInGreenTopo]
+AddReg = IntcAzAudModel.FrontLineInGreenTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInGreenTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInGreenTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInRedWave]
+AddReg = IntcAzAudModel.FrontLineInRedWave.AddReg
+
+[IntcAzAudModel.FrontLineInRedWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInRedWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInRedTopo]
+AddReg = IntcAzAudModel.FrontLineInRedTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInRedTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInRedTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInOrangeWave]
+AddReg = IntcAzAudModel.FrontLineInOrangeWave.AddReg
+
+[IntcAzAudModel.FrontLineInOrangeWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInOrangeWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInOrangeTopo]
+AddReg = IntcAzAudModel.FrontLineInOrangeTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInOrangeTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInOrangeTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInYellowWave]
+AddReg = IntcAzAudModel.FrontLineInYellowWave.AddReg
+
+[IntcAzAudModel.FrontLineInYellowWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInYellowWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInYellowTopo]
+AddReg = IntcAzAudModel.FrontLineInYellowTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInYellowTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInYellowTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInPurpleWave]
+AddReg = IntcAzAudModel.FrontLineInPurpleWave.AddReg
+
+[IntcAzAudModel.FrontLineInPurpleWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInPurpleWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInPurpleTopo]
+AddReg = IntcAzAudModel.FrondLineInPurpleTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInPurpleTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInPurpleTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInPinkWave]
+AddReg = IntcAøAudModel.FrontLineInPinkWave.AdlReg
+
+[IntcAzAudModeL.FrontLineInpinkWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInPinkWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontLineInPinkTopo]
+AfdReg = IntcAzAudModel.FrontLineInPinkTopo.AdfReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInPinkTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInPinkTopoDeviceName%
+HK,,CLSID,,%Proxy.CLSID%
+
+[IntcAzA5dModel.FrontLineInGoldenWa6e]
+AddReg = IjtcAzAudModel.FrontLineInGoldenWave.AddReg
+
+[IntcAzAudModel.FrontLineInGoldenWave.AddReg]
+ÈKR,,FriendlyName,,%FrontLineInGoldenWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[InôcAzAudModel.FrontLifeInGnhdenTgpo
+AddReg = IntcAzAulModen.fsoNvLiîeInE/ldenToxn.AddRag, SysResFx,AtdRmg 
+[IntcAjAudEoäeM.FrontMineifGoldenT|to*AdeReg]
+@KR,,Friend,{Name,,%FrontLkneInGoldenTopoTuviceName%ŠYKZ,(CLQID,<%PRoxy.CLSID%
+
+YIgucAxAýdÍodal.FrnntLine	nShlverWave]	
+AddSee ](IntcaZaõdModal.Fron|LioeInSIlverWafe.AddReg
+
+[intcAzAudModel.FrontLineInSilverWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInSilverWaveDeviceName%
+HKR<,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudOodel.FrontLineInSilverTopo]
+AddReg = IntcAzAudModel.FrontLineInSilverTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrnntLineInSilverTopo.AddReg]
+HKR,,FriendlyName,,%FrontLineInSilverTopoDeviceName%
+HKR,,GLSID,,%Proxy.CLSID%
+
+[InucAzAwdModel.FrontLiîeInWhiteWave]
+AddReg = IntcAzaudModel.FrontLineInWhiteWave.AddÒeg
+
+{IntcAzAudModel.FrontLineInWhiteWave.AddReg]
+HKR,,FriendlyName,,%FrontLineInWhiteWaveDeviceNaee%
+HKR,,CLSID,,'Proxy.CLSID%
+
+[IntcAzAudmodel.FrontLineInWhideTopo]
+AddReg =`IntcAzAudModel.FrontLineInWhiteTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.FrontLineInWhiteTopo.AddReg]
+HKR,,FriendlyName,,%FrontMineInWhiteTopoDeviceNamm%
+HKR,,CLSID,,
+MaxxAudioEQ.dll
+MaxxAudioAPO20.dll
+MaxxAudioAPO30.dll
+MaxxAudioAPO40.dll
+MaxxAudioAPO50.dll
+MaxxVolumeSDAPO.dll
+MaxxVoiceAPO20.dll
+MaxxAudioRealtek.dll
+WavesGUILib.dll
+RP3DAA32.dll
+RP3DHT32.dll
+SFAPO.dll
+SFCOM.dll
+SFNHK.dll
+tosade.dll
+tadefxapo.dll
+tadefxapo2.dll
+TepeqAPO.dll
+SFSS_APO.dll
+CONEQMSAPOGUILibrary.dll
+sl3apo32.dll
+slcnt32.dll
+slprp32.dll
+sltech32.dll
+MISS_APO.dll
+NAHIMICAPOlfx.dll
+MaxxSpeechAPO.dll
+audioLibVc.dll
+DDPA32.dll
+DDPD32A.dll
+DDPO32A.dll
+DDPP32A.dll
+tosasfapo32.dll
+toseaeapo32.dll
+tossaeapo32.dll
+
+;; Copy Andrea related modules
+[Andrea.CopyList]
+AERTARen.dll
+AERTACap.dll
+
+;; Copy PCEE3 related modules
+[PCEE3.CopyList]
+RTEEL32A.dll
+RTEEG32A.dll
+RTEED32A.dll
+RTEEP32A.dll
+
+;; Copy DTSAPO related modules
+[DTSAPO.CopyList]
+DTSGFXAPO.dll
+DTSGFXAPONS.dll
+DTSLFXAPO.dll
+DTSNeoPCDLL.dll
+DTSVoiceClarityDLL.dll
+DTSS2SpeakerDLL.dll
+DTSS2HeadphoneDLL.dll
+DTSBassEnhancementDLL.dll
+DTSBoostDLL.dll
+DTSLimiterDLL.dll
+DTSGainCompensatorDLL.dll
+DTSSymmetryDLL.dll
+
+;; Copy PCEE4 related modules
+[PCEE4.CopyList]
+R4EEL32A.dll
+R4EEG32A.dll
+R4EED32A.dll
+R4EEP32A.dll
+R4EEA32A.dll
+
+[Knowles.CopyList]
+KAAPORT.dll
+
+[DTSAPO2.CopyList]
+DTSU2PGFX32.dll
+DTSU2PLFX32.dll
+DTSU2PREC32.dll
+
+[IntcAzAudModel.NTX86]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, Andrea.CopyList, PCEE3.CopyList, DTSAPO.CopyList, PCEE4.CopyList, Knowles.CopyList, DTSAPO2.CopyList, VnAService.CopyList
+DelReg    = RtkHD.DelReg, SonicFocus.DelReg, DTS.DelReg, Dolby4.DelReg, RealtekEffects.DelReg, RealtekOptions.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SonicFocus.AddReg, DTS.AddReg, Knowles.AddReg, RealtekEffects.AddReg, RealtekOptions.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, rtcom.RegisterDlls, Andrea.RegisterDlls, PCEE3.RegisterDlls, DTSAPO.RegisterDlls, PCEE4.RegisterDlls, Knowles.RegisterDlls, DTSAPO2.RegisterDlls
+
+[IntcAzAudModel.NTX86.HW]
+AddReg=HdAudSecurity.AddReg
+
+[IntcAzAudModel.NTX86.Services]
+AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall
+
+[IntcAzAudModel.NTX86.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+
+[SonicFocus.AddReg]
+HKLM,Software\SonicFocus
+
+[SonicFocus.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[SonicFocus.DelReg]
+HKLM,Software\SonicFocus
+
+[DTS.AddReg]
+HKLM,Software\DTS
+
+[DTS.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[DTS.DelReg]
+HKLM,Software\DTS
+
+[Dolby4.DelReg]
+HKLM,Software\Dolby\PCEE4\DynamicKeys
+HKLM,Software\Dolby\PCEE4\StaticKeys
+
+[RealtekEffects.AddReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekEffects.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekEffects.DelReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekOptions.AddReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[RealtekOptions.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekOptions.DelReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[GUIInformation.AddReg]
+HKLM,SOFTWARE\Realtek\Audio\GUI_INFORMATION
+
+[GUIInformation.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[IntcAzAudServiceInstall]
+DisplayName   = "Service for Realtek HD Audio (WDM)"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\RTKVHDA.sys
+
+[IntcAzAudModel.NTX86.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPRearCaptureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInterface=%KSCATEGORY_CAPTUID%
+
+
+[IntcAzAudModel.RtStereoMixWave]
+AddReg = IntcAzAudModel.RtStereoMixWave.AddReg
+
+[IntcAzAudModel.RtStereoMixWave.AddReg]
+HKR,,FriendlyName,,%RtStereoMixWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtMicInWave]
+AddReg = IntcAzAudModel.RtMicInWave.AddReg
+
+[IntcAzAudModel.RtMicInWave.AddReg]
+HKR,,FriendlyName,,%RtMicInWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtLineInWave]
+AddReg = IntcAzAudModel.RtLineInWave.AddReg
+
+[IntcAzAudModel.RtLineInWave.AddReg]
+HKR,,FriendlyName,,%RtLineInWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtCDInWave]
+AddReg = IntcAzAudModel.RtCDInWave.AddReg
+
+[IntcAzAudModel.RtCDInWave.AddReg]
+HKR,,FriendlyName,,%RtCDInWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtAuxInWave]
+AddReg = IntcAzAudModel.RtAuxInWave.AddReg
+
+[IntcAzAudModel.RtAuxInWave.AddReg]
+HKR,,FriendlyName,,%RtAuxInWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtFrontMicInWave]
+AddReg = IntcAzAudModel.RtFrontMicInWave.AddReg
+
+[IntcAzAudModel.RtFrontMicInWave.AddReg]
+HKR,,FriendlyName,,%RtFrontMicInWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtFrontLineInWave]
+AddReg = IntcAzAudModel.RtFrontLineInWave.AddReg
+
+[IntcAzAudModel.RtFrontLineInWave.AddReg]
+HKR,,FriendlyName,,%RtFrontLineInWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtStereoMixTopo]
+AddReg = IntcAzAudModel.RtStereoMixTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtStereoMixTopo.AddReg]
+HKR,,FriendlyName,,%RtStereoMixTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtMicInTopo]
+AddReg = IntcAzAudModel.RtMicInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtMicInTopo.AddReg]
+HKR,,FriendlyName,,%RtMicInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtLineInTopo]
+AddReg = IntcAzAudModel.RtLineInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtLineInTopo.AddReg]
+HKR,,FriendlyName,,%RtLineInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtCDInTopo]
+AddReg = IntcAzAudModel.RtCDInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtCDInTopo.AddReg]
+HKR,,FriendlyName,,%RtCDInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtAuxInTopo]
+AddReg = IntcAzAudModel.RtAuxInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtAuxInTopo.AddReg]
+HKR,,FriendlyName,,%RtAuxInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtFrontMicInTopo]
+AddReg = IntcAzAudModel.RtFrontMicInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtFrontMicInTopo.AddReg]
+HKR,,FriendlyName,,%RtFrontMicInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtFrontLineInTopo]
+AddReg = IntcAzAudModel.RtFrontLineInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtFrontLineInTopo.AddReg]
+HKR,,FriendlyName,,%RtFrontLineInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.DigitalMICWave]
+AddReg = IntcAzAudModel.DigitalMICWave.AddReg
+
+[IntcAzAudModel.DigitalMICWave.AddReg]
+HKR,,FriendlyName,,%DigitalMICWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.DigitalMICTopo]
+AddReg = IntcAzAudModel.DigitalMICTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.DigitalMICTopo.AddReg]
+HKR,,FriendlyName,,%DigitalMICTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtMicArWave]
+AddReg = IntcAzAudModel.RtMicArWave.AddReg
+
+[IntcAzAudModel.RtMicArWave.AddReg]
+HKR,,FriendlyName,,%RtMicArWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtMicArTopo]
+AddReg = IntcAzAudModel.RtMicArTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtMicArTopo.AddReg]
+HKR,,FriendlyName,,%RtMicArTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.BTBPOutWave]
+AddReg = IntcAzAudModel.BTBPOutWave.AddReg
+
+[IntcAzAudModel.BTBPOutWave.AddReg]
+HKR,,FriendlyName,,"Realtek HDA Bluetooth Bypass Output"
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.BTBPOutTopo]
+AddReg = IntcAzAudModel.BTBPOutTopo.AddReg, RTHDAProperties.AddReg
+
+[IntcAzAudModel.BTBPOutTopo.AddReg]
+HKR,,FriendlyName,,"Realtek HDA Bluetooth Bypass Output Mixer"
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.BTBPInWave]
+AddReg = IntcAzAudModel.BTBPInWave.AddReg
+
+[IntcAzAudModel.BTBPInWave.AddReg]
+HKR,,FriendlyName,,"Realtek HDA Bluetooth Bypass Iutput"
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.BTBPInTopo]
+AddReg = IntcAzAudModel.BTBPInTopo.AddReg, RTHDAProperties.AddReg
+
+[IntcAzAudModel.BTBPInTopo.AddReg]
+HKR,,FriendlyName,,"Realtek HDA Bluetooth Bypass Iutput Mixer"
+HKR,,CLSID,,%Proxy.CLSID%
+
+;;-----------------------------------------------------------------------------------------------------
+[RtHDA.RtHDMIWave]
+AddReg = RtHDA.RtHDMIWave.AddReg
+[RtHDA.RtHDMIWave.AddReg]
+HKR,,FriendlyName,,%RtSpdifHDMIWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[DefaultOutFormat.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_AudioEngine_OEMFormat%, %REG_BINARY%, 41,00,C8,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+HKR,"EP\\0", %PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+
+[RtHDA.GenRtHDMITopo.AddReg]
+HKR,,FriendlyName,,%RtSpdifHDMITopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[RtHDA.RtHDMITopo]
+AddReg = RtHDA.RtHDMITopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMITopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,75,00,0C,00,00,00,50,01,00,00,02,00,00,00,00,00,00,00
+
+[RtHDA.RtHDMIATopo]
+AddReg = RtHDA.RtHDMIATopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIATopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,63,00,1C,00,00,00,50,01,00,00,02,00,00,00,01,00,00,00,92,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIDTopo]
+AddReg = RtHDA.RtHDMIDTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIDTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,63,00,1C,00,00,00,50,01,00,00,02,00,00,00,01,00,00,00,08,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIWTopo]
+AddReg = RtHDA.RtHDMIWTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIWTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,63,00,1C,00,00,00,50,01,00,00,02,00,00,00,01,00,00,00,64,01,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIADTopo]
+AddReg = RtHDA.RtHDMIADTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIADTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,A3,74,2C,00,00,00,50,01,00,00,02,00,00,00,02,00,00,00,08,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,92,00,01,00,00,00,10,00,80,00,00,AA,00<38,9B,71
+
+[ZtHDA.RtHDMIAWTopo_
+AddReg = R|HDA.RtHDMIAWTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtIA.rtHDMIAWTopo.AddReg]
+HKR,"EP\\0", %PKEYOAudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%M
+HKR,"EP\\0",`%PKEY_SupporTFormat_OEMFormat%, %REG_BINARY%,41,00,A3,74,2C,00,00,00,50,01,00,00,02,00,00,00,02,00,00,00,92,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,64,01,00,00,00,00,10,00,80,00,0,AA,00,38,9B,71
+
+[RtHDA.RtHDMIDWTopo]
+AddReg = RtHDA.RtHDMIDWTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIDWTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INPERFACE%
+HKR,"EP\L0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,A3,74,2C,00,00,00,50,01,00,00,02,00,00,00,02,00,00,00,08,00,00,00,00,00,10,00,80,00,00,AA,80,38.9B,70,>4,01)02,00,00,00,10,00,y0,00,00,AA,00,8,9B,71
+
+[rtHDA.RtHÄMIADWTopo]
+AddREg = RtHdE&RtHDMIADWUoqo.AddReg. RtHfA.GenRvÈDMITopo.AddRug. QysFx.AddReg-0DefaultGutFormat.@ddReg[ÒtHDA.VtJDMIADWTopo.AddRegU
+HKR¬"EP\\0", %PKEY_AudioEnd`oant_AssociaôiGN%,(%kSNODETYPE_HÄMI_INÔEVFACE%HKB,"EP\|0", %PKEY_SupporuFormat_OEMFormat%, %REGOBINARY%,41,00,34,12,3C,00,00,00,50,01,00,00,02,00,00,00,03,00,00,00,08,00,00,00,00,00<10,00,80,00,00,AA,00,38,9B,71,92,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,64,01,00,00,00,00,10,00,80,0,00,AÁ,00,38,9B,71
+
+;;-------,----------------------------------------%---------------------------------------------------
+
+[Strings]
+MfgName="Realtek"
+; not sure if this is localizable
+MediaCategkries="SYSTEM\CurrentControlSet\Control\MediaCategories"
+; localizable
+OrganixationName="Realtek Semiconductor Corp."
+PackageDésplayName="HD Audio Driver"
+J;;
+;; PropertyKey GUIDS
+;;
+PKEY_SYSFX_Association          = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},0"
+PKEY_SYSFX_PreMixClsid          = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},1"
+PKEY_SYSFX_PostMixClsid         = "{D0
+MaxxAudioEQ.dll
+MaxxAudioAPO20.dll
+MaxxAudioAPO30.dll
+MaxxAudioAPO40.dll
+MaxxAudioAPO50.dll
+MaxxVolumeSDAPO.dll
+MaxxVoiceAPO20.dll
+MaxxAudioRealtek.dll
+WavesGUILib.dll
+RP3DAA32.dll
+RP3DHT32.dll
+SFAPO.dll
+SFCOM.dll
+SFNHK.dll
+tosade.dll
+tadefxapo.dll
+tadefxapo2.dll
+TepeqAPO.dll
+SFSS_APO.dll
+CONEQMSAPOGUILibrary.dll
+sl3apo32.dll
+slcnt32.dll
+slprp32.dll
+sltech32.dll
+MISS_APO.dll
+NAHIMICAPOlfx.dll
+MaxxSpeechAPO.dll
+audioLibVc.dll
+DDPA32.dll
+DDPD32A.dll
+DDPO32A.dll
+DDPP32A.dll
+tosasfapo32.dll
+toseaeapo32.dll
+tossaeapo32.dll
+
+;; Copy Andrea related modules
+[Andrea.CopyList]
+AERTARen.dll
+AERTACap.dll
+
+;; Copy PCEE3 related modules
+[PCEE3.CopyList]
+RTEEL32A.dll
+RTEEG32A.dll
+RTEED32A.dll
+RTEEP32A.dll
+
+;; Copy DTSAPO related modules
+[DTSAPO.CopyList]
+DTSGFXAPO.dll
+DTSGFXAPONS.dll
+DTSLFXAPO.dll
+DTSNeoPCDLL.dll
+DTSVoiceClarityDLL.dll
+DTSS2SpeakerDLL.dll
+DTSS2HeadphoneDLL.dll
+DTSBassEnhancementDLL.dll
+DTSBoostDLL.dll
+DTSLimiterDLL.dll
+DTSGainCompensatorDLL.dll
+DTSSymmetryDLL.dll
+
+;; Copy PCEE4 related modules
+[PCEE4.CopyList]
+R4EEL32A.dll
+R4EEG32A.dll
+R4EED32A.dll
+R4EEP32A.dll
+R4EEA32A.dll
+
+[Knowles.CopyList]
+KAAPORT.dll
+
+[DTSAPO2.CopyList]
+DTSU2PGFX32.dll
+DTSU2PLFX32.dll
+DTSU2PREC32.dll
+
+[IntcAzAudModel.NTX86]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, Andrea.CopyList, PCEE3.CopyList, DTSAPO.CopyList, PCEE4.CopyList, Knowles.CopyList, DTSAPO2.CopyList, VnAService.CopyList
+DelReg    = RtkHD.DelReg, SonicFocus.DelReg, DTS.DelReg, Dolby4.DelReg, RealtekEffects.DelReg, RealtekOptions.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SonicFocus.AddReg, DTS.AddReg, Knowles.AddReg, RealtekEffects.AddReg, RealtekOptions.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, rtcom.RegisterDlls, Andrea.RegisterDlls, PCEE3.RegisterDlls, DTSAPO.RegisterDlls, PCEE4.RegisterDlls, Knowles.RegisterDlls, DTSAPO2.RegisterDlls
+
+[IntcAzAudModel.NTX86.HW]
+AddReg=HdAudSecurity.AddReg
+
+[IntcAzAudModel.NTX86.Services]
+AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall
+
+[IntcAzAudModel.NTX86.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+
+[SonicFocus.AddReg]
+HKLM,Software\SonicFocus
+
+[SonicFocus.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[SonicFocus.DelReg]
+HKLM,Software\SonicFocus
+
+[DTS.AddReg]
+HKLM,Software\DTS
+
+[DTS.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[DTS.DelReg]
+HKLM,Software\DTS
+
+[Dolby4.DelReg]
+HKLM,Software\Dolby\PCEE4\DynamicKeys
+HKLM,Software\Dolby\PCEE4\StaticKeys
+
+[RealtekEffects.AddReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekEffects.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekEffects.DelReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekOptions.AddReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[RealtekOptions.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekOptions.DelReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[GUIInformation.AddReg]
+HKLM,SOFTWARE\Realtek\Audio\GUI_INFORMATION
+
+[GUIInformation.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[IntcAzAudServiceInstall]
+DisplayName   = "Service for Realtek HD Audio (WDM)"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\RTKVHDA.sys
+
+[IntcAzAudModel.NTX86.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPRearCaptureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInterface=%KSCATEGORY_CAPTUl (Orange)#
+RearMicInOr`ngeTopoDeviceName="Mic in at rear mixer (Orange)"
+ReazMicInYEllowWaveDeviceName="Mic in at rear panel (Yellow-*
+RearMicInYell/wTopoDeviceName="Mic in qt rear miher (Yellow)"
+RearMi#InRurpleWaveDeviceName="Mic in at sgar panel (purple)"RearMicInPurpluTopoDeviceName="Mic in at rear mixer (Purple)"
+RearMicInPinkwaveDeviceName="Mic in at rear panel (Pijk)"
+RearMicInPinkTopoDeviceName="Mic in$at rear mixer (Pinc)"
+RearMicInGoldenWaveDeviceNaee="Mic in at rear panel (Gol$en)"
+RearMicInOoldenTopoDeviseNamg="Mic in at reab mixer (Gomden)"
+RearMacInSilverWaveDeviceName="Mic in at rear panen (Silver)"
+RearMicInSédverTopoDeviceName="Mic in at rear mixer (Silver)"
+ReabMicInWhitaWaveDevhceName="Mic in`at rear panel (White)"
+RearMécInWhiteTopoDEviceName="Mic in aT rear mixer ,White)"
+FrontLineLoFlackWaveDeviceN!me="Line in at front panel (black)"
+Fron4LineInBlackTopoDeviceName="Line in at front mixer (black)"
+FrontLindInGreyWaveDeviceName=2Line in at front panel (Grey)"
+FrontLineInGreyTopoDEvibeName="Line in at front mizer (Grey)"
+FrontLineInBlueWaveDeviceName="Line in at front panel (Blue)"
+FrontLineInÂlueTopoDeviceName="Liîe in at front mixer (Blue)"
+FrontLineInGreenWaveDeviceName="Line in at front panel (Green)"
+FrojtLineInGreenTopoDevaceNaíe="Line in at fronv mize2 (GrEEn)"
+FrontLineInRedWaveDeviceName="L)ne in at front panel (Red)
+FrontLindInRedTopoDeticeNaee="line in at front mixer (Red)"
+FsontLineIoOran'eWqveDeviceName="LIne in at front pcnel (Oranee)"
+FrontLineInOzangeTopoDeviceName="Line in !t front méxer (Orange)"
+FrontLineInYellowWaveDeviceName="Lane in at front qanel (Yellmw)"
+Fro~tLineInYellkwTopo@eviceName="Line in at0front mixuR$(Yellow)"
+FrontLineInPurpleWareDeviceName="Line in ad front panel (Purple)"-
+FrontLinaInPurpleTopoDeviceOame="Line in at front mixer (PuRple)"
+Fron4LineInPinkWaveDeviceName="Line in at front ðcnel 8Pink)"
+FrontLineInPinkTopoDeviceName="Léne in at front oixer (Pink)"
+FrontLineInGoldenWaveDeviceName="Line in at front Reg = IntcAzAudModel.RtCDInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtCDInTopo.AddReg]
+HKR,,FriendlyName,,%RtCDInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtAuxInTopo]
+AddReg = IntcAzAudModel.RtAuxInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtAuxInTopo.AddReg]
+HKR,,FriendlyName,,%RtAuxInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtFrontMicInTopo]
+AddReg = IntcAzAudModel.RtFrontMicInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtFrontMicInTopo.AddReg]
+HKR,,FriendlyName,,%RtFrontMicInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtFrontLineInTopo]
+AddReg = IntcAzAudModel.RtFrontLineInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtFrontLineInTopo.AddReg]
+HKR,,FriendlyName,,%RtFrontLineInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.DigitalMICWave]
+AddReg = IntcAzAudModel.DigitalMICWave.AddReg
+
+[IntcAzAudModel.DigitalMICWave.AddReg]
+HKR,,FriendlyName,,%DigitalMICWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.DigitalMICTopo]
+AddReg = IntcAzAudModel.DigitalMICTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.DigitalMICTopo.AddReg]
+HKR,,FriendlyName,,%DigitalMICTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtMicArWave]
+AddReg = IntcAzAudModel.RtMicArWave.AddReg
+
+[IntcAzAudModel.RtMicArWave.AddReg]
+HKR,,FriendlyName,,%RtMicArWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtMicArTopo]
+AddReg = IntcAzAudModel.RtMicArTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtMicArTopo.AddReg]
+HKR,,FriendlyName,,%RtMicArTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.BTBPOutWave]
+AddReg = IntcAzAudModel.BTBPOutWave.AddReg
+
+[IntcAzAudModel.BTBPOutWave.AddReg]
+HKR,,FriendlyName,,"Realtek HDA Bluetooth Bypass Output"
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.BTBPOutTopo]
+AddReg = IntcAzAudModel.BTBPOutTopo.AddReg, RTHDAProperties.AddReg
+
+[IntcAzAudModel.BTBPOutTopo.AddReg]
+HKR,,FriendlyName,,"Realtek HDA Bluetooth Bypass Output Mixer"
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.BTBPInWave]
+AddReg = IntcAzAudModel.BTBPInWave.AddReg
+
+[IntcAzAudModel.BTBPInWave.AddReg]
+HKR,,FriendlyName,,"Realtek HDA Bluetooth Bypass Iutput"
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.BTBPInTopo]
+AddReg = IntcAzAudModel.BTBPInTopo.AddReg, RTHDAProperties.AddReg
+
+[IntcAzAudModel.BTBPInTopo.AddReg]
+HKR,,FriendlyName,,"Realtek HDA Bluetooth Bypass Iutput Mixer"
+HKR,,CLSID,,%Proxy.CLSID%
+
+;;-----------------------------------------------------------------------------------------------------
+[RtHDA.RtHDMIWave]
+AddReg = RtHDA.RtHDMIWave.AddReg
+[RtHDA.RtHDMIWave.AddReg]
+HKR,,FriendlyName,,%RtSpdifHDMIWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[DefaultOutFormat.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_AudioEngine_OEMFormat%, %REG_BINARY%, 41,00,C8,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+HKR,"EP\\0", %PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+
+[RtHDA.GenRtHDMITopo.AddReg]
+HKR,,FriendlyName,,%RtSpdifHDMITopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[RtHDA.RtHDMITopo]
+AddReg = RtHDA.RtHDMITopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMITopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,75,00,0C,00,00,00,50,01,00,00,02,00,00,00,00,00,00,00
+
+[RtHDA.RtHDMIATopo]
+AddReg = RtHDA.RtHDMIATopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIATopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,63,00,1C,00,00,00,50,01,00,00,02,00,00,00,01,00,00,00,92,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIDTopo]
+AddReg = RtHDA.RtHDMIDTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIDTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,63,00,1C,00,00,00,50,01,00,00,02,00,00,00,01,00,00,00,08,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIWTopo]
+AddReg = RtHDA.RtHDMIWTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIWTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,63,00,1C,00,00,00,50,01,00,00,02,00,00,00,01,00,00,00,64,01,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIADTopo]
+AddReg = RtHDA.RtHDMIADTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIADTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,A3,74,2C,00,00,00,50,01,00,00,02,00,00,00,02,00,00,00,08,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,92,00,01,00,00,00,10,00,80,00,00,AA,00<38,9B,71
+
+[ZtHDA.RtHDMIAWTopo_
+AddReg = R|HDA.RtHDMIAWTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtIA.rtHDMIAWTopo.AddReg]
+HKR,"EP\\0", %PKEYOAudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%M
+HKR,"EP\\0",`%PKEY_SupporTFormat_OEMFormat%, %REG_BINARY%,41,00,A3,74,2C,00,00,00,50,01,00,00,02,00,00,00,02,00,00,00,92,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,64,01,00,00,00,00,10,00,80,00,0,AA,00,38,9B,71
+
+[RtHDA.RtHDMIDWTopo]
+AddReg = RtHDA.RtHDMIDWTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIDWTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INPERFACE%
+HKR,"EP\L0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,A3,74,2C,00,00,00,50,01,00,00,02,00,00,00,02,00,00,00,08,00,00,00,00,00,10,00,80,00,00,AA,80,38.9B,70,>4,01)02,00,00,00,10,00,y0,00,00,AA,00,8,9B,71
+
+[rtHDA.RtHÄMIADWTopo]
+AddREg = RtHdE&RtHDMIADWUoqo.AddReg. RtHfA.GenRvÈDMITopo.AddRug. QysFx.AddReg-0DefaultGutFormat.@ddReg[ÒtHDA.VtJDMIADWTopo.AddRegU
+HKR¬"EP\\0", %PKEY_AudioEnd`oant_AssociaôiGN%,(%kSNODETYPE_HÄMI_INÔEVFACE%HKB,"EP\|0", %PKEY_SupporuFormat_OEMFormat%, %REGOBINARY%,41,00,34,12,3C,00,00,00,50,01,00,00,02,00,00,00,03,00,00,00,08,00,00,00,00,00<10,00,80,00,00,AA,00,38,9B,71,92,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,64,01,00,00,00,00,10,00,80,0,00,AÁ,00,38,9B,71
+
+;;-------,----------------------------------------%---------------------------------------------------
+
+[Strings]
+MfgName="Realtek"
+; not sure if this is localizable
+MediaCategkries="SYSTEM\CurrentControlSet\Control\MediaCategories"
+; localizable
+OrganixationName="Realtek Semiconductor Corp."
+PackageDésplayName="HD Audio Driver"
+J;;
+;; PropertyKey GUIDS
+;;
+PKEY_SYSFX_Association          = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},0"
+PKEY_SYSFX_PreMixClsid          = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},1"
+PKEY_SYSFX_PostMixClsid         = "{D0
+MaxxAudioEQ.dll
+MaxxAudioAPO20.dll
+MaxxAudioAPO30.dll
+MaxxAudioAPO40.dll
+MaxxAudioAPO50.dll
+MaxxVolumeSDAPO.dll
+MaxxVoiceAPO20.dll
+MaxxAudioRealtek.dll
+WavesGUILib.dll
+RP3DAA32.dll
+RP3DHT32.dll
+SFAPO.dll
+SFCOM.dll
+SFNHK.dll
+tosade.dll
+tadefxapo.dll
+tadefxapo2.dll
+TepeqAPO.dll
+SFSS_APO.dll
+CONEQMSAPOGUILibrary.dll
+sl3apo32.dll
+slcnt32.dll
+slprp32.dll
+sltech32.dll
+MISS_APO.dll
+NAHIMICAPOlfx.dll
+MaxxSpeechAPO.dll
+audioLibVc.dll
+DDPA32.dll
+DDPD32A.dll
+DDPO32A.dll
+DDPP32A.dll
+tosasfapo32.dll
+toseaeapo32.dll
+tossaeapo32.dll
+
+;; Copy Andrea related modules
+[Andrea.CopyList]
+AERTARen.dll
+AERTACap.dll
+
+;; Copy PCEE3 related modules
+[PCEE3.CopyList]
+RTEEL32A.dll
+RTEEG32A.dll
+RTEED32A.dll
+RTEEP32A.dll
+
+;; Copy DTSAPO related modules
+[DTSAPO.CopyList]
+DTSGFXAPO.dll
+DTSGFXAPONS.dll
+DTSLFXAPO.dll
+DTSNeoPCDLL.dll
+DTSVoiceClarityDLL.dll
+DTSS2SpeakerDLL.dll
+DTSS2HeadphoneDLL.dll
+DTSBassEnhancementDLL.dll
+DTSBoostDLL.dll
+DTSLimiterDLL.dll
+DTSGainCompensatorDLL.dll
+DTSSymmetryDLL.dll
+
+;; Copy PCEE4 related modules
+[PCEE4.CopyList]
+R4EEL32A.dll
+R4EEG32A.dll
+R4EED32A.dll
+R4EEP32A.dll
+R4EEA32A.dll
+
+[Knowles.CopyList]
+KAAPORT.dll
+
+[DTSAPO2.CopyList]
+DTSU2PGFX32.dll
+DTSU2PLFX32.dll
+DTSU2PREC32.dll
+
+[IntcAzAudModel.NTX86]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, Andrea.CopyList, PCEE3.CopyList, DTSAPO.CopyList, PCEE4.CopyList, Knowles.CopyList, DTSAPO2.CopyList, VnAService.CopyList
+DelReg    = RtkHD.DelReg, SonicFocus.DelReg, DTS.DelReg, Dolby4.DelReg, RealtekEffects.DelReg, RealtekOptions.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SonicFocus.AddReg, DTS.AddReg, Knowles.AddReg, RealtekEffects.AddReg, RealtekOptions.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, rtcom.RegisterDlls, Andrea.RegisterDlls, PCEE3.RegisterDlls, DTSAPO.RegisterDlls, PCEE4.RegisterDlls, Knowles.RegisterDlls, DTSAPO2.RegisterDlls
+
+[IntcAzAudModel.NTX86.HW]
+AddReg=HdAudSecurity.AddReg
+
+[IntcAzAudModel.NTX86.Services]
+AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall
+
+[IntcAzAudModel.NTX86.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+
+[SonicFocus.AddReg]
+HKLM,Software\SonicFocus
+
+[SonicFocus.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[SonicFocus.DelReg]
+HKLM,Software\SonicFocus
+
+[DTS.AddReg]
+HKLM,Software\DTS
+
+[DTS.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[DTS.DelReg]
+HKLM,Software\DTS
+
+[Dolby4.DelReg]
+HKLM,Software\Dolby\PCEE4\DynamicKeys
+HKLM,Software\Dolby\PCEE4\StaticKeys
+
+[RealtekEffects.AddReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekEffects.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekEffects.DelReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekOptions.AddReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[RealtekOptions.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekOptions.DelReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[GUIInformation.AddReg]
+HKLM,SOFTWARE\Realtek\Audio\GUI_INFORMATION
+
+[GUIInformation.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[IntcAzAudServiceInstall]
+DisplayName   = "Service for Realtek HD Audio (WDM)"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\RTKVHDA.sys
+
+[IntcAzAudModel.NTX86.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineOutWave%, IntcAzAudModel.SingleLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineOutTopo%, IntcAzAudModel.SingleLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SingleLineInWave%, IntcAzAudModel.SingleLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SingleLineInTopo%, IntcAzAudModel.SingleLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineOutWave%, IntcAzAudModel.SecondaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineOutTopo%, IntcAzAudModel.SecondaryLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_SecondaryLineInWave%, IntcAzAudModel.SecondaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_SecondaryLineInTopo%, IntcAzAudModel.SecondaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineInWave%, IntcAzAudModel.PrimaryLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_PrimaryLineInTopo%, IntcAzAudModel.PrimaryLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_HPRearCaptureWave%, IntcAzAudModel.HPRearCaptureWave
+AddInterface=%KSCATEGORY_CAPTURY_AUIO$= "{4y94AD04-93EF-11D0-A3CC-00A0C9623196}"
+KSCÁTEGORY_RENDER="{67E8773E-8F56-10D0-a3By-00A0C9223196}#
+[SCATEGOBY_REALTIME =$"{EB115FFC-10C8-6964-831D-6DCB02E6F63F}"
+
+KSCATEGORY_CAPVURE="û65E8773D-8F56-11D0-A3B9-00A0C9223±96}"
+KSCAPEGORY_TOPOLOGy="{DDA54A40-1E4C-11D1-A050-405705C10006}"
+Proxy.CLSID ="{17CCA71B-ECD7-11D0-B908-02A0Ã9223196}"
+3 guieó for rear line outIntAzAudGwidReazLineOutDac= "{EF86A90-3742-4974-B8D2-5370E1C540F6}"
+IvtAzAudGuidFrontHPOutDac = "{497B34AD-D67F-411c-8076-80@5B4250D67} 
+
+;; Node
+GUID.FrontMicÖoluoe     ="{8E1FC059-D41D-417f-8103-FC592A4B32C8}"
+GUID.FrontMicMute !     ="{65D86EA-A16C-4e40m9F01-40S559D721B9}"
+GUID.UAJ3       0       ="{E7CD3EA7­072F-4d9f-B94A-744108964E0E}"
+GUID.UAJ2               ="û93DCBD9E-08CF-4cbd-B018-5ED0B83E7AF0}"
+GUID.SPDIF              =";71A60BA-4F2D-41f6-95B1-5589F90D1ECE}"
+GUID.FrontLin           ="{757AB5CB-F4D5-42e4-9609-BF78FC6C71B}"
+GUID.Gront              =2{8`74FFAm/8·66=480f%AF6D-325FCF9AB324}"
+GuMD.Surround           ="{B25A6526-9703-4117-9D7F-260A5DF5CC34}"
+GUID.BackSurround       ="{366E009F-CC06-495c-995;-13E7986DA760}"
+GUID.Center             ="{594AC582-B82A-4024-99A7-DC5B358E0F30}"
+GUID.LFE          $     ="{19532753-C332-4de7-BEDD-F888163C3094}"
+WUID.Side               ="{A5B27DE2-40F3-469e-9A4D-2CD8D5D9284D}"
+GUID.SideSurround   (   ="{32Dd8857­C301-45b4-@B7¸=4D35E%8402DC}"
+GUID.DigitalOut   !     ="{7CB80ECx-9C2D-4924-AA30-3DB3:64F8CD6}"
+GUID.igmtalIn          ="{4F30M31-2B36-4b46-AF17-36A3363>3A12}"
+GUID.LineInHP           ="{B001EDFD-CF0=-402f-8652-2E32AE568508}"
+GUID.Mic2            "  ="{226D589-3C9F-4847-B4E9-933F2ABCA2D2}"
+GUID.DrontPinkInOld !      ="{39U595A1-9F2B-427-A416-8D7A1534F01C}"
+GUID.FbontGrdenInOld   $   ="{38CB1F71-Æ95A-425c-8444-F1C18942DB14}"
+GUID>AudioIn  "         ="{D4649B95-6787-4ec4-8C65-5B7B62´8G470}"
+GUID.LineOutVolume      ="{9ACC8A34-DBF9-416d-97E7-3B)0FE28FFD1}"EUID.PcBeepVolume       ="{093C0065-6B65-4582-87D7-5A6742F6E859}"
+GUID.Surr      Reg = IntcAzAudModel.RtCDInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtCDInTopo.AddReg]
+HKR,,FriendlyName,,%RtCDInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtAuxInTopo]
+AddReg = IntcAzAudModel.RtAuxInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtAuxInTopo.AddReg]
+HKR,,FriendlyName,,%RtAuxInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtFrontMicInTopo]
+AddReg = IntcAzAudModel.RtFrontMicInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtFrontMicInTopo.AddReg]
+HKR,,FriendlyName,,%RtFrontMicInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtFrontLineInTopo]
+AddReg = IntcAzAudModel.RtFrontLineInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtFrontLineInTopo.AddReg]
+HKR,,FriendlyName,,%RtFrontLineInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.DigitalMICWave]
+AddReg = IntcAzAudModel.DigitalMICWave.AddReg
+
+[IntcAzAudModel.DigitalMICWave.AddReg]
+HKR,,FriendlyName,,%DigitalMICWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.DigitalMICTopo]
+AddReg = IntcAzAudModel.DigitalMICTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.DigitalMICTopo.AddReg]
+HKR,,FriendlyName,,%DigitalMICTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtMicArWave]
+AddReg = IntcAzAudModel.RtMicArWave.AddReg
+
+[IntcAzAudModel.RtMicArWave.AddReg]
+HKR,,FriendlyName,,%RtMicArWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RtMicArTopo]
+AddReg = IntcAzAudModel.RtMicArTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RtMicArTopo.AddReg]
+HKR,,FriendlyName,,%RtMicArTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.BTBPOutWave]
+AddReg = IntcAzAudModel.BTBPOutWave.AddReg
+
+[IntcAzAudModel.BTBPOutWave.AddReg]
+HKR,,FriendlyName,,"Realtek HDA Bluetooth Bypass Output"
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.BTBPOutTopo]
+AddReg = IntcAzAudModel.BTBPOutTopo.AddReg, RTHDAProperties.AddReg
+
+[IntcAzAudModel.BTBPOutTopo.AddReg]
+HKR,,FriendlyName,,"Realtek HDA Bluetooth Bypass Output Mixer"
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.BTBPInWave]
+AddReg = IntcAzAudModel.BTBPInWave.AddReg
+
+[IntcAzAudModel.BTBPInWave.AddReg]
+HKR,,FriendlyName,,"Realtek HDA Bluetooth Bypass Iutput"
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.BTBPInTopo]
+AddReg = IntcAzAudModel.BTBPInTopo.AddReg, RTHDAProperties.AddReg
+
+[IntcAzAudModel.BTBPInTopo.AddReg]
+HKR,,FriendlyName,,"Realtek HDA Bluetooth Bypass Iutput Mixer"
+HKR,,CLSID,,%Proxy.CLSID%
+
+;;-----------------------------------------------------------------------------------------------------
+[RtHDA.RtHDMIWave]
+AddReg = RtHDA.RtHDMIWave.AddReg
+[RtHDA.RtHDMIWave.AddReg]
+HKR,,FriendlyName,,%RtSpdifHDMIWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[DefaultOutFormat.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_AudioEngine_OEMFormat%, %REG_BINARY%, 41,00,C8,70,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+HKR,"EP\\0", %PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+
+[RtHDA.GenRtHDMITopo.AddReg]
+HKR,,FriendlyName,,%RtSpdifHDMITopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[RtHDA.RtHDMITopo]
+AddReg = RtHDA.RtHDMITopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMITopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,75,00,0C,00,00,00,50,01,00,00,02,00,00,00,00,00,00,00
+
+[RtHDA.RtHDMIATopo]
+AddReg = RtHDA.RtHDMIATopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIATopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,63,00,1C,00,00,00,50,01,00,00,02,00,00,00,01,00,00,00,92,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIDTopo]
+AddReg = RtHDA.RtHDMIDTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIDTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,63,00,1C,00,00,00,50,01,00,00,02,00,00,00,01,00,00,00,08,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIWTopo]
+AddReg = RtHDA.RtHDMIWTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIWTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,63,00,1C,00,00,00,50,01,00,00,02,00,00,00,01,00,00,00,64,01,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+
+[RtHDA.RtHDMIADTopo]
+AddReg = RtHDA.RtHDMIADTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIADTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%
+HKR,"EP\\0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,A3,74,2C,00,00,00,50,01,00,00,02,00,00,00,02,00,00,00,08,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,92,00,01,00,00,00,10,00,80,00,00,AA,00<38,9B,71
+
+[ZtHDA.RtHDMIAWTopo_
+AddReg = R|HDA.RtHDMIAWTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtIA.rtHDMIAWTopo.AddReg]
+HKR,"EP\\0", %PKEYOAudioEndpoint_Association%,,%KSNODETYPE_HDMI_INTERFACE%M
+HKR,"EP\\0",`%PKEY_SupporTFormat_OEMFormat%, %REG_BINARY%,41,00,A3,74,2C,00,00,00,50,01,00,00,02,00,00,00,02,00,00,00,92,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,64,01,00,00,00,00,10,00,80,00,0,AA,00,38,9B,71
+
+[RtHDA.RtHDMIDWTopo]
+AddReg = RtHDA.RtHDMIDWTopo.AddReg, RtHDA.GenRtHDMITopo.AddReg, SysFx.AddReg, DefaultOutFormat.AddReg
+[RtHDA.RtHDMIDWTopo.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HDMI_INPERFACE%
+HKR,"EP\L0", %PKEY_SupportFormat_OEMFormat%, %REG_BINARY%,41,00,A3,74,2C,00,00,00,50,01,00,00,02,00,00,00,02,00,00,00,08,00,00,00,00,00,10,00,80,00,00,AA,80,38.9B,70,>4,01)02,00,00,00,10,00,y0,00,00,AA,00,8,9B,71
+
+[rtHDA.RtHÄMIADWTopo]
+AddREg = RtHdE&RtHDMIADWUoqo.AddReg. RtHfA.GenRvÈDMITopo.AddRug. QysFx.AddReg-0DefaultGutFormat.@ddReg[ÒtHDA.VtJDMIADWTopo.AddRegU
+HKR¬"EP\\0", %PKEY_AudioEnd`oant_AssociaôiGN%,(%kSNODETYPE_HÄMI_INÔEVFACE%HKB,"EP\|0", %PKEY_SupporuFormat_OEMFormat%, %REGOBINARY%,41,00,34,12,3C,00,00,00,50,01,00,00,02,00,00,00,03,00,00,00,08,00,00,00,00,00<10,00,80,00,00,AA,00,38,9B,71,92,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71,64,01,00,00,00,00,10,00,80,0,00,AÁ,00,38,9B,71
+
+;;-------,----------------------------------------%---------------------------------------------------
+
+[Strings]
+MfgName="Realtek"
+; not sure if this is localizable
+MediaCategkries="SYSTEM\CurrentControlSet\Control\MediaCategories"
+; localizable
+OrganixationName="Realtek Semiconductor Corp."
+PackageDésplayName="HD Audio Driver"
+J;;
+;; PropertyKey GUIDS
+;;
+PKEY_SYSFX_Association          = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},0"
+PKEY_SYSFX_PreMixClsid          = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},1"
+PKEY_SYSFX_PostMixClsid         = "{D0
+MaxxAudioEQ.dll
+MaxxAudioAPO20.dll
+MaxxAudioAPO30.dll
+MaxxAudioAPO40.dll
+MaxxAudioAPO50.dll
+MaxxVolumeSDAPO.dll
+MaxxVoiceAPO20.dll
+MaxxAudioRealtek.dll
+WavesGUILib.dll
+RP3DAA32.dll
+RP3DHT32.dll
+SFAPO.dll
+SFCOM.dll
+SFNHK.dll
+tosade.dll
+tadefxapo.dll
+tadefxapo2.dll
+TepeqAPO.dll
+SFSS_APO.dll
+CONEQMSAPOGUILibrary.dll
+sl3apo32.dll
+slcnt32.dll
+slprp32.dll
+sltech32.dll
+MISS_APO.dll
+NAHIMICAPOlfx.dll
+MaxxSpeechAPO.dll
+audioLibVc.dll
+DDPA32.dll
+DDPD32A.dll
+DDPO32A.dll
+DDPP32A.dll
+tosasfapo32.dll
+toseaeapo32.dll
+tossaeapo32.dll
+
+;; Copy Andrea related modules
+[Andrea.CopyList]
+AERTARen.dll
+AERTACap.dll
+
+;; Copy PCEE3 related modules
+[PCEE3.CopyList]
+RTEEL32A.dll
+RTEEG32A.dll
+RTEED32A.dll
+RTEEP32A.dll
+
+;; Copy DTSAPO related modules
+[DTSAPO.CopyList]
+DTSGFXAPO.dll
+DTSGFXAPONS.dll
+DTSLFXAPO.dll
+DTSNeoPCDLL.dll
+DTSVoiceClarityDLL.dll
+DTSS2SpeakerDLL.dll
+DTSS2HeadphoneDLL.dll
+DTSBassEnhancementDLL.dll
+DTSBoostDLL.dll
+DTSLimiterDLL.dll
+DTSGainCompensatorDLL.dll
+DTSSymmetryDLL.dll
+
+;; Copy PCEE4 related modules
+[PCEE4.CopyList]
+R4EEL32A.dll
+R4EEG32A.dll
+R4EED32A.dll
+R4EEP32A.dll
+R4EEA32A.dll
+
+[Knowles.CopyList]
+KAAPORT.dll
+
+[DTSAPO2.CopyList]
+DTSU2PGFX32.dll
+DTSU2PLFX32.dll
+DTSU2PREC32.dll
+
+[IntcAzAudModel.NTX86]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, Andrea.CopyList, PCEE3.CopyList, DTSAPO.CopyList, PCEE4.CopyList, Knowles.CopyList, DTSAPO2.CopyList, VnAService.CopyList
+DelReg    = RtkHD.DelReg, SonicFocus.DelReg, DTS.DelReg, Dolby4.DelReg, RealtekEffects.DelReg, RealtekOptions.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SonicFocus.AddReg, DTS.AddReg, Knowles.AddReg, RealtekEffects.AddReg, RealtekOptions.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, rtcom.RegisterDlls, Andrea.RegisterDlls, PCEE3.RegisterDlls, DTSAPO.RegisterDlls, PCEE4.RegisterDlls, Knowles.RegisterDlls, DTSAPO2.RegisterDlls
+
+[IntcAzAudModel.NTX86.HW]
+AddReg=HdAudSecurity.AddReg
+
+[IntcAzAudModel.NTX86.Services]
+AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall
+
+[IntcAzAudModel.NTX86.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+
+[SonicFocus.AddReg]
+HKLM,Software\SonicFocus
+
+[SonicFocus.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[SonicFocus.DelReg]
+HKLM,Software\SonicFocus
+
+[DTS.AddReg]
+HKLM,Software\DTS
+
+[DTS.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[DTS.DelReg]
+HKLM,Software\DTS
+
+[Dolby4.DelReg]
+HKLM,Software\Dolby\PCEE4\DynamicKeys
+HKLM,Software\Dolby\PCEE4\StaticKeys
+
+[RealtekEffects.AddReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekEffects.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekEffects.DelReg]
+HKLM,Software\Realtek\RealtekEffects
+
+[RealtekOptions.AddReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[RealtekOptions.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[RealtekOptions.DelReg]
+HKLM,Software\Realtek\RealtekOptions
+
+[GUIInformation.AddReg]
+HKLM,SOFTWARE\Realtek\Audio\GUI_INFORMATION
+
+[GUIInformation.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[IntcAzAudServiceInstall]
+DisplayName   = "Service for Realtek HD Audio (WDM)"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\RTKVHDA.sys
+
+[IntcAzAudModel.NTX86.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineOutWave%, IntcAzAudModel.RearLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineOutTopo%, IntcAzAudModel.RearLineOutTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_PrimaryLineOutWave%, IntcAzAudModel.PrimaryLineOutWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_PrimaryLineOutTopo%, IntcAzAudModel.PrimaryLineOutTopo
+AddInterface=

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Created With CreateMup.exe Version 25.11.2014.0925-->
+<MUPDefinition xmlns="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd mupdefinition.xsd">
+  <packageinformation>
+    <installertype>msi</installertype>
+    <packagegrouping>single_package</packagegrouping>
+    <packagingtype>zip</packagingtype>
+    <releasetype>DRVR</releasetype>
+    <mupspecificationversion>2.4.3</mupspecificationversion>
+    <version>1.1.0.1064</version>
+    <name>TXE</name>
+    <supportedoperatingsystems>
+      <osidentifier name="Windows7" architecture="x86" />
+      <osidentifier name="Windows8" architecture="x86" />
+      <osidentifier name="Windows8.1" architecture="x86" />
+      <osidentifier name="Windows10" architecture="x86" />
+      <osidentifier name="Windows7" architecture="x64" />
+      <osidentifier name="W2K8R2" architecture="x64" />
+      <osidentifier name="Windows8" architecture="x64" />
+      <osidentifier name="W2K12" architecture="x64" />
+      <osidentifier name="Windows8.1" architecture="x64" />
+      <osidentifier name="W2K12R2" architecture="x64" />
+      <osidentifier name="Windows10" architecture="x64" />
+    </supportedoperatingsystems>
+    <content>
+      <Device componentID="101956">
+        <PCIInfo vendorID="8086" deviceID="0F18" />
+        <Image type="DRVR" version="1.1.0.1064">
+          <file>production\Windows7-x86\TXEI.inf\TXEI.inf</file>
+          <file>production\Windows7-x86\TXEI.inf\TXEI.cat</file>
+          <file>production\Windows7-x86\TXEI.inf\TXEI.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="101956">
+        <PCIInfo vendorID="8086" deviceID="0F18" />
+        <Image type="DRVR" version="1.1.0.1064">
+          <file>production\Windows8-x86\TXEI.inf\TXEI.inf</file>
+          <file>production\Windows8-x86\TXEI.inf\TXEI.cat</file>
+          <file>production\Windows8-x86\TXEI.inf\TXEI.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="101956">
+        <PCIInfo vendorID="8086" deviceID="0F18" />
+        <Image type="DRVR" version="1.1.0.1064">
+          <file>production\Windows8.1-x86\TXEI.inf\TXEI.inf</file>
+          <file>production\Windows8.1-x86\TXEI.inf\TXEI.cat</file>
+          <file>production\Windows8.1-x86\TXEI.inf\TXEI.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="101956">
+        <PCIInfo vendorID="8086" deviceID="0F18" />
+        <Image type="DRVR" version="1.1.0.1064">
+          <file>production\Windows10-x86\TXEI.inf\TXEI.inf</file>
+          <file>production\Windows10-x86\TXEI.inf\TXEI.cat</file>
+          <file>production\Windows10-x86\TXEI.inf\TXEI.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="101956">
+        <PCIInfo vendorID="8086" deviceID="0F18" />
+        <Image type="DRVR" version="1.1.0.1064">
+          <file>production\Windows7-x64\TXEI.inf\TXEI.inf</file>
+          <file>production\Windows7-x64\TXEI.inf\TXEI.cat</file>
+          <file>production\Windows7-x64\TXEI.inf\TXEIx64.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="101956">
+        <PCIInfo vendorID="8086" deviceID="0F18" />
+        <Image type="DRVR" version="1.1.0.1064">
+          <file>production\W2K8R2-x64\TXEI.inf\TXEI.inf</file>
+          <file>production\W2K8R2-x64\TXEI.inf\TXEI.cat</file>
+          <file>production\W2K8R2-x64\TXEI.inf\TXEIx64.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="101956">
+        <PCIInfo vendorID="8086" deviceID="0F18" />
+        <Image type="DRVR" version="1.1.0.1064">
+          <file>production\Windows8-x64\TXEI.inf\TXEI.inf</file>
+          <file>production\Windows8-x64\TXEI.inf\TXEI.cat</file>
+          <file>production\Windows8-x64\TXEI.inf\TXEIx64.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="101956">
+        <PCIInfo vendorID="8086" deviceID="0F18" />
+        <Image type="DRVR" version="1.1.0.1064">
+          <file>production\W2K12-x64\TXEI.inf\TXEI.inf</file>
+          <file>production\W2K12-x64\TXEI.inf\TXEI.cat</file>
+          <file>production\W2K12-x64\TXEI.inf\TXEIx64.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="101956">
+        <PCIInfo vendorID="8086" deviceID="0F18" />
+        <Image type="DRVR" version="1.1.0.1064">
+          <file>production\Windows8.1-x64\TXEI.inf\TXEI.inf</file>
+          <file>production\Windows8.1-x64\TXEI.inf\TXEI.cat</file>
+          <file>production\Windows8.1-x64\TXEI.inf\TXEIx64.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="101956">
+        <PCIInfo vendorID="8086" deviceID="0F18" />
+        <Image type="DRVR" version="1.1.0.1064">
+          <file>production\W2K12R2-x64\TXEI.inf\TXEI.inf</file>
+          <file>production\W2K12R2-x64\TXEI.inf\TXEI.cat</file>
+          <file>production\W2K12R2-x64\TXEI.inf\TXEIx64.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="101956">
+        <PCIInfo vendorID="8086" deviceID="0F18" />
+        <Image type="DRVR" version="1.1.0.1064">
+          <file>production\Windows10-x64\TXEI.inf\TXEI.inf</file>
+          <file>production\Windows10-x64\TXEI.inf\TXEI.cat</file>
+          <file>production\Windows10-x64\TXEI.inf\TXEIx64.sys</file>
+        </Image>
+      </Device>
+    </content>
+  </packageinformation>
+  <executable>
+    <executablename>SetupTXE.exe</executablename>
+  </executable>
+  <behaviors>
+    <behavior name="extractdrivers">
+      <vendoroption>
+        <container>
+          <containervalue switch="/" requiresvalue="false" valuedelimiter=" " enclose="&quot;">v</containervalue>
+          <optionvalue switch="" requiresvalue="true" valuedelimiter="=" enclose="\&quot;">ExtractDrivers</optionvalue>
+        </container>
+      </vendoroption>
+    </behavior>
+    <behavior name="attended" />
+    <behavior name="freshinstall">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">fresh</optionvalue>
+      </vendoroption>
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">s</optionvalue>
+      </vendoroption>
+    </behavior>
+    <behavior name="help">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">?</optionvalue>
+      </vendoroption>
+    </behavior>
+    <behavior name="unattended">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">s</optionvalue>
+      </vendoroption>
+    </behavior>
+  </behaviors>
+  <parameters>
+    <parametermapping name="force">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">overwrite</optionvalue>
+      </vendoroption>
+    </parametermapping>
+    <parametermapping name="logfile">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="true" valuedelimiter=" " enclose="&quot;">report</optionvalue>
+      </vendoroption>
+    </parametermapping>
+  </parameters>
+  <returncodes>
+    <returncodemapping name="REBOOTING_SYSTEM">
+      <vendorreturncode>1641</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="PASSWORD_REQUIRED">
+      <!-- Not valid -->
+      <vendorreturncode>2</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="NO_DOWNGRADE">
+      <!--Always able to DownGrade, Installer Doesn't need to support-->
+      <vendorreturncode>9999</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="REBOOT_UPDATE_PENDING">
+      <!--Installer only Reboots Once, Installer Doesn't need to support-->
+      <vendorreturncode>9999</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="DEP_SOFT_ERROR">
+      <!-- 1603=Standard Win32 fatal error code -->
+      <vendorreturncode>1603</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="DEP_HARD_ERROR">
+      <vendorreturncode>1603</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="SUCCESS">
+      <vendorreturncode>0</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>1602</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="REBOOT_REQUIRED">
+      <vendorreturncode>3010</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR_INSTALL_PLATFORM_UNSUPPORTED">
+      <vendorreturncode>1603</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="UNKNOWN_OPTION">
+      <vendorreturncode>1603</vendorreturncode>
+    </returncodemapping>
+  </returncodes>
+  <inventorymetadata>
+    <extractdriversidentifier>
+      <!--<softwareidentityinstances></softwareidentityinstances>-->
+      <pnpids>
+        <pnpdevice componentID="101956">
+          <!--filename: \Driver\x86\TXEI.inf-->
+          <driverversion>1.1.0.1064</driverversion>
+          <pciinfo vendorID="8086" deviceID="0F18" />
+        </pnpdevice>
+        <pnpdevice componentID="101956">
+          <!--filename: \Driver\x64\TXEI.inf-->
+          <driverversion>1.1.0.1064</driverversion>
+          <pciinfo vendorID="8086" deviceID="0F18" />
+        </pnpdevice>
+      </pnpids>
+    </extractdriversidentifier>
+    <fullpackageidentifier>
+      <msis>
+        <msi componentID="101956">
+          <upgradecode>{BBCD444B-4502-4301-A21B-FE61006E72B4}</upgradecode>
+          <version>1.1.0.1064</version>
+        </msi>
+      </msis>
+    </fullpackageidentifier>
+  </inventorymetadata>
+</MUPDefinition>

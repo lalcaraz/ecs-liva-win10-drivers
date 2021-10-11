@@ -1,0 +1,2732 @@
+1}"
+GUID.RearLineInYellowWave ="{242792D9-E16F-4e09-9F4A-FD5C910230F2}"
+GUID.RearLineInPurpleWave ="{64593A8D-8942-415f-83F7-495232599984}"
+GUID.RearLineInPinkWave   ="{3FAF44E8-FC47-4921-AA2A-CB511CD5A340}"
+GUID.RearLineInGoldenWave ="{A18CE952-B042-42d4-AE98-6AD616604407}"
+GUID.RearLineInSilverWave ="{9ABF55D5-4319-4e1e-A1E6-D720FB153A73}"
+GUID.RearLineInWhiteWave  ="{39514CCF-B424-454d-A2DD-7CCCC41902CC}"
+
+GUID.RearMicInBlackWave   ="{963BB9C2-C99A-4278-8C85-0A53FAD66593}"
+GUID.RearMicInGreyWave    ="{750D77D8-DD18-45fa-813B-31AAF37D8816}"
+GUID.RearMicInBlueWave    ="{D09B4160-D155-4409-814C-7BDFD3DCC115}"
+GUID.RearMicInGreenWave   ="{E63A12AB-7A2A-40bf-B5F5-176F3E17A75B}"
+GUID.RearMicInRedWave     ="{397BCD99-443F-4f0a-91F7-8CF33B73E7B5}"
+GUID.RearMicInOrangeWave  ="{DF15C716-2E97-498c-953B-71B1A6E4BD03}"
+GUID.RearMicInYellowWave  ="{A80B8021-3A94-4cba-A31F-A30285215AEB}"
+GUID.RearMicInPurpleWave  ="{ADA7C584-EC2C-4bad-9491-38EA3EDC364E}"
+GUID.RearMicInPinkWave    ="{9767F352-1066-4606-B843-EB3DFF14AE48}"
+GUID.RearMicInGoldenWave  ="{0BF09DFA-1DC9-45d6-9E68-B62FCE22F574}"
+GUID.RearMicInSilverWave  ="{D88BF175-E66E-41f6-91A0-1AE5BD7FB550}"
+GUID.RearMicInWhiteWave   ="{C949BDB2-0F63-411d-9A1C-FF2C68137986}"
+
+GUID.FrontLineInBlackWave ="{E922348B-F538-48f2-8A46-03610CA3C815}"
+GUID.FrontLineInGreyWave  ="{F84AD65F-8888-4076-BA55-15FA42C66D43}"
+GUID.FrontLineInBlueWave  ="{EEA8F0C2-15F2-47ba-9939-8B68B99B5A47}"
+GUID.FrontLineInGreenWave ="{D9CFB32D-C42A-446d-8D3D-BE3ACF1FE392}"
+GUID.FrontLineInRedWave   ="{37E6001D-7297-439e-BB83-EAAA48F54DE1}"
+GUID.FrontLineInOrangeWave="{0FBC7B0C-368C-468a-ADCA-A9C1DFD67B01}"
+GUID.FrontLineInYellowWave="{C1601920-82B6-411d-B1EB-F1B8A9DD2DCD}"
+GUID.FrontLineInPurpleWave="{F32BA73A-930B-4596-A47F-A9339FB7E24C}"
+GUID.FrontLineInPinkWave  ="{9EC96236-A9B3-45b3-8E19-C4F424399457}"
+GUID.FrontLineInGoldenWave="{9F31B40E-E3D2-4683-8CD8-DD29972CBD6A}"
+GUID.FrontLineInSilverWave="{9B706B3E-F3FE-4d4b-B410-468D3E083D98}"
+GUID.FrontLineInWhiteWave ="{6E56DB59-D4D1-4fa8-9575-AE39763E14C7}"
+
+GUID.FrontMicInBlackWave  ="{063C7B0E-7D63-45ea-BD17-BD2383C9DA48}"
+GUID.FrontMicInGreyWave   ="{F6810363-D355-4c27-B60C-DB10B4A6DB1F}"
+GUID.FrontMicInBlueWave   ="{4872BA3F-61F9-495f-97C1-0FC6D149B0D8}"
+GUID.FrontMicInGreenWave  ="{564C8501-3C26-4051-B3DF-80157C565158}"
+GUID.FrontMicInRedWave    ="{FA5703D8-BC38-4759-BDDB-53A0A9977D86}"
+GUID.FrontMicInOrangeWave ="{2F055121-7B49-4389-AE10-6D8FDB6F9E15}"
+GUID.FrontMicInYellowWave ="{67DC169B-1C82-4fb7-B566-CC917F303CD7}"
+GUID.FrontMicInPurpleWave ="{8DE7D024-880C-4a50-BFBA-6118FA703728}"
+GUID.FrontMicInPinkWave   ="{D3D9A153-5556-40a7-8C1B-E476344A524A}"
+GUID.FrontMicInGoldenWave ="{4F8E73AF-13D0-4ab4-BD05-DA13475B6D99}"
+GUID.FrontMicInSilverWave ="{9B72B3D3-32F5-4d3b-868E-C506824ED45A}"
+GUID.FrontMicInWhiteWave  ="{53824709-A7CA-4432-9423-D47A01938B83}"
+
+GUID.FjIntrMICWave        ="{703EFE0E-C7D3-4506-96BF-E2D28E2ECEEE}"
+GUID.FjMic1Wave           ="{703EFE0D-C7D3-4506-96BF-E2D28E2ECEEE}"
+GUID.FjLineIn1Wave        ="{703EFE0C-C7D3-4506-96BF-E2D28E2ECEEE}"
+
+GUID.DigitalMic           ="{7DF69A32-C356-4f5a-A3BB-757B8B5177D4}"
+Node.DigitalMic           ="Digital Mic"
+
+GUID.FMRadio              ="{93ED2CB4-7D0D-4c1c-8A91-5AE457E066AD}"
+Node.FMRadio              ="FM radio"
+GUID.IntrSubWoofer        ="{CE407554-302B-44a8-9455-BB933694A1A5}"
+
+RTDP_CID1_PATH="CLSID\{3739576F-F27B-4857-9E3E-8BAAA2A030B9}"
+RTDP_CID2_PATH="CLSID\{BBA39DEF-B0D8-4D50-9133-85D5B1AC7971}"
+
+[IntcAzAudModel_1AFA840A.NTamd64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, RTCOM64.CopyList, Andrea.CopyList, SRSAPO.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg, RTCOMDLL.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTLCPAPI.AddReg, RTCOMDLL.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SRSAPO.AddReg, SRSAPO_1AFA840A.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, RTCOM64.RegisterDlls, Andrea.RegisterDlls, SRSAPO.RegisterDlls, PCEE3.RegisterDlls
+[IntcAzAudModel_1AFA840A.NTamd64.HW]
+Needs=IntcAzAudModel.NTamd64.HW
+[IntcAzAudModel_1AFA840A.NTamd64.Services]
+Needs=IntcAzAudModel.NTamd64.Services
+[IntcAzAudModel_1AFA840A.NTamd64.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+[IntcAzAudModel_1AFA840A.NTamd64.Interfaces]
+Needs=IntcAzAudModel.NTamd64.Interfaces
+
+[IntcAzAudModel_14626320.NTamd64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, RTCOM64.CopyList, Andrea.CopyList, SRSAPO.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg, RTCOMDLL.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTLCPAPI.AddReg, RTCOMDLL.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SRSAPO.AddReg, SRSAPO_14626320.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, RTCOM64.RegisterDlls, Andrea.RegisterDlls, SRSAPO.RegisterDlls, PCEE3.RegisterDlls
+[IntcAzAudModel_14626320.NTamd64.HW]
+Needs=IntcAzAudModel.NTamd64.HW
+[IntcAzAudModel_14626320.NTamd64.Services]
+Needs=IntcAzAudModel.NTamd64.Services
+[IntcAzAudModel_14626320.NTamd64.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+[IntcAzAudModel_14626320.NTamd64.Interfaces]
+Needs=IntcAzAudModel.NTamd64.Interfaces
+
+[IntcAzAudModel_14627441.NTamd64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, RTCOM64.CopyList, Andrea.CopyList, SRSAPO.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg, RTCOMDLL.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTLCPAPI.AddReg, RTCOMDLL.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SRSAPO.AddReg, SRSAPO_14627441.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, RTCOM64.RegisterDlls, Andrea.RegisterDlls, SRSAPO.RegisterDlls, PCEE3.RegisterDlls
+[IntcAzAudModel_14627441.NTamd64.HW]
+Needs=IntcAzAudModel.NTamd64.HW
+[IntcAzAudModel_14627441.NTamd64.Services]
+Needs=IntcAzAudModel.NTamd64.Services
+[IntcAzAudModel_14627441.NTamd64.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+[IntcAzAudModel_14627441.NTamd64.Interfaces]
+Needs=IntcAzAudModel.NTamd64.Interfaces
+
+[IntcAzAudModel_14627438.NTamd64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, RTCOM64.CopyList, Andrea.CopyList, SRSAPO.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg, RTCOMDLL.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTLCPAPI.AddReg, RTCOMDLL.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SRSAPO.AddReg, SRSAPO_14627438.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, RTCOM64.RegisterDlls, Andrea.RegisterDlls, SRSAPO.RegisterDlls, PCEE3.RegisterDlls
+[IntcAzAudModel_14627438.NTamd64.HW]
+Needs=IntcAzAudModel.NTamd64.HW
+[IntcAzAudModel_14627438.NTamd64.Services]
+Needs=IntcAzAudModel.NTamd64.Services
+[IntcAzAudModel_14627438.NTamd64.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+[IntcAzAudModel_14627438.NTamd64.Interfaces]
+Needs=IntcAzAudModel.NTamd64.Interfaces
+
+[IntcAzAudModel_14627459.NTamd64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, RTCOM64.CopyList, Andrea.CopyList, SRSAPO.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg, RTCOMDLL.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTLCPAPI.AddReg, RTCOMDLL.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SRSAPO.AddReg, SRSAPO_14627459.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, RTCOM64.RegisterDlls, Andrea.RegisterDlls, SRSAPO.RegisterDlls, PCEE3.RegisterDlls
+[IntcAzAudModel_14627459.NTamd64.HW]
+Needs=IntcAzAudModel.NTamd64.HW
+[IntcAzAudModel_14627459.NTamd64.Services]
+Needs=IntcAzAudModel.NTamd64.Services
+[IntcAzAudModel_14627459.NTamd64.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+[IntcAzAudModel_14627459.NTamd64.Interfaces]
+Needs=IntcAzAudModel.NTamd64.Interfaces
+
+[IntcAzAudModel_14C000CE.NTamd64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, RTCOM64.CopyList, Andrea.CopyList, SRSAPO.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg, RTCOMDLL.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTLCPAPI.AddReg, RTCOMDLL.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SRSAPO.AddReg, SRSAPO_14C000CE.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, RTCOM64.RegisterDlls, Andrea.RegisterDlls, SRSAPO.RegisterDlls, PCEE3.RegisterDlls
+[IntcAzAudModel_14C000CE.NTamd64.HW]
+Needs=IntcAzAudModel.NTamd64.HW
+[IntcAzAudModel_14C000CE.NTamd64.Services]
+Needs=IntcAzAudModel.NTamd64.Services
+[IntcAzAudModel_14C000CE.NTamd64.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+[IntcAzAudModel_14C000CE.NTamd64.Interfaces]
+Needs=IntcAzAudModel.NTamd64.Interfaces
+
+[IntcAzAudModel_14C000BE.NTamd64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, RTCOM64.CopyList, Andrea.CopyList, SRSAPO.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg, RTCOMDLL.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTLCPAPI.AddReg, RTCOMDLL.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SRSAPO.AddReg, SRSAPO_14C000BE.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, RTCOM64.RegisterDlls, Andrea.RegisterDlls, SRSAPO.RegisterDlls, PCEE3.RegisterDlls
+[IntcAzAudModel_14C000BE.NTamd64.HW]
+Needs=IntcAzAudModel.NTamd64.HW
+[IntcAzAudModel_14C000BE.NTamd64.Services]
+Needs=IntcAzAudModel.NTamd64.Services
+[IntcAzAudModel_14C000BE.NTamd64.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+[IntcAzAudModel_14C000BE.NTamd64.Interfaces]
+Needs=IntcAzAudModel.NTamd64.Interfaces
+
+[IntcAzAudModel_1B72A222.NTamd64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, RTCOM64.CopyList, Andrea.CopyList, SRSAPO.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg, RTCOMDLL.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTLCPAPI.AddReg, RTCOMDLL.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SRSAPO.AddReg, SRSAPO_1B72A222.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, RTCOM64.RegisterDlls, Andrea.RegisterDlls, SRSAPO.RegisterDlls, PCEE3.RegisterDlls
+[IntcAzAudModel_1B72A222.NTamd64.HW]
+Needs=IntcAzAudModel.NTamd64.HW
+[IntcAzAudModel_1B72A222.NTamd64.Services]
+Needs=IntcAzAudModel.NTamd64.Services
+[IntcAzAudModel_1B72A222.NTamd64.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+[IntcAzAudModel_1B72A222.NTamd64.Interfaces]
+Needs=IntcAzAudModel.NTamd64.Interfaces
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              nRedTopo%, IntcAzAudModel.RearLineInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInRedTopo%, IntcAzAudModel.RearLineInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInOrangeWave%, IntcAzAudModel.RearLineInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInOrangeWave%, IntcAzAudModel.RearLineInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInOrangeWave%, IntcAzAudModel.RearLineInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInOrangeTopo%, IntcAzAudModel.RearLineInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInOrangeTopo%, IntcAzAudModel.RearLineInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInYellowWave%, IntcAzAudModel.RearLineInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInYellowWave%, IntcAzAudModel.RearLineInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInYellowWave%, IntcAzAudModel.RearLineInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInYellowTopo%, IntcAzAudModel.RearLineInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInYellowTopo%, IntcAzAudModel.RearLineInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPurpleWave%, IntcAzAudModel.RearLineInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInPurpleWave%, IntcAzAudModel.RearLineInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInPurpleWave%, IntcAzAudModel.RearLineInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPurpleTopo%, IntcAzAudModel.RearLineInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInPurpleTopo%, IntcAzAudModel.RearLineInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPinkWave%, IntcAzAudModel.RearLineInPinkWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInPinkWave%, IntcAzAudModel.RearLineInPinkWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInPinkWave%, IntcAzAudModel.RearLineInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInPinkTopo%, IntcAzAudModel.RearLineInPinkTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInPinkTopo%, IntcAzAudModel.RearLineInPinkTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGoldenWave%, IntcAzAudModel.RearLineInGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInGoldenWave%, IntcAzAudModel.RearLineInGoldenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInGoldenWave%, IntcAzAudModel.RearLineInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInGoldenTopo%, IntcAzAudModel.RearLineInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInGoldenTopo%, IntcAzAudModel.RearLineInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInSilverWave%, IntcAzAudModel.RearLineInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInSilverWave%, IntcAzAudModel.RearLineInSilverWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInSilverWave%, IntcAzAudModel.RearLineInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInSilverTopo%, IntcAzAudModel.RearLineInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInSilverTopo%, IntcAzAudModel.RearLineInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInWhiteWave%, IntcAzAudModel.RearLineInWhiteWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInWhiteWave%, IntcAzAudModel.RearLineInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearLineInWhiteWave%, IntcAzAudModel.RearLineInWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearLineInWhiteTopo%, IntcAzAudModel.RearLineInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearLineInWhiteTopo%, IntcAzAudModel.RearLineInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlackWave%, IntcAzAudModel.RearMicInBlackWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInBlackWave%, IntcAzAudModel.RearMicInBlackWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInBlackWave%, IntcAzAudModel.RearMicInBlackWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlackTopo%, IntcAzAudModel.RearMicInBlackTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInBlackTopo%, IntcAzAudModel.RearMicInBlackTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreyWave%, IntcAzAudModel.RearMicInGreyWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGreyWave%, IntcAzAudModel.RearMicInGreyWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGreyWave%, IntcAzAudModel.RearMicInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreyTopo%, IntcAzAudModel.RearMicInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGreyTopo%, IntcAzAudModel.RearMicInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlueWave%, IntcAzAudModel.RearMicInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInBlueWave%, IntcAzAudModel.RearMicInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInBlueWave%, IntcAzAudModel.RearMicInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInBlueTopo%, IntcAzAudModel.RearMicInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInBlueTopo%, IntcAzAudModel.RearMicInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreenWave%, IntcAzAudModel.RearMicInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInGreenWave%, IntcAzAudModel.RearMicInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInGreenWave%, IntcAzAudModel.RearMicInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInGreenTopo%, IntcAzAudModel.RearMicInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGreenTopo%, IntcAzAudModel.RearMicInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInRedWave%, IntcAzAudModel.RearMicInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInRedWave%, IntcAzAudModel.RearMicInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInRedWave%, IntcAzAudModel.RearMicInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInRedTopo%, IntcAzAudModel.RearMicInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInRedTopo%, IntcAzAudModel.RearMicInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInOrangeWave%, IntcAzAudModel.RearMicInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInOrangeTopo%, IntcAzAudModel.RearMicInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInYellowWave%, IntcAzAudModel.RearMicInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInYellowTopo%, IntcAzAudModel.RearMicInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RearMicInPurpleWave%, IntcAzAudModel.RearMicInPurpleWave
+AddInterface=%KSCATEGORY_AUIO%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPurpleTopo%, IntcAzAudModel.RearMicInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIN%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AfdInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_SEALT…ME%,%KSNAME_RearMicInPinkWave%, IntcAzAudModel.RearMicInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInPinkTopo%, IntcAzAudMo$el*RearMicInPinkTopk
+AddIÓter&ace%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInPinkTopo%, IntcAzAudModel.RearMicInTinkTopo
+%
+AddInter&ace=%KSCATEGOrY_AUDIO%-eKSN@ME_RearMicInGolden_avf-, IntcAzAudModel.ReasMicInGoldenWave
+AddinÙurface%KSCTEGORY_CAPDRE%,%KSNAME_RearMisInGoldenWave%,`	ntbAzAudmndÂm.RearMi#InoldeNWAve
+AddInperfage=%KSCATE«OVY_REALTIME!,%ISNAME]BearMicInGoldenWaVe%, IftcAzAufMldel.R}arMicInGoldenWave
+AddIoterface=%KSCATEGKRY_AUDIO%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInGoldenTopo%, IntcAzAudModel.RearMicInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearIicInSilverWave
+AddInterface=%KSCATEGORYﬂREALTIME%,%KSNAME_RearMicInSilverWave%, IntcAzAudModel.RearMicInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RearMicInSilverTopo%, IntcAzAudModel.RearMicInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RearMicInWhiteWave%, IntcAzAudModel.RearMicInWhiteWave
+AddInterface=%KSCATEGORY_CAPTUmssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, RTCOM64.CopyList, Andrea.CopyList, SRSAPO.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg, RTCOMDLL.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTLCPAPI.AddReg, RTCOMDLL.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SRSAPO.AddReg, SRSAPO_14627438.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, RTCOM64.RegisterDlls, Andrea.RegisterDlls, SRSAPO.RegisterDlls, PCEE3.RegisterDlls
+[IntcAzAudModel_14627438.NTamd64.HW]
+Needs=IntcAzAudModel.NTamd64.HW
+[IntcAzAudModel_14627438.NTamd64.Services]
+Needs=IntcAzAudModel.NTamd64.Services
+[IntcAzAudModel_14627438.NTamd64.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+[IntcAzAudModel_14627438.NTamd64.Interfaces]
+Needs=IntcAzAudModel.NTamd64.Interfaces
+
+[IntcAzAudModel_14627459.NTamd64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, RTCOM64.CopyList, Andrea.CopyList, SRSAPO.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg, RTCOMDLL.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTLCPAPI.AddReg, RTCOMDLL.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SRSAPO.AddReg, SRSAPO_14627459.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, RTCOM64.RegisterDlls, Andrea.RegisterDlls, SRSAPO.RegisterDlls, PCEE3.RegisterDlls
+[IntcAzAudModel_14627459.NTamd64.HW]
+Needs=IntcAzAudModel.NTamd64.HW
+[IntcAzAudModel_14627459.NTamd64.Services]
+Needs=IntcAzAudModel.NTamd64.Services
+[IntcAzAudModel_14627459.NTamd64.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+[IntcAzAudModel_14627459.NTamd64.Interfaces]
+Needs=IntcAzAudModel.NTamd64.Interfaces
+
+[IntcAzAudModel_14C000CE.NTamd64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, RTCOM64.CopyList, Andrea.CopyList, SRSAPO.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg, RTCOMDLL.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTLCPAPI.AddReg, RTCOMDLL.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SRSAPO.AddReg, SRSAPO_14C000CE.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, RTCOM64.RegisterDlls, Andrea.RegisterDlls, SRSAPO.RegisterDlls, PCEE3.RegisterDlls
+[IntcAzAudModel_14C000CE.NTamd64.HW]
+Needs=IntcAzAudModel.NTamd64.HW
+[IntcAzAudModel_14C000CE.NTamd64.Services]
+Needs=IntcAzAudModel.NTamd64.Services
+[IntcAzAudModel_14C000CE.NTamd64.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+[IntcAzAudModel_14C000CE.NTamd64.Interfaces]
+Needs=IntcAzAudModel.NTamd64.Interfaces
+
+[IntcAzAudModel_14C000BE.NTamd64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, RTCOM64.CopyList, Andrea.CopyList, SRSAPO.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg, RTCOMDLL.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTLCPAPI.AddReg, RTCOMDLL.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SRSAPO.AddReg, SRSAPO_14C000BE.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, RTCOM64.RegisterDlls, Andrea.RegisterDlls, SRSAPO.RegisterDlls, PCEE3.RegisterDlls
+[IntcAzAudModel_14C000BE.NTamd64.HW]
+Needs=IntcAzAudModel.NTamd64.HW
+[IntcAzAudModel_14C000BE.NTamd64.Services]
+Needs=IntcAzAudModel.NTamd64.Services
+[IntcAzAudModel_14C000BE.NTamd64.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+[IntcAzAudModel_14C000BE.NTamd64.Interfaces]
+Needs=IntcAzAudModel.NTamd64.Interfaces
+
+[IntcAzAudModel_1B72A222.NTamd64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration,mssysfx.CopyFilesAndRegister
+DelFiles  = RTCOMDLL.DelList,RTLCPAPI.DelList
+CopyFiles = IntcAzAudModelCopyFiles, RTLCPAPI.CopyList, RTCOMDLL.CopyList, RTUninstall.CopyList, RTUI.CopyList, RTCPL.CopyList, SfxFx.CopyList, RTCOM64.CopyList, Andrea.CopyList, SRSAPO.CopyList, PCEE3.CopyList
+DelReg    = RtkHD.DelReg, RTCOMDLL.DelReg
+AddReg    = IntcAzAudModelAddReg, AECBF.AddReg, GUIInformation.AddReg, AZAUD_OEM.AddReg, RTLCPAPI.AddReg, RTCOMDLL.AddReg, RTUninstall.AddReg, RTUI.AddReg, CPL_Class.AddReg, SRSAPO.AddReg, SRSAPO_1B72A222.AddReg
+AddProperty  = OEMCustomBranding.AddProperty
+RegisterDlls = SfxFx.RegisterDlls, RTCOM64.RegisterDlls, Andrea.RegisterDlls, SRSAPO.RegisterDlls, PCEE3.RegisterDlls
+[IntcAzAudModel_1B72A222.NTamd64.HW]
+Needs=IntcAzAudModel.NTamd64.HW
+[IntcAzAudModel_1B72A222.NTamd64.Services]
+Needs=IntcAzAudModel.NTamd64.Services
+[IntcAzAudModel_1B72A222.NTamd64.CoInstallers]
+CopyFiles = RtkCoInst.CopyList
+AddReg = RtkCoInst.AddReg
+[IntcAzAudModel_1B72A222.NTamd64.Interfaces]
+Needs=IntcAzAudModel.NTamd64.Interfaces
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              erface=%KSCATEGORY_REALTIME%,%KSNAME_FrontMicInGreyWave%, IntcAzAudModel.FrontMicInGreyWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInGreyTopo%, IntcAzAudModel.FrontMicInGreyTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontMicInGreyTopo%, IntcAzAudModel.FrontMicInGreyTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInBlueWave%, IntcAzAudModel.FrontMicInBlueWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontMicInBlueWave%, IntcAzAudModel.FrontMicInBlueWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontMicInBlueWave%, IntcAzAudModel.FrontMicInBlueWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInBlueTopo%, IntcAzAudModel.FrontMicInBlueTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontMicInBlueTopo%, IntcAzAudModel.FrontMicInBlueTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInGreenWave%, IntcAzAudModel.FrontMicInGreenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontMicInGreenWave%, IntcAzAudModel.FrontMicInGreenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontMicInGreenWave%, IntcAzAudModel.FrontMicInGreenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInGreenTopo%, IntcAzAudModel.FrontMicInGreenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontMicInGreenTopo%, IntcAzAudModel.FrontMicInGreenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInRedWave%, IntcAzAudModel.FrontMicInRedWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontMicInRedWave%, IntcAzAudModel.FrontMicInRedWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontMicInRedWave%, IntcAzAudModel.FrontMicInRedWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInRedTopo%, IntcAzAudModel.FrontMicInRedTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontMicInRedTopo%, IntcAzAudModel.FrontMicInRedTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInOrangeWave%, IntcAzAudModel.FrontMicInOrangeWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontMicInOrangeWave%, IntcAzAudModel.FrontMicInOrangeWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontMicInOrangeWave%, IntcAzAudModel.FrontMicInOrangeWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInOrangeTopo%, IntcAzAudModel.FrontMicInOrangeTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontMicInOrangeTopo%, IntcAzAudModel.FrontMicInOrangeTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInYellowWave%, IntcAzAudModel.FrontMicInYellowWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontMicInYellowWave%, IntcAzAudModel.FrontMicInYellowWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontMicInYellowWave%, IntcAzAudModel.FrontMicInYellowWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInYellowTopo%, IntcAzAudModel.FrontMicInYellowTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontMicInYellowTopo%, IntcAzAudModel.FrontMicInYellowTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInPurpleWave%, IntcAzAudModel.FrontMicInPurpleWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontMicInPurpleWave%, IntcAzAudModel.FrontMicInPurpleWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontMicInPurpleWave%, IntcAzAudModel.FrontMicInPurpleWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInPurpleTopo%, IntcAzAudModel.FrontMicInPurpleTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontMicInPurpleTopo%, IntcAzAudModel.FrontMicInPurpleTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInPinkWave%, IntcAzAudModel.FrontMicInPinkWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontMicInPinkWave%, IntcAzAudModel.FrontMicInPinkWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontMicInPinkWave%, IntcAzAudModel.FrontMicInPinkWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInPinkTopo%, IntcAzAudModel.FrontMicInPinkTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontMicInPinkTopo%, IntcAzAudModel.FrontMicInPinkTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInGoldenWave%, IntcAzAudModel.FrontMicInGoldenWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontMicInGoldenWave%, IntcAzAudModel.FrontMicInGoldenWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontMicInGoldenWave%, IntcAzAudModel.FrontMicInGoldenWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInGoldenTopo%, IntcAzAudModel.FrontMicInGoldenTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontMicInGoldenTopo%, IntcAzAudModel.FrontMicInGoldenTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInSilverWave%, IntcAzAudModel.FrontMicInSilverWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontMicInSilverWave%, IntcAzAudModel.FrontMicInSilverWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontMicInSilverWave%, IntcAzAudModel.FrontMicInSilverWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInSilverTopo%, IntcAzAudModel.FrontMicInSilverTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontMicInSilverTopo%, IntcAzAudModel.FrontMicInSilverTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInWhiteWave%, IntcAzAudModel.FrontMicInWhiteWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_FrontMicInWhiteWave%, IntcAzAudModel.FrontMicInWhiteWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_FrontMicInWhiteWave%, IntcAzAudModel.FrontMicInWhiteWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInWhiteTopo%, IntcAzAudModel.FrontMicInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontMicInWhiteTopo%, IntcAzAudModel.FrontMicInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifWave%, IntcAzAudModel.RtSpdifWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtSpdifWave%, IntcAzAudModel.RtSpdifWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtSpdifWave%, IntcAzAudModel.RtSpdifWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifTopo%, IntcAzAudModel.RtSpdifTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtSpdifTopo%, IntcAzAudModel.RtSpdifTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifHDMIWave%, IntcAzAudModel.RtSpdifHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtSpdifHDMIWave%, IntcAzAudModel.RtSpdifHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtSpdifHDMIWave%, IntcAzAudModel.RtSpdifHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifHDMITopo%, IntcAzAudModel.RtSpdifHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtSpdifHDMITopo%, IntcAzAudModel.RtSpdifHDMITopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifRCAWave%, IntcAzAudModel.RtSpdifRCAWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtSpdifRCAWave%, IntcAzAudModel.RtSpdifRCAWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtSpdifRCAWave%, IntcAzAudModel.RtSpdifRCAWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifRCATopo%, IntcAzAudModel.RtSpdifRCATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtSpdifRCATopo%, IntcAzAudModel.RtSpdifRCATopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifOptWave%, IntcAzAudModel.RtSpdifOptWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtSpdifOptWave%, IntcAzAudModel.RtSpdifOptWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtSpdifOptWave%, IntcAzAudModel.RtSpdifOptWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifOptTopo%, IntcAzAudModel.RtSpdifOptTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtSpdifOptTopo%, IntcAzAudModel.RtSpdifOptTopo
+
+;----------------------------------
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtStereoMixWave%, IntcAzAudModel.RtStereoMixWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtStereoMixWave%, IntcAzAudModel.RtStereoMixWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtStereoMixWave%, IntcAzAudModel.RtStereoMixWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtStereoMixTopo%, IntcAzAudModel.RtStereoMixTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtStereoMixTopo%, IntcAzAudModel.RtStereoMixTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtMicInWave%, IntcAzAudModel.RtMicInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtMicInWave%, IntcAzAudModel.RtMicInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtMicInWave%, IntcAzAudModel.RtMicInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtMicInTopo%, IntcAzAudModel.RtMicInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtMicInTopo%, IntcAzAudModel.RtMicInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtLineInWave%, IntcAzAudModel.RtLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtLineInWave%, IntcAzAudModel.RtLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtLineInWave%, IntcAzAudModel.RtLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtLineInTopo%, IntcAzAudModel.RtLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtLineInTopo%, IntcAzAudModel.RtLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtCDInWave%, IntcAzAudModel.RtCDInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtCDInWave%, IntcAzAudModel.RtCDInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtCDInWave%, IntcAzAudModel.RtCDInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtCDInTopo%, IntcAzAudModel.RtCDInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtCDInTopo%, IntcAzAudModel.RtCDInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtAuxInWave%, IntcAzAudModel.RtAuxInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtAuxInWave%, IntcAzAudModel.RtAuxInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtAuxInWave%, IntcAzAudModel.RtAuxInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtAuxInTopo%, IntcAzAudModel.RtAuxInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtAuxInTopo%, IntcAzAudModel.RtAuxInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtFrontMicInWave%, IntcAzAudModel.RtFrontMicInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtFrontMicInWave%, IntcAzAudModel.RtFrontMicInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtFrontMicInWave%, IntcAzAudModel.RtFrontMicInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtFrontMicInTopo%, IntcAzAudModel.RtFrontMicInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtFrontMicInTopo%, IntcAzAudModel.RtFrontMicInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtFrontLineInWave%, IntcAzAudModel.RtFrontLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtFrontLineInWave%, IntcAzAudModel.RtFrontLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtFrontLineInWave%, IntcAzAudModel.RtFrontLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtFrontLineInTopo%, IntcAzAudModel.RtFrontLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtFrontLineInTopo%, IntcAzAudModel.RtFrontLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DigitalMICWave%, IntcAzAudModel.DigitalMICWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_DigitalMICWave%, IntcAzAudModel.DigitalMICWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_DigitalMICWave%, IntcAzAudModel.DigitalMICWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DigitalMICTopo%, IntcAzAudModel.DigitalMICTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DigitalMICTopo%, IntcAzAudModel.DigitalMICTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtMicArWave%, IntcAzAudModel.RtMicArWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtMicArWave%, IntcAzAudModel.RtMicArWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtMicArWave%, IntcAzAudModel.RtMicArWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtMicArTopo%, IntcAzAudModel.RtMicArTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtMicArTopo%, IntcAzAudModel.RtMicArTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI48Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI9624Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI192Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI192Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI19224Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI19224Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI19224Topo%, RtHDA.RtHDMITopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI48AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI9624ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI192AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI192AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI19224AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI19224AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI19224ATopo%, RtHDA.RtHDMIATopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI48DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI9624DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI192DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI192DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI19224DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI19224DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI19224DTopo%, RtHDA.RtHDMIDTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI48WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_TKPOLOGQ%,%KSNAME_RtHDMI9624Wtopo•, RtHDA.RtHDMMWTmpo
+AddIÓterface=%KSCATEEORY_AUDIO%,%KSNAME_RtHDMI192WWave%, RtHDA.RtHDM	Wave
+Add	nt%rface=%KSBATEGORY_RENDER%,%KSNAME_RtHDMI192WWave%, RtHDA.RtJDMIWav!
+AddHnterface=%KSCATEGORY_REALTYME%,%KSNAME_RtHDMI192WWave%, RtHDARtHDMIWave
+AddInuerface=%KSCATEGORY_AUDIO%,'KSNAME[RtHDMI192WTopo%, Rt@DA.RtLDM	UTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192WTopo%, RtHDA.RtHDMIVTopo
+AddInterface=KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RvHTMI19224WWave%, RtHDA.RtHDMIWave
+AddInterfabe=%KCATEGORY_REALTIME%,%KSNAME_RtHDMI19224WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSGATEGORY_AUDIG%,%KSNAME_RtHDMI19224Topo%, RtDA.RtHDMIWTopoAddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI19224WTopo%, RtHDA.BtHDMIWTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48ADWave%- RtHDA.RtHDmIWave
+IddIlterface=%KSCATEGORY_RENDER%,%KSNAME]RtHDÕI48¡DWave%, VtHDA.RtHDMIWave
+Ad$Intebface=%KSCATGGORY_REALTIME%,%KSNAME_RtHDMI48ADWave%, RtHƒA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48AdTopo%, “tHDA.RtHDMIADTopo
+A‰dInt%rface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48ADTopo%, RdHDA.RtHDMIADTopo
+AddInterfAce=%KSCATEGORI_AUDIO%,%KSNAME_RtHDMI4824ADWave%, RtHDA.RtHDMIWaveAddInterf!ce=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824ADWave%, RtHDA.RtHDMIVave
+AddInterfaae=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824ADWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAEE_RtHDMI4820DTopo%, RtHDA.RtHDMIADTopo
+AddInte2f!ce=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824ADTopg%, RtHDA.RtHDMIADTopo
+AddInterface=%KSCATEGORY_AUDKO%,%KSNAME_RtHDMI96ADWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96ADWave%,(RtHDA.RtHDMIWave
+A‰dInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96ADWave$, RTHDA.RtHDMIWaveAddInterFace=%KSCATEGORY_AUDIœ%,%KSNAME_RtHDMI96ADTopo%, RtHDA.rtHDMIEDTopoAddInterface=%KSCAEWORY_TOPOLOGY%,%KSNAME_RtHDMI96AFTopo%, RtHDA.RtHDMIATTopo
+AddInterface=%KSCATEGNRYterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInWhiteTopo%, IntcAzAudModel.FrontMicInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontMicInWhiteTopo%, IntcAzAudModel.FrontMicInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifWave%, IntcAzAudModel.RtSpdifWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtSpdifWave%, IntcAzAudModel.RtSpdifWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtSpdifWave%, IntcAzAudModel.RtSpdifWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifTopo%, IntcAzAudModel.RtSpdifTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtSpdifTopo%, IntcAzAudModel.RtSpdifTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifHDMIWave%, IntcAzAudModel.RtSpdifHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtSpdifHDMIWave%, IntcAzAudModel.RtSpdifHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtSpdifHDMIWave%, IntcAzAudModel.RtSpdifHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifHDMITopo%, IntcAzAudModel.RtSpdifHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtSpdifHDMITopo%, IntcAzAudModel.RtSpdifHDMITopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifRCAWave%, IntcAzAudModel.RtSpdifRCAWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtSpdifRCAWave%, IntcAzAudModel.RtSpdifRCAWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtSpdifRCAWave%, IntcAzAudModel.RtSpdifRCAWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifRCATopo%, IntcAzAudModel.RtSpdifRCATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtSpdifRCATopo%, IntcAzAudModel.RtSpdifRCATopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifOptWave%, IntcAzAudModel.RtSpdifOptWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtSpdifOptWave%, IntcAzAudModel.RtSpdifOptWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtSpdifOptWave%, IntcAzAudModel.RtSpdifOptWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifOptTopo%, IntcAzAudModel.RtSpdifOptTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtSpdifOptTopo%, IntcAzAudModel.RtSpdifOptTopo
+
+;----------------------------------
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtStereoMixWave%, IntcAzAudModel.RtStereoMixWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtStereoMixWave%, IntcAzAudModel.RtStereoMixWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtStereoMixWave%, IntcAzAudModel.RtStereoMixWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtStereoMixTopo%, IntcAzAudModel.RtStereoMixTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtStereoMixTopo%, IntcAzAudModel.RtStereoMixTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtMicInWave%, IntcAzAudModel.RtMicInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtMicInWave%, IntcAzAudModel.RtMicInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtMicInWave%, IntcAzAudModel.RtMicInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtMicInTopo%, IntcAzAudModel.RtMicInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtMicInTopo%, IntcAzAudModel.RtMicInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtLineInWave%, IntcAzAudModel.RtLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtLineInWave%, IntcAzAudModel.RtLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtLineInWave%, IntcAzAudModel.RtLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtLineInTopo%, IntcAzAudModel.RtLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtLineInTopo%, IntcAzAudModel.RtLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtCDInWave%, IntcAzAudModel.RtCDInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtCDInWave%, IntcAzAudModel.RtCDInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtCDInWave%, IntcAzAudModel.RtCDInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtCDInTopo%, IntcAzAudModel.RtCDInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtCDInTopo%, IntcAzAudModel.RtCDInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtAuxInWave%, IntcAzAudModel.RtAuxInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtAuxInWave%, IntcAzAudModel.RtAuxInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtAuxInWave%, IntcAzAudModel.RtAuxInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtAuxInTopo%, IntcAzAudModel.RtAuxInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtAuxInTopo%, IntcAzAudModel.RtAuxInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtFrontMicInWave%, IntcAzAudModel.RtFrontMicInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtFrontMicInWave%, IntcAzAudModel.RtFrontMicInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtFrontMicInWave%, IntcAzAudModel.RtFrontMicInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtFrontMicInTopo%, IntcAzAudModel.RtFrontMicInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtFrontMicInTopo%, IntcAzAudModel.RtFrontMicInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtFrontLineInWave%, IntcAzAudModel.RtFrontLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtFrontLineInWave%, IntcAzAudModel.RtFrontLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtFrontLineInWave%, IntcAzAudModel.RtFrontLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtFrontLineInTopo%, IntcAzAudModel.RtFrontLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtFrontLineInTopo%, IntcAzAudModel.RtFrontLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DigitalMICWave%, IntcAzAudModel.DigitalMICWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_DigitalMICWave%, IntcAzAudModel.DigitalMICWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_DigitalMICWave%, IntcAzAudModel.DigitalMICWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DigitalMICTopo%, IntcAzAudModel.DigitalMICTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DigitalMICTopo%, IntcAzAudModel.DigitalMICTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtMicArWave%, IntcAzAudModel.RtMicArWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtMicArWave%, IntcAzAudModel.RtMicArWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtMicArWave%, IntcAzAudModel.RtMicArWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtMicArTopo%, IntcAzAudModel.RtMicArTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtMicArTopo%, IntcAzAudModel.RtMicArTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI48Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI9624Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI192Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI192Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI19224Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI19224Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI19224Topo%, RtHDA.RtHDMITopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI48AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI9624ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI192AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI192AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI19224AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI19224AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI19224ATopo%, RtHDA.RtHDMIATopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI48DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY                    0    $       !             ; suppl} a specific GUID t/ install on a particular bridge pin node tyPe
+»KR,"FX\\0",%PKEY_SYSFX_An`rea_License%,0x00010001,15	; For Andrea license key
+HKR,"EP\\0",%PJEY_AudioEndpoint_AssociAtion%,,%KSNODETYPE_ANY%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Supports_EventDriven_Mode%,0x00010001,0x1
+
+HKR,"FX\\0",%PKEY_SFX_Proc%ssingModes_Supported_For_Streaeing%,0x00010000,%AUDIO_SI«NALPROCESSINGMODE_DEFAULT%
+HKS,"F\\\0",%PKEY_MFX_ProcessingModes_Supported_For_Streamkng%,0x00010001,%AUDIO_SIGNALPRœCESSINGMODE_ƒEFAULT%
+HKR,"FX\\0",'PKUY_DFX_ProcessingMode3_Supported_For_Streaming%,0x00010000,%AUDIO_SINALPROCESQINGMODE_DEFAULT%
+
+;;
+;; All EP\\0 entries(in the same grouping;;
+;; Set default format to 48kHz, 1v-bit, Stereo
+ª; Add e.dpoint extensin psop%rty page
+;;
+[OEMSettingsOverride.AddReg]
+HKR("EP\\0", %PKEY_AudioEndpoint_Association%,,%KSNOLETYPE_ANY%
+;48k16bit HKR,"EP\\0"$ %PKE]_AudioEngine_OGMForMat%, %REGOBINARY%, 41,00,C8.78,28,00,00,00,FE,FF,02,00,80,BB,00,00,00,EE,02,00,04,00,10,00,16,00,10,10-03,00,00,00,1,00<00,00,00l00,10,00,80,00,00,AA,00,38,9B,71
+XKR,"EP\\0", %PKEY_AudioEngine_ODMFormat%, %REG_BINARY%, 41,00,C8,70,28,00,00,00,FE$FF,02,00,80,BB,00,00,10,DC,05,00,18,00,20,00,16,00,18,00,03,00,00<00,01,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
+HKR,"EP\\0", %PKEY_AudioEndpointSUpports_EvuntDriven_Mode%,0x00010001,0x1
+
+[OEMSpDIFSettingsOverride.AddReg]
+HKR,"EP\\0", %PKEY_AudioEndpoint_Association%,,%OSNODETYPE_HDMI_INTRFECE%
+HKR,"EP\\p", %PKE_AudioEngine_OAMFormat%, %REE_BINARY%, 41,00,C8,70,28,00,00,00,FE,FF,02,00,80,BC,00,00,00,EE,02,00,0t,00,10,00,16,00,10(00,03,00,00,00,0q,80,00,00(00,00,10,00,80,00,00,AA,00,3x,9B,71
+HKR,"EP\\0, %PCEY_SupportForoat_OEMFormat%, %REG_BINARY%, 41,00,75,00,0c,00,00,00,10,00,00,00,02,0,00,00,00,00,00,00
+HKR,"EP\\0", %PKEY_AudioEndpoint_Supports_UventDriven_Mode%,0y00010001,0x1
+
+HKS."EP\\1"( %PKEYOAudikEn$point_Assoshation%,,%KSNODEDYPE_ANY%
+KR,"EP\\1", %PKeY_AudioEngine_OEMFnrmat%, %RRtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624WTopo%, RtHDA.RtHDMIWTopo
+AddInterface=%KSCATEGORY_TKPOLOGQ%,%KSNAME_RtHDMI9624Wtopo•, RtHDA.RtHDMMWTmpo
+AddIÓterface=%KSCATEEORY_AUDIO%,%KSNAME_RtHDMI192WWave%, RtHDA.RtHDM	Wave
+Add	nt%rface=%KSBATEGORY_RENDER%,%KSNAME_RtHDMI192WWave%, RtHDA.RtJDMIWav!
+AddHnterface=%KSCATEGORY_REALTYME%,%KSNAME_RtHDMI192WWave%, RtHDARtHDMIWave
+AddInuerface=%KSCATEGORY_AUDIO%,'KSNAME[RtHDMI192WTopo%, Rt@DA.RtLDM	UTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192WTopo%, RtHDA.RtHDMIVTopo
+AddInterface=KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RvHTMI19224WWave%, RtHDA.RtHDMIWave
+AddInterfabe=%KCATEGORY_REALTIME%,%KSNAME_RtHDMI19224WWave%, RtHDA.RtHDMIWave
+AddInterface=%KSGATEGORY_AUDIG%,%KSNAME_RtHDMI19224Topo%, RtDA.RtHDMIWTopoAddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI19224WTopo%, RtHDA.BtHDMIWTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48ADWave%- RtHDA.RtHDmIWave
+IddIlterface=%KSCATEGORY_RENDER%,%KSNAME]RtHDÕI48¡DWave%, VtHDA.RtHDMIWave
+Ad$Intebface=%KSCATGGORY_REALTIME%,%KSNAME_RtHDMI48ADWave%, RtHƒA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48AdTopo%, “tHDA.RtHDMIADTopo
+A‰dInt%rface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48ADTopo%, RdHDA.RtHDMIADTopo
+AddInterfAce=%KSCATEGORI_AUDIO%,%KSNAME_RtHDMI4824ADWave%, RtHDA.RtHDMIWaveAddInterf!ce=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824ADWave%, RtHDA.RtHDMIVave
+AddInterfaae=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824ADWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAEE_RtHDMI4820DTopo%, RtHDA.RtHDMIADTopo
+AddInte2f!ce=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824ADTopg%, RtHDA.RtHDMIADTopo
+AddInterface=%KSCATEGORY_AUDKO%,%KSNAME_RtHDMI96ADWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96ADWave%,(RtHDA.RtHDMIWave
+A‰dInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96ADWave$, RTHDA.RtHDMIWaveAddInterFace=%KSCATEGORY_AUDIœ%,%KSNAME_RtHDMI96ADTopo%, RtHDA.rtHDMIEDTopoAddInterface=%KSCAEWORY_TOPOLOGY%,%KSNAME_RtHDMI96AFTopo%, RtHDA.RtHDMIATTopo
+AddInterface=%KSCATEGNRYterface=%KSCATEGORY_AUDIO%,%KSNAME_FrontMicInWhiteTopo%, IntcAzAudModel.FrontMicInWhiteTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_FrontMicInWhiteTopo%, IntcAzAudModel.FrontMicInWhiteTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifWave%, IntcAzAudModel.RtSpdifWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtSpdifWave%, IntcAzAudModel.RtSpdifWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtSpdifWave%, IntcAzAudModel.RtSpdifWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifTopo%, IntcAzAudModel.RtSpdifTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtSpdifTopo%, IntcAzAudModel.RtSpdifTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifHDMIWave%, IntcAzAudModel.RtSpdifHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtSpdifHDMIWave%, IntcAzAudModel.RtSpdifHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtSpdifHDMIWave%, IntcAzAudModel.RtSpdifHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifHDMITopo%, IntcAzAudModel.RtSpdifHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtSpdifHDMITopo%, IntcAzAudModel.RtSpdifHDMITopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifRCAWave%, IntcAzAudModel.RtSpdifRCAWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtSpdifRCAWave%, IntcAzAudModel.RtSpdifRCAWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtSpdifRCAWave%, IntcAzAudModel.RtSpdifRCAWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifRCATopo%, IntcAzAudModel.RtSpdifRCATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtSpdifRCATopo%, IntcAzAudModel.RtSpdifRCATopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifOptWave%, IntcAzAudModel.RtSpdifOptWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtSpdifOptWave%, IntcAzAudModel.RtSpdifOptWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtSpdifOptWave%, IntcAzAudModel.RtSpdifOptWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtSpdifOptTopo%, IntcAzAudModel.RtSpdifOptTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtSpdifOptTopo%, IntcAzAudModel.RtSpdifOptTopo
+
+;----------------------------------
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtStereoMixWave%, IntcAzAudModel.RtStereoMixWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtStereoMixWave%, IntcAzAudModel.RtStereoMixWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtStereoMixWave%, IntcAzAudModel.RtStereoMixWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtStereoMixTopo%, IntcAzAudModel.RtStereoMixTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtStereoMixTopo%, IntcAzAudModel.RtStereoMixTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtMicInWave%, IntcAzAudModel.RtMicInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtMicInWave%, IntcAzAudModel.RtMicInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtMicInWave%, IntcAzAudModel.RtMicInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtMicInTopo%, IntcAzAudModel.RtMicInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtMicInTopo%, IntcAzAudModel.RtMicInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtLineInWave%, IntcAzAudModel.RtLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtLineInWave%, IntcAzAudModel.RtLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtLineInWave%, IntcAzAudModel.RtLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtLineInTopo%, IntcAzAudModel.RtLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtLineInTopo%, IntcAzAudModel.RtLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtCDInWave%, IntcAzAudModel.RtCDInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtCDInWave%, IntcAzAudModel.RtCDInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtCDInWave%, IntcAzAudModel.RtCDInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtCDInTopo%, IntcAzAudModel.RtCDInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtCDInTopo%, IntcAzAudModel.RtCDInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtAuxInWave%, IntcAzAudModel.RtAuxInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtAuxInWave%, IntcAzAudModel.RtAuxInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtAuxInWave%, IntcAzAudModel.RtAuxInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtAuxInTopo%, IntcAzAudModel.RtAuxInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtAuxInTopo%, IntcAzAudModel.RtAuxInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtFrontMicInWave%, IntcAzAudModel.RtFrontMicInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtFrontMicInWave%, IntcAzAudModel.RtFrontMicInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtFrontMicInWave%, IntcAzAudModel.RtFrontMicInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtFrontMicInTopo%, IntcAzAudModel.RtFrontMicInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtFrontMicInTopo%, IntcAzAudModel.RtFrontMicInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtFrontLineInWave%, IntcAzAudModel.RtFrontLineInWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtFrontLineInWave%, IntcAzAudModel.RtFrontLineInWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtFrontLineInWave%, IntcAzAudModel.RtFrontLineInWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtFrontLineInTopo%, IntcAzAudModel.RtFrontLineInTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtFrontLineInTopo%, IntcAzAudModel.RtFrontLineInTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DigitalMICWave%, IntcAzAudModel.DigitalMICWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_DigitalMICWave%, IntcAzAudModel.DigitalMICWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_DigitalMICWave%, IntcAzAudModel.DigitalMICWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DigitalMICTopo%, IntcAzAudModel.DigitalMICTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DigitalMICTopo%, IntcAzAudModel.DigitalMICTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtMicArWave%, IntcAzAudModel.RtMicArWave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RtMicArWave%, IntcAzAudModel.RtMicArWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtMicArWave%, IntcAzAudModel.RtMicArWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtMicArTopo%, IntcAzAudModel.RtMicArTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtMicArTopo%, IntcAzAudModel.RtMicArTopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI48Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI9624Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI192Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI192Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI19224Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI19224Wave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224Topo%, RtHDA.RtHDMITopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI19224Topo%, RtHDA.RtHDMITopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI48AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI4824ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI96AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI96AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI96ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI96ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI9624AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI9624AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI9624ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI9624ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI192AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI192AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI192ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI192ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI19224AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI19224AWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI19224ATopo%, RtHDA.RtHDMIATopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI19224ATopo%, RtHDA.RtHDMIATopo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI48DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI48DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI48DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_RtHDMI48DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RtHDMI4824DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_REALTIME%,%KSNAME_RtHDMI4824DWave%, RtHDA.RtHDMIWave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_RtHDMI4824DTopo%, RtHDA.RtHDMIDTopo
+AddInterface=%KSCATEGORY_TOPOLOGYëu9˚*.∏köz®±Ê%Ê∞ˇ<®rÂ•Y?ö¬˙[HuD‹'t3∆ÿ«ﬂ∂'36ôM|‘∑•,9-Ú…ﬁŸ¿|Ã.®ÈCm>åA£√MàríÎ1~õ∑pnó?‹Ní(Ò ∂Û⁄`Ûú0äï›Óg{_,3xwd‚Ù DK%˜	∞yÅ m©˙˘°˜c´ö˘ˇ.gO§ÌÃŸ{?™Ë-r∏uÚüvK° ÃÛÈBájõôî51¥{Z=∏˝$˜–eù™Gﬁ˙\cNcOéD# ÂF@jÚ;∞ª©ÉE]éØO=ŸçÚß"E¡˝ó7*£|ÛgØB¥ìPº{:˘0…ãÙ≤∫;a„˝†%ﬁ∆«ﬂv5ˇØTi˘"ªº(ÎÎc5Ä÷xΩôM)JøEΩùÒ√_Ò
+x±HYeæwë∑w¥›Ëæj‡SÚ‘%Jª∞ƒî8.+ûÀß ¿Ù_:yß_M{^õë√ÿiJﬁ~ŒO√C‰Rkq¬ö FeÈ‡íÃrì◊Q∂œ@ÙS_ Ã∑e˝4Ï.ºO9¢\Íè$¯Û¨∆Å¢zÓlk$ƒû[ÆÎﬁƒ†ülñ$±/Ñ?¨%4â“∏"±e∫Q]ua∆˚†≥C úÙ≤á@ï4)î·ób…ô¯Â>f /¨-Ê._†"AŒj5ó&]4”l%ÕÚu6è:›ò_ÎwÚå&ÀIå∞Ê÷SéTZÓ#≈ÀêC⁄*‡ﬂ»¬'0h«H{WüXº-ı~#çd‰Œ¥e˛B…†»;›ò?‹¿⁄ZŒ⁄ÉÄ0Ú’ãYÉB
+ªB2>¶)Ø–˜{:bèÈftÃO˛ì≥⁄¶t<»>ánâ™6†xí}r©ËŸã∑µíè‹Ï˘(€°Î*°Í∂‰Ÿe]√7ç¢ë§Ê8°´ï»Ãé«R§©›·k¢ã˝ÏëÌR∑ÍÜÇ™ZCü ◊«US‹®J
+áoíÆıß%&E*Ì:Y∂!ÀRÎ3ôÀ®!>t3÷h¨‡É«ˆ…E·C>®I∏3◊ƒ/ ˘Ì“:z0fäWEf„h˜ Xˇ»À%40@3.©u¶˜|_¬HúLÅ˚%9ûR^®ü◊ıÅí<\3Á¶ß˘Ã„¿Í§ÍÆŒ)∑ÑW˘Ed£—*†˝y»Ü˘¿›]¡(nàµs=ì›‹˚:∫CB£€NPﬂR\ï≤·≥LlìiØ@¥ ÙˇjAËÏ}…”jò!b√U}´…ÖpˆiˆOMR4Ÿ4Ï-Ïﬂ3}jà6QN–L}uÇ·Ã´3ûRzc#_‡˝NGºÅûó¨â‘ö≠´!£ÚxÉ0⁄Ã/eNTòfêÂéú)¥_^gzõ–˚TÈO©÷Nÿî¸VÄä∫çïÃ§ò@öÀ –&íù9ØƒÉ£¢:¢π∆Ô˛ŒDœÖÆoóoyG…ä#∆ëg—¨æÖjV!}È‹3a	QÀ~≥x®ëk»,=œõ?ﬁn°îËUh@Äœ¢‡teÈ‘L^ÄM<æ\Ô-FÛÛñâœÅL˙$43„4˙Û¬Â”ÕÚë∑/ié6ì?Ëb©›[NÁ¢%Ì„FÁƒf£(:îC±+„ÒÓÕC	N»¬O¶é˘ïÒëÔÌu˚’ja+úVåãà£LëÎÛ,™∑Ç˙˜êì¶`–©dà˛	ÿ›ÚyPBà¥ê_!çB'{™‘ó∞·Ô5∑∆[5S√@Vú√x3¯|è^ wd˚dV‰'^èLEè¡ê∞†‚[Zm∑@–3£›π_LÓºc[‚JÙRáp™k˘´9ÂÈoòˆ=Ô—vΩ*∂(≥∏¶{pÃ⁄üåÛÌã‹kœ£Õry.mrdI⁄…h‰9p€ºn£5QÑç›1¡øY&H¿ß^õa´.á§ë*DË†ƒ :ÌÎÁ+—>πT–|]Õ v)k…öÅ•_Dzø1~`"xﬂù’àÁzﬁ|
+›Òá_‘ÅÔ_Ó6Z‡T$É´õ	{òﬂ;‰´ﬂΩÌ-àOÇ°MÚ˘ËˇSÏQh°"˛?#À≠©ámt˛)öı–‘À*ª&¥æˇ^∑Ú˝˘c¸LÂînwÄ∂∂âûl[çzº‘I˜Vä∆dD3´Å·%ïÇﬂø~ä
+‰Êßä∏òQ‚»„j‘Fk∑+5£l[Â›ª‡s<$eî´‹*~äı¶H;fÅWké#aÄ∂[Ô'™¢+‰ã≠πã2‚ºû,4TygËví–ßVÚöAN>:¨/öø7 69)]Í…]“Xõcå¥iˇàèŒŒÂ|(™÷«0ÿY™’–H.|˚®I˝9în,5«å|Zˆâ‚`†MnH?®Q&ìèf5é√Z£P∫28±Î1£:…Â≤º%ô(qWHkxÆ†ëñ‘—ÍEîn˘ÇÆªgÙó-ábñD÷üçÉ}IÙ•¸£#≤œøºæw Wa{—ôbƒÔm”a[6yK¬§ ¬¥6´≤ÌŒ©í„„˘+∞ÒYøJQK*ƒ¸ÊIp¥:“4-LÈÖ∞˝M¸6G!"≥Ò∆j	2ò—√iÚ›(˜)ô‰__‘¿≈PÄ*)’˜®†*iå›zH7˛vÑæ2ƒvœVaÁ^ﬂ(éæÆ	0zqvó¶>'õÑŸZä£ãD¡Œ»Ω‚oÔUØjé_JÔtIÔL nLã˜ö•º¯[´≈©ç
+k∆îª≈9ØÎñãû´‹fæ√¶ÓÖ/X0ç
+≥˝¿F∂˚Ã˜õq'˙33£_ﬁÎ
+›&9ªÜnÌÌ`°÷F_!QZ÷ôç5ºKvÅ!ƒ“ˆù˚YETµÄ¨/´õ·˜Ω)§˙¬4ïÄkÇΩQ[,e9Üª	8ﬁoﬂ¯Nì∂›0N•Ωxy-[e!˝	úv‘[W/˚›ææ
+Kó÷≈{òò7O(9H÷+πÊÕON¡ππMà∫Zç`÷çDå9:äD—k^;£‹ËÇv\«s°UQlZíÏœÄdEMµ(1,”4äm∫8^Ä˜y»?Ã≈q/hXL◊ x¡¸•˙ù6ó)é}e≥4∞ö¶74… h7•s™s‹	jS6&µÙãè,„–SeÍ'∏ö‹ƒ*êqÎZ*°~π®cΩÈ#ÎËsLM.ü»§©K§A¯≠â÷ê8åw«8N∑Áìÿ€©Óò2πòØÔ±1"|Hè[z.À‰3ö,`?Z∞k‰åﬁOUóü;ÇõÚÉ´Çà3<pû˚%„0}˘ˆçÑJmÚÇíoàc¶;€Q,	+Ó^{oNZ≥‡Ù¯cú‚+¿rï…hw°]€3©˘•Ì°È|$¨µ‡V∑±ëèåÔﬁT⁄√=70ìI®ªXgÀ#N=TÀ∏W"^â<V∂Âç√ d`6ŸÍ#¯∏ÒUˆ)®›û†«*•b¿3˙ƒV¡”ÍæÅ ŸY:°ﬂ≤’	Ω∞ç—˝Ü„0o∆/c¢TOÙûF·-£Ÿt÷	tt¬C/˚ü≤ïûŒÊb;4√&¨•»mÍ$gã;”e*s;fÿ‡¸éæoN^ÿ†æzW!Ãp¢#_6ª-ç◊‰¬L>Çπñ|á£6;∏ˇYÍ◊6É˚∫™∞ÜÁ¸‹éß…ØªºÆ k)∏Lù7ÊÀHQÃ§åP™…3£ÒñÓÚ<Ÿ◊å¡·ˇÎ∑kÏß ÑWR#&‡•ÊoúfØá„J
+≈]^KZ:ÊÿGc[9"îïπ∑´(9@æ›≠j	–}:‘÷ßÉ_ÎΩ3nsiCxè®±A^p(cwJL72Ü8Í-˘˙‰∏qîPÕ'jÒÚ"Tæ¬ﬁFzj>†»«]Ò€?6åSÏPP©¢Õ^©[T ¯2•∑Ω:ãéèüO?åVVå∏õ¢=1gô ﬂ˚Båå`&≠3çrM,c[aFå#O/ ¥¨Áã4y«XûÕÀt@ú+o°’“Ç:Ô4‘©÷GWØŒNtVÊÙèvhπZ∂íü„ÏQtáû¿á.“ò BtM»§≈©˝Æ?OoE–ajnØìs@h«v\‘œÈÃ˚ydßÖàù«A˙ùY1»∞√ËTﬂ©∏∫Z–¥-—"YHsDUù¶‹úƒ|…∏8á•«%ög"|áÑÎÿ ›!h—π'πP∂í¢…@∫©=ºR]®À_Ë´æiµÀ¡“œrgDπ”¯GR^˚û/îVæö·xM7Dæ.{á‰ÿÍ5€À©3Å|.f¬≈N™sõˇ»	yOóÑZc]®C≤©∂Ú8ÛAu1±U[p”)u?›%ˇìæ/çó◊¨“˘#«…π¯<Cˇd§!‹)æ≤GÌ4Àî©˛¨Ñ|√K∂˛_∂ É^5@È•P|d√üÏ:Ï[ÛWÓxòÛÔß{ AO5ÇivZU#mçxÍx-ÑµØIO)≥ÆÚ+Z˝7x DY-öLöß⁄y∑¥Âô{êË![≤˘_ÍÇ?L›7√50
+`»&z+∆*e∞¢v∑‡eÖHsËû¬(Ã|Æ2ﬁ¿Áâ@Xø…∏$®…3tﬂ°ôS^“∫*Õ'HÒh˜_‚M€%!Tfﬁ›™B™◊ﬁ-Á·>°ÄòñI‘-∞E§ŒúSuÉ¨ö‚—XX‚äyVY„üJ¸∏IúRﬁ)3IÊCû`î¢‘¿h—@VÏ}mê:Âπp«¡\ˆMÎà˜[«’%0ß?È=sƒ/S:…sà´€ "n¯ñ∞cxªûÂ]ˇÚ‰"ØSE»◊ú‡Î•∏Â#5óî°◊í≥Ω—Ç≈∆ BGÒJ	‰_p–•†;èÏÇê¢Å É≥œF"Eq1æ&…~Tr*=Ks∑`$·€8W-Ëg±4êoà†“≤u%ü6-§û∞º<f0q1ª„Êa#Œ!–NÈ#—bf‚°æÃ˘Zv3!2ÁzgDt+®	∂#ﬁu.pÿ5=ÑEúÂ$8\9ÖPu√*WV{ßB3´ëzu˜Q£Ä[M{í|âÄ/ÿ≈1sRØòˆ∏,\øzjÜTkIOÏ^{-^`EâtåıZH¶5ìà©∫qãåŸQû #gwd!ñ÷?ìÖˆ›Ã§xêø5ÇL)Févãò+8¡næA˛ai*Ú.›G—Î¢‰"‰Üô-3ª!6FÒø-u~WÜ«ÎçüÊ	ƒ0∏ó-Fb»P&e˙à˛º~ΩÚpÑÆˆÌÂò∫8ü*˝Ã[ªôèó]vs>1F¿ õÒcS'‡√∑2±iÍ;Ç≠7A5√e»$Ï|†S≠p„C≥{uŒ{ÜãΩ<∆qbÑvÙŒÕ™„¸LÈ˚ÂZŒã% çÌd(ππgMã†œ7{3•?÷˚+ïú√k)R ‚Oº>ÒïB˘˛o√ù’¸ˆOœOÀ]¡a†Pàg^›ñÙÆÂzÜd>b&ÿà∞ΩF¢ü‚ÓÖ…1ZynÊÂ!kmßüøZNø§ç£ßÿ&/râ[˘NoõsŒŸ∑úZ,ÏvOYÙˆÒÃÁx˛b˛Ó5∑¿†c%ó]èÛäZVy‡p˜	ViÜ∏nâ‡]^˘ßˇxxO[B†µEçò[„†¿Ñ/_∂ÜºG}Ω
+nà|',Q"d∞Ûy…Õ∞ˇÒe∫ø‡·rnÍåL Öneã12H_6<;6•I∫^vDÃÚJä∂∫K∆8°|ë®|äBea{Œbπ º$Fî#¢L>‚m!ŒªRÅΩö≥V#<ÿπÜ6l}s§>¡icCœÿπŒs∑˘yÈEç‰P‰È9¶ÖÊ:¿¢
+Jì).%ãYàΩ∑VUSŒmñ≥’%t"'1–†˚ Ñı¯˜V£√,Ä≤⁄©∞‹∂—´⁄pV¬"ù{9~Z´ñaÓF‘6œºO'5Îá¨‘E,Ì,…„ˇ€Ç“(∂±Ç`î‚ø'≤ÔgßtÂN®CÕ0FNâspÌ2áÑÀ[Ç-axY˜Øo˜`á†R§ŸÑeBy€ïê•ÂTΩ	ÎVi⁄√ÊE∆{W¿UPÙ$f‡„v»Õ7⁄Œ_ÇÊDØ·óLn;U{ŒOﬂò¨nj†q^mÏvJª6µêsKÎï»¢ZäˇW≥ƒΩMÖM0OÕXªZ|	Ië$Å~Ìw∞:ÄÆs›»0ÉÆaøñY=≈ï‰π°e 	~Q˙"»M°WRöF(√ıqk∫ËM$˜ûr°ÎÃWD 9™˙¨Œ§≤?î;¿˘ê0‡U+º^Ô1¸±Ä8œêa	]JÕ¢[IBâÙ≤¯Óç|ıÖçt·óEôjñUF≤º\”I÷AèD>≠hÀıÆù∏á+3çuwTÖÅFÒ∆uï<?„ß	ıV®'ëêÓ%`'∞ÁÈ‹Ioˆ˚r;˚ÑQânv‡°„õ>|(µ¬6˚§µ¡ˆÉûè%Ú`xÛ{˘
+M ã;q%H7j…ß-˙© œHìjaV˛S’Ü^:å¸ô•=@øhÙÁØ2∏÷Àq}∆G´=∆–¬•F¢⁄O?¥"ç∫p∑öÃ⁄⁄aõõ√&Ω—&ÿœ eÖ8åDB’è˚F˚“~è_R.«nCªGƒœÚü™´gõDú+ í—|∞X^«≤_››}íÈŸUœˆµfπN…3¶øõ)„}Ïb≠Ÿ{πﬁbπÛL∏ƒ'Í·É¶Qp∞e˜†jè^ÄbiM≥f+ZÄGÿÂ÷hß(ô˝–H∑" õ Îﬂ‚`ÄàÀ«˙iOÿ8Ùé‹ıO.~MHlüd{‡ÀãÒ˜ˇçXÈ¶ï/ó´äq_7-ró¶—öπ":{«¯Âı∑KqıbpO=·/WÊ$Ï˙âl”6äπPü^U|
+óÖ
+⁄w‹/ì|Öèx#Ì•ΩWÈuÆS´®˙GŸ„ëåb„Ô…ì∞TcÁÎıgÆÓ£ ∫Œ 0	ÅiYåëˇñ+\~R\ö™¸˘‡PÕÌï÷Ó∏ˇ u¬ˇ Ûó1Åﬂ¡§–"πwL›÷œrÙF∫‚dﬁÇÓ]Ù¶Ú]˚yVNü6yµùë˚ı∑5{pÁÏ)´`yU¯ú·E	êª¯E—”NÑ≥Æ&Ω∫Ø0©H‘áøõ•À±4ú÷.l/ö÷u;q„Ì/|?Õ8â0ÅíNQª[≠£Ñ[¯Îﬂ gÔBi‹DHöösC¯˝f¸öLo8RåÑm&4†RÓÓk;ÃWn«‰b?ôﬁ”cO»•≠Ë’Ô ¨5Ú»+9u:‡+ﬂ∑◊£Çà”åÓ+Äj&$œgéÈe©(35ã¬Z¨∏%g—§ÀÁ-åX7$@]#˙ªïvc˚ëæ˝Æ_PøÍ‰Áü’ò&	ƒ|jm;’Oh5ö;„ãz=£µûÒÈ".gı{z"çsLÃÎÒÌ8∞¥ÓBx¸éŒﬂ/ÇoZŸﬂx‰fŸª™m(dC»Cπò‰ñŸ(áªH%[vv√€«d«Óñ4u É√2∆2â1€˘“¸ó√ 5·Ω_£93F@vπ+›4ﬁ“ˆˆ≠µÔ0T˙∏<—–,æ˚h‘Ä¸£ot…ÏÆÍ‘VZ1ÈheË!¶ŒˆßÉ1;óæM¡
+5'%èH»«aàf 4Øxh&‘/ˇµñ©vG–°ØXÂ›‰±∑7€Nã¸VÙ1.wÈæ,>¡∂¡Tio#◊≥RZyâPÁCß_¿•qW‰aZﬂ[ò€}Œê€][pLã˙ùˆÁw9ÏÚÓ‹‚ªÍ^&V|+/Ôäµu∫ø¬¨•awŒ\‚ü∞ù2t
+ú›cπ®#◊i#†ôWë&s÷\D?”/P‘$É˘£◊1/+%ÇoÇf÷ÔÖ9∏‰:≠É8'·~]˛ÌA G´œWÖp—Ã
+˝s2_Ó#'"¸A®ÛN©D]€v·‚°∞ééòT;ïºˇ9ú¶≥ñ”U$j´˘pµﬁKyπ‡}zt∏y–µä=@1‹≤åôc∞WÙø}u(/≈ËSî⁄ÒìJ®≥á1*-H›˝Yà…∆%‘#¸ÉŸ1?! Ûœª±É&è…]Y,ŒzÆJrFÍ0tˇ¶ô‘.WfeZ,ÂWå¬˙OQoy;BıçuëäéÖÂã4H“ıg2œ72Eä!}õì¿›)oü¿ﬁó&q	•h†,d˚?πï‚†Œ˚:°W¡3á*hº6éﬂÙ„Jåí∏‚<|	?ê(-!˝ÙU^ˇIã—¡£†hH¥ö◊–ÌªT‰\,r‚åt:EÑ«]öñ£‹ì˚Â^‘¥wÎç©@f6,-°Æ™∏L}.g åÊx,ƒ[Ã|É˙ú®ƒZ4 |âH–˚ıY¢ip #W
+§^v íı pí«K˘èvoºR†TŸ@Ok5«æ#.`g†Bc9 ƒ3£ôÀˇ3Uë«>+
+5ñ‹Öm¯E”·Íu˛Ä,√Ë∂.äC˚E:Ë~Õ@ óã©l]]LeÌ∑åÚ°)Ã¨∫Dª“á	Üã£ï}¥ÄÆÿ‰Q)¿Lò=&Ùy°YÂGLâı£Ä+ÔqÇ9Ï´ªõàÆ˜±¢(»X‚€mP«∞3yäŸÀÈ— –BK t2]%ı+ﬂå;óoﬂ*Œ ‰¸£P3ñT"ãøÏüG˝|Ìú»–„'ˇ&?∫äËÇÀù'È!uòü[7‹˛´vXÈo¨ˆ« uîí≤¸›R˘ÑÜ”ø-’iBÕ ˝õHNÙy∞ÊÙÙ nN©$…vÁ6[)çÿi©hæ
++nUπf∂ËıBù∆M£€PY≠á†˝f…¥*±íºh&H;Oµ”_öE.ÆµaÀB¯ªvãÖ^†Òô©Ù†ór{Ö I¶w2(!´EDMÚã«∫€ÿv~‹{Èg∞4Z[*õ„˚N‹©Y.%ìœ1qÖ›"¢&h‘qLpÇÕ{ﬂ>áÒ¯HjqY‡™àë‘∞¬H»¨æ>«N`¿.5}ÃcW"äœ◊ºrπö8»ÊIÙØœ”üctMúòª§2SÀÔm@z0‚eLè3Lqë⁄qƒ=Oˆ@pCˇ%Æ¸ä|?ÍWzËõÁ%ç0SàTÓ˚rß0ËÅÜ˛íAÿÑ!lËÆñ	«-gÁVéz»òóﬂò•65Ng~≥ÂÅ–/øO)@⁄ú2G—Â´J*Ù…;≠:ûìkú1ò[G‚áu -*J‡ˇeÆÙì_ŸÈ˙¥¸Ã%i>¥‘ñ@ã~˜Ä9ÃB7˘èÿZâñ≈CØÇe	ÉÖ≠0b8´˘õy5ƒ{∑'{9¬»Ï¥˝ÊpcÌ?.I¬[¸∏´Ù]∆Õ|ë†˛òk¡!&Ac∑-Ñù⁄:é_UÍ1fsQMe'ôY õNƒ6t|MásØhöõ‹ŸsõvNƒ+>ßIsÍ—≤»ù˘(Ñ?f=TC◊É fû‰8‹T,gnMã≤”xÒaÙwMS0X˘ˇ∆±ÏCJH'¯ØlJÄ,i$áLß?£Ê] …sä5Ì˚Z∂â≈π|«_£’äìÄUé`;˘~ΩgWc.òÚhãÊß§RÇù`¬s£öÎc¡íÙjñyq˙É rîâ8¶u`à>©ËÛ∆Dgïîã!8”&uËÇDÇıÒÆcπçƒ]ï0.öºMïÿEuûPû≥ÅMu9–’:iœ{2ÕìèÚ©DπLå}ˇ=ﬂ∂7òMˇº∑‚»≤≥Ú¸ã!ZÌçt.üÕ»BêDÄ…J÷}Ôgá‡ßÂíôy`tq).K–œ%—[ò≥·Ôﬂ˚˙ïdúN,“X$“ô÷≠}L‡vØÊ∂∏u'áäÍ,DeuŸÁ⁄øùT≥°I4¬'∫ej=V‘I«Éy`x⁄Ú1qgπô§ﬂ‰_$vî√ùbƒW√ı∂WJJA+ﬂjmj`Mjÿ%e˚wTÿDM’£›$#çG$u:‚dbIæù£ÔªññßH˝~}¥ËbfÏ¸ÆñÜ&êÓæj“Ê¿IÕ+≈Whã∏–Á-)¶b“DNùßá>≠ƒ˜˝ EqÕΩ @’Nﬁó1	2«ÙWÀµBæ+ß1º{}±ÑKØŒF÷F™;d12T¯näÏ£X“‘,°√~$ïı{¸!räa!rë >k±ì«ë£tƒøû∆+◊¨O´c$∫Ç¡Ï[È6JA˛H‡√lØiO”ïã‡fWBjªΩ°§HÇ”ÇæÂ‰¯ïU≤<§ıêΩ3p—îT±V˝ıÔﬂòÏê·DplVÀl>Òiz§B∂2¯XùTµ¿k˚e±(à„‡¬&ıhµŒ®mR∫YqÆ;±:’W†èìmR˙k“Æ'™ˆFÊp…¶ñÑ	∂íQaRü‹*˛∆sL∫1±ÃPâ¯–›Ç=’úT#ú±,o˝∆6ä°)jıGp@†&˛môÇÁ√Ç´m±Ÿv◊e® Ë·ÉÄVıµÄ±fúæô!N9˘áH~Ç¬ÑCÓËóÜ·Ïª¥4iúlc !ÁS≥áeÆ*Tû›“±£sÏ\#
+SûÂF\¨é;Æ¯bò∫ZV£)ıvr¸-àòÇπ6æèÜ≈≠¥¢Êi1úπS}ˇWgïP%Œü⁄£OCqñVp4Ì›^ê"Póû;
+ˆ3SÇÀQ4w©éI	®ÂzÖñVñ˚Í=«ÂãÀ4EÏ~î˙2˚ˆﬂØ`¶ˆ<‰∫˚+BY±6∫d„›!±PXµ˜Ë|ã≠oG[∞vYÂ¢∞◊4˛•˝§«é˙ßaÊ.æÀSéÔsN>Á¡w´‘OI"•\Ë„à‰é)eYf˘≈‘òç¥÷PóR›gmM7Œ˜∑qïáèèe°∞∞JÅT˝®†◊’D<>¨·’ìˆ _5±}G~ô0*´ŸµJ›JM¿?^u¡Oˆ¸hœÚg0}cÀ_n4÷°òÊ†=¬˚M2´O·è"l=ÄÚì~;«ä◊$Æ;¢†L6ıÜ#à:Gp^ÕV9ÖßÅ˝;ù/$ ¢MQÙÜ˙()M_“ˇ≈‰¡iÍ}›”^Qïc‚∑]ø<eã˛K´«Ëp˛òÊ	4ö ‘^ƒ¨I·àò≤5MT\d5:,ò¨Mf/<âŒç~|¡´ª≠i◊˜Í¶Øt8~ÈÄ©Ø
+.û!ﬂ'Tâe√_d<è&û°˝Vø%Ët‡Ê=YìoObƒ•éìc‹ç§´GBB%…b∂µd&∏„ëù£g}sÃ˜M 9–ÜÈè[5âº•/‡ øuÜuˆüBÌX'|çoûÔ¢∆E&ÓYJ*3Ò¬ÔXÀ∫Ω÷NH†¿8o5Ÿ(Åª—‹m"§õ∫Æif%≠—∂ãò=	ÍF6 ¶s~?‹}‡«söÕ¥Ú(ù{°ﬁz:Âˆê˘a#f™.⁄—ËÛÌsõD/lQZª-±¶å^#ˆtÀC≥(˜:.æ∂ùL&ü£—∆èd¬îAA†dù¿åy}íp@Ù†Ët»k±ΩAÁÍFàÌ¸ÉèàX–3n{‰∏qdÏäPß÷_*«.„`‚V´Húy'—ΩÊkË:ïVD1ÌxœÁ¢ó x∂€®†÷Õr∞Æ¥n≠æ¶Ωa·}—nÄy
+ƒn7bıM8˝Q.Nx¥},ßéawÀ^¬˜8_«H–x‚8Ûk≤Æ∆Ò' }|ŸGÎ˙œX^ΩTÒ©Ω¢V\|Ä%s7˚¬i≠RX¢FŸ ¥µÎó)È˘‚Ÿ≤4‚˛˜q¯ƒ¶ÃhÚ√s˘hˇ@º[M`ı±î°–±+D^µ' …∑Æß^BheÔ
+À|ÒôÑRãVOäj¶èì≠øˇª»™ô⁄¡›©›∞á1Z◊˝Í¥”ÅoÌ®‡îúÅöuéX˜úÀ(ŸzPå•„à‡Uùò¥Çl3‘8ﬂÔô	Ò-}O¨`ùà—„vQ¥NyüÂg«o–æ BBï#ÏØÁΩÙ›^»Y}áHöf◊—"7éËÕ1#6[ü{ek˛ÆB√ÕL‘ÿ3Œ43?u“Ä{û<ƒzê'éjç”M{*◊Œ«ì®ëWf©ˆûoèÜÜØ‰8æπîmËrø |ßlÅ‡4àŸmﬁåÂ u„.nó™@Éî∫0ı;ı*JZlÙº5Iw¥¶€ˇP+„G«'∆rÉ†œêq≠à1«1;ÑrÑëÌøøbkX	ºP#ÈÿöW≠Rf/√|Ges Ô®è¬˝Ê&√|N¬C©JH™–N°Ã‘Ü‰•≈6˛_‰;í<Ü‹c[G4eöì®ò—ÛìSw*f'ö»⁄X‰K£ÀL™—ΩÌﬁ˚ø≠æèÕYg±Œà·xÜì–Ú˘“¬Fª€í£TÉ‰≥“π1ÕX2mäÒLºÊdFUˆ†ùwÉuh1øôaHH…QôŸ§m∫*&dØªz~áOây…‡kñôHé·∏Ñ´–Aï?¬<€ãÖ∑ˆ´@¢o5RÖUóóΩóñå°Ï˛l@¿AŒpÁ>Õ˙nimÍtßÌk°πkñ,~¢V◊r∏ÅâÖy }3Ã∏KøÏ·÷t∂ØŸÌ_ÇŒSQ-SÃëã˙ÊZ¸¢∞E‰›HË¥∂z=‡;∞Â#ùÇi©≥“V;ÜÏÛa7ˆ((Ö≤≥Ö¡Ø5WœÓ`!=ÎWpúıX{ÒdŒmuI—eú*ãi- biŒŒøÛÉõQ-,‚ﬁS^ÍÑîD'ﬁï:Xs∫*aÑ|õ1Ã5>‹ç_∆•V§÷Ç¥	€x˘vÁ‘Ô55•s†áí≤˚U…ˇnÃ¸ö+;|n7.l#ig{(|'Ã˜/é_^á„™Hë›=s‡ÖÅPØ$ãûözı¢¢òu£øãbyõx•;yÇ´+NkpÛ†˝€%4q|¿&H{Ä√ÒÙÕ~áJ*n»˙»+w’¶…uF¶?T˙Oú±ã∞~Œ[›Œ¿¨Œè˛&fµ˛øΩ:ŒÜÉ	§ÒºBi
+8†Óı¨.ÅØqπˇâ†ü"¸—â≈5˛÷ı*ŸV+Às*∑€ #o…¯^ﬂ«˘#ì!“C„/Ì"’1ê"IwÒ‘äˇ…Åü'/¡∂«¥$ÀŒ/·∂ñ?l±oJ≤yäcpÇè~•V]lkgÚ˝±d*˚û£K=n¡9”ZM√N¢(9tŸ^∆≠4Ê‘ÄÔœF∫‰Ã&i6%“9$ì	Ë|7ëöK⁄óWt÷j⁄X˛`e4nB2Ü"	π@¶∞H ’4°´ÒB¨ù∏MjXÑﬂt¨pÙs‰›N˙Q*ùâPã[ÊFYq\a√´YÿL0¬â‚{Í)È+!q«zﬂì0túû[¥!Â+k|ÃP±aà`´÷ëÂz—KT@úﬂÚÍ—ﬂ“~¨F¬ø¶OÅk⁄¨>äCÑU¢–G¬û-¶ÛÀ˝ïæ·∂è&K[&q)<$ ¶,jpÀù|øckjß	∫ãV?ö)ÛWÕöœ–åä¬∑ºñˇd/Ê ^”â∞™:≈ ê<#±Á∆ë2˚ˇFYaX˜ﬂÂPNŒãÓ5\êÅn´o:b‘á!TËÁ‰7¢"‹“©(§e9√ﬂ2P#Du¸K>õä_Lœ}ªò˚@ÛQg	*+º±Jx∆Øö$¢àŸ;ó´çˆ¨2sèFÏ )ﬂ(Ç)µJ≈£ˆ¸L˘ë∆í†œT?§øNÏ¡6⁄⁄¿£«”ÖH0⁄Ô/ÕXª”Hqr9ÌIAŒÍºzŸ≥ôˆºg†9(¶,aÁÓ(‰*<:¶Öø¢]$ÕÇ
+A[JDÄ«õeÁ2æk¢µä„¿17Ï√‡'ı¥µã¿Mã§òmHVÇÂxπñIc9óß<4ﬁMÂÿRò¥.ﬁ∂|^/’⁄\gv $k£R‘yS¢u¨áärDVFÅC‚õV›Ïg4d†p®†Ö+^ÂÜòAƒÖu∑AﬂÆj;‚\vtﬁ(ò[V–π¸Æ&UÆ^ÈAx"ÿ¥å¿LO˝]]âu€J„.¬$Ì7ˆCØˆo/¿_=¸@@‰˚™–°,ë)ç
+%ÂW)≤·ˆ#c¸¬aÅ	∞(≤96bff¥˚ø≤"á3!jñH∏ØQäˆ$Ω.fÄ9sèGñâ?9Â·∞!TP/d∂ëÍÏ"Í2±xù»“U–Dò*qàÅjü≠£Å{ù“o˙‘‘¬ËyZSqÚYoÓ™L7≈HZrën…ÃËsI≤◊r÷ﬁÖ¬˝« oöUÑ≥›’≥> V%˝R‰Õ+UâSªfˆ]LT¿	LbcíRÅØ®˘$Gè˙‹ÌQùnÙ,?˚∂ZÒÄË™jŒ˘ºß•∆º€Êæ&öÅbz?º’Á+:ìybmÌ§c.,>ıE/∞éçÃMaj
+”™,˚∑ısÀygﬂ¯ÚàO~»+áG∂˝	‚ı«¨ﬂ@VÓ◊Ÿ∂lƒÕ¥∫∂U›£p1ñV;“%h»˙d°	„Ÿ?Æ!-I}Ös9 ŒàÜãúò£O_∞LÕ»∞◊…◊|‹9q|xgúA∑˜Â&Q◊§ˇ$xï €yZGÜ<†\◊‰ŒH9á⁄É`É¥<oı∂ÉôTœKæÕÈÊGôû˘õ÷˛ù÷ìÏ _}ã˛)w3ˇ?Z2;⁄ˇ6•ˇM˛ñ} …∆pZhÎÁëÍø√ø^îq”ÈTÈJhÇÈ≥*f”+‚ﬁ•vp’ -Ek.
+ÃÅJa
+‘«‰Ùæ|v`µ»bÈ<Uïu.ùí√ÉX«—˝)vf@∫ çï©o@@%KZf«
+±(ªß«óØJ~…GÔÆ©~Aj˙‡¶i5î“p¥Ú^.Ñ7ﬂ3ÊÅ˝nËıÎ˝æ∂ãîÉ– úU]—¯¯è,ª—gÍ-‡Â˝8ô≠+Kc-iùO	1«É·∫ÓE4ÂoﬂÂÕVWã/hê˝√¢0øH6˘ÉΩ4Ù4§6˛fr›QÒb– ≤“,S∑¢–¿»&’—LîÍ'ë˘Ñ-&Ü„ù‹⁄à3	mñTa@Gè‚`sMõ"1ùåÄÇîk%Î¬ÕÈàë®Ç=0»∫»Û;ª¿øªq«˚Êƒa#W∞å∑Ô´§vœ^ï˜ã*8∑M-0”Î…”Ñl€Íq≥K∑‹ˆ§	˘@qv˘^M˝⁄F‚˝ˇ
+*ÉŒÓΩÜzzO≤âÛ\óuDÇ€cÿÈÓÆ(*F–|)À÷ÁÏ8ÊÖ˝\£%t∏˚K∑#˘ÄÌ>.˙·%ÁçÊƒ‚3#»prNL◊~cu–LV6ƒ‰ï¡)õ∞›ÿá´sãÃŒ§hd\ïœ%).„îäQ†mJ»ìÖæøîa«B°x≥˘ÂzΩ»2Óª˜<yEµ:8Ó>◊Ë≤pA,*J‰;9O$Œ§N~Õ±Ω	¨‚âıV+É/vkﬂe∞Ã©÷˘ÄÊù¬∫m|ñÙYÅ{ÿL“Ç6S'Áœ;f2,¡√+¿Î8¸î7◊%áı¬À>ÊVÜ$ì£ôGtˇ æ/•ÿ<N=‹∞õ5ùÙ~†nd€F˜Z≤O√1#MŸôètÄ∏◊ﬂŒ<èÇ•µ óD˛"ÎÇÿ;Í°ÆdãjÒâ^L6áˆM˝õCﬁz“W¿0≥JˇÒ∫1¥?0ED¢EIó<åûMé
+¸Mú€KüÃ´¸2:ÁÕ7"≠a Br@å!ˇÍçèDé˜≥KVåØ”GˇÚı i¡eÙ⁄ïπ»•ÉÏ'
+√ÿåÏìí•¯ÀÜØn1ùFYˆo—ÛX√∑Çä&˜ÕÉ˙¢¨i39E8^*æ·f~l|o=„mø∞b*ˇgìî|É†ñ÷{OÄûˆÉ¶∂{S<“≠ë)jöd§πlÃ}¡´£Ó∞p>:iC[&xrg¿L!ë;T EätpP÷Ì¨h|9∑L”g.\•G$^îçf"û‘¡µOV∏ÚÊNµ§Ss≥áÂ• ~≤6_¶o`ª|p!\yÁ=¬∞3lÈuÃ∑ÑPØ‡÷u¢KM9|a2¡–?ôÅ¬úö·eíÕ≈gœ=–ô-8Àù¸5±KÚq±˘õ4…Ó®ü sIÈxZø˙D;Öüª´ïO0·Jª√∫ë'FˆG0 ”ñïŒúÈÀâüDñ»„sI´T˝Sû+F‚'Ñö^B+6®zÕAg"üë„{bı Yú±‚à«µJÀuêYÛLË*‹xˆ†˚Ó¬Nö_6Õ0úó£∞›˘Qúnãú¬&fÑ…N3°“ØüÙSV⁄OÇàf€∏;®j	h
+≤cÛ@ôRønËñm¸=§“¸¶)»_F…ËÀI®|CŸ8ÛüÕwC«2{$™‹i‡˘‰É ˙’áAO7Lgòû)oq·Ï¨^´»È¯·é_:dŒ>ølDÄ1Ö√∑àP ßC,c˜ó’Œ@√2∫ßsÿê‰d—íÏ˙iwfÍm±J|≤≤8±≈œZPJ‚Øˆao@§ñ^äÆB˘‘è‘`BºÙË4˘WLúXsD7c{sã¡LÔ≤‘ÉÉr-ù·T»§R4äı6Q¿MêtcWsºñM‚}&l ÛÊvÆÇ∂z¢qÊA)\›≈vq≈7~;»Ì",%â".©2eÄﬁGΩìπäK’öÔ"~
+2‚{‹k7ß¥…•<¢E⁄_˙P|ÎÚXëÅBX‰˘|õ2aºΩl◊!?{π%Ù«É@`k¥Uì†û¡e =*ËÄÌêùhaÅÛN◊åvœØÿj˚æ˙îˆÍ¬fU« Ÿqg:\ßç‹|ˇ5ºˆvÕô„…G^π@≠éûÔö¶<Ñüñ4]öÉ≤KΩË	¡ôivÖ	öYùpXHUË2~õ9ˇàº<€&fW ”òDòkên§V2Mn@áÅ˜d≥µIæ{ø>ÆôñùBBI‚Fn:uá#Iœ´#ﬂÍ6π¡JòƒNˆf›√$äT<‚ÿ;êà„lGä/ÿ	ÅnäH∑D‰í—mÆOÜÔ7◊â¡n1˘BGOº:ÏRmpÊozEé>_◊Ç ´çNæîW.ú¯U|Ω‰P°¯bı†≥\]]òF˜>Ö~7çz^Üªm3«ÙnÙ§=‚-¯·t-[ ∏Ë∏πOÚ˜=§ÈÏ7ËU7ﬂé@ıæ,…¢jF5›¥,DÒ¯∞ÄÌòN@Pïø˛ø”JªK!b),~aè}˜N@Ä¯_‡Y<ﬂG Øòu∑Ñ∂óYçkl˝Ì"›ùXGFÒ∫¸1⁄mø©˚
+`v˛8‰Ë;±t]wóå3mæÜx1‡Fôﬂ‡Ç.G"‹®Fã®™¡á¶«–ç !˚ÑÑwNÜéMbux-j…€ﬁÍ‚uâ2wis¶Ze»áuë˛ÎÒU$“‡‚Ã •â 'PïiîËÍßªzÙCA–SB»
+PæÅq≥•Ñä¯y∂ñ`O©… 2πª[P*á§t!ﬂ˜£EñÒIÍ)Y ≤-9ÛC“Æ∞˙Ë•õ6îK<ã—ëŸ»ê~ÁπK®¬˙h¢@S≤ò7N°MSªgŒ€ˆ@ırÎG£¡jªÉÄênú)+€ë˙‰RhÕ}ÜjëEÌ+U`LùBCñ{7óµôjäÚóºr√T•à@î¢Èâä¡ƒñ	BÀ6‰ù∏∂4GGGF9ûfyÑ·Ω‹Áè•GÈàºÊ≠≠3H atzÆÁóGáªPnr¢gÈÙ˙‘ZbÏ…&bW$ ƒNS≈Y≥Ñ ò`ÃI ‰
+ èPO}R€û≤±p>ä1nëÓh,wÛøvƒ~¶.√«úlb†öò÷}ªe∑ä’ŸDp–îàn‘ñ†ìÉ∑Ue„wÒ¢›Ω Ien|5 ‚NºÓÌÅg›¢à‘kß⁄ ¿&*èÌUO⁄Á;ŒwºÈ§Ã$ær/ﬁ˚˙N„bü†@R¿ç∏È§Ä	ì];'ã	PUí©ƒö∫¸IjgôÏ2‘ )ÖÿÏ<{˘ﬂY∂dD¿x˝{g˙¥É∞#™{Õ7pÒ†¢=∫ñÒë	∫∞CÖ;ÇÚaS$th¸›F(,‚(òÂèL›rÛÁÇCÙ£"LÃ
+åªõ#Âˇ®Ú(AFîã{XW˜ö%˘◊TB≤!≥çYè™>«£—í%õ»_ŒxÙı$@qÜq¥è›Â|¶ÖÛ=£◊∑Q)ÏóˇwΩ{_rcGñ¿5˙∂MˆÈ]Çq°{3rl˝˙ÅmkÚ˙≥ îYqó∞©Í•õ»È«>_∏&qLÏ/¢“z# ƒ∏nÊˆéGw–UU6äIµ≥ì≤<”¯ë>mo∑û˜ë5Ç{P’ÄŒ’ñÜKY†7’ÒıèÀl_∆Ì8D%ŸÊ‰ÆíΩ±,à√2∆>è6ﬁö≈Ñ§Ö/…5≈±+W5 ¸6ﬂFä∫íÜ∆ˇÊ4P∏\Û‡DÆ¿$‹~kﬁäoaM√òl•ü¨T&]¿^I‡A¬«úÓƒ6eY¿‘KÀ(B^‡z“«8Is˙2¢P¬Qy?Œ=ˆ”ê£gZÕƒèI‘hŸ√¢ÉÆ/ ﬁwãyOè!m…ﬂA[æƒî<JHœwƒgÜGˆ1‘Pºº4ä4]…g®µl∏êØ5Eg¢áïäÍfp^7Øââ≠≠ç åHn:YqÆ>Ñ∫#˜ΩÔÜŒß1É‡t‰ÍTk&…óØ´&›tHúœﬂ,™%N"∂Ph~ÈÓú‹•eGOHÎ{öt¬ÖÒ-åæ?π‡_cözTÁé,-UÈ’n∑˙Øn»t˚$„_XnÜC4Úòt£Td{ˆSﬁÏÍ‚º∑∞LAæ◊fXÒ√Ã‰á!Buß°4ß≠l[Ω¯8s6¡;”≠ö@XQçÑ®™p±<óFN®Õ,Êéô˜'x±∏Ú %ŸôM ∑ØPÍ/è˘zÇ%\0m=˙¨ux∏÷óˇ»&R_ÅlÙDkoU^!Í!]…π"ƒ´rCt™U°Ë=à!0Y2”†pÆ„ÌŸ≥¸;M -∑Ú:kX–b˜.räìg£˜BÒ°≥ÚX]i¡ÀfcˇtXŸ«´∏ΩΩëÑ'ÔHÇ>ˇ#Ùå¡2Ú!vˇÖ∞tãA^yfÚ"©Áîgk‚v◊ù*ê¢ä!≠à†§\ΩÙV…kE3…¨K_‡9P¢‰uÛs¡≥„¨Î√=ªÛDÌúàccGxWqµŸﬁ˜2,Z‡°ŒBËaƒxÌÍ⁄◊·WPPuÒM™ÆíY˙fE["i®^
+$·óô3Œ÷v√πcN=,TÀ∫uı{"&Îüê0oR"ΩDm¢†^ Õ” 4ß‘hMT¯°¯€"ÅªõhÛâhBü»Ä*êE‰}Ûd•o-MÉÍscˆ<Fckjá…˙˘‹EhïßÒœ:¢”Ü¸hﬂ…èÖﬂ¬÷Ü÷Ã&+s˘:z‚\kùƒX gs‹ﬂÉÑ-»hîXàx\[Ó¶ô˙P€ëÆépé9ˆ˘~VŒ˜:Ø®à†€‹∆QH	4:©t◊¶LR¡*¬HºMhÄë F<Än%ô]ãæç3˝nôººf$£tNä[@∫g˛˝ﬂäCÂº˝ycñ´`óÙê}M®ƒù:ƒZ)ò≥¿®ó6îÌü≈≠L±q&ÄmçŒùr\j”#¶ùÆiΩ^BkáB>ë;D€0y ∂Ôs®Bìc·2|4›[‡≠Í aMÏöB”	“RZƒÊ≥/i‹—ÒƒgUEQœß$ñMVÉ©«dc·É÷¬=„Hà/èƒ˜T–äã}-¿Hdåo\|mD‘*W”>∞÷ƒCˆ¯G.˙(©8ŒK
+V5Ò¥€x€ØE7bÏåÎ|∞G’T<º!é÷"Ø2Ñîe,_KÉœœúΩ…{«◊™ŒBæg#ü4))1ë -Z∫®ÖÊHû∫k¶´i—ß’¿«3oWt¸÷Õ&K™ò`KNJroVTﬁR„ h`´æV“0<‚^c€%≤¨è`⁄z≤Éw1ÏG$…™˘_çÜxª˝ˇ˛ ËˇSòå£Áæv≥º	Åi»Í˜£ô˝˜X#Q!®—®Ê^¸*j·´h]Iê)[E
+–◊‚J—éiÓey¸6.˙àcW∞«/ d⁄‡XˆÜ≤J›≥π\:ø®¸*◊5Æê&£BÄl˚‹Qı¸Ø‰“z-5ig˘c’RqﬁÄÎ1Œtæ[SæÉ¥¥‚â)îOZMÃRÄ“¡®&©®$“ØÉµGÁ=[◊@ÌÑÃ[˘+∫~fsxl%ë(<æ&\G%Bæ@ÄuuÓÊ«¶/
+ÈzbN≥+rX±[aà Ω:¢Â˜ˆûj?@{4£Ãp)ú…∑'BF*ñ2ß¯Wúa´lR Z—Õç}·2·B`%N°Ω?·Dik2ÓdjáK–úNA±·:Î˙E∞¸Ò√%ÙvﬁZú5‚Ùi_ã>äøM"d’õÓÚ#É2®cÙKıØ≤É˘∂¬˚_NN°xYËA·ù&∂4Rãi¡´÷µ*¯WÎ˘uPøKndÏíxáê‰Ä*8¿Ç°Ë1S…ÍR‡ΩQ‹∑§∏tπ £≈DªCOíÌâ4€Ö^u8ö~%î8‚Ω≠‚_¸ ñ®Øtïkäñ∫•y÷â6° v4Ø´À}ºV≤≤ò&M¬˝•ó∆Ò>$-J£‹7Ñ–á”ó°Å⁄ËÓ$:¢+@©îÿ–h[ΩGÚu˝•±n¿ç±p3=vhÃÌí˚Ÿ?¿c¿{,K∞s“	@´	ÜÇD^ƒæYròò§ºˇxŒßvÈ-î…Ãú<9o+,S¢C/5`›VÅc.¸T[∞‰ÛMVÄMTt+?•9uçÂ<⁄ùãÒƒTùbh’÷‚ÖHõΩ¯”õd‚∫oZªˇÀY´J?≤?p8§øù˘'∆§U9ÏWcêÑÓ'ª†Äâœ>–øo¶H´ÁB0¶‚ú•ôT¬Õ◊z≥.”∞I’F¨~(Ò-sFÁa¬÷Ñz˙≥ZÂê$MßÙ+∑#_†
+RkE\ä©‚≤ç øïÎú@Êú;Õü	>ö£ß™+µR=6øT‚Ó!‹,Ìî~Nh˙õKNjΩ »≈zÖîä¬Úé… ∫m◊äë 3tuı”{(ır ˛Äã∏ﬂA ØÏ'	mOŸI&_Sgª2öüÿy´¨ªaé<pÜw¡«˚7˛‘HâU¶Ã;´@c∫sQ«
+ü\∆òﬁUöG◊§'µÜ"Ä:ÅÇø.ˇ®zFPÊÿ6»ˆxu’uè∫~® ©Ïâ*Qõ´i¯›E{Âß|I˝‡2ıyÉ]ìa®ÚûM¿ö´ßª¯J¥5ãO≠¸Ú‘>ëÿÈ•gp¶Ÿòphûæoó∫‰2”åÖ„Á‚¬π!qxˇ4~>	
+xbq>àóåÒK=úPká‹õïáü2Bg∂°ó<»ÛRß‚ U=∑ÕGW—K“U¡!‚í§·jÈ’éÔ⁄¿Ì∂&3±Éc∞ÉY˝ «Ï”¬TDd{⁄wDsíÎRêF(êÍ)h°|òÑcf4‚ç-r>ÚÍQß"ŸŒ-ÃbüJá≥Bñ…Fô≤Ø`[ öªÊ⁄⁄‘K†Ùû+eväóîei	ä	À@’',˙∫•*ë∆)M&»zS˛ß±AUº^KÖ2⁄÷ßÇÉ«ÄO˝n )ˇÒúrBÅõ)äÀD.§AÃ—¢ﬂ˛®;s=çäÑ◊èô·9óu\M`EÛ——1÷Ò„~ö°è∏»ÅièW¿ƒ}æƒ]›Z[ãñû§Ÿb|ø=Ô\Lûº≈0b›9K¶LôJRÒˇúã˛e;IpˇgoÛ!⁄òÔø,Öø)Y˝™oÄAóHÊüáÂÆÆ‚á)¯˘·Dà’ﬂ8ªÏckÃPÒ	o˛H©˜g0ŸŸ™º[&rT]‹vó3M¢qnı™>ﬂ7¿•FSÓ∞~f	·Ç…âÖ
+ÛïÓ'üVÑñªç$≠π£n¯ª®ûoˇ3+kƒgÜw%Ïã~m‡–¯1–gwém•!"ó‚rs‘ºŒÔÜn4≥/	£Ëjh¬éõÒ◊?µÇ/H A›≥ıª∂ˆ≈L˙êƒ›t`âw≤G‰∫òç÷πíÓÌÂ%´ÙÒ´#y¬∂Lü(≥YfﬂÖDúEÍ”^2û.}Ñº¡À.
+Ÿs‹SAçﬂ© r;ts0UöÉi¬wF&c≈q>P•+†‹›ZßÔBöcíÜ‰ŒR*—ﬂ”awæúó¸:û›«X£V•WÀñœ¬løÂWM”µ§u∆ 1≠3ÎT“˜ùÎ¨â∫ÂÕA≠’‰Q(÷ˇ∏|7YhÍ(Sr€$ÅÅR\äsËN©óY#◊ã<ª0oÅùA–d∫∂-ZkÃ˙|làÔ	Œ6“»Ãã	l£åJì:êãb˜Ll+ãì\)D*O1Õ=ó?N≤•µ4HMÜXUóLoèŸwø‹Õµa°€*@cA™*d°çâ{WËQO}å≤F∂!çF˙yπ;á†§íﬂ•’òÂrQÉBõãùÄKy¶#—æö‹·ƒkfõ@·¿aõΩ>õéd$kƒÈIﬂ_«Ù&ú'ä¸‡ÂJ‘À~‚Áı∆Æxv¢~tç∏Ç¸≤ ¨˛CZx√@OpPü^ÊÔg\B&òΩ˝˛h&˘•XáZ?÷?DD¢∂ÄB í82 ∫º
+Ø Ë{∆Fàn°ù™~¡3SíWö
+ëÜöJ{È1∆êè◊Y9h5¶i◊ ß Ö*é*ÅØ!á”ˇ\‚˚XÖÛﬂŒ‚~Ëå…≠Ï§ÇÓ˙6%£ò6¨Ì3ÿ*¿g˘BåKx{˚tãZH˘¡ÿæ‘Œna∑±…Jﬂπ50L¯~∏“;Û∫ìs„ÈŸ≠≈]∆7—∑X_⁄ÔEÜ.Õ
+?¶≠¸:–®@A∞ﬁ¶%ö˝ùtÇºÆt∞ŒïóÍÜBÙQ_ÆOØ“õ9ÄRŒ3¿"ï˜îñ}3∑Ωuo]π4É*;”≥sm)£∆B¿≥ÆV§QÈ⁄˘4ãœ†ñÅı‹≠Up»Jôÿ¢43J)∞k◊Ü©îÆß∞ÛV{dW8ˇÿ)÷–Àh=í‡4}QS›¯∂˜d„V‡ìræ˝‘ìb5wÚ©˜#ìeﬂK&ËXxiﬁ¿˙¢Å≠…`Ó©ÍCõµëãÎ
+õ©πb–eÀø„ûË±ÑÊÁ—€àƒ¸fÜ,ÙßÇK›‚aËµAÕàkõvtÈ|Y'îÙíY⁄æ|ÇDz”‰˛‡*¨Y3‰“Ùèù—Ï,øf©Ö˛ˆlCç¶≤2¸pax-„$|:Ú˛
+
+˝	ºfb@æxnN◊ËeÉÉ[iPfj<MÄTríõ-Î}˛ ~†È…b=∞;%ŒÙ%®ƒz-¸∏∞±F!Bt¨U¶ ?sh¿ãFdôj& ⁄$¶≈Ëöéõö˜©üõÍ<Y˘Í≤ü!^*æo ¢hŸA≠€Lƒ∆Uÿ≤Ìã!ƒ™£0?R¶ﬁµc7¨û1˝Hç“±¥≤Î≤^yÜHÜí⁄ç\5 ’'ﬂ≥'Cµ≥–¬û¨Õ¶ÒµÇ„N8nú·ôZi3lÜ¸Ì°z=˙¡ºW/Íy}e…√®3≈hg≠#œ˚1 Y¸Å≈’fË)©1ãüÙ⁄ú_mÓCå"WîÆ«√:!ıX®˛+N?ÆEä”c€õºπ|"TV#⁄=5A+≥ß∞.&¨µƒâìS˛U*èO -o›êÂõ¿¸Rci¿a∆œõd¸¬ù9Ãó/&«∑ƒ.ö~e(j≥ù*‹Æ 	∞Á¥/‘ëù∑ì’Dïi|*Å¡ÒÓËLm}ﬁ Ygä•0˘-ëC?“V+ ¡‘™ñPµ&;kiI≠¡èŸ˚"v5dd¿ß'äÅ5R’ØVíH\g˛,#ˇd≈øﬁgƒNOt‚≠èá˛óJ‚<ﬁ@v™àz˚7—ºsxˇåıˇiL	{V˘í‚u`T§‚±—4T∞msëø°°£’ï’‰É€¸Xò§W_Ê£bÈóB‰ŸÓ•{Øº¡˙Á≥ÛAmıÑ µÆπXÇ¸ ≠òmè)C[_œ?≥¢å}ç/¯ù=âÓåÿ¿jjW˛¯…◊9πoFôesGÔßé{:›⁄L‘tsÒm$Oæ›öπ UJKoÛÅ∫%F`¢¨òMÕ≥tÈÒ„ù±}BC∑úu«27)´|s<™‰û~Eè·ß«“'/)LΩ€N/≥F
+‹¬kZXµW√eKU"ﬁ¸N%:hÿ¸?“~0"◊s\3Ô∂gÀdëÆOÔÃ* Óπ2T˛§öd”Ôliõ€ èK ûK2qB‰ÿÅŒ⁄≤ﬁm–Nßõ8õ≠™µ≠PU©6ıøÜw•{ênö˙åO^¡õy“k;¿@w1C]ÅÀ{	kT–»‹ï∫ñ!$Û‚ı÷*XT2Ï,Ïé––âÍVÄ-*¶ õV ·€Ó≤6p|a¸ ‘dΩy€nH'µœ íaRAäARäEÿp¸ÁpÍíPéSK6◊ﬁªa˙%àW©`ãf-Ëíï˛˘Ô“ûÚnO¶ÿs=]EÜá˙e4Gá† ΩY‚é‡è)Ñ¿3›`‘“ãÄåMs^˝±’,¶›hﬁlW>R≠&kﬁÉÔ.≤uq3,˙∞≈"’7Ü9ñ RrøÕwrÒ«_ÿ∂Òë≠S2¬ó ô«:pY7˜J∞ÊKÖO)˛W°a∞W#YµlY|A/ˇ±∞]zóÉ"0n°	˛+˛Á§ÍUa(t
+î›p°.*[)Ñj‰mÓ	òx»vë∂⁄@ÿﬁû}[—.4Z≈D^]õ}ÃB!óÉ]p-_Ú¨0»˛ÔÏ@u‘lØ·ôß.â$<m◊G–a±±*∑4Ä∫Ÿ…6ótHØŸé ?:2óã'¨ ∆(44F÷WOâl∆Ue1üB¯œ,«eÚ#‡Ê∆M≥ë¿◊Ë=kÖw
+ó˚ˆ®|é∏QjÍ¥∆'gÙ≈¢H£ãc∏NLA«∑ò’√ıéë•™:j ∞∞!ﬂºˇo´&UìõÇ1‡fƒyfT≤ß¥∂ ¶Û_‘™∆®¬‚≥‘1äØ≤f5"ºfRÅßlI
+OºqÀly<<à¸ñ•
+ rÚÑ¥¡_B4'1yl˙áÜk`
+1Ã17%0Èkùq9_+∑¬Ê”˛Â N¶‹È«è∂Í√tòz’ ≠®9U!l˚YU"Û
+En≈BÖJJ≤vñπ9˜H#*z_Ú√–+’·zÜäì9QƒG-ó¿Ãî´E‘˚uc1€ÎFZ3Õ°*jVb=6„¿#ßS' Œü%·ÚSCgSg"˜˜¸q≈|ÂÜP¨3Yõ/⁄i-ÈXCÂÙo•˛¸Qîò}J€q¶ôK@5ﬂîÚèü7Y0= √‚ÚÏ',XºB
+Vîq·/<1´ª´ì{F Ü£<Úê¡
+< ND∞+Æÿ‘“Ÿ7†ÿoîÌ|P'*AÙ:¡@–¡êwüÖ-⁄êSmÃ*y∆∫bÄAŸ]][°ÀBH™]ïÉ{Áå:å–‡†PÛÆ„s8rËÏÅ†#ë√h˜ŸµwîjXNÏWfêP˛˝œı¢hó'˙,÷oT<	à∞é’∂AËßŸﬂød¿Ç«‚Ê¨Kh1tFÃ#˛≤ˆãƒ¶∞»å}@xiZë4_‚9V·§√¨ÚÉßı∫d5>i+ ÜU∏úFEKsÒM:5—¸ÌCÏÖ'{Js®∫(¶ÇÀ¶+ÿz˜?|°(◊ÌóΩ¡≈Fû√ŒH…iZ¿ìl$ÀO+Ö+cwcúˆ•bñ`-0zÚ~Íõ”˘2v¸a˝ÏqP.‚*HŒ{Ien1◊è«[líöû∞.5ñ∂µPÛÔÁ‡QfT4Xë¨ƒ!˜k{ü–~$0Ç¨Ö…f:=ºë_Q]ub∏{É35wt¸∆	∞TFﬂXÅ≤ì}Q≥¥.—∫a¢£•(c¿2|:ä’íÎôFﬁv?$pe˘&xüÄ^wŒNk†$J8µ≤í´÷ﬁæÇD—A÷ZR‚/)áÁ€ê}Íë‰.É¯…#˛·!xı¡—r>N.†¿rÕ‰œ∞•µIßÚŒÖ<ì≤3∂	∏D†i:Õîø„‘A{ª{áç(≠vzçn⁄1NŒ¬¡Ú†I£‰|êsIP¬¨)1∆rΩ«l+ÿpõuÙ5s°O≈&Ù•EI»Ω.¬£ƒΩ
+Ò.;C)æÆ°Çºéˇõ{vâ¢µ‡yÖÈ‡›º_∫à¿ç˙U ¡jH¯Rõûé¯°zm˜{A‹.å•ÑÊ¿ƒÛH·f>∞ÿ/"øø$lÀÑl◊ÑÖ6ß¿@}"3oŒJLœèÏPpQ9:UÎOÛÎÜµ±Äﬁª¿ÜVt4_«†=„V≠Õ<é_†{Û•'è´Çj—à≤ä∞%¶¯ Ü-÷ô‘¸Tî„Ï‰ü-L{VH\ˇr	àøÊz∂ÃoR/	D√‡_”Æ_9Wäëª]∂„fn/ÿw	‚ÅL¥î]ÊMˇÏ¥f"Í€‡ÉÅ	m·8ntﬁÜA≥äô |Oø˜¯Õ„b	ÿŒXê«l°¶≥Õ9˜EüIYî+;ñ¯8S»ê|·Fol0ef-£∏*i◊U?À‡h:Zé4l 'x”¶Ω¸ππôiùm¡Û¬êAd0à„ËÁ˜‡‰∫zDƒÅ´&˘¥^Ìã/ÑÄ}‡ehÇ/Ú|æ`«ˇnûÈÿâ,%—ÁÆ~¬ÉÔ ¥7ÍÙ„»w÷n˛ãU˚õÍ©_`»I"lêaç$ó™Ö„–ˇ¯â⁄> ˜©zËézg◊—fØìËÃ&Ë?
+`ê˙"ŒÑ'ç©5Ñ‹¿·n∑›º¡ ∏M˜∑„KQ7™˙¸»‡‚?_DëÃÿR.∫I{7∞™°“∑Dî„™ëzÃ(™ÎÔ∑ófÿ$ª`ì±˚(ïæPâÛªúÅ∑Á•ïØÏ¶ÑÉØ+‰ã⁄†voÔ®Whj	|mèÑﬁ? ÎkÀ¬-;ˇ‚MºVvsH√u<IÜ!C¸¸©Ùπà„U	Eî°YûÒßΩxQ˚®HÁ€ÿovDµﬂﬁh“ﬁ¿€¯¸zµø]bˇ:'X!hBm°g0cRmπHCŸ> Baı±ﬂ¥∑ÄUÚßóòÒn©´¡ˆ'¡˘PÌ¥=Ó˜u›¢ô≤’inlf•◊ãô~ÑKY‘ﬁJ†ÒæWñ+ØΩ ¯ –‡NÉ&IÌÔ»¢ô£◊Ãî˜?å‹:ˆõùÁU¥¿∫a˚ŸìWt¸îóyæ”h_Å≈É…‰vvƒSÊÍÚ:;¢VyµÛ‹	1ñPX÷ÎÂ‡/J∆ÇÅÕf´…ªõŸô˘÷º>‹ÃPTNsé%:.w|-?@ºäl/
+Â⁄∏¯®p*6ùàˆ/√¡Á¶AÃÒ‰)ùÕú¬MqjÊÏ4˛{i´/7l?∑h÷˚∏X˛∫˛êQäP%q» f”s™XŒÔè(†#Ù¥ìP©~≈7p˝\fr…ãúnQâ§&'úJ‚ﬁäYa}1πûÈÀ”ÚÖdµßzÔ≥µyö™ã¢#˜ƒlÜeÏÀõáp€†∫ =;dJ‡2(«ƒB1J∫p9kﬂOöyñ3´ªÇ^´x>ÀÃàsûBq@˚æb3é≥Am0µÕg¶y¯ötˆ™íá⁄®D›˝¬•ÜΩ,⁄Ò^›bÁxdü¨Z#úH$@Oòoö81UûdCZíi ﬁ◊œÜdx=˛∑V[Ú0ÚÌéç·úæøﬂ«T[ÿ¯3q_µgD‘Q‘˙9£=Ö‹˚É°6Î\¢[+¸ü{–≈,Í~9éì˙/wúu’k–`ßŸ–'9 =ñ¶¿ˆPÛÌ∑·ögZ¯ΩıÀΩÆ
+õ9æ†˝+oòp˛ÅÙ8ó.÷ÃmÅ$)9ç√yxsÕ=™è∞	r°OÎü°{∑¡vßÌ]úe:¨S–fGUi´Ø‰„%•	0ó3k’ã›Ωﬁ
+Ü¢‰6®êll∫öæ≠Ç/h[‚ƒEeÔ£ÓRΩ¬~@]ß◊1À‚8»2¢Ó¨Oâ7Ø!A„ﬂHiö<väÏ∞¬“Ã|∏dg.N?-˜ë‡brF¸€à≥õ…†Ô	U±•‹Gä†¸f3Q9äÅl∏Nˆ“Ç»?Mëuïô7TSN»Ê+|πA‰uìNb≤°Û˘¶nÌ∏∑@ólÛâñ,8ÃüP^:£3)ïYß±ª¿"¢_NˇFkˆƒÃ≤ÿ Ì ∫s≤6§~%|NtXd¨  √æ≠¸Yõπ= ªdzoË\»6Y-ó·≤ã) 3x5§›£P<Ü˙ñ—á≠Hü≠†(8¨äJ≠–º^à—≤°u⁄˜+nÖ6˚zßr≈Â–b¿ãˆ'5Ìg5e!Ff‹ÊÌP\eÛÜ£ÁÀi C*~‡»Z©Ìˇ˚LN%åQÜ„ıw€©N‰EµCøì™ﬁX∆?8än∑πï,±∆iª€^«é·SîË2◊“pOßV ±ÛÇ⁄öMs˚nZü o;–˛©Ü£œ‘ø∑€‡‡ôÙ£Âö€í+&Ç“+oäêv≤e¸Ÿ∏Jî∏1∑áá—Éß¯ p!∫n°^…g˜≤`»ﬁ%¬ˆÂ–ØŒ4dxïñÒô:cN\
+˜∞Äx3∏ç∏˝…¶x*fé
+ÜŒ˚° Âj%&äı'9¿§ã∆ÙJÂµ–ÃÏŸ
+{√1ú)ÛâS-.Ã $í3˛¬˙$ñ[˝√hàT>Ç;∑Ã-!–«âF‡‡p"ÂSÓøÓ$Ù≈˝ç–1)íéùÂÀq˙Õ¥´
+¿µú(∂Ö$nMÒ®ãì›…R9ûA≈6ÑŒø«êJ’¡Î&/:1/aÊ’˚$ÒŸ¿ﬂâ®f¬Å±À)@Ís>°1“ı~∂º!ö¸ƒÚuπCl-=>.w!sWáYuÈwâñƒ"úÁöÇu∏˚—|ºÄF∑Òã%Çπh≈”iﬁ&:îp:óQ*ﬁZIë≤H8‰ô`∫ÇŸ‘ÍÑÛ¬8†ääÍkQßóßªXÛæ«ww›ﬁV'ú∏?sD«ìﬂ÷Ÿ∆<c-`ﬁï^·PjÍxÃïPÆ≠®∫ﬂøªtÎÇƒÂeS˜=î „æZ€>;:™Â’mé©ÎïâÕëgø·Ω•vXïG.*˜rÅ∫*h—;=—-ù§‘>ﬂŸÏErI∂µPøÿ3ÃD⁄~ÌÆêyLö]∫â>b#!BÑf©idªRßñ{§`O˚[~®h|OÁXÀÏüêfr!"¬ÕÓÚ ?PMÛDG†äYfGî≥94√†pè»Ösâ8áqkˆ©Iih≠8Ó˚Äv[í£z„ Íø|E§\€º¡Èë≤<ÈõÔùï€Ú»¿bå#·˘´‚o5⁄ÿJ”'vÏ—r,tUEG´BûbêEˇ_≠–›Rc·ı∏Ã.ΩáÆ/⁄;∂¿P6K ◊ÀX"Â¥Z±π—º*Î1åc"D\¯¨	™=¨∫2Ú#B¨Y?ı"˘
+müö‚‹€æ#‘§7Ì M≈‡¿Á+¯«å/gû«8÷…˜¨ö≈Qõrfh⁄ıH6!Ÿ#¸jHÈ~q+∞¯ns{ê@F:ˆÁ&y˝eÒM˜ß	ÇÓ’õY,dÉ¡Mπ+feAæGü$Q»∫®´·5dÖr…t—∞AäÁ|ywÿ</E}	å„1{)ùë,Ö±7!Õ©Ó^µ•§^Ñ¨R•J–∞ —àãˆ{˘áªhDæUI>/ŸsGÇ>K°=·c¢^‹pÍ˙¥aWxﬂP±ôpûﬂönΩô{≤È!…®Æ"ÜùÃÛÿ}ÿ©B]Íê∞“¥+[õ[ï ´◊Õ:lBm„N0JäG¿ŸﬁëßÊV51ÙE∑îÜJÎ&äfwUˆÙø&Ù™©¶’4|°xnô©«°¡>Fˇl2\kóY0`.vÏäYCõj*Ï˘ÚπD”•ÊŒ?r¢mÉ¬^rêëÈ7Îƒag˘¿ÚU‚›Á–›*uÎ‚2≥ÜT˚…◊¸¶ÀÑˇ˘‹‰*cÓ[tØe§@¸ﬂ7|N;}NFR[nU≈ÍK\s‹ë/ˇF)ŒÈ≈YºØ'“uÌ¢ΩüÎÓZ÷tfÌ^†˜êö ∂çfsjT`‰íï,»’Òòà¥Ö5◊˙ChíÙÎ>|Ω>úù	r%à@!Ø†ˆÅﬂãã|aÿP⁄hâ¿Õíp˚"q	›wÿ’Œˆ^SJıúıwä?=ÍnóOev`"VhêŒäáD≤fìéLããÕQÅû∂ä·^t\±°qÛêç Pê…çö›NûãPÛe”5ˇ≈ƒu†a†àÿC…Ø∏UÁW¨êçè yJß¯{óœ~P◊Úù3˜π—(eëm8Œ’„π~8dåõå©P$ñ*∫´¸rÈÿ∑aBÀEKê´’˝ _°Â¨BIxiW|ÅmùÆÖ◊a∑]FÑ8ø‰AXùÓrB∞#È˝∆¢∏˚õ_]‹∞’Ä˚Û<∞†«—Ü9FÒ9ÃAøú§†“Tot{¨;◊âs±HãnàÔ¯,!¬Â;∆âÄŸ@.1Œ≤Àa°%ﬂéeµÑ{‰Öu1€îIG{a.ÛŸïêVÆ]@V˘y‰T”ß3Ç∂y¥æ5ºÄEíZä·Ês¶ y¿…≠r/¢¸–÷¶ƒÃ?=ùlª«Kj¢áÔÁÔÁ ∂1¡|ÙOOÁŸç»√¶S:ºxöˆÕ©m4i_ﬁX≤qEÏç;≥‡’"òYC>láÚâ»Ü/$—xàC∂©ykŸ28t)ÁCæ”V#éM$€»qÅ/*>LK¶—/&oVxZâ|QbOoÍ¨:ÙÂ-<ã(UÍ˝5Ê%‹@¶4Yu	S/¿X‹æÎT6ppBË;r;HX,›Çvû¯^˘¯´≤¡Óñá¿¬…#{öKì›A«[ç|‰;ŒÀ•∑vÏe%i–q‡ΩÒ∏bÊ°ÍO‚a‡PBøòìÙÔa, ìXhW≥d◊ß©ØÇ√ÁtöqˆÓçô;Dj]Üˇõ°àòÖ©´ÎΩy‚#:∂Ÿ’˜øØ¬O÷∑cÃ-´¯V∏€Ú»R’åı∂âtEl‹EURÕA
+≠µIœ<g£˚∆º≤¬˜TûÇÄRÔÓdƒÆ{®÷<“!xa‘‚O)ÅóL·o¨Ó„F¶˙è©ÄîÉIÒf$Œ0áP$äÇUÕÌjMW*~ô≥•ÕóÜ1§Â›Wõ€j·ôÄtÿ[h;›:v¸√§].s$r‹]∞÷0,¿·a∑)x®Ù?ËAd‹ÑÀdâs#›nGÕƒë∆‡ÔiΩÛ'Dá€ˆ´‰Ìà¶£”îl›ﬁ;”ˆC@CÀ‚Uπê–;◊oÈdzeR°f®0å©±+µäh4˝GD“ª‚AˆCû”ÉW…0–∫˘[‘P“ƒÿ¡ÌÇ»}Ù“@	º–ÀÇì	i$y†üô+*a(ä¥€WnY„W ê¸‚NVGa¸ÁÒÖÌ4MäïEÍ ∫H&`f“Ω8†g ÒµÂ•
+»cï˝∞bU=_QÊ‰¯ä )¯V≥œ'ÙÂ>a≠≥ú&#ì_BÅ¶˘Ïîõ'üg#œ@˙¸4¢Ω»IÚ`R°Ë)ÏË!πhã˛{Ãl,áÚ‹p7o≈5»l®K∞‚[!Ê¨°ﬂ ö0b®†Ω¨pW˘πcú∑Ïe)^åX∫ÿ™H]fª@m~«—€	Ω”≠¬ËHF#˙¸Ø5WiÒA∂#$‘æ%Tò
+ÇIT_*x’*§ä=˚£ÜÉ˘m—QCôÎY∑·’Í…núu””P‘
+µ°N3 EŒÎıÛfo¡ÕZŸÑH.∂NÚ1«iPã≈Aõ‡¡TAù’µ∆»ë‚¯ä¯Óã%ˆß»/níÆFÊ¿≤¸kêyÊ≈óÇÙ>rOè«É“≠WF!˙td`È±ﬂÚÌÌπ»!>“–Â]+ï©û 3Œêò\4û¡9µzkiõP[ø)QEˆg∏D≤uç>ãæ§ü≠ˆ‘“‡òΩÛt}àzÔﬂ˜ÄÖkπ	ro˝‚E¨ÓXÅ·HøV;‰UhõﬂÙõ(Õü±ßpÅ⁄ˇΩÄW¯a6Lsœ÷ˇ¡€/∞—†yêeî¢¸Bó\°rôﬂ£ˇ]L7NY_˛⁄ûwS2ÜˇöÇLp≠@äôY∫éØ@SöMÕKŒ:M¬í«>’|Ù2'ØÃLıú®?¬8ê9ˆ*!ﬂ˙Õ3TËíI6†HÑzÕ/h:X¸¥Ö=6•„óËzŒ¶ô'ç;ÅÃO<Ü^^ë#º1ãu¯€1p¿gX√√˙Œ§Ã[Í‹t±_ƒÌùaà[iv°G‚úu{«´$Èwh(,LPîÃÿ»2È|b˘_bÿ\π^oCÁvæTô∏˚i∂¸p}X2∂éz˚xâgﬂA˜≈Ádl†Ï?DCt¨Ÿê‚
+¯3;
+ú£}#ª◊fÔÏø—Û∑l"huÓø5Ø]6˚$æQÍÍl…≤ÃîÜI>gäBåì3Ì>m–m>lÅ•’“Û∑XÔ<Ø*fHˇÚ⁄C∏‡ñ∞˜^G•ÌeeX€ÿ]ﬁ˜»"Nø¿€«7&ÖÙß¬'ı;Íÿ/Ó”#E' Õ†≈!âZë‘£Áu£EBîºôÊ«-Nôôˆ/cø€YVæ+}APºZdV;÷áÔoÒ˘02[jË>§!ﬁ.Íf∏Z.Ê©˚Q˝xÈƒ@`ÍB»GK◊~…ÿö(˙ÿà™’•à‰#9
+ãUzïπ,Mu÷7.Ï…ïıXc¸{˛{u¨äœr_y[U≤·Ï—nGiIXÙËª¶áLüÙ6¥#fÉ¡üÿ[Z8êl	I¢ﬂdÂo:rk≠"„€J¨óHq?ˇiÚÑÅÛ!’ê™qRtÂë»≥˚œFp≈lë€Æ⁄√J+*rˆ1¥-w0s,¢æ†£ya√[™6(≥k¬Õ&˙êx’$Tñ∆)/àﬂ∑‘˙çyû^πﬂ´˙ÇÓ{OÍàÿ„PXªÀÿ⁄/µ. è∆6 M…∏˛R/¿mŸÁ£“À.cì)ÖÊW(†hfÅüÆÉLú24!"ÄÊµÉ≈8Rkù≥zéˆ ü:T<f¬◊qµ%vıÎÒ;/Æ’ıûH’WkÑ∆„0¢!5,8∞Ø=@ˇ¸MÍ&Ä∆∂`ãïFÿˆæ©MI7Í/ø˙¶∞.rﬁj'ô:/∫‡π¡mW–<E´¸Ò˘=eje¢±ƒw‹3ï[¬%A9ÅÛﬂPpé˘ÜJá˘ $îª9HWÉvûuœ∏Ep|Éê4Rô=Õ;´¯(còè«O2¶B∆≥À˝˘œ&W%§ô©vc&É,0ïˆÁ>Ü≠ÚrÚRLÀ‡¡Æõ`kÑB™ îµv∆c.Z;∞¡˘∫√„»M⁄0ßOÿSa»∑‚vj©ö¬¯˜ j§ıΩæhA‡÷(ê›‡‰Dæ∫Ø‹/√ »˛∆»ƒ“ÒöpÃàqT»°Ê•)‚l)FAt∏◊iΩAˇVÊî!,çDY⁄ûv3dß⁄ ≤îÍÁÖ„®{w.±ìÔà‰‰≥¸Høÿ“∏*©¬GÀ={›UB#=a∫_õŒ4zå§aêû3‰WpÙä/y”kæ√Ïp\˚Ü!∞øÂBÅÒ]Ú‘lÒã_ú/ﬁ&R∂åπ„∑T”€|÷˛l©Ç„ƒ>AÒ´pÉ iCô◊∆òÖy“ﬁ·t˘q∆å.
+é›‡uOµíàh¿èBaEÕ&k’±»{&´±E+‡I¨>;†ëπØzè˙>≥ΩfˆÂ»t.è˝˘Rëøú?${ã†fâë*^ƒÂJBÓç8ÜzˆèHÏﬁ¶lÔû!ÉD7π£Ú
+%qDÍãhhÊ DB}è2cKDH7ìÛ§T∑ò˛Â–ä}‡DZE¿åy’À∑’‡æQ≈ñß—ÕÏ!º|!Ò¢Ûy†^ô'⁄E§f÷Ê	EÏîˇ5Ø_·æ?¸TF=ü∑ë¢ót€À8”sq\≥±„2:Ê€nÀ∂÷
+≠¨pe(káXü˙í1ìäâeœ,ÚZÆ£‡ø§l[o«Àˆ†,⁄$‘?ŒZÉ˝Pi iê˙˚*?E£%{Yæ	¥”X†e¨ÑEæÍëj>a }d‚}1pfiY)7Øç‡}¢÷®9Ø/jã≥	ÛQØÑfätöÓJÁﬂmí@Ñ`€!òOl∞rï	üíS Í∫Û†◊M?Ó`XÔnçÔ<}ﬂ·Ò:QOmyÕ$,÷sÌÉc›ƒï¨€£}ÖîC9êÿ6Y £J|›;`bœé}Äk»÷4°Ú˝wñ=≥≠ˆ∫o∏H∞x´Ãøj8≤˚-∂¶°j˙M7Ö?J®¥’⁄ÄNB.ÿbÍào=ñ[ªp#eœø∞‹D(ë+-UÁs—UÁêâJµ™˚0H\x˜zâ¥[3≤'Ïµ–¥†‹sﬁ÷4DZï±(¨ç#É]à†B\cˇè≈àÏ^^Å0_iµö∆¡UôbºÿÚOﬂ%Ò˘S,ˆ\À®ÏN¡÷Eùm3ç]dÑl€
+’¸>6ﬂ≠Ny>∑™^ËW-ñ√ú5∞qï!#¨˙"ÔﬂI≈ø'«Hﬂâ	ÿõöè¸∫˚	SçU«é?%¨(<P§sÜ™Ã (˘A√ic°LÌm4˙m”'<gä1&ã(õU6¢ÃoπZl9C†^!ﬂÁËUf‰ÙùÚ‚˚pˇ≠Êã°ˇˇ"0wº9÷'Ò6–´·€¬c(µ_R‰ÎY0‚\¿)u&D†/„Ô.â≥q∆º48 âiÆ3À&çVÆ/í™4Ûj~ú∑ˇñq¢€(pæ˜É);[ºÉê	ˆG6G(∂Ü§P]ˆBÍ[Ãœ˜®ÿGËE2)F¥vaèS¿c$!"—ÕÀÇzMâÛoŒﬁ6ì¶x†∑{‚•≈WáŒEiË,#FJÂ€3∆ÚÚq‘†*Rª/neS’ƒs≠ƒèµû‡t»ixE~”9uÕ@Ä:’ˆû0BbkÔÕsıcña%ô›O’ë◊à(«n•¶"˜˙Æzf
+í@|¸¨Ü(XíÀOºì≠ƒÇ$‚z'D…÷ı“
+ë[Z9 Fâ©<{Õår†ç≥%X¶î’Û¡h•¨rßeù/çë»∫hãeÉAgÙ§©\ˇDﬂZ»Ïn[¡^ì¡p˙©lœ+Nõ™«∆¡x8“ë„ÃûØo°gÍNÄÔL?˛ñﬁÏ˘æ∏~D]ÎÔzO∆©i¶y·;=Ω¸|z“ î9–≠,ÒÕ9rAÖÔÖ&◊ã+⁄ì›±§J˚%U∂"≥Ï˙∞7Dò"SãäÎÛºhÄäV$Ïgø„éùå‰?qœ›*Ä≥ò˝”7oÆcêÙA0`4´1eÙ#∆†é3dM;å¶Adµ4E¨g¢\WoÉ≤∫€ı±5AD≥+<C¨5öNÔ–9íß%Q§ûÿ5_”ó{@M%o|Ê¯o-ô[F?(›Vë»$IîÑ°Ñ{ïW´>…Fâm+§	â¸ø5FUÍ¢Æ1¡Òs§”¨ra∫•µ)‡¶+E¸¬W∂[Æîè®'å-o·	ﬂAÅX‚‰ıî¸—ƒﬁ—∫âÚê	eÿv
+*ÜCá∆mÍ∞@5Jî	€˜õqππ1`JL@´∆`%£∫/‚Î¶êØ—.¸°´Ysk˚SãRÕ…G•…zô∫Î∏:
+»D√≈iíßXî Õ6®~ÌÜÁTyèèÂº’f4êÛ‡û2å∂Y_ÕÍZKòPêuvd©´dphyO)ˇä3|ÂÿÈ^\näªª™c5Un: õÛ˝Ÿ≠˙‰Yã2ÆÍÿSâ_*Ú∆ﬂ⁄∂cœ°@ôSﬁLB¨">‘]¬„∑…&<Í>ÿÕ∏ÚYpl–îØº6t£¡n{zÖÎgÁäõ¡¨ìg¨∞úmÇ˘¯xË 0ÂÄ¿˘.ôZŸeî`
+P"ÊƒóQV?b(∞«ë}˜HÇ<Ã≠tôsM“
+"O+†{›s—6ü¯Ñj2eYŒ Zç"0ã£t0ÖU8®Ω¨lˆ&&i÷⁄%åèBƒB 6‘‡¯˛ê¶<úËßv≤î‰…Ä¡˛∞#≈NO¿ª&äVß‡zv‹Œ[©5Ç˝ºZπhcn_çö	M?ëJ!P≠&«û9Æ).Ñ2ï;ÈCí¨µ}ŒENıY6 ?∆sw‘°N/_5¡[∫∏ÅÜüù…˝‰]Çt‚éãÑqé ]ïôÔW÷y‚©π¿∆yFƒD3¸ïˇ—>Ä∆kÔ{jx&M¬á’KyLHnZàW*C †Ciyf?À€Wx‹‚# ø‘˚äsm8M—xÆp´(Ù»¸”=ï2≤:Âçf e1qêÖj4>{B‚Ω:Ë˙T∞π`<∞≤¡ßﬁØÒ2hòY÷Ç·“Ê!≤ñÀV∑+¶∏ùjb–≈⁄bÑ|ÔÄ!ó98Êüd≤*¸ï@¸∑÷›u CÆÔﬂQœu]ﬂúçQ^2¡k€iã8G«Õ$,ø‡ùh˜ ≤CîyC'ícK,íîµxe	6ï«eÍ/zI~øi3¿ccV·∏;Ú«%©q6Ä”ö2üò"≠v˙ìGíOí%¢√NlÌ
+v´.}ËimıÃ_∆OM⁄ ⁄€“Iµ›.+se‹ÅaÇ—ø6}…πËŒ^ÓôÅw ‰2‚®é0çâä`!5{b;’Ì’mÜ/Â3£Y]6_!^[˝t´5†J!_>Ï*o())◊Æé;EÕŸ„ÊmIÅÜÒ@Œˇe6ÇÂ%ˆ«Ã-ˆäwv@ÓC•"ﬂÑ%∫‹˚Rf˛“&|uÏwÉµ0
+QÕˆL8∞Á”»ïCB«0ÖÄ±∂ÓÅB∑Ó≈Êßcáá@VLüﬁ÷˘A≠`[†a∏ÍÎ∂kºØ7˜∆+_“âSU…ˆâﬁ|µr`å—Gòıöò»¿p*K9pÔ[¢Æ1Kx^∑Æ{(5âÁı>§Ï˛1@Ç-nA§ ˘ù∆Ã¡^aîàOR˙ÈhÒ>=à§Ñ[ÓÖç|æfTò®	ˇ∂ VRÖVUnNæŸ˜¢hÊ«,‘"‰‹≈I=QØáé∆õ‡™»;òDˇıe2êßúìYñuı<WW¿ŸWL„`Î?qÂßC7Ü)Ù˘≈(¶ﬂ+µCËP˘F"üÀJú \Û
+}[ø0¯(N©%8‹pÊ-ÓS±ü®%˙2 ≈—Ï
+!o√báhb≠{5È	x_?ò≥3¢÷Ù3–È√0Rì±Z‚ò@n7ªVµëuË-^Âòs‚'¿|‹YóJ§µıè—µ«“Ω˘æQ	®Ad≈'d/ÕB±–∏$;‘ë83j—Ç∏Éıîc·[åÌçí˘r≈ü‚DàC™ÉGÉ˙D›}Æ®‘7—∏;)˚á€Öoøä±”
+®˜•ﬂhí®Zv˛Û¶$Çÿâ∏í^GJ˘#ÆQ≥r≈÷JôÆ˜ÏgÀÔö‘ùrå£Àˇ≤
+“º)Çn©mVÙj)ÙC`ëR8LréøIómí-ﬁåÛw˜∆LÌÉPïanTDœ√&¿ÂÂ*çÌ6ˆLçnÜ¡æ≈s4wâû∂ﬂ·Ì*3<ÿ´^#7€¿Ñ—µBƒØøÜ4V¢aOtŸToV∑ˇ~T(T/DL˝QÅ•V@£TK⁄`ìÿr¯È%®Cñ•uyûD‡È‘\ßÎVOáURLíßz'ÓyW£¬®ÌAÄƒó<ÌÔ∞*ƒ‘,û?ì	2¢∫L õ…”sÕÛs‚zyº0¬3:˜◊UœbΩá|cu’ˇ $t„e1¥	B#‡Ë≥b);\Uó∑ÔIUSÌ|§‡dx⁄{ˆBkóœÑËì-AŒTï·ü=ñºmßT√èrÄï€ÉeåÒ1#–T£c§l¸ÙL&8‚`*⁄}â;H∫c™G`Fªv}èÂæƒ¬á|¯ï+Åø ßvjVö8Äâ=f$Æ˙]ï“{Œ^øC®¨_æï7ÑŒA¨√— ìµÒÍ˚®∫>O©su√Qk˚’d0o¬ó8Ÿ√x8N{˛¡8-
+Öáp5L/µ)hxXq±Ç'ƒ≥Êí˘0≥f2S'√RÉ#õ≥P„pµ$©£ ~à˙`Áçw1˝˜dÿ»Oı†€AE‚tdRXÒ;>ûÚµ›<¶Ç$ÔˆXAO2Ñ¶…õÈ•}Q#∆sùN¢ÙyE6»Í-µÚª˝J <CI›ÉåÈç^BgÏ ÏT*⁄]…9ŒO0áÚ_≥$óÿh¯WÌ˛‘"±~"¬†*XótBÖøP%zØ”+ºOfQ<˙X&„17¿8á\OÊá‡{ jp‰ÑLá›≈GÜ”∑Ò`ˆ äp‰≥@hÛÁ∏Ï4a∑=Ú7»´¥X◊⁄L ﬁdmçôóÜÏí3tvPunw˙™ö◊öåH> ‹,ÇÅNjN(PÜ∫BÒØ)_πï~Ÿâˆ#ƒ“‘9.>%¢˚£s√W]W'zÔ√oÚV»ƒËj∞≈ÅÚ2‘ì´ìàCpKìÓ:Øöˇ%i£‹"ÆFçµH»1øïc˜b\§π —î%ø8ágÑŸ_Éß˝hbÙ T”*…ˇ6À@‘n”ÓŒ{rˆ´ﬁŸa(£‚]0.ºÂR¯UÂ∫«˛˙ä[SSÃƒ:hÍIïƒNcÑ\›îŒ<!∫Ç¥êErK ^¸lN„´3æ©ŒbÅ¯„±®“™–ó∂	ΩE^~aíºhÏP¡L…≤Íclº˙£m‡Ì -„ˆRNH≥y†o6ûå8d™©u¸®F1ãç—òbπ€ı2S.˝áıP!ıÏ
+Ü_Mø§™£îÙæ}”ié	¢u)Ñ˙ªºíZB¯Ûay¥	„SÒÙ¢ŒUvÏÑÁ8!YÅ≈OSy›î'¸µd2{≤4)a`¬¶˙«µÕ°©—∂Q‰º¯ù%q±¢’°3ùßπ‹qHíÜkJúêßËÎÌ‹Ê/xæ<EÇèÌ®¿æ“êóèªàT|élQ∂¨A3ä¡≤%/bß™q›‘"¿Zò7à~uﬂ¬(º/ùÒ+ñƒVí¬\W≠Pº“{bì»lXsˇ…–ﬁElìch™πPÈ∂Ì©b¬P∏˙W{õ,ü/7¸ãöèhÁ8Æ®
+*nE‡ÂÒk!»˝â…rU†WìÔ±‚≤ìÄ(∂¸Myú	ıª%”LV,>˘DÃfñSìCI3åÆæ,‡íÆÚÔTWb£"Hë^åP∆lá'/·Ø—ä¶$(Œ˝˘ó)ÑŸ†¿/é:´n[˛È[˘¯[Az{óHˆmHÂ:.Å~π◊π¨ï@ê÷πÄ(|AU_BB%Ì˘Hπr≥A†üî	i¯~Î∞‹óJ
+¿sO&Ùu˛˛Ï/a∑}[·Qf]?‹Áπˇ‚i–ﬁ?–‰¨òm€±ê–›ºÈ∏SèÄ.òÕ’˚|[f4Á´ÁÎ°ƒg| ï?^Ó„ﬂ©}&úäÜÉ™ôS⁄M3≥Ë'„·K w´™3-Lÿ%‘o#˘”s€ÈgX≤s”Û§ç"˘ôèHˇÂÆwòcù‚™¬y–íÍ=;)ÏV |‡Ãﬁ≈r€Ú§Fme—÷7;åØp3ûº9Z⁄BxVπ∂¬ºπ/d¶VÖ
+ı–!Sz€yá≥jÅ{û$"™ÌëËï~T⁄º©ëo¬œ6ìe í?;cºDX^N·ZBhÔÂÀ¬M¢∂w\{˙ÿ]p >˘@x]-OÄïÈ7àß„ZƒC‡≈)ÀH:0I|í>“≤¡ñ3∑<çW¥‹Ö∑(ˇ≈Ì≈p°¿¶ŒdÆ§„€ìæ.–“˙≤=ÿÔwwAƒ1a©‡ ‰ÍâUÉbË∑LDU8rÿ‹*µ?~$Xıíê§¨„!–’;6πy∆g¢iµÄ7˛Á(˜y∂¢c™ÜÇÌŸÆ'(†Øé¸)U1MıpıUPZ!≤ú◊ºy”ÑO=Äúz‡=x©3ÈûÙ;U˝Rﬁgª†ﬂxFq’≤ÙFIuΩ˛6≈ñÿ2,u]˘¸yΩAaMí(Ì|¸Éæ‚70¬\^yÖõÎ–À⁄‡„∂≈ü	{£œŸ=ØyDmBTÂ¢Ø∫]¿XÒÚ›2wñfıè€´[Ñé6É[9
+óÔæÖk'Ùñû›ö√›e[ô:Áú¶RWŒ%-0
+¿LxÀ´L™bÇòÈ¥°æSÎYkÿˇ‰˙N÷e∂L8À$≠É:Œ(vj˚*ƒ¯Y◊ü9€°È†∏ì>“ä‚	ΩÙc£\\YV◊®gŸ⁄%¥BZ≠Ìjgn_Á•lfArí ≤2¨Ín◊÷¡OåœwçÁùvPy==Zl+.Á[qÈwÆO…-7ıÍtıÍ·TÂàÆDÊ‰X’%Yù¡óíH„»ëZ øÓÄÃz¨ÑÀ%˘±™ˇK	éÍÈKé™\c¨(á¨2≠¯»Î&P´î‡üO$Êß2 /÷f®≈u÷gœ¶EqÍ—Ÿ„,Ù˝U£a2aÍ ]…à¶˚-VÚ6-€yœSP^Œ¥â¨˙l†¨ B03Ûùª•ˆø+ñvö≥‚⁄›„oqgGÄÌ∑É}
+£SâÜ≤¡4_ó◊≥JÎgôxß}ˇ•$πe´È®%Y%9Êhüõ¬kdcá›ò6≠πPÄaW]3ØÎˆ√˝∞ípﬁ˚;À°¡B@ß	ï.bÕ˛£¿g·F`j–D‡ª·yá}A/®√"$∆Ωë⁄≥≈‘îgÂ„~#Çv*˜…å∂DZIUÆ¶é°iñ¢ŒøøÃ+\YW∂QÓı’ ÍÚA€à6±jŸeª!¥∑ñ˙+≈"ÊND|ˇ¶“TÉ@V@ñTΩübMﬁπ—˙Ê'\∏.Yc0!ûÇïr¨r◊ﬂ*ºt	p2ÿgœÉ˝z—_Á¶•w›ªÆƒ)∆◊ã„}÷±|BW˙Voû“C>zéÂí»
+°˝‰ÔåMÒ‰-˘üéÇŒXƒˇ ª>Ó=!’ßm£Ç :[bŸ€·&ˇé)¯Ã.g0!≈≤ãÿ)é^”.(’÷ß®úXû≠i0ÙF€•ølõJ‘§“ø›Ωjá∫_≈∂¶]„}”Ôá K≠ªº»⁄Àë±èƒ<SIÊF˙œ†∆ˇz[CÕ§ıXåˇ˛V¨{6ö°óœ=≈&Ë3r¥^wÑÌåU⁄¡j`aGHÄÀœ'o¯ﬁ˘»Ä[ÇÈ„©9w∆GÁ¢¡Qg‹†ˇ„R∫`d©¢ò“û YfJëÆ8a(ØtKY&µ©œÀ∆˛˝˝Í.ªÙËUÛö}vOŸÕö Í»Â W…Æ⁄+wÌ?¸Å∆Ö ˇ7ZÇÈÊ«ƒﬂO€ ÷⁄ª]ãqt©X	‹¥Ôuıê6a¢1iØ>∫uR´dwÊ|W1Á¬€∂öúΩÁlëw≤y1‰s÷˚Ñøèc∑:Jxêì∞Ypê@@ã∂úb’Ù…ÕÕªK°èÀµ9xWáY™–Ê=™ö´DÎ¬.D†√w—m»ÄìJ5-[≠
+ïj‘19ÓÁw)Y±±Á¿›eñ-¡∑ kUˆ≥:⁄Õ©€¨‡.ÆsókË7§4u|◊∂« qõè≤b§∞9î7Ú∞rØ‹Ÿ±ÖÉ·—õ,›É€a“~U’‹:•nãâÃ4Ã$=;AÅ!iú[©§C£-j	tê&UPu∑µìO˘Î,*±}ËmÅ¥¸E8Ò‰N‚<ƒ´ÜV˛¿)3¬WÖA“ˆÌ.ﬁ„˙â1ôéÅõ˛Ü°e‘TóEIâpV,Õﬁ‘C…ÉfóÁÕR˘;<ujo◊¯ã,ìÒÁûª¬Ç¸©úÊ˙}Úı˙!1E`pA˙â©©Å]∆Tcoÿ®π¥œ∑ÌJbÓ7ı}Õv(Æ¿I©‡·…¸°⁄t=+π∞≥ëZmjåè»Õ	Û=πÙ4{æ◊í~œ´q@∂Æ%Ïï«u‚≈πœéá¢∞!d_±Æ¿WïÖQYÔ…Ñk1	ƒ~3E’éƒ˚AÊ'6Ô˛P,ŒW≤%ÁJ˘—wÛÚïá/ÊÖ⁄ËAW1}U+nÎìN>oÏ¿Ü≥E‚‰]∏”ŸY ≠;u„ã5Ù4è˛Z—W›'§«ç°Û1ï©±FW√d|»ïò•¶9â"¿c˚ÖôÅ≠K÷Ó^ZóiKøuÙ⁄¢ÖX	ìßü^W´≤‹\õIÈ÷y˝ﬂ.€≥1t*4v3Œáêî∂lB%U⁄óé∆WÆ—*3OÃºB“⁄≤'a\FqMQ{∏b›»Ghê+ØÓÆ€U˚Ë’ÿõûô8ﬁélÙÆ≈7˛ÕHQÌ\H;®ı¯éjSáÇ ﬁm»2i
+˙‚ŸLAJ–ÏU‹ò®pˇy±'^6—RAÃ†åœB∑—ª√™€aLDg∞¸ –Ã¡ÿ.ÙbÆ}%√”Ó—yø≠!o¬H%fbHﬂX^lÅπ¥80SCªXSx1Ñ≈yTÃUµ&.¶“‰fpj‡dV0q>ï∆R ´ÄÁn6ë™Í}â˙FŒvÿ`jŸ±öÃâÔIáK≈Û“\!È⁄íãü[∞Ëÿó»:Úup3
+ç≤«Ñ›M~–dP0~q0õ‘c ÅU&$_™±∫F ÌHÇbø5¯ÌÙ>x?∂ØŒ|ß{ìín¬≠˚$~2Í7(ÿµ|vNﬂ6Qq®Ñ8~´∞ø˝R«å=PŒ¯h‡ƒU([í&ˆØd°)f˚æúó“„>SÒµ‰Îç¬å#ØS;n‰wÃ˘˜Ó!pıï©«’ÇV’ËbŒŸd‰*ÏÍÛˇ<‚:ëÀrÃ¥´ªÌ	¥vøT‰4@åˆÑcZã1ÚkéËÁ‡y™DôZ?! ⁄∑Jfr€Ë¯H›ˆÉ≈˚ÆπüØ‹‹l⁄ˇ°∆‚≥∞ÑÏ¶§Œ©7€¯ˆ∑&'”C{¨âP,”FT…≤Ω8ìõlÓ'√;õtÃ
+dV O
+z¨ìK˙Œ˛√Z¡õàö<ÆLë˙ãrèx€b∫$˚§úŒ}≤nÄ¢V⁄µML≤‰˜ÎfÍKõMã¡ËJËDJµßùÒ˚3Ωæƒ+2ÉíÊÚgcbÎ≥¢™Ú¯√<ÎÍn4∞ú”üRùˆÛ_‚ >•îÙ`Îuh/=r‰*¡§€´§r´eﬁF¡Ã….Èî'ïµ6ú
+_+ÿÆ5bÚÂÄ¸ 4≥üÿ}kÄZÉËŸÄ=ˆ9’7l¢◊Ë˙Óƒ(Ø>‘M|‚$d‹ç©)˙∫î‡ÆC^ÒMÿPP⁄&Z[ÊZ!Y§S&∫.‹i\ñ5—ËxCL´∂rª˜3~W0ˆk†é±óT∆0s<Sô@xãfmAø 'F3∂(R∫¯_'=ŒL•∞¥l$Åt”µ;7g†‹ö¥ª«{‡h4¸I^õ∏ª-V˜üåÆÍ≥Ùkî)Û±0ºq=‘PF˚∏ﬁúa¥bî≤ªÑ∆Å•Zê•#‰%_Ê◊f„ÌêP@ubÁ˘◊≥Hézœ≈πúèfT(ï†∫‘ŒôÕQÒ]'YÈ-Ïª«B£˛3π‹Z˘È≥ òÅ’í%YÚø2.Øà∆Æ˛‚^ÚÄ(¨?.Å∫Å»=¬dUPJËÉêÿ•~$ı<BR∂2"˜ÖÁjiendlyName,,%R%arMIcInPurpleTopoDeviceNAme%
+HKR,,cLSID,,%Proxy.GLSID
+
+[IntcAzAudÕo$el.RearMicInPinKWave]
+AddReg = IntcAzAudModel.RearMicInPinkWave.AddReg
+
+[IntbAzAudModel.ReqrMicInPinkWave.AddReg]
+HKR,,FrieNdÏyName,,%RearMicInPinkWaweDeviceNeMe%
+HKR,.C\SID,,%Proxy.CLSID%
+JYInucAzAudModel.RearMicInPinkTmpo]
+AddReg = IntcAzAudIgdel.RdarMicinPinkTopo.AdlReg, SysRecFx.ADdReg
+
+[IntcAzAudModel.ReapMicInPInkTopO.AdtReg]
+HKR,,FriendlyName,,%RearMicInPinkTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.R%arMicInGoldenWave]
+AddReg = IntcAzAudModel.RearicInGoldenWave.AdTPeg
+-
+[IntcAzAudMo$el.RearMicInGohdelWive.GddReg]
+HKR.,FrhenelyName,,%RearMicInGolde.WaveDeviceNamg%
+HKR.,CLSID,,%Proxy.CHSID%	
+
+[IntcA:AudModel.RearMicI.GoldenTopo]
+AddReg = AntcAzAudModel,RearMicInGoldejToo.Addreg, SysecFx.AeDReg
+
+[IntcAzAudMmdel.RearMicInGoldenTopo.Addreg]
+HKV,,FriendlyName,,%RearMicInGolde.TopoDeviceName%
+@KR,,CLSID,,%Proxy.CSID%
+
+[IntcAzAudModel.RearMicInSilverWave]
+AddReg`= IntcAzAudModel.ReaRMibInSilverWave.AddReg
+
+[IntcAzAudModel.RmarMicInSilverWave.AddReg]
+HKR,,FriendlyName,,%RearMicInSilverWaveDeviceName%
+HKR,,CLSID,,%Prkxy.√LSID%
+
+[IntcAzAudModel.RearMisInSilvdrTopo]
+AdtReg = IÓtcAZAudModel.ZearMicInSilverTopo.AddReg SysRecFz.AddReg
+
+[IntbAzAudModel.RearIicAnSilverTopo.AddReg]
+HKR,,FviendlyNcme,,%Re!rMicInSilferTopODeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInWhiteWave]
+AddReg = IÓtcAzAudModel.RearMicInWhituWare.AddRge
+[IntcA{AqdModel.RearMicInWhiteWavE.AddRec]
+HKR,,Frie.dlyName,,%RearMicInWhi|eWaveDeviceNeme%
+HKR,,CHSID,,%Proxy.CLSID%
+
+[I.tcAzCudMoDel.RearMicInWhiteTopo]
+AddReg = IntcAzAudModel.RearMicInWhiteTopo.AddBeg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInWhiteTopo.Addeg]
+LKR,,FrieÏdlyame,,%ReerMic	nW`itdTopoDeticeName%
+IKR,,CLSID,,%Pro|y.CLSID%
+
+[IntiAzA5dModul.FrontLineInBlackWavd]
+AddReg = IntcEzAudMofel.FÚontLi.eInBlackWave.AddReg
+
+[IntcA{AudModel.FrontineInlackUafe.AddReg]HKR,,FriendlyName(,%FrontLineIiaCategories%\%GUID.FrontMicInBlueWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInGreenWave%,Name,,%FrontMicInGreenWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInGreenWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInRedWave%,Name,,%FrontMicInRedWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInRedWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInOrangeWave%,Name,,%FrontMicInOrangeWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInOrangeWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInYellowWave%,Name,,%FrontMicInYellowWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInYellowWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInPurpleWave%,Name,,%FrontMicInPurpleWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInPurpleWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInPinkWave%,Name,,%FrontMicInPinkWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInPinkWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInGoldenWave%,Name,,%FrontMicInGoldenWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInGoldenWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInSilverWave%,Name,,%FrontMicInSilverWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInSilverWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInWhiteWave%,Name,,%FrontMicInWhiteWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInWhiteWave%,Display,1,00,00,00,00
+
+HKLM,%MediaCategories%\%GUID.FjIntrMICWave%,Name,,%FjIntrMICWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FjIntrMICWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FjMic1Wave%,Name,,%FjMic1WaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FjMic1Wave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FjLineIn1Wave%,Name,,%FjLineIn1WaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FjLineIn1Wave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.IntrSubWoofer%,Name,,%IntrSubWooferDeviceName%
+HKLM,%MediaCategories%\%GUID.IntrSubWoofer%,Display,1,00,00,00,00
+
+HKLM,%MediaCategories%\%GUID.DigitalMic%,Name,,%Node.DigitalMic%
+HKLM,%MediaCategories%\%GUID.DigitalMic%,Display,1,00,00,00,00
+
+HKLM,%MediaCategories%\%GUID.FMRadio%,Name,,%Node.FMRadio%
+HKLM,%MediaCategories%\%GUID.FMRadio%,Display,1,00,00,00,00
+[IntcAzAudModel.RearLineOutTopo]
+AddReg = IntcAzAudModel.RearLineOutTopo.AddReg, SysFx.AddReg, OEMSettingsOverride.AddReg
+
+[IntcAzAudModel.RearLineOutTopo.AddReg]
+HKR,,FriendlyName,,%RearLineOutTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.SecondaryLineInWave]
+AddReg = IntcAzAudModel.SecondaryLineInWave.AddReg
+
+[IntcAzAudModel.SecondaryLineInWave.AddReg]
+HKR,,FriendlyName,,%SecondaryLineInWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.SecondaryLineInTopo]
+AddReg = IntcAzAudModel.SecondaryLineInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.SecondaryLineInTopo.AddReg]
+HKR,,FriendlyName,,%SecondaryLineInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.PrimaryLineInWave]
+AddReg = IntcAzAudModel.PrimaryLineInWave.AddReg
+
+[IntcAzAudModel.PrimaryLineInWave.AddReg]
+HKR,,FriendlyName,,%PrimaryLineInWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.PrimaryLineInTopo]
+AddReg = IntcAzAudModel.PrimaryLineInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.PrimaryLineInTopo.AddReg]
+HKR,,FriendlyName,,%PrimaryLineInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+; HP Rear Capture
+[IntcAzAudModel.HPRearCaptureWave]
+AddReg = IntcAzAudModel.HPRearCaptureWave.AddReg
+
+[IntcAzAudModel.HPRearCaptureWave.AddReg]
+HKR,,FriendlyName,,%HPRearCaptureWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.HPRearCaptureTopo]
+AddReg = IntcAzAudModel.HPRearCaptureTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.HPRearCaptureTopo.AddReg]
+HKR,,FriendlyName,,%HPRearCaptureTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.HPCPCCaptureWave]
+AddReg = IntcAzAudModel.HPCPCCaptureWave.AddReg
+
+[IntcAzAudModel.HPCPCCaptureWave.AddReg]
+HKR,,FriendlyName,,%HPCPCCaptureWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.HPCPCCaptureTopo]
+AddReg = IntcAzAudModel.HPCPCCaptureTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.HPCPCCaptureTopo.AddReg]
+HKR,,FriendlyName,,%HPCPCCaptureTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+; Front panel headphone
+[IntcAzAudModel.FrontPanelHeadphoneWave]
+AddReg = IntcAzAudModel.FrontPanelHeadphoneWave.AddReg
+
+[IntcAzAudModel.FrontPanelHeadphoneWave.AddReg]
+HKR,,FriendlyName,,%FrontPanelHeadphoneWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontPanelHeadphoneTopo]
+AddReg = IntcAzAudModel.FrontPanelHeadphoneTopo.AddReg, SysFx.AddReg, OEMSettingsOverride.AddReg
+
+[IntcAzAudModel.FrontPanelHeadphoneTopo.AddReg]
+HKR,,FriendlyName,,%FrontPanelHeadphoneTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+; Digital input
+
+[IntcAzAudModel.DigitalInputWave]
+AddReg = IntcAzAudModel.DigitalInputWave.AddReg
+
+[IntcAzAudModel.DigitalInputWave.AddReg]
+HKR,,FriendlyName,,%DigitalInputWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.DigitalInputTopo]
+AddReg = IntcAzAudModel.DigitalInputTopo.AddReg, RTHDAProperties.AddReg
+
+[IntcAzAudModel.DigitalInputTopo.AddReg]
+HKR,,FriendlyName,,%DigitalInputTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+;;=========================new framework====================================
+[IntcAzAudModel.RearLineInBlackWave]
+AddReg = IntcAzAudModel.RearLineInBlackWave.AddReg
+
+[IntcAzAudModel.RearLineInBlackWave.AddReg]
+HKR,,FriendlyName,,%RearLineInBlackWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInBlackTopo]
+AddReg = IntcAzAudModel.RearLineInBlackTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInBlackTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInBlackTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGreyWave]
+AddReg = IntcAzAudModel.RearLineInGreyWave.AddReg
+
+[IntcAzAudModel.RearLineInGreyWave.AddReg]
+HKR,,FriendlyName,,%RearLineInGreyWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGreyTopo]
+AddReg = IntcAzAudModel.RearLineInGreyTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInGreyTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInGreyTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInBlueWave]
+AddReg = IntcAzAudModel.RearLineInBlueWave.AddReg
+
+[IntcAzAudModel.RearLineInBlueWave.AddReg]
+HKR,,FriendlyName,,%RearLineInBlueWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInBlueTopo]
+AddReg = IntcAzAudModel.RearLineInBlueTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInBlueTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInBlueTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGreenWave]
+AddReg = IntcAzAudModel.RearLineInGreenWave.AddReg
+
+[IntcAzAudModel.RearLineInGreenWave.AddReg]
+HKR,,FriendlyName,,%RearLineInGreenWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGreenTopo]
+AddReg = IntcAzAudModel.RearLineInGreenTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInGreenTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInGreenTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInRedWave]
+AddReg = IntcAzAudModel.RearLineInRedWave.AddReg
+
+[IntcAzAudModel.RearLineInRedWave.AddReg]
+HKR,,FriendlyName,,%RearLineInRedWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInRedTopo]
+AddReg = IntcAzAudModel.RearLineInRedTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInRedTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInRedTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInOrangeWave]
+AddReg = IntcAzAudModel.RearLineInOrangeWave.AddReg
+
+[IntcAzAudModel.RearLineInOrangeWave.AddReg]
+HKR,,FriendlyName,,%RearLineInOrangeWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInOrangeTopo]
+AddReg = IntcAzAudModel.RearLineInOrangeTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInOrangeTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInOrangeTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInYellowWave]
+AddReg = IntcAzAudModel.RearLineInYellowWave.AddReg
+
+[IntcAzAudModel.RearLineInYellowWave.AddReg]
+HKR,,FriendlyName,,%RearLineInYellowWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInYellowTopo]
+AddReg = IntcAzAudModel.RearLineInYellowTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInYellowTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInYellowTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInPurpleWave]
+AddReg = IntcAzAudModel.RearLineInPurpleWave.AddReg
+
+[IntcAzAudModel.RearLineInPurpleWave.AddReg]
+HKR,,FriendlyName,,%RearLineInPurpleWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInPurpleTopo]
+AddReg = IntcAzAudModel.RearLineInPurpleTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInPurpleTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInPurpleTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInPinkWave]
+AddReg = IntcAzAudModel.RearLineInPinkWave.AddReg
+
+[IntcAzAudModel.RearLineInPinkWave.AddReg]
+HKR,,FriendlyName,,%RearLineInPinkWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInPinkTopo]
+AddReg = IntcAzAudModel.RearLineInPinkTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInPinkTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInPinkTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGoldenWave]
+AddReg = IntcAzAudModel.RearLineInGoldenWave.AddReg
+
+[IntcAzAudModel.RearLineInGoldenWave.AddReg]
+HKR,,FriendlyName,,%RearLineInGoldenWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGoldenTopo]
+AddReg = IntcAzAudModel.RearLineInGoldenTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInGoldenTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInGoldenTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInSilverWave]
+AddReg = IntcAzAudModel.RearLineInSilverWave.AddReg
+
+[IntcAzAudModel.RearLineInSilverWave.AddReg]
+HKR,,FriendlyName,,%RearLineInSilverWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInSilverTopo]
+AddReg = IntcAzAudModel.RearLineInSilverTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInSilverTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInSilverTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInWhiteWave]
+AddReg = IntcAzAudModel.RearLineInWhiteWave.AddReg
+
+[IntcAzAudModel.RearLineInWhiteWave.AddReg]
+HKR,,FriendlyName,,%RearLineInWhiteWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInWhiteTopo]
+AddReg = IntcAzAudModel.RearLineInWhiteTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInWhiteTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInWhiteTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInBlackWave]
+AddReg = IntcAzAudModel.RearMicInBlackWave.AddReg
+
+[IntcAzAudModel.RearMicInBlackWave.AddReg]
+HKR,,FriendlyName,,%RearMicInBlackWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInBlackTopo]
+AddReg = IntcAzAudModel.RearMicInBlackTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInBlackTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInBlackTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGreyWave]
+AddReg = IntcAzAudModel.RearMicInGreyWave.AddReg
+
+[IntcAzAudModel.RearMicInGreyWave.AddReg]
+HKR,,FriendlyName,,%RearMicInGreyWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGreyTopo]
+AddReg = IntcAzAudModel.RearMicInGreyTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInGreyTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInGreyTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInBlueWave]
+AddReg = IntcAzAudModel.RearMicInBlueWave.AddReg
+
+[IntcAzAudModel.RearMicInBlueWave.AddReg]
+HKR,,FriendlyName,,%RearMicInBlueWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInBlueTopo]
+AddReg = IntcAzAudModel.RearMicInBlueTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInBlueTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInBlueTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGreenWave]
+AddReg = IntcAzAudModel.RearMicInGreenWave.AddReg
+
+[IntcAzAudModel.RearMicInGreenWave.AddReg]
+HKR,,FriendlyName,,%RearMicInGreenWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGreenTopo]
+AddReg = IntcAzAudModel.RearMicInGreenTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInGreenTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInGreenTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInRedWave]
+AddReg = IntcAzAudModel.RearMicInRedWave.AddReg
+
+[IntcAzAudModel.RearMicInRedWave.AddReg]
+HKR,,FriendlyName,,%RearMicInRedWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInRedTopo]
+AddReg = IntcAzAudModel.RearMicInRedTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInRedTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInRedTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInOrangeWave]
+AddReg = IntcAzAudModel.RearMicInOrangeWave.AddReg
+
+[IntcAzAudModel.RearMicInOrangeWave.AddReg]
+HKR,,FriendlyName,,%RearMicInOrangeWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInOrangeTopo]
+AddReg = IntcAzAudModel.RearMicInOrangeTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInOrangeTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInOrangeTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInYellowWave]
+AddReg = IntcAzAudModel.RearMicInYellowWave.AddReg
+
+[IntcAzAudModel.RearMicInYellowWave.AddReg]
+HKR,,FriendlyName,,%RearMicInYellowWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInYellowTopo]
+AddReg = IntcAzAudModel.RearMicInYellowTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInYellowTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInYellowTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInPurpleWave]
+AddReg = IntcAzAudModel.RearMicInPurpleWave.AddReg
+
+[IntcAzAudModel.RearMicInPurpleWave.AddReg]
+HKR,,FriendlyName,,%RearMicInPurpleWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInPurpleTopo]
+AddReg = IntcAzAudModel.RearMicInPurpleTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInPurpleTopo.AddReg]
+HKR,,Fr
+AddReg = IntcAzAwdModel.RdLineHnTopo.AddReg, SywRecFx.AddReg
+
+[IntcAzAudEodel.RtMineInTopo.AddReg]
+HKR,,FriendlyName,,%RtLineIlTopoDgvicaName%
+HKR,CLSID,,%Proxy.CLSMD%
+
+IntcAzAudModel.BtCDInTopo]
+AddReg = IntcAzAudModel.RtCDInPopo.AddReg, SysBecFx.AddReg
+
+[IntcAzAudLodelnPtCDInTo0/.ddReg]
+HKR,,FridndlyName,,%Rt√DInopoDev)ceNqme%
+HKR,,CLSID,,%Proxy.CLRID%
+
+[InTaAzAudModel.VtAuxInTopo]
+ddReg = IntcArAudModel.RtAqxInTopo.AddReg, SysRecFx.AddReg
+-
+[IndcAzAudModel*RtAuxInTopo.AddRÂg]
+HKR,,DsiEndlyName,,%RtAuxInTopoeviceName%ç
+HKR$,CSID,,%Proxy.CLSAD%
+
+[IntcAzAudModel.RuF2ontMiaInTopo]
+ddReg `IntcAZAUdModel.RtFrontMicInTkpo.AddReg, SysRecFx.AddReg
+	
+[IntcAzAudModel.RtFrontMicInTopo.AdtReg]
+HKRl,Frien$lyŒame,,%PtFrontMicInTopoLeViceName%
+HKP,,CLSID,,%proxy.LSHD%
+
+[IntcCzAudModel.RtFrontLineInTopo]
+addReg = IntcAzAudModel.RtFrontLineInToqo.AedReg, SysRecFx.¡ddReg
+
+[IntcAzAudMoeel.RtFrontLineInTopg.AddReg]
+HKR,,FriendlyName,,%ZtFrontLineInTopODeviceNaee%
+HKRl,CLSID,,%Prox}.CLSiD%
+
+[IntcAzAudMOdel.DigitalMICWave]
+`dRec = IntcAzAudModel.DigitalMICWave.AddRegJ
+[IntcAzAudModel.DigitaLMICWare.AddReg]
+HKR,,FriendlyName,,%DigitalMICWaveDeviceName%
+HJR,,CLSID$,%xroxy.CLSID%
+
+{IntcAzAu$Model.DieitalIICTopo]
+A‰dReg = IntcAzAudModel.DigitalM…CTnpo.AddReg, SysRecFx.Addeg
+*[IntcAzCudModel.Digit`lMICTopo.A$DReg]
+HKR,,FRiendlyName,,%DigitalMICTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID-
+
+[IntcAzAudMkdel.RtMicArWave]
+AddREg 9 IntcAzCudModel.RtMicrWave.AddReg	
+YIntcIzAu$Model.R4MicArWave.AddReg]
+HKR,,Friendly^ame,,%RtMicArWa6eDeviceName%
+HKR,lCL[ID,%PRoxy.CLSID%
+
+[IntcAzAu`Model.RtMicArTopm]
+AddReg = IjtcAzAudModel&RtMic¡rTopo.AddReo, SysRecFx.AdlRee
+
+[IntcAzAudModel.RtMicArTopo.AddReg]
+HKS,,FriendlyName,$%RtMicArTopoD%viceName%
+HKR,,CLSID$,%Proxy.CL[ID%
+
+;;---------------=----------------------------------≠-----------------------------------------------
+[RtHDA.RtHDMIWafe]
+AddReg = RtHDA.RtHDMI_ave.AdtReg
+[RtHDA.PtX@MIW·ve.AddRegU
+HKR,,FriendlxNaiaCategories%\%GUID.FrontMicInBlueWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInGreenWave%,Name,,%FrontMicInGreenWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInGreenWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInRedWave%,Name,,%FrontMicInRedWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInRedWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInOrangeWave%,Name,,%FrontMicInOrangeWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInOrangeWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInYellowWave%,Name,,%FrontMicInYellowWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInYellowWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInPurpleWave%,Name,,%FrontMicInPurpleWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInPurpleWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInPinkWave%,Name,,%FrontMicInPinkWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInPinkWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInGoldenWave%,Name,,%FrontMicInGoldenWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInGoldenWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInSilverWave%,Name,,%FrontMicInSilverWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInSilverWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FrontMicInWhiteWave%,Name,,%FrontMicInWhiteWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FrontMicInWhiteWave%,Display,1,00,00,00,00
+
+HKLM,%MediaCategories%\%GUID.FjIntrMICWave%,Name,,%FjIntrMICWaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FjIntrMICWave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FjMic1Wave%,Name,,%FjMic1WaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FjMic1Wave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.FjLineIn1Wave%,Name,,%FjLineIn1WaveDeviceName%
+HKLM,%MediaCategories%\%GUID.FjLineIn1Wave%,Display,1,00,00,00,00
+HKLM,%MediaCategories%\%GUID.IntrSubWoofer%,Name,,%IntrSubWooferDeviceName%
+HKLM,%MediaCategories%\%GUID.IntrSubWoofer%,Display,1,00,00,00,00
+
+HKLM,%MediaCategories%\%GUID.DigitalMic%,Name,,%Node.DigitalMic%
+HKLM,%MediaCategories%\%GUID.DigitalMic%,Display,1,00,00,00,00
+
+HKLM,%MediaCategories%\%GUID.FMRadio%,Name,,%Node.FMRadio%
+HKLM,%MediaCategories%\%GUID.FMRadio%,Display,1,00,00,00,00
+[IntcAzAudModel.RearLineOutTopo]
+AddReg = IntcAzAudModel.RearLineOutTopo.AddReg, SysFx.AddReg, OEMSettingsOverride.AddReg
+
+[IntcAzAudModel.RearLineOutTopo.AddReg]
+HKR,,FriendlyName,,%RearLineOutTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.SecondaryLineInWave]
+AddReg = IntcAzAudModel.SecondaryLineInWave.AddReg
+
+[IntcAzAudModel.SecondaryLineInWave.AddReg]
+HKR,,FriendlyName,,%SecondaryLineInWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.SecondaryLineInTopo]
+AddReg = IntcAzAudModel.SecondaryLineInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.SecondaryLineInTopo.AddReg]
+HKR,,FriendlyName,,%SecondaryLineInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.PrimaryLineInWave]
+AddReg = IntcAzAudModel.PrimaryLineInWave.AddReg
+
+[IntcAzAudModel.PrimaryLineInWave.AddReg]
+HKR,,FriendlyName,,%PrimaryLineInWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.PrimaryLineInTopo]
+AddReg = IntcAzAudModel.PrimaryLineInTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.PrimaryLineInTopo.AddReg]
+HKR,,FriendlyName,,%PrimaryLineInTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+; HP Rear Capture
+[IntcAzAudModel.HPRearCaptureWave]
+AddReg = IntcAzAudModel.HPRearCaptureWave.AddReg
+
+[IntcAzAudModel.HPRearCaptureWave.AddReg]
+HKR,,FriendlyName,,%HPRearCaptureWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.HPRearCaptureTopo]
+AddReg = IntcAzAudModel.HPRearCaptureTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.HPRearCaptureTopo.AddReg]
+HKR,,FriendlyName,,%HPRearCaptureTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.HPCPCCaptureWave]
+AddReg = IntcAzAudModel.HPCPCCaptureWave.AddReg
+
+[IntcAzAudModel.HPCPCCaptureWave.AddReg]
+HKR,,FriendlyName,,%HPCPCCaptureWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.HPCPCCaptureTopo]
+AddReg = IntcAzAudModel.HPCPCCaptureTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.HPCPCCaptureTopo.AddReg]
+HKR,,FriendlyName,,%HPCPCCaptureTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+; Front panel headphone
+[IntcAzAudModel.FrontPanelHeadphoneWave]
+AddReg = IntcAzAudModel.FrontPanelHeadphoneWave.AddReg
+
+[IntcAzAudModel.FrontPanelHeadphoneWave.AddReg]
+HKR,,FriendlyName,,%FrontPanelHeadphoneWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.FrontPanelHeadphoneTopo]
+AddReg = IntcAzAudModel.FrontPanelHeadphoneTopo.AddReg, SysFx.AddReg, OEMSettingsOverride.AddReg
+
+[IntcAzAudModel.FrontPanelHeadphoneTopo.AddReg]
+HKR,,FriendlyName,,%FrontPanelHeadphoneTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+; Digital input
+
+[IntcAzAudModel.DigitalInputWave]
+AddReg = IntcAzAudModel.DigitalInputWave.AddReg
+
+[IntcAzAudModel.DigitalInputWave.AddReg]
+HKR,,FriendlyName,,%DigitalInputWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.DigitalInputTopo]
+AddReg = IntcAzAudModel.DigitalInputTopo.AddReg, RTHDAProperties.AddReg
+
+[IntcAzAudModel.DigitalInputTopo.AddReg]
+HKR,,FriendlyName,,%DigitalInputTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+;;=========================new framework====================================
+[IntcAzAudModel.RearLineInBlackWave]
+AddReg = IntcAzAudModel.RearLineInBlackWave.AddReg
+
+[IntcAzAudModel.RearLineInBlackWave.AddReg]
+HKR,,FriendlyName,,%RearLineInBlackWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInBlackTopo]
+AddReg = IntcAzAudModel.RearLineInBlackTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInBlackTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInBlackTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGreyWave]
+AddReg = IntcAzAudModel.RearLineInGreyWave.AddReg
+
+[IntcAzAudModel.RearLineInGreyWave.AddReg]
+HKR,,FriendlyName,,%RearLineInGreyWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGreyTopo]
+AddReg = IntcAzAudModel.RearLineInGreyTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInGreyTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInGreyTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInBlueWave]
+AddReg = IntcAzAudModel.RearLineInBlueWave.AddReg
+
+[IntcAzAudModel.RearLineInBlueWave.AddReg]
+HKR,,FriendlyName,,%RearLineInBlueWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInBlueTopo]
+AddReg = IntcAzAudModel.RearLineInBlueTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInBlueTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInBlueTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGreenWave]
+AddReg = IntcAzAudModel.RearLineInGreenWave.AddReg
+
+[IntcAzAudModel.RearLineInGreenWave.AddReg]
+HKR,,FriendlyName,,%RearLineInGreenWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGreenTopo]
+AddReg = IntcAzAudModel.RearLineInGreenTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInGreenTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInGreenTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInRedWave]
+AddReg = IntcAzAudModel.RearLineInRedWave.AddReg
+
+[IntcAzAudModel.RearLineInRedWave.AddReg]
+HKR,,FriendlyName,,%RearLineInRedWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInRedTopo]
+AddReg = IntcAzAudModel.RearLineInRedTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInRedTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInRedTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInOrangeWave]
+AddReg = IntcAzAudModel.RearLineInOrangeWave.AddReg
+
+[IntcAzAudModel.RearLineInOrangeWave.AddReg]
+HKR,,FriendlyName,,%RearLineInOrangeWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInOrangeTopo]
+AddReg = IntcAzAudModel.RearLineInOrangeTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInOrangeTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInOrangeTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInYellowWave]
+AddReg = IntcAzAudModel.RearLineInYellowWave.AddReg
+
+[IntcAzAudModel.RearLineInYellowWave.AddReg]
+HKR,,FriendlyName,,%RearLineInYellowWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInYellowTopo]
+AddReg = IntcAzAudModel.RearLineInYellowTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInYellowTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInYellowTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInPurpleWave]
+AddReg = IntcAzAudModel.RearLineInPurpleWave.AddReg
+
+[IntcAzAudModel.RearLineInPurpleWave.AddReg]
+HKR,,FriendlyName,,%RearLineInPurpleWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInPurpleTopo]
+AddReg = IntcAzAudModel.RearLineInPurpleTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInPurpleTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInPurpleTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInPinkWave]
+AddReg = IntcAzAudModel.RearLineInPinkWave.AddReg
+
+[IntcAzAudModel.RearLineInPinkWave.AddReg]
+HKR,,FriendlyName,,%RearLineInPinkWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInPinkTopo]
+AddReg = IntcAzAudModel.RearLineInPinkTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInPinkTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInPinkTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGoldenWave]
+AddReg = IntcAzAudModel.RearLineInGoldenWave.AddReg
+
+[IntcAzAudModel.RearLineInGoldenWave.AddReg]
+HKR,,FriendlyName,,%RearLineInGoldenWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGoldenTopo]
+AddReg = IntcAzAudModel.RearLineInGoldenTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInGoldenTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInGoldenTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInSilverWave]
+AddReg = IntcAzAudModel.RearLineInSilverWave.AddReg
+
+[IntcAzAudModel.RearLineInSilverWave.AddReg]
+HKR,,FriendlyName,,%RearLineInSilverWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInSilverTopo]
+AddReg = IntcAzAudModel.RearLineInSilverTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInSilverTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInSilverTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInWhiteWave]
+AddReg = IntcAzAudModel.RearLineInWhiteWave.AddReg
+
+[IntcAzAudModel.RearLineInWhiteWave.AddReg]
+HKR,,FriendlyName,,%RearLineInWhiteWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInWhiteTopo]
+AddReg = IntcAzAudModel.RearLineInWhiteTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInWhiteTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInWhiteTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInBlackWave]
+AddReg = IntcAzAudModel.RearMicInBlackWave.AddReg
+
+[IntcAzAudModel.RearMicInBlackWave.AddReg]
+HKR,,FriendlyName,,%RearMicInBlackWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInBlackTopo]
+AddReg = IntcAzAudModel.RearMicInBlackTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInBlackTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInBlackTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGreyWave]
+AddReg = IntcAzAudModel.RearMicInGreyWave.AddReg
+
+[IntcAzAudModel.RearMicInGreyWave.AddReg]
+HKR,,FriendlyName,,%RearMicInGreyWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGreyTopo]
+AddReg = IntcAzAudModel.RearMicInGreyTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInGreyTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInGreyTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInBlueWave]
+AddReg = IntcAzAudModel.RearMicInBlueWave.AddReg
+
+[IntcAzAudModel.RearMicInBlueWave.AddReg]
+HKR,,FriendlyName,,%RearMicInBlueWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInBlueTopo]
+AddReg = IntcAzAudModel.RearMicInBlueTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInBlueTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInBlueTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGreenWave]
+AddReg = IntcAzAudModel.RearMicInGreenWave.AddReg
+
+[IntcAzAudModel.RearMicInGreenWave.AddReg]
+HKR,,FriendlyName,,%RearMicInGreenWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGreenTopo]
+AddReg = IntcAzAudModel.RearMicInGreenTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInGreenTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInGreenTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInRedWave]
+AddReg = IntcAzAudModel.RearMicInRedWave.AddReg
+
+[IntcAzAudModel.RearMicInRedWave.AddReg]
+HKR,,FriendlyName,,%RearMicInRedWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInRedTopo]
+AddReg = IntcAzAudModel.RearMicInRedTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInRedTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInRedTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInOrangeWave]
+AddReg = IntcAzAudModel.RearMicInOrangeWave.AddReg
+
+[IntcAzAudModel.RearMicInOrangeWave.AddReg]
+HKR,,FriendlyName,,%RearMicInOrangeWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInOrangeTopo]
+AddReg = IntcAzAudModel.RearMicInOrangeTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInOrangeTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInOrangeTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInYellowWave]
+AddReg = IntcAzAudModel.RearMicInYellowWave.AddReg
+
+[IntcAzAudModel.RearMicInYellowWave.AddReg]
+HKR,,FriendlyName,,%RearMicInYellowWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInYellowTopo]
+AddReg = IntcAzAudModel.RearMicInYellowTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInYellowTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInYellowTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInPurpleWave]
+AddReg = IntcAzAudModel.RearMicInPurpleWave.AddReg
+
+[IntcAzAudModel.RearMicInPurpleWave.AddReg]
+HKR,,FriendlyName,,%RearMicInPurpleWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInPurpleTopo]
+AddReg = IntcAzAudModel.RearMicInPurpleTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInPurpleTopo.AddReg]
+HKR,,Frat front panel (Blue)"
+FrontMicInBlueTopoDeviceName="Mic in at front mixer (Blue)"
+FrontMicInGreenWaveDeviceName="Mic in at front panel (Green)"
+FrontMicInGreenTopoDeviceName="Mic in at front mixer (Green)"
+FrontMicInRedWaveDeviceName="Mic in at front panel (Red)"
+FrontMicInRedTopoDeviceName="Mic in at front mixer (Red)"
+FrontMicInOrangeWaveDeviceName="Mic in at front panel (Orange)"
+FrontMicInOrangeTopoDeviceName="Mic in at front mixer (Orange)"
+FrontMicInYellowWaveDeviceName="Mic in at front panel (Yellow)"
+FrontMicInYellowTopoDeviceName="Mic in at front mixer (Yellow)"
+FrontMicInPurpleWaveDeviceName="Mic in at front panel (Purple)"
+FrontMicInPurpleTopoDeviceName="Mic in at front mixer (Purple)"
+FrontMicInPinkWaveDeviceName="Mic in at front panel (Pink)"
+FrontMicInPinkTopoDeviceName="Mic in at front mixer (Pink)"
+FrontMicInGoldenWaveDeviceName="Mic in at front panel (Golden)"
+FrontMicInGoldenTopoDeviceName="Mic in at front mixer (Golden)"
+FrontMicInSilverWaveDeviceName="Mic in at front panel (Silver)"
+FrontMicInSilverTopoDeviceName="Mic in at front mixer (Silver)"
+FrontMicInWhiteWaveDeviceName="Mic in at front panel (White)"
+FrontMicInWhiteTopoDeviceName="Mic in at front mixer (White)"
+FjIntrMICWaveDeviceName="Internal MIC"
+FjMic1WaveDeviceName="MIC In"
+FjLineIn1WaveDeviceName="Line In"
+RtSpdifWaveDeviceName="Realtek HDA SPDIF Out"
+RtSpdifTopoDeviceName="Realtek HDA SPDIF Out Mixer"
+RtSpdifHDMIWaveDeviceName="Realtek HDA HDMI Out"
+RtSpdifHDMITopoDeviceName="Realtek HDA HDMI Out Mixer"
+RtSpdifRCAWaveDeviceName="Realtek HDA SPDIF RCA Out"
+RtSpdifRCATopoDeviceName="Realtek HDA SPDIF RCA Out Mixer"
+RtSpdifOptWaveDeviceName="Realtek HDA SPDIF Optical Out"
+RtSpdifOptTopoDeviceName="Realtek HDA SPDIF Optical Out Mixer"
+IntrSubWooferDeviceName="Internal Subwoofer"
+
+; non localizable
+KSNAME_RtStereoMixWave="RtStereoMixWave"
+RtStereoMixWaveDeviceName="Realtek HD Audio Stereo input"
+KSNAME_RtMicInWave="RtMicInWave"
+RtMicInWaveDeviceName="Realtek HD Audio Mic input"
+KSNAME_RtLineInWave="RtLineInWave"
+RtLineInWaveDeviceName="Realtek HD Audio Line input"
+KSNAME_RtCDInWave="RtCDInWave"
+RtCDInWaveDeviceName="Realtek HD Audio CD input"
+KSNAME_RtAuxInWave="RtAuxInWave"
+RtAuxInWaveDeviceName="Realtek HD Audio AUX input"
+KSNAME_RtFrontMicInWave="RtFrontMicInWave"
+RtFrontMicInWaveDeviceName="Realtek HD Audio Front Mic input"
+KSNAME_RtFrontLineInWave="RtFrontLineInWave"
+RtFrontLineInWaveDeviceName="Realtek HD Audio Front Line input"
+KSNAME_RtMicArWave="RtMicArWave"
+RtMicArWaveDeviceName="Realtek HD Audio Mic Array input"
+
+KSNAME_RtStereoMixTopo="RtStereoMixTopo"
+RtStereoMixTopoDeviceName="Realtek HD Audio Stereo input mixer"
+KSNAME_RtMicInTopo="RtMicInTopo"
+RtMicInTopoDeviceName="Realtek HD Audio Mic input mixer"
+KSNAME_RtLineInTopo="RtLineInTopo"
+RtLineInTopoDeviceName="Realtek HD Audio Line input mixer"
+KSNAME_RtCDInTopo="RtCDInTopo"
+RtCDInTopoDeviceName="Realtek HD Audio CD input mixer"
+KSNAME_RtAuxInTopo="RtAuxInTopo"
+RtAuxInTopoDeviceName="Realtek HD Audio AUX input mixer"
+KSNAME_RtFrontMicInTopo="RtFrontMicInTopo"
+RtFrontMicInTopoDeviceName="Realtek HD Audio Front Mic input mixer"
+KSNAME_RtFrontLineInTopo="RtFrontLineInTopo"
+RtFrontLineInTopoDeviceName="Realtek HD Audio Front Line input mixer"
+KSNAME_RtMicArTopo="RtMicArTopo"
+RtMicArTopoDeviceName="Realtek HD Audio Mic Array mixer"
+
+KSNAME_RearLineOutWave="RearLineOutWave"
+KSNAME_HPRearCaptureWave="HPRearCaptureWave"
+KSNAME_HPCPCCaptureWave="HPCPCCaptureWave"
+KSNAME_FrontPanelHeadphoneWave="FrontPanelHeadphoneWave"
+KSNAME_DigitalInputWave="DigitalInputWave"
+
+KSNAME_RearLineOutTopo="RearLineOutTopo"
+KSNAME_HPRearCaptureTopo="HPRearCaptureTopo"
+KSNAME_HPCPCCaptureTopo="HPCPCCaptureTopo"
+KSNAME_FrontPanelHeadphoneTopo="FrontPanelHeadphoneTopo"
+KSNAME_DigitalInputTopo="DigitalInputTopo"
+;===============new framework================================
+KSNAME_PrimaryLineOutWave="RearLineOutWave2"
+KSNAME_PrimaryLineOutTopo="PrimaryLineOutTopo"
+KSNAME_SingleLineOutWave="RearLineOutWave3"
+KSNAME_SingleLineOutTopo="SingleLineOutTopo"
+KSNAME_SingleLineInWave="RearLineInWave3"
+KSNAME_SingleLineInTopo="SingleLineInTopo"
+KSNAME_SecondaryLineOutWave="SecondaryLineOutWave"
+KSNAME_SecondaryLineOutTopo="SecondaryLineOutTopo"
+KSNAME_RearLineInBlackWave="RearLineInBlackWave"
+KSNAME_RearLineInBlackTopo="RearLineInBlackTopo"
+KSNAME_RearLineInGreyWave="RearLineInGreyWave"
+KSNAME_RearLineInGreyTopo="RearLineInGreyTopo"
+KSNAME_RearLineInBlueWave="RearLineInBlueWave"
+KSNAME_RearLineInBlueTopo="RearLineInBlueTopo"
+KSNAME_RearLineInGreenWave="RearLineInGreenWave"
+KSNAME_RearLineInGreenTopo="RearLineInGreenTopo"
+KSNAME_RearLineInRedWave="RearLineInRedWave"
+KSNAME_RearLineInRedTopo="RearLineInRedTopo"
+KSNAME_RearLineInOrangeWave="RearLineInOrangeWave"
+KSNAME_RearLineInOrangeTopo="RearLineInOrangeTopo"
+KSNAME_RearLineInYellowWave="RearLineInYellowWave"
+KSNAME_RearLineInYellowTopo="RearLineInYellowTopo"
+KSNAME_RearLineInPurpleWave="RearLineInPurpleWave"
+KSNAME_RearLineInPurpleTopo="RearLineInPurpleTopo"
+KSNAME_RearLineInPinkWave="RearLineInPinkWave"
+KSNAME_RearLineInPinkTopo="RearLineInPinkTopo"
+KSNAME_RearLineInGoldenWave="RearLineInGoldenWave"
+KSNAME_RearLineInGoldenTopo="RearLineInGoldenTopo"
+KSNAME_RearLineInSilverWave="RearLineInSilverWave"
+KSNAME_RearLineInSilverTopo="RearLineInSilverTopo"
+KSNAME_RearLineInWhiteWave="RearLineInWhiteWave"
+KSNAME_RearLineInWhiteTopo="RearLineInWhiteTopo"
+KSNAME_RearMicInBlackWave="RearMicInBlackWave"
+KSNAME_RearMicInBlackTopo="RearMicInBlackTopo"
+KSNAME_RearMicInGreyWave="RearMicInGreyWave"
+KSNAME_RearMicInGreyTopo="RearMicInGreyTopo"
+KSNAME_RearMicInBlueWave="RearMicInBlueWave"
+KSNAME_RearMicInBlueTopo="RearMicInBlueTopo"
+KSNAME_RearMicInGreenWave="RearMicInGreenWave"
+KSNAME_RearMicInGreenTopo="RearMicInGreenTopo"
+KSNAME_RearMicInRedWave="RearMicInRedWave"
+KSNAME_RearMicInRedTopo="RearMicInRedTopo"
+KSNAME_RearMicInOrangeWave="RearMicInOrangeWave"
+KSNAME_RearMicInOrangeTopo="RearMicInOrangeTopo"
+KSNAME_RearMicInYellowWave="RearMicInYellowWave"
+KSNAME_RearMicInYellowTopo="RearMicInYellowTopo"
+KSNAME_RearMicInPurpleWave="RearMicInPurpleWave"
+KSNAME_RearMicInPurpleTopo="RearMicInPurpleTopo"
+KSNAME_RearMicInPinkWave="RearMicInPinkWave"
+KSNAME_RearMicInPinkTopo="RearMicInPinkTopo"
+KSNAME_RearMicInGoldenWave="RearMicInGoldenWave"
+KSNAME_RearMicInGoldenTopo="RearMicInGoldenTopo"
+KSNAME_RearMicInSilverWave="RearMicInSilverWave"
+KSNAME_RearMicInSilverTopo="RearMicInSilverTopo"
+KSNAME_RearMicInWhiteWave="RearMicInWhiteWave"
+KSNAME_RearMicInWhiteTopo="RearMicInWhiteTopo"
+KSNAME_FrontLineInBlackWave="FrontLineInBlackWave"
+KSNAME_FrontLineInBlackTopo="FrontLineInBlackTopo"
+KSNAME_FrontLineInGreyWave="FrontLineInGreyWave"
+KSNAME_FrontLineInGreyTopo="FrontLineInGreyTopo"
+KSNAME_FrontLineInBlueWave="FrontLineInBlueWave"
+KSNAME_FrontLineInBlueTopo="FrontLineInBlueTopo"
+KSNAME_FrontLineInGreenWave="FrontLineInGreenWave"
+KSNAME_FrontLineInGreenTopo="FrontLineInGreenTopo"
+KSNAME_FrontLineInRedWave="FrontLineInRedWave"
+KSNAME_FrontLineInRedTopo="FrontLineInRedTopo"
+KSNAME_FrontLineInOrangeWave="FrontLineInOrangeWave"
+KSNAME_FrontLineInOrangeTopo<"FrontLineInOrangeTopo"
+KSNAME_FrontLineInYellowWave="FrontLineInYellowWave"
+KSNAOE_FrontLineInYellowTopo="BrontLIneInYellowTopo"
+KSNAME_FrontLineInPurpleWave="FrontLineInPurpleWave"
+KSNAME_FrontLineInPurpleTopo="FrontLileInPurpleTopo"
+KSNAME_FrontLineInPinkWave="FrontLineInPinkWave"
+KSNAME_FrontLineInPinkTopg="Fro&tLineInPinkTopg"
+KSNAME_FrontlineInColdenWave="FrontLineInGoldenWave"
+KSNAME_FrontLineInGolde.Topo="FrontLineInGoldenTopo"
+KSNAME_FrontLineInSilverWave="FrontLineInSilverWave"
+KSNAME_FrontLinaInSilverTopo="FrontLineInSilverTopo"
+KSNAME_FrontLineInWhiveWave="FrgntLineInWhiteWave"
+KSNAME_FrontLineInWhiteTopo="FrontLineMnWhiteTopo"
+KSNAME_FrontMigInBlackWave="FrontMicInBlackWave"
+KSNAME_FzontMicInBlackTopo="Fron4MicInBlackTopo"
+KSNAME_FrontMicInGreyWave="FrontMicInGreyWave"
+KSNAME_FrontLicInGrÂyTopo="FrmnvMIcInGreyTopo"
+KSN¡ME_FroNtMicInBLueWave="GsontMicInBlueWave"
+KSNAME_FrontIiaKnBÏueTopo=FrontMigInBlueTopo"
+KSNEME_FrontMicInGreenWave="DrontMicInGreelWave"
+KSNAME_VrontMicIoGreenTopo="FroNtMicI.CrednTop"
+KSNAME_DrontMicIlReeWave= FrontMicINRedWate"
+SNAMEFrÔntMicMnRÂdTopo*FpontEiCInRedTopo"
+KSNAME_FrontMicInOrangeWave="FrontMicInOrangeWave"
+KSNAME_FrontMicInOrangeTopo="FrontMicInOrangeTopo"
+KSNAME_FrontMicInYellowWave="FrontMicInYellowWave"
+KSNAME_FrontMicInYellowTopo="FrontMicInYellowTopo"
+KSNAME_FrontMicInPurpleWave="FrontMicKnPurpleWave"
+KSNAME_FrontMicInPurpleTopo="FrontMicInPurpl%Topo"
+KSNAME_FrontMicInPincWave="FrontMicInPinkWave"
+KSN¡ME_FrontMicInPinkTopo="FrontMicInPinkTopo"
+KSNAME_FrontMiaInGoldenWave="FrontMicInGoldenWave"
+KSNAME_FrontMicInGoldenTopo="FrontMicInGoldenTopo"
+KSNAMEﬂFrontMicInSilverWave="FrontMicInSilverWave"
+KSNAME_FrontMicInSilverTopo="FrontMicInSilverTopo"
+KSNAME_FrontMicInWhiteWave="FrontMicInWhiteWave"
+KSNAME_FrontMicInWhiteTop/="FrontMicInWhiteTopo"
+KSNAME_PrimaryLineInWave="PrimaryLineInWave"
+KSNAME_PrimaryLineInTopo="PrimaryLineInTopo"
+Kme,,%RearLineInGreenTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInRedWave]
+AddReg = IntcAzAudModel.RearLineInRedWave.AddReg
+
+[IntcAzAudModel.RearLineInRedWave.AddReg]
+HKR,,FriendlyName,,%RearLineInRedWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInRedTopo]
+AddReg = IntcAzAudModel.RearLineInRedTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInRedTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInRedTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInOrangeWave]
+AddReg = IntcAzAudModel.RearLineInOrangeWave.AddReg
+
+[IntcAzAudModel.RearLineInOrangeWave.AddReg]
+HKR,,FriendlyName,,%RearLineInOrangeWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInOrangeTopo]
+AddReg = IntcAzAudModel.RearLineInOrangeTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInOrangeTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInOrangeTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInYellowWave]
+AddReg = IntcAzAudModel.RearLineInYellowWave.AddReg
+
+[IntcAzAudModel.RearLineInYellowWave.AddReg]
+HKR,,FriendlyName,,%RearLineInYellowWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInYellowTopo]
+AddReg = IntcAzAudModel.RearLineInYellowTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInYellowTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInYellowTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInPurpleWave]
+AddReg = IntcAzAudModel.RearLineInPurpleWave.AddReg
+
+[IntcAzAudModel.RearLineInPurpleWave.AddReg]
+HKR,,FriendlyName,,%RearLineInPurpleWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInPurpleTopo]
+AddReg = IntcAzAudModel.RearLineInPurpleTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInPurpleTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInPurpleTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInPinkWave]
+AddReg = IntcAzAudModel.RearLineInPinkWave.AddReg
+
+[IntcAzAudModel.RearLineInPinkWave.AddReg]
+HKR,,FriendlyName,,%RearLineInPinkWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInPinkTopo]
+AddReg = IntcAzAudModel.RearLineInPinkTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInPinkTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInPinkTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGoldenWave]
+AddReg = IntcAzAudModel.RearLineInGoldenWave.AddReg
+
+[IntcAzAudModel.RearLineInGoldenWave.AddReg]
+HKR,,FriendlyName,,%RearLineInGoldenWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInGoldenTopo]
+AddReg = IntcAzAudModel.RearLineInGoldenTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInGoldenTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInGoldenTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInSilverWave]
+AddReg = IntcAzAudModel.RearLineInSilverWave.AddReg
+
+[IntcAzAudModel.RearLineInSilverWave.AddReg]
+HKR,,FriendlyName,,%RearLineInSilverWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInSilverTopo]
+AddReg = IntcAzAudModel.RearLineInSilverTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInSilverTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInSilverTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInWhiteWave]
+AddReg = IntcAzAudModel.RearLineInWhiteWave.AddReg
+
+[IntcAzAudModel.RearLineInWhiteWave.AddReg]
+HKR,,FriendlyName,,%RearLineInWhiteWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearLineInWhiteTopo]
+AddReg = IntcAzAudModel.RearLineInWhiteTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearLineInWhiteTopo.AddReg]
+HKR,,FriendlyName,,%RearLineInWhiteTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInBlackWave]
+AddReg = IntcAzAudModel.RearMicInBlackWave.AddReg
+
+[IntcAzAudModel.RearMicInBlackWave.AddReg]
+HKR,,FriendlyName,,%RearMicInBlackWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInBlackTopo]
+AddReg = IntcAzAudModel.RearMicInBlackTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInBlackTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInBlackTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGreyWave]
+AddReg = IntcAzAudModel.RearMicInGreyWave.AddReg
+
+[IntcAzAudModel.RearMicInGreyWave.AddReg]
+HKR,,FriendlyName,,%RearMicInGreyWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGreyTopo]
+AddReg = IntcAzAudModel.RearMicInGreyTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInGreyTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInGreyTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInBlueWave]
+AddReg = IntcAzAudModel.RearMicInBlueWave.AddReg
+
+[IntcAzAudModel.RearMicInBlueWave.AddReg]
+HKR,,FriendlyName,,%RearMicInBlueWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInBlueTopo]
+AddReg = IntcAzAudModel.RearMicInBlueTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInBlueTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInBlueTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGreenWave]
+AddReg = IntcAzAudModel.RearMicInGreenWave.AddReg
+
+[IntcAzAudModel.RearMicInGreenWave.AddReg]
+HKR,,FriendlyName,,%RearMicInGreenWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInGreenTopo]
+AddReg = IntcAzAudModel.RearMicInGreenTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInGreenTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInGreenTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInRedWave]
+AddReg = IntcAzAudModel.RearMicInRedWave.AddReg
+
+[IntcAzAudModel.RearMicInRedWave.AddReg]
+HKR,,FriendlyName,,%RearMicInRedWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInRedTopo]
+AddReg = IntcAzAudModel.RearMicInRedTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInRedTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInRedTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInOrangeWave]
+AddReg = IntcAzAudModel.RearMicInOrangeWave.AddReg
+
+[IntcAzAudModel.RearMicInOrangeWave.AddReg]
+HKR,,FriendlyName,,%RearMicInOrangeWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInOrangeTopo]
+AddReg = IntcAzAudModel.RearMicInOrangeTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInOrangeTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInOrangeTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInYellowWave]
+AddReg = IntcAzAudModel.RearMicInYellowWave.AddReg
+
+[IntcAzAudModel.RearMicInYellowWave.AddReg]
+HKR,,FriendlyName,,%RearMicInYellowWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInYellowTopo]
+AddReg = IntcAzAudModel.RearMicInYellowTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInYellowTopo.AddReg]
+HKR,,FriendlyName,,%RearMicInYellowTopoDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInPurpleWave]
+AddReg = IntcAzAudModel.RearMicInPurpleWave.AddReg
+
+[IntcAzAudModel.RearMicInPurpleWave.AddReg]
+HKR,,FriendlyName,,%RearMicInPurpleWaveDeviceName%
+HKR,,CLSID,,%Proxy.CLSID%
+
+[IntcAzAudModel.RearMicInPurpleTopo]
+AddReg = IntcAzAudModel.RearMicInPurpleTopo.AddReg, SysRecFx.AddReg
+
+[IntcAzAudModel.RearMicInPurpleTopo.AddReg]
+HKR,,Fr  ="{C61C32C2-2BE7-467e-A278-B49E6746921E}"
+GUID.MicLineInVolume     ="{5B08FA7D-A8BC-42a6-A1A9-C52AB5FC47A7}"
+
+;; Nodes (localizeable)
+Node.FrontMicVolume     ="FrontMic"
+Node.FrontMicMute       ="FrontMic Mute"
+Node.UAJ1               ="FPink"
+Node.UAJ2               ="FGreen"
+Node.SPDIF              ="SPDIF"
+Node.FrontLin           ="FrontLineIn"
+Node.Front              ="Front"
+Node.Surround           ="Rear"
+Node.BackSurround       ="Back Surround"
+Node.Center             ="Center"
+Node.LFE                ="Subwoofer"
+Node.Side               ="Side"
+Node.SideSurround       ="Side Surround"
+Node.DigitalOut         ="DigitalOut"
+Node.DigitalIn          ="DigitalIn"
+Node.LineInHP           ="Line In 1 or 2"
+Node.Mic2               ="Microphone2"
+Node.FrontPinkInOld        ="FrontPink In"
+Node.FrontGreenInOld       ="FrontGreen In"
+Node.AudioIn            ="Audio In"
+Node.LineOutVolume      = "Line Out"
+Node.Surr               ="Surround"
+Node.Surrback           ="Surr-Back"
+Node.MonoMic            ="Mono Mic"
+Node.StereoMic          ="Stereo Mic"
+Node.PCBeep             ="PC Beep"
+Node.PcBeepVolume       ="PC Beep"
+Node.SideHP             ="Side/HP"
+Node.MicLineInVolume     ="Mic/Line In"
+;;New Framework
+GUID.FrontBlackIn            ="{C1857CBB-5FEA-420c-89FD-0479D7D366FB}"
+Node.FrontBlackIn            ="Front Black In"
+GUID.FrontGreyIn             ="{74B67688-4723-4ec7-A1A6-09F33FF91FDB}"
+Node.FrontGreyIn             ="Front Grey In"
+GUID.FrontBlueIn             ="{9B0DC1D3-EFC8-4364-8ACD-9172D388F487}"
+Node.FrontBlueIn             ="Front Blue In"
+GUID.FrontGreenIn            ="{BA697E2A-BC14-4c0d-9E16-3935F2F15E08}"
+Node.FrontGreenIn            ="Front Green In"
+GUID.FrontRedIn              ="{AC846E6F-5695-4cec-B694-956A2E689AF4}"
+Node.FrontRedIn              ="Front Red In"
+GUID.FrontOrangeIn           ="{C2BEEC11-5DF2-4fd9-B2D1-B5E2A1E46CB7}"
+Node.FrontOrangeIn           ="Front Orange In"
+GUID.FrontYellowIn           ="{783FFBEB-79D4-40b8-BBB4-B90479D17F1F}"
+Node.FrontYellowIn           ="Front Yellow In"
+GUID.FrontPurpleIn           ="{0D95D21C-2FF7-4a66-9526-CC39DA3E749E}"
+Node.FrontPurpleIn           ="Front Purple In"
+GUID.FrontPinkIn             ="{930A479F-0487-4baa-9672-4C7C36C0EFB2}"
+Node.FrontPinkIn             ="Front Pink In"
+GUID.FrontGoldenIn           ="{8FED8EA0-0485-408c-9963-D3AC59D34A1F}"
+Node.FrontGoldenIn           ="Front Golden In"
+GUID.FrontSilverIn           ="{FB0CBA7B-73ED-4880-9A7F-338D67AB1E71}"
+Node.FrontSilverIn           ="Front Silver In"
+GUID.FrontWhiteIn            ="{788F5056-8394-4bf5-8608-B8BC009F9B0D}"
+Node.FrontWhiteIn            ="Front White In"
+GUID.RearBlackIn             ="{16238C4C-5B07-4acf-9B1D-72056187853C}"
+Node.RearBlackIn             ="Rear Black In"
+GUID.RearGreyIn              ="{066ED7CF-26FC-4cd6-8DB0-BDA088FFC7B6}"
+Node.RearGreyIn              ="Rear Grey In"
+GUID.RearBlueIn              ="{25C9B7B5-B490-4418-B8C9-AE6A9E597D10}"
+Node.RearBlueIn              ="Rear Blue In"
+GUID.RearGreenIn             ="{D5841A06-2012-49bb-848A-4E3C9D8E83EC}"
+Node.RearGreenIn             ="Rear Green In"
+GUID.RearRedIn               ="{EEB9FF66-875E-44d0-A7BC-94F8FF8A6B2E}"
+Node.RearRedIn               ="Rear Red In"
+GUID.RearOrangeIn            ="{656A2737-0A8D-4c24-B11B-2CF3568DF248}"
+Node.RearOrangeIn            ="Rear Orange In"
+GUID.RearYellowIn            ="{EA1B271B-D19A-41ea-9141-E0FE75259300}"
+Node.RearYellowIn            ="Rear Yellow In"
+GUID.RearPurpleIn            ="{D907F836-CE83-4354-B62C-B9700CCC0366}"
+Node.RearPurpleIn            ="Rear Purple In"
+GUID.RearPinkIn              ="{CECB705D-C0D9-4c47-84F6-0A210E9DFD0B}"
+Node.RearPinkIn              ="Rear Pink In"
+GUID.RearGoldenIn            ="{98B9900B-618A-4bd3-9B62-B206E9AA5F6F}"
+Node.RearGoldenIn            ="Rear Golden In"
+GUID.RearSilverIn            ="{B8CE8B6A-A73E-494d-8218-F308670F6149}"
+Node.RearSilverIn            ="Rear Silver In"
+GUID.RearWhiteIn             ="{6D33D369-990F-444b-A4E6-57A29B8F0993}"
+Node.RearWhiteIn             ="Rear White In"
+;;======================================================================
+GUID.BlackIn            ="{2AFE8623-D5B6-49d6-898D-A16A616E571B}"
+Node.BlackIn            ="Black In"
+GUID.GreyIn             ="{8A965A50-6F78-424c-8EDD-DD904C4C7AAC}"
+Node.GreyIn             ="Grey In"
+GUID.BlueIn             ="{CD2AAD6D-761E-4b6d-A4C6-8F543A38C099}"
+Node.BlueIn             ="Blue In"
+GUID.GreenIn            ="{5153DE62-8983-4a02-8F87-2969BC2A279A}"
+Node.GreenIn            ="Green In"
+GUID.RedIn              ="{6735C4E4-C0DA-473f-8D1F-2FD185C83071}"
+Node.RedIn              ="Red In"
+GUID.OrangeIn           ="{B89B4F6B-5820-46a0-999C-A9765221DA30}"
+Node.OrangeIn           ="Orange In"
+GUID.YellowIn           ="{D7F95568-524C-4ef1-A58E-1E8BF3E4443E}"
+Node.YellowIn           ="Yellow In"
+GUID.PurpleIn           ="{A57DE92C-E432-4432-8166-E02D8C4ACDDC}"
+Node.PurpleIn           ="Purple In"
+GUID.PinkIn             ="{C0F074E4-0F6A-4b6f-BC09-5DF75D24757F}"
+Node.PinkIn             ="Pink In"
+GUID.GoldenIn           ="{72DA7D85-CCB7-4bce-BDD7-A8F0E56958B8}"
+Node.GoldenIn           ="Golden In"
+GUID.SilverIn           ="{892B95E3-FEA5-48b2-93B8-49373E588E38}"
+Node.SilverIn           ="Silver In"
+GUID.WhiteIn            ="{710CE1E3-334A-4771-A4B2-CFFF54B70DBF}"
+Node.WhiteIn            ="White In"
+GUID.AudioInput         ="{B8B35FC5-6051-44e0-A3CE-B6E000564C64}"
+Node.AudioInput         ="Audio Input"
+GUID.LineIn1            ="{1B5D1795-4D18-4057-81DA-06A5FC19F3AC}"
+GUID.LineIn2            ="{AD8341CB-C580-46e7-B593-44440EFB4DE8}"
+Node.LineIn1            ="Line In 1"
+Node.LineIn2            ="Line In 2"
+GUID.TVIn               ="{38FAF4E0-3EEF-47d7-AD52-F20AB10340C3}"
+Node.TVIn               ="TV In"
+GUID.FrontAVIn          ="{E27EEDDE-A24D-4f87-8EDE-5A58E7FF8D70}"
+Node.FrontAVIn          ="Front AV In"
+GUID.DisableAnalogCD	="{08FDB237-3D34-4c59-9511-56E178AE3E10}"
+Node.DisableAnalogCD	="Disable Analog CD"
+GUID.LimitedOutput	="{D172D8CE-0235-4b09-92EB-BDE320CFB94C}"
+Node.LimitedOutput	="Limited Output"
+
+GUID.RTSPDIFOut			="{8FD300D2-FFE1-44f3-A9EB-6F4395D73C9F}"
+Node.RTSPDIFOut			="Realtek Digital Output"
+GUID.RTHDMIOut			="{9C8E490E-877D-48fe-9EF1-AD83C91CC057}"
+Node.RTHDMIOut			="Realtek HDMI Output"
+GUID.RTSPDIFOutRCA		="{3FF4EDB6-3FF3-4b5a-B164-10FFF0367547}"
+Node.RTSPDIFOutRCA		="Realtek Digital Output(RCA)"
+GUID.RTSPDIFOutOpt		="{94FCA009-B26E-4cdc-AC75-051613EF01BB}"
+Node.RTSPDIFOutOpt		="Realtek Digital Output(Optical)"
+GUID.RTHDMIOutAC3		="{5E66F238-FF5B-49b9-B3BA-4E8F65399FCD}"
+Node.RTHDMIOutAC3		="Allow AC3/DTS/WMA output.(Reboot required)"
+
+GUID.RTSPDIFIn			="{8FD300D3-FFE1-44f3-A9EB-6F4395D73C9F}"
+Node.RTSPDIFIn			="Realtek Digital Input"
+
+GUID.RearLineOutWave3   ="{FDCD16F9-7895-4f2c-9E95-2C4F62DE500D}"
+GUID.RearLineOutWave2   ="{73EC718D-EEBD-4305-BD56-E50807C4B3E2}"
+GUID.SecondaryLineOutWave ="{D0D252D2-0D9A-47f7-B44B-3FB73C31F6FA}"
+
+GUID.RearLineInBlackWave  ="{29FAD4B6-42C6-46fe-85D2-772B3F38E42B}"
+GUID.RearLineInGreyWave   ="{5D3113BA-46E3-4e48-BF97-5E1486E5C845}"
+GUID.RearLineInBlueWave   ="{6EDFC84F-270B-43f4-A4DA-F4FA32BE0023}"
+GUID.RearLineInGreenWave  ="{4C28B434-D501-4131-A626-D667F954A279}"
+GUID.RearLineInRedWave    ="{F9C764D1-0A97-4216-BD80-57D11C86BF21}"
+GUID.RearLineInOrangeWave ="{FA3C462A-11E7-4cfe-9C20-4208E87EE2F1}"
+GUID.RearLineInYellowWave ="{242792D9-E16F-4e09-9F4A-FD5C910230F2}"
+GUID.RearLineInPurpleWave ="{64593A8D-8942-415f-83F7-495232599984}"
+GUID.RearLineInPinkWave   ="{3FAF44E8-FC47-4921-AA2A-CB511CD5A340}"
+GUID.RearLineInGoldenWave ="{A18CE952-B042-42d4-AE98-6AD616604407}"
+GUID.RearLineInSilverWave ="{9ABF55D5-4319-4e1e-A1E6-D720FB153A73}"
+GUID.RearLineInWhiteWave  ="{39514CCF-B424-454d-A2DD-7CCCC41902CC}"
+
+GUID.RearMicInBlackWave   ="{963BB9C2-C99A-4278-8C85-0A53FAD66593}"
+GUID.RearMicInGreyWave    ="{750D77D8-DD18-45fa-813B-31AAF37D8816}"
+GUID.RearMicInBlueWave    ="{D09B4160-D155-4409-814C-7BDFD3DCC115}"
+GUID.RearMicInGreenWave   ="{E63A12AB-7A2A-40bf-B5F5-176F3E17A75B}"
+GUID.RearMicInRedWave     ="{397BCD99-443F-4f0a-91F7-8CF33B73E7B5}"
+GUID.RearMicInOrangeWave  ="{DF15C716-2E97-498c-953B-71B1A6E4BD03}"
+GUID.RearMicInYellowWave  ="{A80B8021-3A94-4cba-A31F-A30285215AEB}"
+GUID.RearMicInPurpleWave  ="{ADA7C584-EC2C-4bad-9491-38EA3EDC364E}"
+GUID.RearMicInPinkWave    ="{9767F352-1066-4606-B843-EB3DFF14AE48}"
+GUID.RearMicInGoldenWave  ="{0BF09DFA-1DC9-45d6-9E68-B62FCE22F574}"
+GUID.RearMicInSilverWave  ="{D88BF175-E66E-41f6-91A0-1AE5BD7FB550}"
+GUID.RearMicInWhiteWave   ="{C949BDB2-0F63-411d-9A1C-FF2C68137986}"
+
+GUID.FrontLineInBlackWave ="{E922348B-F538-48f2-8A46-03610CA3C815}"
+GUID.FrontLineInGreyWave  ="{F84AD65F-8888-4076-BA55-15FA42C66D43}"
+GUID.FrontLineInBlueWave  ="{EEA8F0C2-15F2-47ba-9939-8B68B99B5A47}"
+GUID.FrontLineInGreenWave ="{D9CFB32D-C42A-446d-8D3D-BE3ACF1FE392}"
+GUID.FrontLineInRedWave   ="{37E6001D-7297-439e-BB83-EAAA48F54DE1}"
+GUID.FrontLineInOrangeWave="{0FBC7B0C-368C-468a-ADCA-A9C1DFD67B01}"
+GUID.FrontLineInYellowWave="{C1601920-82B6-411d-B1EB-F1B8A9DD2DCD}"
+GUID.FrontLineInPurpleWave="{F32BA73A-930B-4596-A47F-A9339FB7E24C}"
+GUID.FrontLineInPinkWave  ="{9EC96236-A9B3-45b3-8E19-C4F424399457}"
+GUID.FrontLineInGoldenWave="{9F31B40E-E3D2-4683-8CD8-DD29972CBD6A}"
+GUID.FrontLineInSilverWave="{9B706B3E-F3FE-4d4b-B410-468D3E083D98}"
+GUID.FrontLineInWhiteWave ="{6E56DB59-D4D1-4fa8-9575-AE39763E14C7}"
+
+GUID.FrontMicInBlackWave  ="{063C7B0E-7D63-45ea-BD17-BD2383C9DA48}"
+GUID.FrontMicInGreyWave   ="{F6810363-D355-4c27-B60C-DB10B4A6DB1F}"
+GUID.FrontMicInBlueWave   ="{4872BA3F-61F9-495f-97C1-0FC6D149B0D8}"
+GUID.FrontMicInGreenWave  ="{564C8501-3C26-4051-B3DF-80157C565158}"
+GUID.FrontMicInRedWave    ="{FA5703D8-BC38-4759-BDDB-53A0A9977D86}"
+GUID.FrontMicInOrangeWave ="{2F055121-7B49-4389-AE10-6D8FDB6F9E15}"
+GUID.FrontMicInYellowWave ="{67DC169B-1C82-4fb7-B566-CC917F303CD7}"
+GUID.FrontMicInPurpleWave ="{8DE7D024-880C-4a50-BFBA-6118FA703728}"
+GUID.FrontMicInPinkWave   ="{D3D9A153-5556-40a7-8C1B-E476344A524A}"
+GUID.FrontMicInGoldenWave ="{4F8E73AF-13D0-4ab4-BD05-DA13475B6D99}"
+GUID.FrontMicInSilverWave ="{9B72B3D3-32F5-4d3b-868E-C506824ED45A}"
+GUID.FrontMicInWhiteWave  ="{53824709-A7CA-4432-9423-D47A01938B83}"
+
+GUID.FjIntrMICWave        ="{703EFE0E-C7D3-4506-96BF-E2D28E2ECEEE}"
+GUID.FjMic1Wave           ="{703EFE0D-C7D3-4506-96BF-E2D28E2ECEEE}"
+GUID.FjLineIn1Wave        ="{703EFE0C-C7D3-4506-96BF-E2D28E2ECEEE}"
+
+GUID.DigitalMic           ="{7DF69A32-C356-4f5a-A3BB-757B8B5177D4}"
+Node.DigitalMic           ="Digital Mic"
+
+GUID.FMRadio              ="{93ED2CB4-7D0D-4c1c-8A91-5AE457E066AD}"
+Node.FMRadio              ="FM radio"
+GUID.IntrSubWoofer        ="{CE407554-302B-44a8-9455-BB933694A1A5}"
+
+RTDP_CID1_PATH="CLSID\{3739576F-F27B-4857-9E3E-8BAAA2A030B9}"
+RTDP_CID2_PATH="CLSID\{BBA39DEF-B0D8-4D50-9133-85D5B1AC7971}"

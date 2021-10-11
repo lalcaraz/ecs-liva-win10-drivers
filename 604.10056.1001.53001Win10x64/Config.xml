@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Configuration>
+	<SocPackageInfo>
+		<Version>0x002</Version>
+		<VersionRegistryKey>
+			<Root>HKEY_LOCAL_MACHINE</Root>
+			<Key>SOFTWARE\Intel\SOCPackageInfo</Key>
+			<Value>VersionNumber</Value>
+			<StringValue>
+				<StringValueName>Version</StringValueName>
+				<StringValueData>002</StringValueData>
+			</StringValue>
+		</VersionRegistryKey>
+	</SocPackageInfo>
+	<OrderedInfFileList>
+		<File>
+			<Name>iaiouart.inf</Name>
+		</File>
+	</OrderedInfFileList>
+</Configuration>
